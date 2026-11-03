@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "at": "2026-10-31T06:58:17.485837+00:00",
+  "train_transitions": 9216,
+  "PPO_updates": 6,
+  "Adam_steps": 120,
+  "eval_transitions": 1200,
+  "CPU_bitwise_repeat": true,
+  "initial_state_pairing_preflight": true,
+  "semantics": "engineering smoke; distinct from formal budget and scientific results"
+}

@@ -1,0 +1,160 @@
+{
+  "at": "2026-10-31T06:59:27.063147+00:00",
+  "error": "ValueError('C:\\\\Users\\\\郑傅韬\\\\Desktop\\\\大学生活\\\\论文\\\\宇树\\\\phasor: below locked 10GiB free disk floor')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_20261031.py\", line 955, in queue\n    run('train', f'train_{job[\"method\"]}_{job[\"seed\"]}', mode=job['method'], seed=job['seed'])\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_20261031.py\", line 950, in run\n    run_child(command, OUT / 'logs' / (name + '.log'), **kw)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_20261031.py\", line 184, in run_child\n    check_disk()\n    ~~~~~~~~~~^^\n  File \"C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_20261031.py\", line 34, in check_disk\n    raise ValueError(f'{path}: below locked {minimum}GiB free disk floor')\nValueError: C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor: below locked 10GiB free disk floor\n",
+  "memory": {
+    "total": 16344801280,
+    "available": 2871435264,
+    "percent": 82.4,
+    "used": 13473366016,
+    "free": 2871435264
+  },
+  "disk": {
+    "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor": {
+      "total": 508337393664,
+      "used": 506943246336,
+      "free": 1394147328
+    },
+    "E:\\": {
+      "total": 500105736192,
+      "used": 437082185728,
+      "free": 63023550464
+    }
+  },
+  "processes": [
+    {
+      "cpu_times": {
+        "user": 0.234375,
+        "system": 1.65625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "name": "python.exe",
+      "pid": 14064,
+      "cmdline": [
+        "C:\\Progra~1\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-c",
+        "import site;site.addsitedir('C:/Users/郑傅韬/AppData/Roaming/Python/Python313/site-packages');import runpy,sys;sys.argv=['g1_phase_supplement', 'queue'];runpy.run_module('scripts.g1_phase_supplement_20261031',run_name='__main__')"
+      ],
+      "memory_info": {
+        "rss": 37466112,
+        "vms": 58904576,
+        "num_page_faults": 22694,
+        "peak_wset": 37466112,
+        "wset": 37466112,
+        "peak_paged_pool": 215040,
+        "paged_pool": 214288,
+        "peak_nonpaged_pool": 16584,
+        "nonpaged_pool": 16584,
+        "pagefile": 58904576,
+        "peak_pagefile": 58904576,
+        "private": 58904576
+      }
+    },
+    {
+      "cpu_times": {
+        "user": 1405.328125,
+        "system": 50.21875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "name": "python.exe",
+      "pid": 26484,
+      "cmdline": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "C:\\AIC20261030\\recovered_lr10_midpoint\\next_single_model_plan\\fullview_compare\\evaluate_fullview.py",
+        "--out",
+        "C:\\AIC20261030\\recovered_lr10_midpoint\\next_single_model_plan\\fullview_compare\\external800",
+        "--external-only",
+        "--external-raw",
+        "C:\\Users\\郑傅韬\\_aic_analysis\\fullview480"
+      ],
+      "memory_info": {
+        "rss": 224366592,
+        "vms": 719233024,
+        "num_page_faults": 5186383,
+        "peak_wset": 229642240,
+        "wset": 224366592,
+        "peak_paged_pool": 189416,
+        "paged_pool": 189240,
+        "peak_nonpaged_pool": 25712,
+        "nonpaged_pool": 25032,
+        "pagefile": 719233024,
+        "peak_pagefile": 724836352,
+        "private": 719233024
+      }
+    },
+    {
+      "cpu_times": {
+        "user": 1.0625,
+        "system": 2.0,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "name": "python.exe",
+      "pid": 28216,
+      "cmdline": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\AIC20261031\\unfreeze_training_20261031\\backups\\backup_training.py",
+        "--train-directory",
+        "train10000_batch4_v3",
+        "--code-directory",
+        "code_long_v3",
+        "--contract-sha256",
+        "4a5e5eab64854e5b76686a61c20823323061e71d68edf45d0a728c0d68e222a3"
+      ],
+      "memory_info": {
+        "rss": 51269632,
+        "vms": 37470208,
+        "num_page_faults": 329899,
+        "peak_wset": 61243392,
+        "wset": 51269632,
+        "peak_paged_pool": 183016,
+        "paged_pool": 182264,
+        "peak_nonpaged_pool": 22208,
+        "nonpaged_pool": 20272,
+        "pagefile": 37470208,
+        "peak_pagefile": 47362048,
+        "private": 37470208
+      }
+    },
+    {
+      "cpu_times": {
+        "user": 0.734375,
+        "system": 1.3125,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "name": "python.exe",
+      "pid": 28664,
+      "cmdline": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "C:/AIC20261030/recovered_lr10_midpoint/next_single_model_plan/fullview_compare/queue_fullview_compare.py"
+      ],
+      "memory_info": {
+        "rss": 20242432,
+        "vms": 13594624,
+        "num_page_faults": 6563,
+        "peak_wset": 24920064,
+        "wset": 20242432,
+        "peak_paged_pool": 185352,
+        "paged_pool": 185176,
+        "peak_nonpaged_pool": 23680,
+        "nonpaged_pool": 12368,
+        "pagefile": 13594624,
+        "peak_pagefile": 14168064,
+        "private": 13594624
+      }
+    }
+  ],
+  "gpu": "Sat Oct 31 14:59:28 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 555.97                 Driver Version: 555.97         CUDA Version: 12.5     |\n|-----------------------------------------+------------------------+----------------------+\n| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 4050 ...  WDDM  |   00000000:01:00.0 Off |                  N/A |\n| N/A   38C    P8              2W /   95W |     103MiB /   6141MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n                                                                                         \n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A     38444    C+G   C:\\Program Files\\Tencent\\QQNT\\QQ.exe        N/A      |\n+-----------------------------------------------------------------------------------------+\n"
+}

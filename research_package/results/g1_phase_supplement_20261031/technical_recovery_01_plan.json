@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED_FOR_REVIEW_NOT_LAUNCHED",
+  "failure": "original unique formal queue stopped at disk gate before spawning the first training child",
+  "original_protocol_sha256": "31535c957252fd9a31d33db630ecb21a53e88941fb77ee4bebec9498750cb1d8",
+  "original_formal_cost": {"train_transitions": 0, "eval_transitions": 0, "PPO_updates": 0, "Adam_steps": 0},
+  "recovery_wrapper": "scripts/run_g1_phase_supplement_recovery_01_20261031.py",
+  "new_control_relative": "results/g1_phase_supplement_20261031/formal_recovery_01",
+  "new_output": "E:/phasor_phase_supplement_20261031/formal_recovery_01",
+  "scientific_changes": [],
+  "implementation_change": "process-local output/control root and child entry redirection only; original sealed sampler unchanged",
+  "same_total_formal_budget": {"train_transitions": 27721728, "PPO_updates": 18048, "Adam_steps": 360960, "eval_episodes": 3240, "max_eval_world_steps": 3240000},
+  "requirements": ["fresh recovery review PASS with exact wrapper SHA", "original hash and zero-formal-cost verification", "C free >= 10 GiB", "E free >= 15 GiB", "single fresh worker and exclusive launch/queue flags"],
+  "not_a_simulation_resume": true,
+  "automatic_retry_loop": false,
+  "preserve_original_failure_and_smoke": true,
+  "on_new_failure": "preserve resources, source, partial raw and actual budget; stop without automatic retry"
+}

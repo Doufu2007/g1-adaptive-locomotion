@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/supplement_implementation_review",
+  "scope": "read-only review of one zero-sampling technical recovery; no scientific design change",
+  "wrapper_sha256": "6adf6151e027f9e742d12c085281cc8ec7b76d0b2a2b12c525c100c322ae3ff4",
+  "original_protocol_sha256": "31535c957252fd9a31d33db630ecb21a53e88941fb77ee4bebec9498750cb1d8",
+  "original_sealed_files_verified": 289,
+  "original_formal_train_transitions": 0,
+  "original_formal_eval_transitions": 0,
+  "original_formal_PPO_updates": 0,
+  "original_formal_Adam_steps": 0,
+  "old_process_exited": true,
+  "scientific_changes": [],
+  "budget_changed": false,
+  "disk_gate_unchanged": true,
+  "automatic_retry_loop": false,
+  "does_not_confirm_simulation_state_resume": true
+}

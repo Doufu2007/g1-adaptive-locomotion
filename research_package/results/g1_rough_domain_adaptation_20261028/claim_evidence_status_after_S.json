@@ -1,0 +1,86 @@
+{
+  "status": "REVISION_REQUIRED_AFTER_S_EXPLORATORY_CANDIDATE",
+  "at": "2026-10-28T02:35:27.296Z",
+  "claim": "用从机器人近期运动中学习的相位替代固定CPG时钟，让步态节奏随实际运动状态调整，从而改善行走稳定性和鲁棒性，尤其是粗糙地形表现。",
+  "S": {
+    "protocol_sha256": "0a1ad3b7d6b8023db05a567d108d737e17236c386b08d07ec0136ea1413eadc2",
+    "analysis_sha256": "901ef23fdeb65dc44dfa2ba5c5fdb1806e4a4845c9c731184363d3d8cffec429",
+    "independent_audit": "PASS",
+    "raw_count": 480,
+    "effective_eval_transitions": 358726,
+    "simulator_world_steps": 480000,
+    "formal_training_transitions": 4626432,
+    "formal_PPO_updates": 3012,
+    "formal_Adam_steps": 60240,
+    "source_training_seeds": [
+      20261901,
+      20261902,
+      20261903
+    ],
+    "eval_maps": [
+      20264701,
+      20264702,
+      20264703
+    ],
+    "eval_seeds": [
+      20264811,
+      20264812,
+      20264813,
+      20264814,
+      20264815
+    ],
+    "candidate_exploratory_pass": true,
+    "candidate_comparator_pass": {
+      "RC": true,
+      "FC": true
+    },
+    "flat_guards": {
+      "completed": true,
+      "fell": true,
+      "mae_forward_velocity_mps": true,
+      "forward_displacement_m": true,
+      "tilt_rms_rad": true,
+      "abs_heading_change_rad": true
+    },
+    "rough_RE_minus_RC": {
+      "completion_mean": 0.1444444444,
+      "completion_ci95": [
+        -0.1217350726,
+        0.4106239615
+      ],
+      "fall_mean": -0.1444444444,
+      "fall_ci95": [
+        -0.192251697,
+        -0.0966371919
+      ],
+      "p_exact_min": 0.25,
+      "holm_p": 1
+    },
+    "rough_RE_minus_FC": {
+      "completion_mean": 0.2888888889,
+      "completion_ci95": [
+        -0.2102334811,
+        0.7880112589
+      ],
+      "fall_mean": -0.3777777778,
+      "fall_ci95": [
+        -0.6685779423,
+        -0.0869776133
+      ],
+      "p_exact_min": 0.25,
+      "holm_p": 1
+    },
+    "limitation": "same operator; three reused source training lineages; 480 episodes are not 480 independent trainings; exploratory candidate only; no feedback ablation; no fresh source-seed replication; no independent superiority or causal confirmation."
+  },
+  "prior_evidence": {
+    "D_flat_speed_candidate": false,
+    "R_rough_candidate": false
+  },
+  "next_required": [
+    "锁定全新评测seed/map并保留RE固定checkpoint",
+    "做匹配的learned-phase反馈消融（live vs frozen/replay）",
+    "独立CPU复算raw/物理/初态/模型绑定/统计门",
+    "如需声称训练可复现，再增加全新source training lineages；不能把S三复用lineage当独立训练复现"
+  ],
+  "scope": "此文件是证据状态，不改变冻结A/B/C/D/R/S源码、模型或指标。"
+}

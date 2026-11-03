@@ -1,0 +1,32 @@
+{
+  "project": "g1-rough-domain-S",
+  "matrix": "# 有界训练域×相位矩阵\n\n| 实验ID | 对应假设 | 数据集 | baseline | 指标 | 已控混淆/负对照 | 完成判定 |\n|---|---|---|---|---|---|---|\n| EXP-01 | H1：rough经验在同phase改善粗糙行走 | train20264601..03，eval20264701..03 | 相同D501起点的FE/FC | completion/fall | RE-FE与RC-FC同额外251训练预算；完整Adam/teacher/LR/RNG；地图隔离 | 各phasecompletion difference>=.10 and fall rate difference<=-.10、各2/3seed有利才域点效应，非phase收益 |\n| ABL-01 | H1：隔离额外优化与训练域 | 同3来源seed；12cell | flat额外训练FC/FE | completion/fall及交互 | 完整2×2，额外训练/模型家族/地图隔离；只变训练地形 | 固定12×251=4626432train，480eval；报告completion/fall rate两phase域差及8family |\n| EXP-02 | H2：rough训练后E完整管线有优势 | 同未见map/初态steady/push | 强RC及FC | completion/fall | RE对两个clock门；不含匹配反馈移除，不作因果归因 | 两对比completion difference>=.10 and fall rate difference<=-.10、方向>=2/3，各rough保护且RE-FE flat保护全过；只候选 |\n| ROB-01 | H2 secondary：rough及flat代价 | flat0与3rough | RC/FC/FE | MAE/tilt/heading/位移 | 20s全窗早倒补0，第一终止，不删零接触或边界失败 | rough MAE+.02、tilt+.02、heading+.2、位移损失.5；flat另完成损失.10/跌倒+.10，固定预算到期即停 |\n",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "相同额外251预算下rough训练域改善同phase的rough持续行走（有限探索）",
+      "falsifier": "RE-FE或RC-FC各phase完成均差<.10或跌倒均差>-.10或方向少于2/3，则该phase有限域有利点效应门失败。",
+      "primary_metric": "completion/fall rate"
+    },
+    {
+      "id": "H2",
+      "statement": "rough训练后E完整管线相对强clock产生有限候选",
+      "falsifier": "RE对RC或FC任一完成差<.10/跌倒差>-.10/2/3方向/rough保护/RE-FE flat保护失败，则联合候选false并停止该分支。",
+      "primary_metric": "completion/fall rate"
+    }
+  ],
+  "baselines": [
+    {
+      "name": "RC and FC / FE for domain",
+      "fairness": "ok:所有4方法额外251同预算；同phase源actor/critic/Adam/teacher/normalizer/LR/RNG精确恢复，phase保留各自D历史；相同eval模型节点/map/初态/20s预算，无调参。"
+    }
+  ],
+  "power_assessment": {
+    "method": "exact paired source-seed sign-flip sensitivity",
+    "independent_unit": "reused matched source training lineage",
+    "n": 3,
+    "minimum_two_sided_p": 0.25,
+    "scope": "探索；无论480回合都不可能p<.05，不用独立组t功效公式"
+  },
+  "ablation": "完整2x2隔离额外训练域，但未隔离状态反馈；不得因果归因，候选后才前锁新seed与反馈干预"
+}

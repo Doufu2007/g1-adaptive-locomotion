@@ -1,0 +1,39 @@
+{
+  "schema": "light.research_plan_package.v1",
+  "project": "g1-rough-domain-S",
+  "artifacts": {
+    "research_plan": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/PROJECT_PLAN.md",
+    "experiment_matrix": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/experiment_matrix.md",
+    "target_chain_report": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/target_chain_report.json",
+    "failure_tree_report": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/failure_tree_report.json",
+    "plan_findings": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/plan_findings.json",
+    "preregistration": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/preregistration.md",
+    "reproducibility_checklist": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/reproducibility-checklist.md"
+  },
+  "handoff": {
+    "next_stage": "experiment-coding",
+    "user_authorized": true,
+    "authorized_at": "2026-10-28",
+    "claim_scope": "有限2x2训练域×phase适配探索，3复用来源seed，非新seed确认或反馈因果。预算/方案是操作者前瞻选择，用户已授权持续有限验证。"
+  },
+  "warning_decisions": [
+    {
+      "source": "ablation_isolation",
+      "decision": "2x2隔离域但状态反馈未移除，只完整管线探索；候选后另锁干预。",
+      "claim_impact": "禁止状态反馈因果收益或稳定优越确认。",
+      "authorized_by": "user"
+    },
+    {
+      "source": "statistical_power",
+      "decision": "三复用来源seed精确p最小.25，固定有限探索，不能扩预算追赢。",
+      "claim_impact": "仅点效应候选，所有CI/不确定性照实。",
+      "authorized_by": "user"
+    },
+    {
+      "source": "matrix_lint",
+      "decision": "任何缺反馈消融的H2均降为完整管线探索；H1有2x2域消融。",
+      "claim_impact": "方案gate不是因果识别证明。",
+      "authorized_by": "user"
+    }
+  ]
+}

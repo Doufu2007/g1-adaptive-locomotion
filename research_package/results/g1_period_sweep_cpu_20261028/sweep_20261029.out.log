@@ -1,0 +1,4 @@
+[2026/10/29 ÷‹Àƒ 11:31:56.76] START M probe
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269101, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269101, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269102, 'period': 0.6}

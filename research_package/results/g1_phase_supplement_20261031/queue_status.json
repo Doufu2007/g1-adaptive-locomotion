@@ -1,0 +1,10 @@
+{
+  "status": "FAILED",
+  "started_at": "2026-10-31T06:59:26.931536+00:00",
+  "completed_jobs": 0,
+  "stage": "train",
+  "current": "train_clock60_20271301",
+  "at": "2026-10-31T06:59:27.011027+00:00",
+  "ended_at": "2026-10-31T06:59:27.013432+00:00",
+  "error": "ValueError('C:\\\\Users\\\\郑傅韬\\\\Desktop\\\\大学生活\\\\论文\\\\宇树\\\\phasor: below locked 10GiB free disk floor')"
+}

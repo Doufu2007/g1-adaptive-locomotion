@@ -1,0 +1,1305 @@
+{
+  "status": "LOCKED_BEFORE_FORMAL_RECOVERY_01",
+  "at": "2026-10-31T07:08:17.677387+00:00",
+  "design": {
+    "train_transitions": 27721728,
+    "train_PPO_updates": 18048,
+    "train_Adam_steps": 360960,
+    "formal_episodes": 3240,
+    "maximum_eval_world_steps": 3240000,
+    "calibration_episodes": 120,
+    "mechanism_episodes": 0,
+    "validation_episodes": 240,
+    "test_episodes": 2880,
+    "train_seeds": [
+      20271301,
+      20271302,
+      20271303,
+      20271304,
+      20271305,
+      20271306,
+      20271307,
+      20271308
+    ],
+    "old_model_seeds": [
+      20261901,
+      20261902,
+      20261903
+    ],
+    "maps": {
+      "calibration": [
+        20271101,
+        20271102,
+        20271103
+      ],
+      "training": [
+        20271401,
+        20271402,
+        20271403,
+        20271404,
+        20271405,
+        20271406,
+        20271407,
+        20271408
+      ],
+      "validation": [
+        20271501,
+        20271502,
+        20271503
+      ],
+      "test": [
+        20271601,
+        20271602,
+        20271603,
+        20271604,
+        20271605,
+        20271606
+      ]
+    },
+    "starts": {
+      "calibration": [
+        20271111,
+        20271112,
+        20271113,
+        20271114,
+        20271115
+      ],
+      "validation": [
+        20271511,
+        20271512,
+        20271513,
+        20271514,
+        20271515
+      ],
+      "test": [
+        20271611,
+        20271612,
+        20271613,
+        20271614,
+        20271615
+      ]
+    },
+    "scenarios": [
+      "steady",
+      "push03",
+      "push06"
+    ],
+    "updates": 752,
+    "init": "shared source9900 actor; paired fresh critic and empty Adam",
+    "primary_unit": "paired continuation training seed; maps crossed; episodes nested",
+    "limitations": [
+      "fixed source9900 and E encoder",
+      "open-loop ablations change phase/state joint distribution",
+      "three old mechanism lineages are not new training repeats"
+    ]
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\deliveries\\g1_stateful_phase_20261025\\snapshot\\results\\g1_stateful_phase_20261025\\training\\observer_sensors_mixed_seed20261026\\final.pt",
+      "sha256": "8e6b15dcf409f51948f49c18fc04b686ba502e53586476db9c78d8c35a0fc346"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\plans\\2026-10-31-rough-phase-supplement.md",
+      "sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\specs\\2026-10-31-rough-phase-supplement-design.md",
+      "sha256": "a0a4bd9e302f66bf22116468b8afdbc17e1d89276703716555945db8983648ef"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\logs\\rsl_rl\\g1_velocity\\2026-08-10_09-35-45_baseline_full\\model_9900.pt",
+      "sha256": "949fae33632b9a3592e6346a6155eea059ee2fd39487207a0a0cea5d35edd8b4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_supplement_20261031\\cpu_preflight.json",
+      "sha256": "61217ae455c1b512392d896b88bb3031f0554baa7db79e7043d7421a2f181473"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_supplement_20261031\\implementation_review.json",
+      "sha256": "ba56b282e7f4e1c6d33e592410b14c7dca60a798b7fccd2b4d09d201191160ba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_supplement_20261031\\smoke_audit.json",
+      "sha256": "5a641530f8b5178811f466eb511f77b6fcdff7a30135dd58ac682e302a205203"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyse_g1_v21b_frontier.py",
+      "sha256": "3d4dffe9564ae2d32250fb5051eb3b675abdef84799a1f1703623e85e648ba6d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze.py",
+      "sha256": "4007ea1ada9b95012d74e0f0befbf9fd4e3ef1d32a27603987db0fb6896578e6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_action_noise_20261026.py",
+      "sha256": "d40cfc89b88e3c9633ad77d4b8511b7964018a7070119ab997ab90056c59acf0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_clock_residual.py",
+      "sha256": "2945adcacd0452e7537d11e05ed4bcb289b7565e3c641c05ee27296542ecdcea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_contact_detector_sensitivity.py",
+      "sha256": "61f5fe200ff08d6e145542d09ccb76befd85c09d251d6192fe308c0362807a32"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_gait_tradeoff_20261026.py",
+      "sha256": "2b6fddf6dc7da2ca8b0cec6fc2cc394f4fe0779253e19ad85c6b42e0c9103f45"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_initial_update_20261026.py",
+      "sha256": "f46ae4022cecaba886154d5e15b9b8595155d6a0e125e92e43ffd49bd6beeafb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_phase_feedback_probe_20261026.py",
+      "sha256": "8117f54be8feee4633b9cbfaa79f633504708bf293ffa8a10ad645b44b7ab398"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_phase_lr_factorial_20261027.py",
+      "sha256": "605ec5412a79246027a2e65eff13ea8f0e0b430eeb0ca60ba2484d5d6f73f197"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_phase_lr_mechanism_20261027.py",
+      "sha256": "94d9b43b7bf959fefd8ebd23e237bb4a1419d2462d4fb3aa9b27e83f4d3ceada"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_rough_equalbudget.py",
+      "sha256": "ce0b5aef14541f2972c29b16678f3d49ee3cc0999c4cca2442088b3a6d0b2b88"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_rough_exposure.py",
+      "sha256": "f012f8ea2c240620ce04950bb32d67081cae6a9fcd3fbeb8cd2f8561ebbf523c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_speed_priority_20261026.py",
+      "sha256": "1db1fbb0c6179b17339cb03c9b749d94ebaf8282c8b1f3a4234ddc95620de253"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_training_mechanism_20261026.py",
+      "sha256": "bcf3fdb30f0946704d6d54da942ba135eba9dec71b867aa7c3ec0939aa4be84d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_g1_v21e_cycle_weight.py",
+      "sha256": "f01b8cd9bd4686bd4bee397429ec7f978494d2ac63c8de62ba0fc47860e45464"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\analyze_phasor_phase_alignment.py",
+      "sha256": "2a454abb01d874833827313cf716925a30be7b9b509e8c2b1e583a7227955c59"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\audit_g1_external_methods.py",
+      "sha256": "77f3d00091bca86e72f6b6346df65c650288226c80fa4c11c60ae85f32495e52"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\audit_g1_phase_configs.py",
+      "sha256": "42ead4270b4447007c66eed638f617147f28cd0d0982522bbe8aea3b554b5be8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\audit_g1_training_mechanism_20261026.py",
+      "sha256": "b1d8fd29e7f8861f2fc683538e705706101434fb26a8d3d5ec3215fd669f00ce"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\build_g1_failure_tree_report.py",
+      "sha256": "1ecbf6853ce670c2fe653e9ae45cc464289078c0d9eaf36fa3cb4ba1021b380a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\build_g1_phase_supplement_rollout_20261031.py",
+      "sha256": "262f75921004fcc7062630a0c5641954c7c1897608252f755efe4ae493447afb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\build_g1_walk_phase_dataset.py",
+      "sha256": "f365e471e58afc400cfea64b8b80281f029e42175090d2fdd9ee3cf1ba95c1a4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\build_phase_delivery.py",
+      "sha256": "6ed7560047a835a97423273dc7677668b016f5739dfad6241f9d676f4d5f0c0b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\calibrate_g1_contact_reference_20261027.py",
+      "sha256": "76b75a36310c32bcb75a5ef77df892d4137f951da5f861cde7d8c410eeab2fd9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\calibrate_g1_phase_confirmation_gate.py",
+      "sha256": "41f87fa0426405744643f6c0e05ee7bf425d5657819b25ca98e4d5513e1218ed"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\calibrate_g1_phase_gate_v4.py",
+      "sha256": "631c2e8b4f27ce7d1823f296aaa5a7a6019d99e9bcdd4f8d4816c03dc887e559"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\calibrate_g1_phase_gate_v4_2.py",
+      "sha256": "52c7d0fea51ba6e16fa28d8062d6b1c82aff442c082255d44be3bedeac32665d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\calibrate_g1_phase_rollout_gate.py",
+      "sha256": "950d73db1639a2c90a67f40ef1b1fc8f572169a0a6b04c574f136d38ea005cd2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\calibrate_g1_reward_template.py",
+      "sha256": "4e044d313eeeb01a7cf7f417b657eff18e48b922f90aad37e3feb451775f8399"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\cards_g1_phase_feedback_probe_20261026.py",
+      "sha256": "9ba10c0958e50823ddcc82fe6dfe3f85e931ce405ba1dbacbcfb2612163f2a50"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\cards_g1_training_mechanism_20261026.py",
+      "sha256": "de011964216fee370cba075a8a0ccaa1cd5ceec1e2779f89d8c9117e742af97f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\check_g1_experiment_startup.py",
+      "sha256": "c44f5206dba0df04a7458ebb77d0049eaf2802e11615c26b39ef98cf33227fec"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\collect_data.py",
+      "sha256": "35531f5f8909417ea4bc4541763cd309d10d493452b5d42d326c5fec0c170630"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\collect_g1_phase_confirmation.py",
+      "sha256": "238b6fdc8b9699109bd6d12a7caa51a2ed4b4021782e383e44e0fbe64e786924"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\compare_phasor.py",
+      "sha256": "5766e925a65fd73b05345e263330bb611abfaf13d42b9af9ac8699fd15267947"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\complete_project.py",
+      "sha256": "846c6d6544c097b7b68ac75f2a014e549fc365e45c24e3451e16e94fcedcde49"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\csv_to_npz.py",
+      "sha256": "70211c5eca45e19524256ba912e325ca8f80153696fa6cc0864dfbc05cc574ff"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\dashboard.py",
+      "sha256": "71a591579e8f730856cad884df034c3fd250e56a931301072261198d9aa2f916"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_best_e_closed_loop_20261026.py",
+      "sha256": "ad8fae7dd58bdc737c203011a3e9f2e132dd4ed83dbecea50380fe217579b965"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_best_e_training_20261026.py",
+      "sha256": "d39cce8a570c4165bdd102602edf21f052719df6d3d7624e653053d8172168ca"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_initial_update_20261026.py",
+      "sha256": "04b77d3fdd07a8ac41d1cdb22292edb3eeff7071399fae9610357689d783e120"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_net_progression.py",
+      "sha256": "a5a91986e63bc337beac8a42fd1dc41b24585f80f2ee3fdc886c9ff3b2f025d5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_phase_v4_2.py",
+      "sha256": "8fae739d7d663c1081b06cabaf4c1975ae5476f9336add5a0a0dace93d50d125"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_policy_sampling_20261026.py",
+      "sha256": "98c2bd1576b6beb529dbd36866cdc298ff0b57a4e7a2832ccffcee1b20639770"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_speed_priority_20261026.py",
+      "sha256": "25609803c4dafb218ce71be4b731acede06e80d28ae263b7645185792109307f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_tctst_pretraining.py",
+      "sha256": "f31bf618f5d01174abaf24ac8c0722a3caa78a592f3e38abafb3e29035bcc9e8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_tctst_pretraining_v2.py",
+      "sha256": "75308e4c94df53e1fc309172002f84554c484bfb2fb794f4375f3404622e9b56"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_v21b_point_error.py",
+      "sha256": "15f0ceee18e89efb62cfea5ba2b1a5ee926c18145d1a7a060a357fdc1c6d93d9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_phasor_gait_contact.py",
+      "sha256": "07a451fc013f2fa25edf342d6d373c2fe56db1f87b027203a6cddf2687e1df77"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_phasor_phase.py",
+      "sha256": "30c861fcb1bf3f44c5abad65c764d85ce8558d443f8fef06bec922ea2ebf8a6b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_warp_cuda_paths.py",
+      "sha256": "a75a6a17a9126dd6ab43547d70f5d59055c3cc1fccb438d22debdf458a31f708"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\evaluate_g1_new_sequence_confirmation.py",
+      "sha256": "9a08bf9ce8c4c7091b7cd670a47df0bb5ae5499240b7e3ff7ee8d3b3c8f0cbb1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\evaluate_g1_onpolicy_phase_gate.py",
+      "sha256": "84c1c9acec82031dbdf31a80d893b612f1ae4506d76fef98fb062374255c19ce"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\evaluate_g1_phase_confirmation.py",
+      "sha256": "b8fbc509ca119e2b2d94b770e304f944383878ffef8ba568a53aa58edd35e48f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\evaluate_g1_rough_equalbudget.py",
+      "sha256": "0e07131f7b121bef08979ae7968e510e4272cb4ee14e5016a723495ef70f5b52"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\evaluate_g1_running_sequence_extension.py",
+      "sha256": "79b723bb34a3b69acbab924407e63e705e251e2f5dee3582cf87c0e7353e68c2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\evaluate_phase_study.py",
+      "sha256": "ed881e9d0dfbe4d88eef9f69b3b0d89b866b0fbe803f71cdd045ed83be26c8bc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\extract_pptx.py",
+      "sha256": "c1d77b6e1f0825bd13ac7bb001acc9835257793d623d2860593c8c389a662690"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\finalize_g1_data_gate.py",
+      "sha256": "fdb83576ffc2a87692cefc7dd4b9f117c80be6b23b4ac93435d775125bbf59b5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\finalize_g1_experiment.py",
+      "sha256": "50c89a4a3499498f776bc8b1e4eda540bdbd6bffe65a3803dfd67e59870224f5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\finish_g1_phase_feedback_probe_20261026.py",
+      "sha256": "7ac5c3ac7c5243a2f39dcb89dfe9fc0c3be6ee60c60dc1d45da490ea924476dc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_best_e_delivery_20261026.py",
+      "sha256": "5ed0b2167cd10354468fb77980cb1cf5cd69596fbb57e85264b0df3db2610682"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_best_phase_batched.py",
+      "sha256": "51d62d2a8ebb2beff121ad6da6c89511d20d8a102b8e7657e7a658e6f2a02da8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_closed_loop_metrics.py",
+      "sha256": "05131849cdb33a4ea879da7c6e035046e3d5d08c459a2f7f963a41c4cd93e3f3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_contact_phase_reference.py",
+      "sha256": "6363f4b7970666dc259b7bec8e2dc5ee74ead93a46b0eb6fb93f76459abe6d43"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_contact_reference_experiment_20261027.py",
+      "sha256": "d66c7a2c38a02eac1ca8fc202b4f45ffbec80d60c93f9bc1cab397214d1c7cc6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_determinism_diagnosis_20261028.py",
+      "sha256": "61ad8d7774c60418313db3d36c34094dc7c9f40387d8de9855b525ab79fc6ef5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_external_models.py",
+      "sha256": "ccb3d69a1c7bc4036ead354ec98f50db7b24608ca9f53b072c01914f4d52e7ba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_map_identity_probe_20261029.py",
+      "sha256": "0416521f435f8c8c52d30f197df2a999b986bbdc0c0ea6f745e1ebad592d5a23"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_nondeterminism_probe_20261028.py",
+      "sha256": "6116df7b78f1d83419655aad0f696d93f875890baae927bf0456c168d25e31a8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_20261028.py",
+      "sha256": "d8fc043cf02b3c1ec09c2fc45256eeac30684a776fbf16f51cf5fcbf532b6d60"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_20261028_v2.py",
+      "sha256": "303a433b807c7f66381046d3c7e5a152dbc060a47a82eb8c28837d93a851e8ae"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_20261028_v3.py",
+      "sha256": "0914d97a1489c90adac572bb36dc313de91fa9d3d7dc202a2c148bf201ff3af6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_analysis_20261028.py",
+      "sha256": "a602078c2a8f17e58a410200ca20fae1849de2ac8ca7c0a238dba2f875295e4e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_analysis_cpu_20261028.py",
+      "sha256": "74dd5568c6afab2ce29b875236eca25d0eb1d04ca96198547b0c931928b0f76c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_analysis_cpu_m_20261029.py",
+      "sha256": "691729237c1c65d8c1df8692f38e661d0cd5af8ce6e5653f2b56d3ec53eb32d1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_analysis_M_sweep_20261030.py",
+      "sha256": "72e5a9306f4dbb73cd012feb597a289b1c83d3f0aa8c78f6814e9d54be1118a4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_period_sweep_M_20261030.py",
+      "sha256": "aab19854527ff3644d509a6713f53a38a126fec1a17ad9bbb8d16815a4e0204b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_adaptation_20261024.py",
+      "sha256": "f947241b379dd4187dbf2ff408415b6eeeb6a9ccd743525a8883aa34f951e6d0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_feedback_controls_20261026.py",
+      "sha256": "19214d9207aa53a62d988dd4c8aa68c69d36e7bffe1ce1633c69b4b0a22177b8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_feedback_probe_20261026.py",
+      "sha256": "b551158c70da711e20de27013dbca16873155e542606936403119a53047e6356"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_lr_factorial_20261027.py",
+      "sha256": "318ae13e2921e5104b6b4bd252a3dac736768f13dce9281ea3d5a80ab7d27dfb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_policy_cross_20261027.py",
+      "sha256": "bc48f251b7bb4b9745f722f18295950a5dad21c79abc4ef101a36d306a215c8e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_20261031.py",
+      "sha256": "e63c57d185432f6b86f7550dc17d6706aabf11a803ee8a0152e37786f3a3a2f3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_contract_20261031.py",
+      "sha256": "e3175d686d423cdfeed2e4d00af14499b789ef47e93b819fb02585242e90fee8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_supplement_status_20261031.py",
+      "sha256": "f04477a4b6dd7947c3fd44cf803f6b862db4deaa42414bda1446d7b453e4355b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_prereg_lock_20261028.py",
+      "sha256": "94168b01905ad4f04860de472cd19b93cd7462cb3194dd2af0bb1388771ec651"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_prereg_lock_v2_20261028.py",
+      "sha256": "8da0309917e89c6e7ef4e53a303d4335d38b55c5cee955e8408f3896d19312f4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_confirmation_contract_20261028.py",
+      "sha256": "6942b92c37d4811500eff1624dc8c9710df7d3fb9f264bb940a73e0947ed70af"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_confirmation_experiment_20261028.py",
+      "sha256": "d8ddc58d11b76ab56c66fc233245071d6f6baf74163e61278787fdeb22cef5aa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_domain_contract_20261028.py",
+      "sha256": "0b8d82f8e500b9ee6b5842296230875ad6ca0708ec6dfe2942f9e96a61a937e8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_domain_evaluation_20261028.py",
+      "sha256": "9f9277458605b6ddfbc914616ef82c583d485a3d53fef08253f7f95051c8bc7d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_domain_experiment_20261028.py",
+      "sha256": "a535baa89a1514d3359261b4a13ebc4b3fd2c5bab07995a48a5a3bca72de0e8a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_transfer_contract_20261028.py",
+      "sha256": "577b834682bfc7bd58a73557f557553bfcf3a8ccb94aa8c54afbe35f94105db8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_transfer_experiment_20261028.py",
+      "sha256": "fa49c56837953367615d821eeddf50ff02ccf611907898ff542a079bf86b88f5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_source_anchor_experiment_20261027.py",
+      "sha256": "f3d600e612f2d754b58130567ee4a9497c092a116cde19ce0e771c97f13bb8c8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_source_anchor_ppo_20261027.py",
+      "sha256": "a4d9dfcb39a9dcbaf15d6121e638641be50c070f139e956de6b2ca16a0252216"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_stateful_flat_ppo.py",
+      "sha256": "c2ae454ce52e916cc275e2b7f205e4a7aad59df2b09069d477cce84400c7118a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_stateful_online.py",
+      "sha256": "73710e0a6fe6e9fc449e73a825d62f950fc411d6526a4462bfce25b3142b628d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_stateful_phase.py",
+      "sha256": "1e9a782d76027b6fc0942cec8b7dbc4055d187d73d306364ef2be8d31419b9b0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_tctst_faithful.py",
+      "sha256": "af69836ff261ecb6b8966d9b53d5d70df9b16974bc225d2e1d2292ffa0b7a6b0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_tctst_faithful_v2.py",
+      "sha256": "36dfb0698ae2ee2eb767905314cd48db6a404871c1bbf6d45b9096b85d2613f1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\generate_final_report.py",
+      "sha256": "e87524a0741f37481f4012b990d5421ef72b19b6a97d70cf30d505f7248da787"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\generate_project_diagram.py",
+      "sha256": "d7e803e6c346ad8a527a34ee1b73e99db1ab2149febd1be9076256e157784209"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\inspect_g1_phase_artifacts.py",
+      "sha256": "eb1e5814dac339eda56cbe98eeb5ce00127356639d1db6f289c3218b0cd2752b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\list_envs.py",
+      "sha256": "a192c306375fd0587b6350044f5ea283b09299d9843552c97ffea206d82821d7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\make_speech_docx.py",
+      "sha256": "b004b194d758464ce4661246d49f6a8de8944464bffcb9c4baf33958f79ade79"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\make_speech_docx2.py",
+      "sha256": "7857bc3d50decf847b964fcace5843c49656c936d69fd1556d53beec82f03d8b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\make_summary_docx.py",
+      "sha256": "6319083b2ccd21607ed7b9009580595bcd98f3dc2275027d46b71f50f0d87891"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\make_summary_docx_bi.py",
+      "sha256": "511b3238dcde465557efe848714ec40abda00a1fffb97dc7d79f10462367711f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\make_summary_docx_en.py",
+      "sha256": "adfcc9868235e7a600ceef3170758b5752158da81bedf12ce2de8a3b2173e6b5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\merge_g1_phase_model_comparison_v4.py",
+      "sha256": "a000262342ea8603362a223f222b1d03972ce4dfeda54d02607ed9f239ffd6b2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\phasor_contact_phase_experiment.py",
+      "sha256": "4f18e372b98ff3b938e919a01db47242484259381bd0a16e529f738d437bc1f6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\play.py",
+      "sha256": "63c5ad2f8bb39ea752e5f3669cecd409fc8ba6d85e93c35352fecc618e268ed6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\play_fixed.py",
+      "sha256": "591e0a0d43ee95725202e13dfb5e09dcbc0ad40ae3f2edcbad5fb570ea394df1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\play_patched.py",
+      "sha256": "d82122e4a403e7aab031f037257133acee31a2d8c49116003538d1cef50951c4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\poster_chart.py",
+      "sha256": "a9215ec2105e534cf2139857bc1613094a331443e501ddd93c1091f6b659a6b8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\prepare_g1_phase_runtime_checkpoint.py",
+      "sha256": "cf45ddb11143deebc3725566f473d859794d9e8de9e0eed54ef16e66e137d918"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\prepare_g1_selected_model_runtime_v2.py",
+      "sha256": "34bef5083762369796d249635024fb6fbc04b2c9ed007f68033d3c567b9657ec"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\prepare_g1_tcn_runtime_checkpoint.py",
+      "sha256": "0f517f4159049c340d54d46936df81b9dc982b2e0ee5f3261c2cf031f448b890"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_basepose_ablation.py",
+      "sha256": "4cc97ed45b28fb4952d3acae7d1e8c7a22946f816117408262288aad2dee18e7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_basepose_identifiability.py",
+      "sha256": "c63b91fa2a8aa2e475ae56a90beab61322bac647f976d9c9643e86ab01005d8e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_budget_confound.py",
+      "sha256": "99a9bd120cb786a2b3bc21c7469a75816753e6fdc717003dd0b7348e8546f6d9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_cross_subject_coherence.py",
+      "sha256": "476ea34ea1754cf54ec94c59c1881ca4080121cd34db9cad0010a9de5e0a6b50"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_fixed_clock_baseline.py",
+      "sha256": "5858f339f6d459a7866a18b61d504c84d2d54bdcf6da489dc632451737752111"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_knn_integral_gate.py",
+      "sha256": "5ccf7c42f9918c82f2e0dbd052cd1952df3f6022a552cb6d05abf4f57b265b0f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_knn_smoothed_gate.py",
+      "sha256": "9975614deb0fc6a14457348aed14632793a1f8ca762f4e48958d7858546a0c8b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_phase_ambiguity.py",
+      "sha256": "fa049a560268480424d7404370fd09f54815385e5a8ae14ae585b503fd7a13ec"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_phase_context_sweep.py",
+      "sha256": "4e5bc819b0289a086885f2485c6e8ad10920dd86c64d3b1492ec8c7fc445c8f1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_phase_identifiability.py",
+      "sha256": "8642259b17b6d44ab7c163699137308adb61f8007e35feb2799ed9195327f5b5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_phase_symmetry.py",
+      "sha256": "7ce80c156ae5a5a62e3681c566100434de7a149f2c0cf257542bd7906c78c319"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_rough_scale.py",
+      "sha256": "826a42c706cfa2d39513300d3a706ce1ca8f32ff146589d27eae6d5818bb809a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_temporal_filter.py",
+      "sha256": "7b0e0bcafc2d2349ecc99c144e566f1a06302746db477df542f7fc414989d3d4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\probe_g1_touchdown_detectability.py",
+      "sha256": "f46b686663ed444adb660ff9a53675de96e619c4531e6da4efcab092bd172612"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\recover_g1_tctst_v4_run.py",
+      "sha256": "4c143361e80ca66ef475d7e2efba9d5edc6e9a37cde26a619818021b542a835a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\report_g1_phase_feedback_probe_20261026.py",
+      "sha256": "02f8db7dc35d0c94d4b00709353c029c71901b0be4de6782e1ae11d6d1f3a009"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\report_g1_training_mechanism_20261026.py",
+      "sha256": "70a0c0342c66543cb7759a5d6c913dff7bfa86aab3572b13336929e439bcd289"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_best_e_ppo_20261026.py",
+      "sha256": "7b4fa95430c6f58071b93317f2206e5166a9e653e84497eb6e6a799a44cda241"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_best_phase_control.py",
+      "sha256": "5e1baf3208e40144dd9d0cbc119a242867817b8a2e86cf07b5e2fcaec40d94b4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_cause_audit_training_probe_20261026.py",
+      "sha256": "39c83254eb795a06a414a5a7d5518eb54ac49e97d38acf91b45ecd69d7c26cfa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_cause_audit_windows_20261026.py",
+      "sha256": "3cb66b8a8ce110b5d10b82a130fd8ffd5e588d62259e75fdd3b8dab8eaa552cc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_contact_followup_comparison.py",
+      "sha256": "e4b59f94b4cdf9f2b166b12d44ec54d63959dde375bb0e3cd248394d32a45d5f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_controller_feasibility_pilot.py",
+      "sha256": "34b8dc505e681cbf7b9f7d814d3822c65b6f891a6de1c7ddc01559cbd7774d77"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_external_methods.py",
+      "sha256": "3b3356b50c6bc704eb3dff55e517ae6df77a679c17c735be4d6ce2c7eda8d960"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_external_methods_v2.py",
+      "sha256": "1434ba3abceea8f3d7a3ec36d3e78c229c1517386a87ff2c02b71b21d6fb4ac5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_historical_controller_scout.py",
+      "sha256": "2f7e433c43302ac4ae36b72820e4216219d2629d874411a615255707678a4991"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_initial_update_eval_parallel_20261026.py",
+      "sha256": "b03c04569173284c13d4586f4928078459ecbb00e760fe1d480de5d7e7c17dba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_initial_update_recovery_20261026.py",
+      "sha256": "47f91468aeaef1d6c675222072eefd41c082a9761140d5621421512a3ee2df3a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_long_history_comparison.py",
+      "sha256": "8c0961c5ade1ff82dc885d337f4dc4d7b33480323a9776b636941407821975de"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_phase_adaptation_20261024.py",
+      "sha256": "32c2b659a843c36fd9078b605e83a7ba1a087b9c2f8a3fe992dce75ddc99a90f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_phase_lr_factorial_20261027.py",
+      "sha256": "d3976a0e7a29a48e593e9d9b1f297f1e953c38f48d33e70f1806d102f4ab4a08"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_phase_lr_factorial_parallel_20261027.py",
+      "sha256": "804d557b810c1714b0f054a39141e1b212009013bed523ba286c5d6bb4a9adc5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_phase_model_comparison_v2.py",
+      "sha256": "097fcd6c9d3e1c3514599e4c6ef2c9acfd9255d066feb12de803ef216a63c530"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_phase_supplement_20261031.py",
+      "sha256": "08606557df4e1384ebb76a3cd83d8c29bdb696b97e6bdb98e1800f30630339d7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_selected_phase_control_v2.py",
+      "sha256": "9ac27bdf12882c6eae009cb57edc50e6547ddc3cdc99d727d616c4097efa4b00"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_stateful_flat_ppo_20261025.py",
+      "sha256": "1e2abe54758af9e918128ec4f80c2ef36c645173daad466a067db5d0b76c4159"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_stateful_flat_ppo_remote_20261025.py",
+      "sha256": "dcd5093532b119bc410e275c1cb7523a61e2f22f3fa3d9f7c7ca5132ae7b585d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_stateful_phase_20261025.py",
+      "sha256": "df228bd9f63755f0c905a77ff004862472c00b83a2432a849b5121fd6c3c2e5d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_stateful_remote_20261025.py",
+      "sha256": "26cb0d2c00f279d8984f7607ca8a4f38b770f6183d523e2888eafbf74722f825"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_tctst_residual_v4_comparison.py",
+      "sha256": "5045d347367669359e41d29733859b1e28682af0f9feb424c053f5a0fc640d9e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_rough_phasor_resume.py",
+      "sha256": "62bd760a4b449fd471dfec756e7dcfcbf555e031e008e65f3df46bf7f9b80e59"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\score_august_encoder_on_gate_v4_2.py",
+      "sha256": "bb4e2901526410b55569e71c37c3aa64777854b2926c338895e47f051e68efae"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\smoke_g1_gpu_env.py",
+      "sha256": "13c5780c2d6b65ac6b582730183e3c880e4f1a5b12d7c2c99251e599091d0af6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\smoke_g1_phase_runtime_cuda.py",
+      "sha256": "ae8bd9ffe6726333c814ea56147f8bbe24b184aa2ba7097435ac769433f684fa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarise_g1_v21e.py",
+      "sha256": "64d2107ba4762d30920abd3ff0e0428309418de8f81aa502148e57d8e2544120"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarise_g1_v21f_transfer.py",
+      "sha256": "8b2681194365cc9ba67a7b01756d9e14567eff2e3d6b0f709fea3519beff8407"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarise_phase_arm_epochs.py",
+      "sha256": "2ece60dfdf198608857c9adb2f8987ad0b6212196d528e7e3c72fe848a44ff1c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarize_g1_best_e_cause_audit_20261026.py",
+      "sha256": "d9e5651b96f06e5a4ea5a7f40abeadb4b4fffe6e12ab1a8674b75cfc440b54a2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarize_g1_best_phase_control.py",
+      "sha256": "1a2fe5c50214bac92fc6ccf3fa120aa446f9d058edf85a22102e1b8eec179510"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarize_g1_selected_phase_control_v2.py",
+      "sha256": "cacaf2ed964af41f7eee10ca01ba4787783daca08d88e85699763edec7eb2ae6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\summarize_g1_selected_phase_control_v3.py",
+      "sha256": "e149de79812667dce22cc8fa631bdb4aa4acf163ebf1b20961aff5c289efa587"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\supplement_g1_training_mechanism_20261026.py",
+      "sha256": "11ce04aabb5de980c6f58e35b2c65f6f37b771f5729ac63826b56b4cdfd57699"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train.py",
+      "sha256": "11743e3a7df2d13912cfb57be1adb55c75e3df9d0937070bbf54fb7b97dcfac0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder.py",
+      "sha256": "e478c51fe777da5b9de3fb74b54fec0f5c6f0ead982c9ff90d93f2ee7326552c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2.py",
+      "sha256": "14e595d8fa734eccd229b6402a70a3e31746cc22185beb84e8fe0497eb6f11bc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2_1.py",
+      "sha256": "acc6c14c460c7be687b925b4ed663e151b9417326656f3ab20a7e7a009d71647"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2_1b.py",
+      "sha256": "927e300ebaa4e0410641ef39e7ece17542c78f9275ced2cb78175da6ef1b1bbd"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2_1c_cycnet.py",
+      "sha256": "8a418796ed67705958ce8cca4d5b508ee4a06edc1bf73e83f67d6357c18c7b58"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2_1d.py",
+      "sha256": "f5d3c5493abf7ab7686f85e97d4af9ef9d0669ef262d05f6f2b5a49f9002aac6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2_1e.py",
+      "sha256": "771acf428f5e6134a5d606b2ab0b46db338bd49993b09cd17df0a282252fc9a5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_encoder_v2_1f_within.py",
+      "sha256": "810317bc537878608af3cc7c33eb74e0fc1dbe9b62e27c2338b17e43604d0c8e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_g1_phase_upper_bound.py",
+      "sha256": "2e733552354aa88b4fcc2f0e424023713a88c3414e95540036b5a26bae5d1951"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_phasor_robust.py",
+      "sha256": "abb590c9c1891a3039c108cdb78ecb50f370efcb8c3c23d0b8ebe5419195521c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\train_pinn.py",
+      "sha256": "ea1c6e249901b0a166ba3810da4f30ccd3771675ce2af758b0473620ff18bb88"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\verify_encoder_phase_span.py",
+      "sha256": "3f7f54ad8de7722dc4e3ba3938d0b03e9c0b431f4a8d6c60c9fadfa3e3770c13"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\verify_g1_initial_update_20261026.py",
+      "sha256": "6bb7bd8ae82a82d442b137e770cc304d34f5d147d4d5150018bdabed71bf8c37"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\verify_g1_speed_priority_smokes_20261026.py",
+      "sha256": "77ebc7e8678fb79f615205cbeb31582e4e6efc376b096a8de60b6873e3a77088"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\verify_project.py",
+      "sha256": "1d36c3d1668125f3450b225bbd84512ceac8b983a5c1c6c192d502cc02c01bc5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\visualize_terrain.py",
+      "sha256": "6293e39f4d6873d33f97f83f8e2b10f3a037ce3bd87322a3e71fe50c54b4a7b8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\write_g1_best_e_cause_report_20261026.py",
+      "sha256": "6d2835afa30ddc137e4a70c558a14425708dcabd8910294c55f762e770258915"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\write_g1_phase_feedback_findings_20261026.py",
+      "sha256": "2ec829bba7e1ecea751a3753fbc3253eafd0d7c55ffb32527c2c2fbe7a296c05"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\__init__.py",
+      "sha256": "cfa1a7f468fbedc17cbd25a2b52ab5b824cd5f5bcaaffcf8ddbf8c75837ee6f0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\motions\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\__init__.py",
+      "sha256": "9f45d1126dc5fe58e9673adb5f3c8b4eaa6f20d4a4af5a75e0f9a183ecc7095e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_a2\\__init__.py",
+      "sha256": "be77f5ef193ce72df657a7b0c66530394dcf9c5c60e77526d820d16b8dca6667"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_a2\\a2_constants.py",
+      "sha256": "551b2e4456aff4af1671c7d9986b86b7d8180e351acc56da3096207087c8b94e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_as2\\__init__.py",
+      "sha256": "58c7ca7082d5e4514f6059f06e4702d098c17ee187aad00c16a983000dad9dd9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_as2\\as2_constants.py",
+      "sha256": "4e0099a1b3557e049fe2f5679e22bf3f64c061ae0d26c329fb029ef3e78c87e7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_g1\\__init__.py",
+      "sha256": "c11e649d6d5209becaf6dbca2d09dee83c17844b5d941c2e1cc6f16ba618bf14"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_g1\\g1_23dof_constants.py",
+      "sha256": "962ef56e1d8897d88b46c288cd71308dff986fc576ade51d26ec6471ae0efb94"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_g1\\g1_constants.py",
+      "sha256": "f169b17e1e733ab99ed9354d905977489a592d9417cf0757decb8baf10ee4e94"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_go2\\__init__.py",
+      "sha256": "d52bb3e1a2f7acf191ee18c78b421c7a7e8da63379db8224e08900526b8653f5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_go2\\go2_constants.py",
+      "sha256": "c1406f6e469b8b6bb24bb7f9b122612c74cec412a8b9b5d9cddf64e37fb19a0f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_h1_2\\__init__.py",
+      "sha256": "c6c2bd34c3290d48239d89d048a3662542f19763b99f316969b8e01ca70c3fba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_h1_2\\h1_2_constants.py",
+      "sha256": "7834dce95d01c54551110431f3f09e2860f995d594cd465a2e243d3ffeef4c2f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_h2\\__init__.py",
+      "sha256": "34f8273e6e0edbd9d6d5c90e75af75c02856c7a8adc8ad3c9a570059c8b307db"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_h2\\h2_constants.py",
+      "sha256": "a8d9f9f0a84a87f4abbb8b258bc581c41e15ca5b7aefe2bfcefdd5fe805f6c9f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_r1\\__init__.py",
+      "sha256": "7b1d0e60e1920b150aef7b0649d2d89fb75e094ffcf181df2e2d1d4347ffece1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\assets\\robots\\unitree_r1\\r1_constants.py",
+      "sha256": "ec9627e18def3b0cee7789260f2a7a844d7c70a69341fefcf907a6b3d845f559"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\runtime_compat.py",
+      "sha256": "2f325ac74070a889ddfe154d1289b04eea4da755ac9ae0dadada0db7e8e6df61"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\__init__.py",
+      "sha256": "310ff3bbeed45f4792394e36ff98eb4b5b70e0657c2e5ef67dd363d510133d9b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\__init__.py",
+      "sha256": "269e19fac2c24adc6064d7c868741fa265f12d78ca07dd12ef7333febde21adf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\g1\\__init__.py",
+      "sha256": "998bab278196167af9f704fa6227e42627cbdbc9af14749db0ba0a74054a519f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\g1\\env_cfgs.py",
+      "sha256": "b2553171eb96a671d14409c1bdd6cd91db10ff9ea080c938c9fe73f5e43784db"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\g1\\rl_cfg.py",
+      "sha256": "48e98843e3063e2e5798522108add56442cd1885b1255ec172d6e00e32ab586e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\g1_23dof\\__init__.py",
+      "sha256": "aeafa17a4af4d0792f4e2fad8241236eb247a3ae2ae1045bb272f71dc3d05704"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\g1_23dof\\env_cfgs.py",
+      "sha256": "212b42d0d19aead1a47aedc1c91521caaafb5f332e341f17017ac72c9fedbf49"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\config\\g1_23dof\\rl_cfg.py",
+      "sha256": "98640f5127b05d477f7490a8ee31f9b84925cc5ab2e99abb4d90268c9808f181"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\mdp\\__init__.py",
+      "sha256": "1c2637ed117786d35fc7a8b72fa36e11134268d8a2aaefa7109ed826c7eb75bf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\mdp\\commands.py",
+      "sha256": "334fed0ba9c1438c09f096d2a44e2a856042d3d695eb82a125509b9f75c700c5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\mdp\\metrics.py",
+      "sha256": "8724118a6f8c0873ebea7d773cefa68ecfc3c2892227bb3f4d2380b1db2415a8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\mdp\\observations.py",
+      "sha256": "af2cf6613d657529455eb254c7b13892ab67a0cf8ea5aec2d4df5fad6b4a5330"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\mdp\\rewards.py",
+      "sha256": "c70dd1652b3021e4a8416c85ec692e2e124f2dbaf4dc7606e0bc4909dc5f71dc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\mdp\\terminations.py",
+      "sha256": "5f88576b5995408a744cde451c7e43982d2f03284cfeebb8856969ca3dc76019"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\rl\\__init__.py",
+      "sha256": "408350c14b2d4edb70916de697c05282600b0929d3acf4005891a2c2ddc8a511"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\rl\\runner.py",
+      "sha256": "e3965be06ffd40f4dc034be3f7f2c2753d1c492ecfbe01e64140cc96442884ed"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\tracking\\tracking_env_cfg.py",
+      "sha256": "b49b012c344d4df0ff6fc7cdd5ee3ddc76d135cd7738b7ea3490ce9aa3d6f984"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\__init__.py",
+      "sha256": "479a0ae48d56e95521d9cfd6ccb3bbcebc2bf985355d96879ce3a50d20a142ea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\a2\\__init__.py",
+      "sha256": "8d0a603b8053e41e712e088980408578d7e7c0d173925f4a06b404be47a3d51c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\a2\\env_cfgs.py",
+      "sha256": "130878ca621c04f9ae245aefd9a66e290409df290f3fe6ed3248ff696526a7ab"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\a2\\rl_cfg.py",
+      "sha256": "13c6c13b9cfc8023f58887fe49fa0d6ffbc4a2f30796974aa4d79f3e17bbe39b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\as2\\__init__.py",
+      "sha256": "1bd4ec954eed6ba7147ca52551cce153f554ea14002ddd2978bf3f2c9084d85b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\as2\\env_cfgs.py",
+      "sha256": "4b979f27070295f3f46885f156afd0f5f2e4e27aae5852649a3a343e58b43b6f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\as2\\rl_cfg.py",
+      "sha256": "0bf124c14e466e3f5121584aed46b3071693e25c5df80b646b50c9fbf8c7e4be"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1\\__init__.py",
+      "sha256": "7e2152b0d6740e61d26c7d74236d8df45b0efa2025ac25a604382a83817bc654"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1\\env_cfgs.py",
+      "sha256": "af58daa8f56467823073b6e2a40e6c20846b7184b5eedf1ed0c1cc7010baa41e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1\\rl_cfg.py",
+      "sha256": "816d29bc673326ab75d949c542eb7cb8f0f4bbb334a575e316e699ea66f55f7c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1_23dof\\__init__.py",
+      "sha256": "6acb67b0e0935367172dfb6e3d9a8d44152816f79f4aec6ba82c4c8f4c0f764d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1_23dof\\env_cfgs.py",
+      "sha256": "8e35151c8a916bd1d52af765f50ba4c996538d70e542c3b874302a2a7601088c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1_23dof\\rl_cfg.py",
+      "sha256": "5c8270d663f26c40e56128f360028e63ab33ea41d412658c1280e1e7a87d4703"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\go2\\__init__.py",
+      "sha256": "b9694f745b3135396301a621dd57c1d4dbd16fc7e24995cfa378a7a517467771"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\go2\\env_cfgs.py",
+      "sha256": "98defb863edccf071070074c31cb77790f83a40276e0589cf2982137c44cd293"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\go2\\rl_cfg.py",
+      "sha256": "8850b0544c50731a30d34995a887c79dca625411b3bf2f0317ab5eaf32f50bdc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h1_2\\__init__.py",
+      "sha256": "9e7fdfd68d136ab362a82e024815ee4fd94a4dfb51ca346d04d41f23926932a2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h1_2\\env_cfgs.py",
+      "sha256": "c3d64b28090d6a77f3c5d72f3d5b2fbb9b80e52759e6697a075cd20f2577ef34"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h1_2\\rl_cfg.py",
+      "sha256": "ec77d26ecec8af153c8b38726a44f920c767b34859c736f4cd82ce3e0fb4c871"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h2\\__init__.py",
+      "sha256": "536322fbf2fa1e7841de84368e3de6aed8aad153ac9aa7b28122c04894e1bc8a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h2\\env_cfgs.py",
+      "sha256": "448f2349ab51636d390efb59c9650ce4df82c47c8825db4157daf106ba8b0692"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h2\\rl_cfg.py",
+      "sha256": "1e3e6600b58f396fa9e6b3d8f7bbe2e010c24537dd2a5b7da6a98258c0b16e47"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\r1\\__init__.py",
+      "sha256": "1661339b28fd419fe370b246d29a5095c8e15416865a89857f0c01351ea7987b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\r1\\env_cfgs.py",
+      "sha256": "c1d761d8ed0e737f007d4d3968af481b3c00f0de050ff67285b126f488b6a4a1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\r1\\rl_cfg.py",
+      "sha256": "391035799b1778d596e4607b829ca88d45f3ac8ea8157e890cc221270c02df3b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\__init__.py",
+      "sha256": "231f35d88929e89ae17dbf403b6d049dd9f1f8bba21bfaf74a087bb9435e7dfe"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\curriculums.py",
+      "sha256": "1577cd47b45d6812bee934c4edf89cfaec1b07e16e1acbc21de28049a8324f35"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\observations.py",
+      "sha256": "fc10971f9d66359ab8aef8c8bbd89c4f6f6bd2aec10d4d8da021be27565083cc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\rewards.py",
+      "sha256": "7fe94933ef6090b5015d281e2ee5d409c1b400792cda799d259ebaa820507a77"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\terminations.py",
+      "sha256": "24d0abf600372026327d32d10f133f9a7cba117de85604515d20eeb7884ba13d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\velocity_command.py",
+      "sha256": "f9f55d5507e318494a690cb7929d4e4ae92419cea76425fbab0873914b279482"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\__init__.py",
+      "sha256": "0a48fbfd90467e9c5aac4a7c65c6941fdd35f7578b64cdab9877c17067946bd5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\confirmation.py",
+      "sha256": "8e8555eee26abe14bc0a018ddcc2e0d37f9d26e6ab6db377482ecddc421baafa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\data.py",
+      "sha256": "85c4af635ba26996625e73d46f94586dafef3f98e360abac98946bf82f42f15f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\diagnostics.py",
+      "sha256": "e06bbe03a13ce88110983bdd94f56526e32ef9705c3cc5605f049a891df8cf3c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder.py",
+      "sha256": "fb205b5376b3beb15f2c47ca9ab3a5640a6eca78a6da928f46c15ee10d8d7750"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tcn.py",
+      "sha256": "80e955520e3577b2cde2c0d3d59a6a0be022211ad922f97a15fe1526eb8663df"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tcn_context.py",
+      "sha256": "bcfc3abb8d627e11797e676ac92ec170571cb3902844a43b9ebf2bfadebb2590"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tcn_long_rate.py",
+      "sha256": "24a836e086fca500a469adf5d44789d569dcea8b8d628acf45adbc0005a3e6e6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tctst_runtime.py",
+      "sha256": "8dac660e641b5c4dbe6212732f561ad459c5c3ab911676dcc0214dc524b022da"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_v2.py",
+      "sha256": "382afcc658c1e6df6b743fe1c6268dfeb04df195b7393a742982c7b4009e8404"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_v2_1.py",
+      "sha256": "12d5c4754762ac1ef8cce7a4afa41f03fdefc8aa380529ffd856847fa867a559"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_v2_1b.py",
+      "sha256": "0ec18a619fcd8d830adeeeacf892c13af8b6ff77737f6b69fe7e74cc807b10a6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\mujoco_io.py",
+      "sha256": "801e8b30645650177383f086e755386986cc838163b490875c6ad2f2cd6f27e7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\phase_gate_v4.py",
+      "sha256": "e72b7de76338dc4d8575deeed9f6bb03cec55b13bc94848488e0c7cdab3372c3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\phase_gate_v4_2.py",
+      "sha256": "18794a59cf8ec56aa965b40270a84b43fe752128979dcc79a7716c495c742810"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\runtime.py",
+      "sha256": "e3cbc317bcf0a69ec3dab7a38d49fa805d6a4918fd89976923cb1da6f2d3cab4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\train_encoder.py",
+      "sha256": "88cb9e134fbabe0a16b0c905269dc1931b1fcf3da2944045f7d84ec3ddb17882"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\rl\\__init__.py",
+      "sha256": "c0df1a85535f191511cf7ee3d45c6bf9236081e8a72903e0b52e0a017a07d6df"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\rl\\runner.py",
+      "sha256": "1a12eb152cb307b57e024814a3a3f9026458759bab6cf43a5cfcccc0b9a0e0cf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\velocity_env_cfg.py",
+      "sha256": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\tests\\test_g1_phase_supplement_20261031.py",
+      "sha256": "338a96358f0ff5eb3adadd65d4ce9811469fd3577ddc049df7e6e458519ff057"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_phase_supplement_recovery_01_20261031.py",
+      "sha256": "6adf6151e027f9e742d12c085281cc8ec7b76d0b2a2b12c525c100c322ae3ff4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_supplement_20261031\\technical_recovery_01_review.json",
+      "sha256": "6e15851a91b2d168f7fa02bbd61eaa04752df69332b7977e9bc82901c678e79b"
+    }
+  ],
+  "spec_sha256": "a0a4bd9e302f66bf22116468b8afdbc17e1d89276703716555945db8983648ef",
+  "protocol_version": 1,
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Progra~1\\Python313\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.2",
+      "torch": "2.6.0+cu124",
+      "mujoco": "3.5.0",
+      "mjlab": "1.2.0",
+      "warp-lang": "1.13.0",
+      "rsl-rl-lib": "5.0.1",
+      "onnxruntime": "1.27.0"
+    },
+    "evaluation_device": "cpu",
+    "training_device": "cuda:0",
+    "reproducibility": "same-backend CPU short replay checked bitwise; GPU training is stochastic numerical continuation, not bitwise across hardware"
+  },
+  "hypothesis_ids": [
+    "phase_feedback",
+    "method_replication",
+    "rough_perturbation"
+  ],
+  "guardrails": [
+    "budget",
+    "finite",
+    "capacity",
+    "physical_pairing",
+    "frozen_teacher_encoder"
+  ],
+  "failure_action": "stop on technical failure; preserve raw/budget/resources; no automatic retry",
+  "scientific_action": "complete fixed matrix, analyze negative/inconclusive outcomes without added budget",
+  "recovery_of_protocol_sha256": "31535c957252fd9a31d33db630ecb21a53e88941fb77ee4bebec9498750cb1d8",
+  "original_formal_train_transitions": 0,
+  "original_formal_eval_transitions": 0,
+  "original_formal_PPO_updates": 0,
+  "original_formal_Adam_steps": 0,
+  "simulation_resume": false,
+  "budget_change": false,
+  "recovery_rule": "one new attempt only after original C>=10GiB/E>=15GiB disk gates pass; no automatic retry",
+  "control": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_supplement_20261031\\formal_recovery_01",
+  "output": "E:\\phasor_phase_supplement_20261031\\formal_recovery_01"
+}

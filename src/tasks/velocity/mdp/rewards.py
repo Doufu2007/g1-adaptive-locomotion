@@ -426,3 +426,50 @@ def stand_still(
             reward *= scale
     return reward
 
+
+# ── PHASOR: Learned gait reward ──────────────────────────────────────
+
+def feet_gait_learned(
+    env: ManagerBasedRlEnv,
+    encoder_path: str,
+    offset: list[float],
+    threshold: float,
+    command_threshold: float,
+    command_name: str,
+    sensor_name: str,
+    asset_cfg: SceneEntityCfg = _DEFAULT_ASSET_CFG,
+) -> torch.Tensor:
+    """Gait reward using learned phase instead of fixed 0.6s period.
+
+    Same structure as ``feet_gait`` but replaces the time-based global phase
+    clock with the learned phase from joint history (PHASOR encoder).  The
+    contact state and latent are read from this same simulator control state;
+    ``learned_phase`` caches the latent when the actor observation already ran.
+    """
+    from src.tasks.velocity.mdp.observations import learned_phase as _learned_phase
+
+    sensor: ContactSensor = env.scene[sensor_name]
+    is_contact = sensor.data.current_contact_time > 0
+
+    phase_2d = _learned_phase(env, encoder_path, asset_cfg)  # (B, 2)
+
+    # Decode canonical (sin, cos) phase; reward and actor share this latent.
+    from src.tasks.velocity.phasor.runtime import phase_to_angle
+
+    angle = phase_to_angle(phase_2d) / (2 * torch.pi) % 1.0
+    offsets = torch.as_tensor(offset, device=env.device, dtype=angle.dtype).view(1, -1)
+    leg_phase = (angle.unsqueeze(1) + offsets) % 1.0
+    is_stance = (leg_phase < threshold)
+
+    reward = (is_stance == is_contact).float().mean(dim=1)
+
+    if command_name is not None:
+        command = env.command_manager.get_command(command_name)
+        if command is not None:
+            total_command = (
+                torch.norm(command[:, :2], dim=1) + torch.abs(command[:, 2])
+            )
+            reward *= (total_command > command_threshold).float()
+
+    return reward
+

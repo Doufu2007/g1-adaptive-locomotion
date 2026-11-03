@@ -1,0 +1,1938 @@
+{
+  "status": "PASS",
+  "at": "2026-10-27T20:22:48.628938+00:00",
+  "analysis_sha256": "57975081073354b63960f923e9d9d8f9940916bd483594ee0034ce77f7fab873",
+  "raw_count": 480,
+  "raw_checks": [
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261901_eval20264311.npz",
+      "sha256": "6ae8192286042bcba88b385757fe81cb72c08db2927dff4276886d3e8f2e3041"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261901_eval20264312.npz",
+      "sha256": "4a61793a4a7079c5d262bf8a520c6988103bbb3c3f8e97e62b3b6df20e36b196"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261901_eval20264313.npz",
+      "sha256": "45de2616640eb99993e4f385102ab128537c3a22b0b1a9f7595e0fddd07f7be4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261901_eval20264314.npz",
+      "sha256": "e04e6e7648ce0600a1be12d78d372b277eb44e7c6c647742fcde9d80487f90b7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261901_eval20264315.npz",
+      "sha256": "3405281260986963e646df3bd1a99f1547411437046db5882a2a47e553e101c1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261902_eval20264311.npz",
+      "sha256": "a4960fc10c0397d389a22039d0cf33713cfd5b5944cc8c3c265e0b4f80dc5746"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261902_eval20264312.npz",
+      "sha256": "85538da69e4710c0796ce185b435bc392c2cf2b1275837c28bbc860efdb5e872"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261902_eval20264313.npz",
+      "sha256": "4efa9ddbdd248f9a5ef1f140f5389288b37e0c3a5599daaf8b2c3eb8d18c998f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261902_eval20264314.npz",
+      "sha256": "a86b875351420d9334546a27cf365cf2df7979c950b53d9aace0b62a55c46acf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261902_eval20264315.npz",
+      "sha256": "8b767e83bdc1f54dded7d0fcda67a3132bc847891a6dcc835a7666f4374d2bd5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261903_eval20264311.npz",
+      "sha256": "ced5e14cdfe60d904d041d2904836adce15703e3db3fc4d16d27b9283d9a5c6f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261903_eval20264312.npz",
+      "sha256": "967d8ae5e3bf0b4ab570f46c4cc19139174ddd5b82578c979bff2aa6a51d59a6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261903_eval20264313.npz",
+      "sha256": "aefd349b3325399bfb0b2c8d579dd661fc27f56cf0d07ab27602fc9e6cc5574a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261903_eval20264314.npz",
+      "sha256": "1f32c4e0a41ba62ce6d10154d7671acb815de22ea3d3a905e3bdc6a5da83e921"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\steady_train20261903_eval20264315.npz",
+      "sha256": "0f5084ed5b9d5d5711102afad7484ad141bad38d11664ce50f6662ec68b68b98"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261901_eval20264311.npz",
+      "sha256": "7537ef5327f46c667d6b5bf20ac3b68ce439e6837281445ff6638a0431acd0ad"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261901_eval20264312.npz",
+      "sha256": "a406cdc4362200520f829fc599a274c270fd5ef5f705ad2dabc2b0b7c80b55ac"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261901_eval20264313.npz",
+      "sha256": "cef8bfe485c1c6346f30a5de740b04c72fe55abdac05c0fa50daf6b576e4646b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261901_eval20264314.npz",
+      "sha256": "582c7abf74de6af1ed35381ce5d8637d1924492c06cdfcc9285b886e0b1050f0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261901_eval20264315.npz",
+      "sha256": "472eb689bfdc0cc44891534fbd698b00148a84d5d6397af193ce6255f0239c41"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261902_eval20264311.npz",
+      "sha256": "62da94f3c76ba72834c0ade7949f1c427cf24e1fc5f132169cf75afc584e2bbd"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261902_eval20264312.npz",
+      "sha256": "174d896a0cab2144d09e29ec2848d7eb79985eb77e6f4c87668bba20f5027dad"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261902_eval20264313.npz",
+      "sha256": "fcebdc8f4f2ab1f027473fb49f4814ad58a6b3c658144f599647f1e6eaf81f79"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261902_eval20264314.npz",
+      "sha256": "e55dd83ee80202e0704e349976221ae35d6b8f4d4ac9974913725c1c1a65dd47"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261902_eval20264315.npz",
+      "sha256": "777cbecddabcdeea8ff1034ac285414db6839d87597c2dfcbe621f8f34c94d60"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261903_eval20264311.npz",
+      "sha256": "fefbf70aad49cf9c9a81eb09c5a4c01c559991b5760bc7285f0d642c76c11b25"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261903_eval20264312.npz",
+      "sha256": "ff007f574b95b5e3c366fa179dd12fc0e7eddfdab834b9530000b89b58f58448"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261903_eval20264313.npz",
+      "sha256": "7effdc42d8cdbe3eb688cdb4ae9a8b7348c182c2a073830d63e03f6d28ee5e87"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261903_eval20264314.npz",
+      "sha256": "ae5136dfc2676de6f50dda202a0b41432b3e597439c2f0b45fb8b6d7244d9690"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain0\\push_train20261903_eval20264315.npz",
+      "sha256": "964937156aba64b787a3728d11163c01f7de58cca95bc9bd6b378245b018ad85"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261901_eval20264311.npz",
+      "sha256": "4433e7f926500b25e863686d5fcd059dbe989b5bf92d65b1cc0b43825d9a4aea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261901_eval20264312.npz",
+      "sha256": "6c218ee94bf4f1fdee3aba3faa63181c699e7aab314d9543a0bc65b7aae96892"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261901_eval20264313.npz",
+      "sha256": "8c664f7b04d18511359509c9e6b033e9e6377c8b7c53659411f8f8176cb62429"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261901_eval20264314.npz",
+      "sha256": "dd74a0734881652c18e10090ca5c667f694839c338d597bfb3ebd3a4eb8a8510"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261901_eval20264315.npz",
+      "sha256": "b91ed7aa4a94b15fc85864b40fdb3d6f4c2176f0e59b8faf881f3acb1a5017cb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261902_eval20264311.npz",
+      "sha256": "156054e9480d6176e29151573a231270b1fc9c897a558ef6baf835f262ee6bae"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261902_eval20264312.npz",
+      "sha256": "e3c02514f55504a2ebf3d38ee55e4167c6d93088f7f3f4a24ad7241193b94b66"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261902_eval20264313.npz",
+      "sha256": "2d25ac6a2ae3b33eb9801feae7e6f41b03961e73f722e49d8ffbb44f366023ea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261902_eval20264314.npz",
+      "sha256": "0207c40ba85cedf1235c41475c0ba823a0bf4df022d67203c812b7a69bb7428c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261902_eval20264315.npz",
+      "sha256": "43892949bcb7eb142946b74d34e99282ad76dfa2b488fe92c2996f8932fffcc4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261903_eval20264311.npz",
+      "sha256": "a7cb5b97fb89e65084424f166731086a78733933bc6667d2ef487da78efde1f2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261903_eval20264312.npz",
+      "sha256": "633691f90f7d090368e1caf68704ec6b129a6fd85efdccb5351dde1d2179bb4c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261903_eval20264313.npz",
+      "sha256": "a7ba1f39f96cd57428f029a15208598735c7c70119b98eddeb412a2de099d37b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261903_eval20264314.npz",
+      "sha256": "a0163b53522d0b976bfb76688a53ad2400a6a5314eccabd672cdbc755bb023c3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\steady_train20261903_eval20264315.npz",
+      "sha256": "c749878679999ad2b5fbf278d9198b2500c4b2c3b78835526d049601a43517e7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261901_eval20264311.npz",
+      "sha256": "e5eab7e3752149d0b4ca9590998bb85b4dbadd89cd7f26f7ec1115639b6010c8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261901_eval20264312.npz",
+      "sha256": "d94c2ef773cccc7854578a4f58f99e24f16362ba6f1bdc5ba6989fd331932826"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261901_eval20264313.npz",
+      "sha256": "5f0dbfe8c6d65aac0492caf326f714d8d781742bebcf05f6031678f72f949174"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261901_eval20264314.npz",
+      "sha256": "5f1e56cea14705a978e74e5ec72f95be125f86cc7a213ea4fd28679d4ead45a6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261901_eval20264315.npz",
+      "sha256": "02b028ed2b8196207615380a0de196cd54bf87c724fed5a45e19616a9ddca831"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261902_eval20264311.npz",
+      "sha256": "8475b4596baeac6d7d718e4f15f6998293b291fbbd1b75fff85834a6901d8f78"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261902_eval20264312.npz",
+      "sha256": "5ee978fef3c30716d78c5b7327b21655a6e38a3733dd6a1ad7ccfa44a6777c3d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261902_eval20264313.npz",
+      "sha256": "6310bacb90d6f6c60351c403ac5ad294f58ee31e7350bde50b9fe04eca0af4a0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261902_eval20264314.npz",
+      "sha256": "cc0d63c153d3c57ec529659ff6a59f8e13cbe4ced2d9ba6428fe417f688c1c41"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261902_eval20264315.npz",
+      "sha256": "8dd39c57196bb053bdc4d4b873da7a354300d6468aab2c0256fb0a4fd2c661ad"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261903_eval20264311.npz",
+      "sha256": "bfd663cccf84a7b9dcd27c89b3f2f161c997e6995c658d16d2a1b612abd745e1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261903_eval20264312.npz",
+      "sha256": "6964494e618a9dc6314b7cce6623563c16b9f0edebd95bc3de5137382fc9f58e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261903_eval20264313.npz",
+      "sha256": "d75f6e55f546b7642e1ceb90b21cb9057458c153202fcdf399e16e5ec617da71"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261903_eval20264314.npz",
+      "sha256": "019c98a84e29117008c73f22cd48e76af350de0a558ec4215027231a7b1b9176"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264201\\push_train20261903_eval20264315.npz",
+      "sha256": "26b6d6f85493e493fb45078480220451724fe76762fee757b4f628db3b3ec2cb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261901_eval20264311.npz",
+      "sha256": "c8bf7a533ba2505bebac67a2578a777177a7832a8c3f6fc0f6f67b8547159022"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261901_eval20264312.npz",
+      "sha256": "18a0099dd3035a6404812f9af6c79dc7938f82d3d8ac202f663b97751970033a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261901_eval20264313.npz",
+      "sha256": "95cfd0fccf87b8d393bcc767e690dfc91fa4c8e70557249df037f03532c9cf82"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261901_eval20264314.npz",
+      "sha256": "aaf4d297cad18b26d4e6b721c134393b8f47a3a936cc84e9bf193667564a8cce"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261901_eval20264315.npz",
+      "sha256": "5e612c74a28e7d194c53a2c71c8307d2d74d535f363cc666a57f1ac2a5292ccb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261902_eval20264311.npz",
+      "sha256": "0bf9cc81c9e961024196f1a2ca11794df7ed39606e6fc62287f4fc515818034f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261902_eval20264312.npz",
+      "sha256": "47fda6b2a42334e3a21be1b909eb3f8271da0c1da6f67eee5f6df24d9c11283c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261902_eval20264313.npz",
+      "sha256": "da5973daf3fdde1aa24384f80fe4dc236dd076fb98a05ca1c56eb2a9412951f5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261902_eval20264314.npz",
+      "sha256": "98b8b3af622b58eb80214992e2f3c6f5b8930747874a05678571f9cf2bd53bbe"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261902_eval20264315.npz",
+      "sha256": "88ca12e6eaf7f65ae905f7c02caee56d1c5a748fd0e50e734e80ca44a6f7b548"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261903_eval20264311.npz",
+      "sha256": "9436b35a4b8d6a23d200ac2ef94c0c64c6ab9f87f6a16d735d5fd56c1a3c482a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261903_eval20264312.npz",
+      "sha256": "c27e682d8d145f6a31347302cb389516ea4ac139ac45ddeca7a962e988147ac2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261903_eval20264313.npz",
+      "sha256": "5e6af213f6b42fca0e874b01a8e752fb7b26e43456a3b6b0100841ce651b16f8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261903_eval20264314.npz",
+      "sha256": "3f23b72fd5715e4f408ae398f72c0226a52b9ab369758165950db8eeef922cdc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\steady_train20261903_eval20264315.npz",
+      "sha256": "8df78d8a2916eed1eea3ae1f3346eba437e22250a4a4eac89f45424476323cf7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261901_eval20264311.npz",
+      "sha256": "01b75115ce17d55fe6d6f53c8b8d13e5db99f9be0b8877232f2ffff09ba5609a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261901_eval20264312.npz",
+      "sha256": "6bffff4cc2a5a166db1bd4c1a1959113217a4d38d3ff23e4d102beb1d12029b3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261901_eval20264313.npz",
+      "sha256": "128e8288f03ebdfee9276eedfc02334046044e4a811f1bbd945ee3c68b5b017e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261901_eval20264314.npz",
+      "sha256": "fd88390394ef1c279d3f8c3988f4052a72d367351f461dd4064139ab87179bc4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261901_eval20264315.npz",
+      "sha256": "cb30f082fe0c3286ae29509fa5a85b799dcc109d4ba4c2490343c445e7a5830a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261902_eval20264311.npz",
+      "sha256": "839e192e032954188b53c5a63e06a4a43bf14eb280936783431afd2fbc1b9ac2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261902_eval20264312.npz",
+      "sha256": "c1f5250f9bf5195d229ff947d06f0fcbf8bc6a00a36779602aa1128a7149af7e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261902_eval20264313.npz",
+      "sha256": "293d6294033e25346cdf477322cfa8fe82da07b0cd3435e42cd96e2f5e874425"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261902_eval20264314.npz",
+      "sha256": "b1c7f5e9c930c86e1eca2437904febd1a4a872cbca16d7aa11e2632798c8a2be"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261902_eval20264315.npz",
+      "sha256": "958e0deac76b45dc44636e2faf2b14a5bcc92aa74150add247ece87440cb477e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261903_eval20264311.npz",
+      "sha256": "00bd029d4a57958f12f0cd862663f9dbc6a9ec639dfbc8b32579a353d62f9277"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261903_eval20264312.npz",
+      "sha256": "bd7dde90eb132c6560395c27421a6c0c4840741a92d42b553b87e50d09855759"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261903_eval20264313.npz",
+      "sha256": "6281d3b5d398da2ad1fd83b7ea167d97888161f7659db0df595f2f66949fb6fc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261903_eval20264314.npz",
+      "sha256": "3e996ceed212ddb15fa8ff9525536edf31527d4521ff72b1d387f53d4d32aaba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264202\\push_train20261903_eval20264315.npz",
+      "sha256": "87e183e745a812d65ed9247f5aed4cc9ee799c65c6230046e8e113b0a490c9ea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261901_eval20264311.npz",
+      "sha256": "5576274bb39e0c16d01cb3dc04b65dcd15ea5ef7af004e30b3631160b0e27ee0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261901_eval20264312.npz",
+      "sha256": "8210671aea9373768fd2f364883bb07e0a59defc0145341bfc7fa1da6e642d4a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261901_eval20264313.npz",
+      "sha256": "7ef1de83dd8e02350bb3915bd50fe7f8657b8967048e3b229a87034d6fd104e1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261901_eval20264314.npz",
+      "sha256": "a0970af9151bdf734c3aecf2e1dd866241b51b711e17c9135aa8f54d2958d22c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261901_eval20264315.npz",
+      "sha256": "173d726fa5f4cf94013cc9d0940dcf1a2e5d10020a0f3ffd1b31a7fa587c5aaa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261902_eval20264311.npz",
+      "sha256": "af6a93c4100f5671a1af025385ee4382f2dc44a5e6261ea043b5c404ea0ac50c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261902_eval20264312.npz",
+      "sha256": "7e0e880632cbf2946a44da197812a23a02369ccf53e8379acf4c2d4ebe98c725"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261902_eval20264313.npz",
+      "sha256": "c727f22f33760c53f95b53312fd8b52b88956659fee9071441fce81fbd5573a1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261902_eval20264314.npz",
+      "sha256": "7504a8a6576400d79d86fdba5a9c7a5ecc4b688ca507b7e73ce963f391950507"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261902_eval20264315.npz",
+      "sha256": "9e476740e7e30896abcf74cc7c9801a5b4d4c3447627589922b5d9ed340b53ae"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261903_eval20264311.npz",
+      "sha256": "1501a54de6c527e6b8b3b6dae07846ec139bf5d9109506d0a28f7150821174f7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261903_eval20264312.npz",
+      "sha256": "56b5a4855d63a0910a9b4d31dcacdca9075fcd57a7bebd7f402d7ebea6983931"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261903_eval20264313.npz",
+      "sha256": "5da770957f234e0cd7836a9a3bee1ea7062bf3553fd08ee68a39d033fe0271c7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261903_eval20264314.npz",
+      "sha256": "b2eecb64fada98fe904f47a50705855d10207c1be858f042b80e287dcba61bcd"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\steady_train20261903_eval20264315.npz",
+      "sha256": "ebe4ee43f430fa3795415a7d5a4ef00eb75f0f1e72171acd4ff7b9852953799d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261901_eval20264311.npz",
+      "sha256": "d58efe9f43f1b6b82ff921891641b3739694a45ebdb20dffcd56a28311585bf7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261901_eval20264312.npz",
+      "sha256": "b8a8b03884be8b303b0fa9f654df57f2a47e33171dab9e5dae3d83fb07911b49"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261901_eval20264313.npz",
+      "sha256": "2de1c7d0c0f59171677ed4bacbe6448837856671ed29e3aff094ffbdeebc1321"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261901_eval20264314.npz",
+      "sha256": "c34bf2184a3cacb4239091fbcce37bafce567bc6312f84ce072787fa134eaa76"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261901_eval20264315.npz",
+      "sha256": "a01b020c35f67dcb54dc110ff32c18bbe07a0752092f3204b3e9b9398253a318"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261902_eval20264311.npz",
+      "sha256": "1d99c6cb3044c991046951d437c433f616d480e70f9fb49c1b1c115330f5ded3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261902_eval20264312.npz",
+      "sha256": "0c588f6055f9df5558442a638ae6cb185403187309b82b17a4ed913eae938a37"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261902_eval20264313.npz",
+      "sha256": "c048c064755db5df6595afd7732dfa442758b75d249119b1453674bbbc61d5f2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261902_eval20264314.npz",
+      "sha256": "efa9ac51f97a9010e6090776cfaafb78d8a10964c5f505d9bc48b0435b320357"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261902_eval20264315.npz",
+      "sha256": "b73d9f19dc738474903176476f0e1f18bed386d0b707cb0589a56cd23cfe65f0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261903_eval20264311.npz",
+      "sha256": "02f655339e5114eb25bf5a51807e6feaff20f4727b8206b603fd05a63b7e0557"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261903_eval20264312.npz",
+      "sha256": "d068d928e6faf128568224bd730684a9f86ed4d97d19a4c4c3dc9f780f4d1d6f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261903_eval20264313.npz",
+      "sha256": "9597ef9be22742e3658f5ea82e51a142b9e05043a7fa049e4e9ed8886b4e6792"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261903_eval20264314.npz",
+      "sha256": "8df65dc04b527af2168a8e21a1d5245c1ffd29be7924a567faca4052c15d5b78"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AC_terrain20264203\\push_train20261903_eval20264315.npz",
+      "sha256": "b6b157075a1b614c298631f6884e3ac8baad3658fa6b95b6a1abc40a742688f5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261901_eval20264311.npz",
+      "sha256": "58af067651200af036718403dea2bd99184a309b3577024d59c7825e018108ba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261901_eval20264312.npz",
+      "sha256": "de9598e3125daa5853cb086d396d1d5d7755ff31eb2ff9e725f6b2bfe6d4fe73"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261901_eval20264313.npz",
+      "sha256": "71740b7fb5f1d3332ac9eb1b58a2a042784416ee33ec9ed2361f089144a84a5b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261901_eval20264314.npz",
+      "sha256": "5e0beae5181e7643e08ea1938f05df1674c1c8b11d7343864ecbd1fb42ce800d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261901_eval20264315.npz",
+      "sha256": "6d0c2db3705162451dbf47d05e643297631d87af9cd573264b0f5125e531a1e5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261902_eval20264311.npz",
+      "sha256": "a00492cf0578cb8da53234f6f38985300b9cf32c94cb6c42679533898c6de7db"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261902_eval20264312.npz",
+      "sha256": "7b97ad615f85119a2afc9e0859b499dc6f08334e6d7cd83e23e121bd4f101eed"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261902_eval20264313.npz",
+      "sha256": "68c68fb61cfa6cd498d707f6288de6c45a7565704ece53c800046a4a19d39f7a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261902_eval20264314.npz",
+      "sha256": "7d617c39a0f4765e80a48a6a981b8c9b13ad896e3402065ee1de342196417f02"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261902_eval20264315.npz",
+      "sha256": "919cfa86b82206043cc8a9d0f1fbc3d030bb2c835dcb24af10a1795b8319be71"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261903_eval20264311.npz",
+      "sha256": "4da918463de7efde2ecdc0cda0099b8618ccfbb194a65ec0143f16ca9585698c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261903_eval20264312.npz",
+      "sha256": "89e34b343280294f08ee58b0a23131516bffb65791da01bc1e5bd7fe8d35cc69"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261903_eval20264313.npz",
+      "sha256": "fea631a55293ee574b9d27dc43ce0380f89faeeb69d89f0a0e597031f2766908"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261903_eval20264314.npz",
+      "sha256": "f6d00b2234fec8bea2bc7632e3899f81a965289fae0481319de803eba69413cb"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\steady_train20261903_eval20264315.npz",
+      "sha256": "f402da666ac0c9319285c5f58d024e000096dd01cb02401a65bd961eb2f79c20"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261901_eval20264311.npz",
+      "sha256": "91ba0af8536c198a2c7c4c422782e8c6ed0328203aa987673cb9b1993313187f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261901_eval20264312.npz",
+      "sha256": "cab7018d736c451106d7dff2068c1c222039cf3ea90eb200c7cd31fe53dae274"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261901_eval20264313.npz",
+      "sha256": "e97f3037533109e5729b82c9c630a66694384388075e1e860e67bac6cc5e85fe"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261901_eval20264314.npz",
+      "sha256": "92bf2f3709d12a552d0edec2e2dba99d2c51f50a623645ce28f49e8cb5008c25"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261901_eval20264315.npz",
+      "sha256": "811bdf02f556ea4adc2e88e8c41b72895c4224e667043074e6388a0c2be57eb1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261902_eval20264311.npz",
+      "sha256": "a2b50b7fb9708090a5f401b0a9dabe27746a4f1586eb82c90267ea2c55a859a9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261902_eval20264312.npz",
+      "sha256": "e9355fa0a670d963e459ec52587fe05d31dae6084d6b340f85a451b46f6aa0a1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261902_eval20264313.npz",
+      "sha256": "91d31a58ad083832b53b48347def1d7dc91175b1cde13408afe2ef3a78093c66"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261902_eval20264314.npz",
+      "sha256": "378720c3610df3268339ef34cdec9b3e67bb767c687d4909139255fb4430a2d6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261902_eval20264315.npz",
+      "sha256": "65d329c5acb188ad2fdd0e63c9c3ac18db38bd29760098adb70492be35754bc0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261903_eval20264311.npz",
+      "sha256": "0142f452a11957ee400354f0fd471bf3d19205d40926522f75089f80eea09393"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261903_eval20264312.npz",
+      "sha256": "eb2161661986749bbbc874c4a67a1ba82a9c3e562811ce958f66b7107b582bd1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261903_eval20264313.npz",
+      "sha256": "f281abef381ef0581d3940a5654efd03017e04498c5b3c10c250509ecdf80477"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261903_eval20264314.npz",
+      "sha256": "2959233380505afd73535230b3f5cf8739c6a37d47d6fcbdfcf2946f42ea5260"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain0\\push_train20261903_eval20264315.npz",
+      "sha256": "53b0692649e584ce60dce061bb10315d6f6dc01d74827b0f41a72ba5f72dd3ae"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261901_eval20264311.npz",
+      "sha256": "12bb5539e964818f5808b0fa0ecaa6a61ad4e910263680109eb879fa93592183"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261901_eval20264312.npz",
+      "sha256": "920f9a6200db0eee28625290fefd1db8e1b6cde5920304d5a47ed29e8aefa317"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261901_eval20264313.npz",
+      "sha256": "53578ec052e51f1efecdfcb9fc9396f36cefa69690f40c0005ef3fb461cc0687"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261901_eval20264314.npz",
+      "sha256": "b06729ef32ea504689a2aad71e19f36936c6abed3d46f38d8e283c37e4c19f41"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261901_eval20264315.npz",
+      "sha256": "7490d24861900a7b25d57c2bfbd3a49037b75e21b7f60f366e3cdfde6d9b9bc2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261902_eval20264311.npz",
+      "sha256": "068210f967cb556220b758fbfb09cf0e51726d70ce7e3ce54bc58575be919ad9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261902_eval20264312.npz",
+      "sha256": "dfb6a004e0539ccf92dd1638b65c913d78526f8614e038bf8302598098378905"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261902_eval20264313.npz",
+      "sha256": "0291d3a07fc7519b5588491e0fed21977e49084db7407156ed4a4ecf658afc57"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261902_eval20264314.npz",
+      "sha256": "c4bafc0c109232986fce53d6e61049c04bc90a724cfe262700331890b7fac22c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261902_eval20264315.npz",
+      "sha256": "cddfed9314aa0a020e9225e78a28e2e225ed314bbc107fdeccee1933056dd836"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261903_eval20264311.npz",
+      "sha256": "25f5ad73270c5e97011f1242c66b1df743abf6c6d96f46d7d14c48f0cb360818"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261903_eval20264312.npz",
+      "sha256": "498b809d7f0e4fbd9a3bf2ee0b148742d4003e8133b4b3aa2847d2f75e263fa7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261903_eval20264313.npz",
+      "sha256": "c3d2a6f6f3abca8f2b2132bfb3986ba603d3b4be72f784c1b98fb96b0aa11191"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261903_eval20264314.npz",
+      "sha256": "0965fd80e1f886f021824af53337560c1c13628d250884022cb21f9712fb725b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\steady_train20261903_eval20264315.npz",
+      "sha256": "9a200b9de811ea80b5aa50973e740821a0734fee1bec92a57b5cf2c56352f339"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261901_eval20264311.npz",
+      "sha256": "f8e1ca86d63cecbc8bf68021a295ea1b84c03026cbbcbc2887c587a88ac888d7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261901_eval20264312.npz",
+      "sha256": "fa244503fb9ff7f31424962b3e72165e185a4b681f1824886946ff06e4c4dc34"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261901_eval20264313.npz",
+      "sha256": "84cba97366ecabdba794de2cd3b3d39cfedbec7dc7f131bea9a59af9f1241795"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261901_eval20264314.npz",
+      "sha256": "98855a3566bf1db85fbf01e0ffa25ea183108e9d4a77576b5590a0fde891c554"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261901_eval20264315.npz",
+      "sha256": "514ac89934ae53b5d97029673b7b7c0a6d6ceab92556ca4cdb1c728e576b7aae"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261902_eval20264311.npz",
+      "sha256": "b7dd02d3aa4abd38b1abc20e2abd5d33c226469e41d2f56e62d97ae7e8ac8e6b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261902_eval20264312.npz",
+      "sha256": "05c57aa8877660266d18af5b6eb157eeeaa1e39a884785779317bb5c5892936d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261902_eval20264313.npz",
+      "sha256": "0e825d09a98bccf040847246dec04c3a72ad7ae773db6caf875673908731429b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261902_eval20264314.npz",
+      "sha256": "92dd7d992ba3a65593103fe910c764284b9313454f0f33de3a7f78166c622112"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261902_eval20264315.npz",
+      "sha256": "0ff06d10a5a29bf4a7bec14571485a8cefc30b16abbe0e0ebecd02da9da3ba42"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261903_eval20264311.npz",
+      "sha256": "ecbc5bbed6f699df0fcf8e2f15cce38d591a8bba0d13a9e4b578ac486e096d2e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261903_eval20264312.npz",
+      "sha256": "8181a1ddd8fefd3a118e3dee8f4d124261ed0bd76d74a7d11b54614b1002cfb0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261903_eval20264313.npz",
+      "sha256": "333206a9496976ae26faaa539403e6c69b1e48fd09d36d4bf576b28d10e72b94"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261903_eval20264314.npz",
+      "sha256": "1eb6cf8ea1fad1e4253ce17ef3eee431d7ea9500a8ce6b2c6e093271c7a93a4c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264201\\push_train20261903_eval20264315.npz",
+      "sha256": "fa95a29ea773f7a2051f1298aecf765b1d8ff07abe166b8d181d90aa66d8d42d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261901_eval20264311.npz",
+      "sha256": "91c694e945cc7e5dd4087d34a7907e273baf1f43f6ee3a1a70782be8559a45e2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261901_eval20264312.npz",
+      "sha256": "ce81e5a0673c3dcec5effb7d86acfb5d5a3c8aaa0d152334fd11b4707ffc3ea2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261901_eval20264313.npz",
+      "sha256": "68fa30002927c93f3081cf96fd03e03c296440a9a41520967709745601ae861b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261901_eval20264314.npz",
+      "sha256": "1c33b3c51e8f3ed36ed2208baa29f9116ac66f6355cc5309380dd1e33a222666"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261901_eval20264315.npz",
+      "sha256": "2afcf0a0d9d6c067200b8aa323785a9570531a04513cd96644b19170ec248724"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261902_eval20264311.npz",
+      "sha256": "f5269b2d2cc9d0ca016e2ab7ef3924f7b98dd7a10e7de0a9ccce185e921ef03b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261902_eval20264312.npz",
+      "sha256": "5fa38ffd0d0fed2464a3e2b80b0d106158e87a0be461ff1e3b3e5130d3039252"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261902_eval20264313.npz",
+      "sha256": "d98bea580346130054c5d0f6caf86159ccf7cf1f5c346750af9645aedb2f414c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261902_eval20264314.npz",
+      "sha256": "69325d4057c10233b45b5d2c8ad30a7651d17950ef51672ee1634f893ea51481"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261902_eval20264315.npz",
+      "sha256": "bc9f79a4cdabd831917b8390dd3d1737ee7fec73cc987d4398897159764f88c3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261903_eval20264311.npz",
+      "sha256": "43b3c0c3d1c8718f1c9b0d18c2015e13e3c53b69c75027db885419d9a97fbd28"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261903_eval20264312.npz",
+      "sha256": "1ae54a323634c99d139f5da6344a63fdab3da0e8fb193e3f5fa3c58f6364a09f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261903_eval20264313.npz",
+      "sha256": "9b610e9b4fab07a8b197cead92f2a42f2e8e34f51f7eca8e58cb4d3fbb0b5692"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261903_eval20264314.npz",
+      "sha256": "627225a2c18cac0ec411b1bebac80177d4d0b75d52deaefa18e10b0875703438"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\steady_train20261903_eval20264315.npz",
+      "sha256": "2bc7f6080788b1d6aee55c0fe1d2a6284d4b6f83ca700271f1d7dcc3f3b71db9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261901_eval20264311.npz",
+      "sha256": "0dc7356a88f1a388b19bb1a28e1f783be82dd1ca2c0dd787be72dc768232828b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261901_eval20264312.npz",
+      "sha256": "4a0f2c0cb78f22d71ddad812a9a37167214ad7b2ab87c807599e5e3c8c6d7f54"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261901_eval20264313.npz",
+      "sha256": "08bb5a0bd72d5abe693e8222bbc0e06601291845192de1df66c5eceda4d24ac4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261901_eval20264314.npz",
+      "sha256": "1c6bdf113c15507d11d6538fa3b9e53df2c39fe7dfc17caeeab5e0ea99186cb0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261901_eval20264315.npz",
+      "sha256": "a5578b09a5eba15deeee1c2b4bdba8e7a78cb916deb51e4eb4f2866d7791495f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261902_eval20264311.npz",
+      "sha256": "182c7f071d9eed26ef26aeae2826dc3233ed7f59eb67ed436b1d1d6b5164e7cc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261902_eval20264312.npz",
+      "sha256": "2ff69e9150ad5c3b1e76a24e570e5086c0d3255fc9684d76da97e2bb89b7b44d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261902_eval20264313.npz",
+      "sha256": "318554b44f5e19927c98c22cb2f38a9ff59b7d417f8098fcf87ba6fcc8134c75"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261902_eval20264314.npz",
+      "sha256": "f1b01130db06bd71fb7c6ca5835343b7f8e76207db50d7cd17a370523a227bfa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261902_eval20264315.npz",
+      "sha256": "b6c2729b3877bda0ecee1811e419dbc7877c5261255bc10202baaff72e05e9cf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261903_eval20264311.npz",
+      "sha256": "d64ceaa26af38dee2e2a6d5fe8e181d07b08bdba32fefbe33f6a8c58c1899f38"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261903_eval20264312.npz",
+      "sha256": "07d8e827f90ea927cf6558d30a8a987f851ff9da6b2400495cf9ab9689f212fc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261903_eval20264313.npz",
+      "sha256": "80a035a77fc35986a6a9ec4ba84ef7f56dc820cc704dae9106839d7b19846324"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261903_eval20264314.npz",
+      "sha256": "19dd506a564c8d6e687bb4be4616525962699f7acd03f3e4c8a30dd251a3e7a0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264202\\push_train20261903_eval20264315.npz",
+      "sha256": "e05967ce6f510b325b013af0fab2d6c34b632c46da2e93a35517d54a8342baaa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261901_eval20264311.npz",
+      "sha256": "b2a1a527d16db2fab653f22c7114216960981e6ac2b1c504da9de483ddc7d9a5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261901_eval20264312.npz",
+      "sha256": "69fc73f51cc7d3a8f45cc8f3e92a1fc13d1479e5b570f3eeaba6ef6c3ae34e68"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261901_eval20264313.npz",
+      "sha256": "db156df108264d705ac37814c713281f4c4ddf8b139999d637d5242d33ef5b1a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261901_eval20264314.npz",
+      "sha256": "dc802b870c02961615c7bbd860d31ad822bda81f14e422b00ecd6f40ab4b411c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261901_eval20264315.npz",
+      "sha256": "b90125793cf7a7b46e4aed7394eaec071f14129f2c567b14919135bea533d60d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261902_eval20264311.npz",
+      "sha256": "5876146fed0c46bc0bceb0b8043032895b360526a88d1c9eb84070df3655eac7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261902_eval20264312.npz",
+      "sha256": "c7c3759b519647aaf295f94242bdb6b0ef00f47351212027f72c44ab9d5b4b61"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261902_eval20264313.npz",
+      "sha256": "c6c42bac6f3b192207a32ae983b0e56aa82f5071da562f59325e8cac7fb874b3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261902_eval20264314.npz",
+      "sha256": "5f529da917f4c7c89f5d45b1ba482aba0b9b92d61c69336f9e28d6e69b3666ba"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261902_eval20264315.npz",
+      "sha256": "8bcf4a93145eb3fedebf6fd0785f9224e722912dbb3b21fa30aa9818f66f5d69"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261903_eval20264311.npz",
+      "sha256": "96c2fcfafaa0ee741cbda73d0af9e29373e5e8879ef06eefffd1a5454f8961d4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261903_eval20264312.npz",
+      "sha256": "fd80f2f0569deb4f60fffa86699fd1315704ddae900d0593dc6c72999d62e695"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261903_eval20264313.npz",
+      "sha256": "8deae9f1aae8622a54422d352db7d0b267a844098e30cbfa465fd91e421fa031"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261903_eval20264314.npz",
+      "sha256": "d3b8919fc8e0e81b83ab55e3f04b4d7978ac2970e8fb599177e58b09dadc2b41"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\steady_train20261903_eval20264315.npz",
+      "sha256": "f5bdc659d0b6ae98f53c1f68a208cd94ee78374aeea4c890c932afe426dd488c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261901_eval20264311.npz",
+      "sha256": "9848381bb1c96ca05f6017b96b72f08dfbece3bf131a198e4c2c96f08f200055"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261901_eval20264312.npz",
+      "sha256": "4510cf01ae3962658e90535fb00edb4105d698af72de5ca83955219b62fbef9f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261901_eval20264313.npz",
+      "sha256": "aa10c58875d96e16f5a223a4d4d103154782a9324322cb17c526aac5a25ab1f1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261901_eval20264314.npz",
+      "sha256": "d8ac7352e7db17692d783b6b283aa18cb511deaf9e994ef7c83d69fdcc9431ea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261901_eval20264315.npz",
+      "sha256": "65eaed257c969fa82b776e9ad295be82199819520a7248b72bf5e4fe376b10bf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261902_eval20264311.npz",
+      "sha256": "8efe642d8684edf3f50ad53b5cc8db56d4de4e8a6563d876ca2a79a239c9acd9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261902_eval20264312.npz",
+      "sha256": "3b70cfee6511ff7fa193e23e964033e91554f41dd1e6f6968834caeae38dad10"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261902_eval20264313.npz",
+      "sha256": "bfe71b9608a42ce03b834c3172e38d4a805cf9b2e78f2f8bbbdefbbbcada97ab"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261902_eval20264314.npz",
+      "sha256": "3f641a1edb3fbb33e242b64b7b8f6485ebd49593983d9b6dfc101c4d19b3433a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261902_eval20264315.npz",
+      "sha256": "a78ba9947725e7ff42cf6357646d80c830e636c533140a8b5c83027a75184cd9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261903_eval20264311.npz",
+      "sha256": "0a406bdfd0366e58b4cdfe73cc594de9589c497a982f7d7ffc7f04f6956a088d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261903_eval20264312.npz",
+      "sha256": "50e68924bfc6bb088d428612eb262051315cf8f43eee74c7544d3ac9dc95aa5f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261903_eval20264313.npz",
+      "sha256": "ecd49b9b1d2cfbcefeaeb3a8b8d7de16306d7df7ddbbce33005a52c822792224"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261903_eval20264314.npz",
+      "sha256": "28b1be3bcddc9e7fff3580be5b0e3819a8db220de31b90c5a88b8c98c9ba73df"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\AE_terrain20264203\\push_train20261903_eval20264315.npz",
+      "sha256": "fd37b1c32af93c2e3da5d0e534061cdae2829f39b172902073def73b9ca972dd"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261901_eval20264311.npz",
+      "sha256": "ac0ffcb311803266770e2cb54331115b40891757c50a8716c18c20c653eca63d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261901_eval20264312.npz",
+      "sha256": "1970058a4032e8a485ec48eb87ea5d8f9d1a8d3107c01a5a8ddfb08bb6173475"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261901_eval20264313.npz",
+      "sha256": "da628c7dd988a0c285de7e523749aa24b25bd96fff74d49b599dc4c6a9c06c37"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261901_eval20264314.npz",
+      "sha256": "0fe22366db46c6e5c69d7bc3f89dd1b310de2d5130cff8d74c6cfd2dd4a84ad0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261901_eval20264315.npz",
+      "sha256": "fd45f20c8d115fc06cfcdd33ffd07dec3d40e9dbb384d44e806e6fd50f39b10b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261902_eval20264311.npz",
+      "sha256": "5ebef7f7ad9ed0c5742a33d93c42be1ee33df8cbc484849d60999f8a46ccb4a3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261902_eval20264312.npz",
+      "sha256": "e1bc581e7d46807ac42b3d2ca60ce3d958af18efea7db74056a51ac817ee60ca"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261902_eval20264313.npz",
+      "sha256": "0b04f23c18225d56b5e99f0b9181c830fc768b1518d7fcc8034a216ee95544b1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261902_eval20264314.npz",
+      "sha256": "4c93dae81259baa9b2e88ed713abe5ba8ba32dfa73cc3d2878dc4c30562e0277"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261902_eval20264315.npz",
+      "sha256": "906f0664bcbb6b0dfc7a96f89d16a3f98fb890f123eab126e7f9f11dc73834cf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261903_eval20264311.npz",
+      "sha256": "06f0c9e9fc1509e30bc6c0d27382eb5a2e3dd3a317d4b7e7d7d8486f7cc7cc86"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261903_eval20264312.npz",
+      "sha256": "4401ba9eee5e6071ed4f79c3cbfc6d8fb346c20601b1e7dd40bc17eec3b5910e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261903_eval20264313.npz",
+      "sha256": "c09f1b5bdc11ff8d6b8e94a2996b1bde1cc09f2e60b413a5293943c6b50e822e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261903_eval20264314.npz",
+      "sha256": "ececc5a15ed1d2cbf8a856c735ed7c3489790c6fa350956b1e4a4def598e7e84"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\steady_train20261903_eval20264315.npz",
+      "sha256": "d0e8a3b84c96729c2c4f83d2a7d04ffa4bac044681023bed3019f129c09889d0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261901_eval20264311.npz",
+      "sha256": "4de83beaae6bb8aae9980cceaed3c81a62e35c22b92ecc121419964c752443ab"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261901_eval20264312.npz",
+      "sha256": "230e6420e5c5d5edc63893a6157061baeb4064a6d172ae45ab7208fc3404e243"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261901_eval20264313.npz",
+      "sha256": "6d1f02ef9bbb15fbae04b574119a122c1f1cd9557f1617cf420c7740243b7fe5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261901_eval20264314.npz",
+      "sha256": "351bb0fcb9df0c95247bcb0f191eacf546571a65019b2eaf11d6c95f67e58323"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261901_eval20264315.npz",
+      "sha256": "f5570946518b602f1083fe0317b4891b0d1b9d0e95733774b11e61bcac8e818c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261902_eval20264311.npz",
+      "sha256": "134f5f57ed7f7ea6fbf970e01f1ecdd0266fadd43e9a2b6c26363ff39378ba78"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261902_eval20264312.npz",
+      "sha256": "09b09a0c8d281becc1734914d94acb4d25ea8b6bedf5a50bba2fedbdf9b662e1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261902_eval20264313.npz",
+      "sha256": "3d39c71731372ac442c62feecdd8083836a03f21ebbae36202d9c50d9dbe89c5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261902_eval20264314.npz",
+      "sha256": "8c2e7dc0f10f94485e23574dc0919387f5d9aec05b283736556a469be9868a99"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261902_eval20264315.npz",
+      "sha256": "67e67d3a83dba85a539ec09bd7ec36870eb2e247fb08f3ce80762eb155a189f8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261903_eval20264311.npz",
+      "sha256": "2e119439c04eaa4c22e6672e1fc4b3e830e1d59e1a966b4fd01e9e1c316c5b81"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261903_eval20264312.npz",
+      "sha256": "6747c877af6e7a41227c0baa9854236556d8bea5b31bea3381c2cafb0e26ed27"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261903_eval20264313.npz",
+      "sha256": "fd5b3f255ac9fbda82234706552dcc9f7f80b2b2fb377d394fc9f6fbc9fe4b1d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261903_eval20264314.npz",
+      "sha256": "5ee5c08c3dee3ed341e9c2ab432917b7465e51922922246554cf141efcfd4d07"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain0\\push_train20261903_eval20264315.npz",
+      "sha256": "33d974efca0e8b35fc663c12f466830178654edc88e6527d54c403d8a69f5998"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261901_eval20264311.npz",
+      "sha256": "ef56443de5aa0abda54ef2d46eb9e55e05c72c106d00edb1601e777b66d104a3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261901_eval20264312.npz",
+      "sha256": "1af8c3b3b490a9290e4385f40c592afd9f3e53122f795ccb7acbb4bfb3dfd0e5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261901_eval20264313.npz",
+      "sha256": "47c61354b1763974f39339b8cfbb4e462439520a1e2990111edb142914a5ca6b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261901_eval20264314.npz",
+      "sha256": "84c3f801ef59b42d24846160bcf16d10b00cd95502762eab9036106c5f0b638e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261901_eval20264315.npz",
+      "sha256": "8699ff0d4c7ffd39f7160b5c4a16cc330f63c688956e48bb5b75b7c8bca532ca"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261902_eval20264311.npz",
+      "sha256": "0312e6c998481d5b5238ef4534313d53cbbf795ad8695df5900f72aca7df6fa9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261902_eval20264312.npz",
+      "sha256": "42e8e7db52fc5e61f4ca2c94a968853d2ea13084fe7b04468f821b6e076bae75"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261902_eval20264313.npz",
+      "sha256": "c5028f6f637d68a6445ab6d386bd5f36afcfef02fc7993ab34a2c351c05daa82"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261902_eval20264314.npz",
+      "sha256": "ec78f3cbd3a0e621dcbb315ede2ba66aa607f1625ceec2d745dc2e36334d7afa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261902_eval20264315.npz",
+      "sha256": "ddd5dbc149a16b6e667fcf0ebeb92f9d75637e5f885cb80d57fa3aeb0121313d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261903_eval20264311.npz",
+      "sha256": "50ba8e075fd8756a66e269b7943181254f20365b997388e6dad33a5307668414"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261903_eval20264312.npz",
+      "sha256": "1d2b95d4891507b5eefa2d8e7ae50aff7b4e5909fd756ceb57c882cdadfe8c54"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261903_eval20264313.npz",
+      "sha256": "043053a4e2a2e13bee91162f5e58e06238ef30f141aaebc8237cbfc059783565"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261903_eval20264314.npz",
+      "sha256": "3064c5f4ca487ed33e6f181d1ff4423d7bf6b8b781130e0c137444df0f3f6335"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\steady_train20261903_eval20264315.npz",
+      "sha256": "38a60c9c83c446d79d68377af7964f5403ccfcf74ba9aa9b626b3d3b36bdc783"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261901_eval20264311.npz",
+      "sha256": "403f2aa46c7e2086b90ace64dfd9b5b5599ff640a877fc77b19ec1c0cac1158e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261901_eval20264312.npz",
+      "sha256": "ae4f60b5979668aab65c34f909df5f42ac5c1da295da38bc7574a3f729bc6a4b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261901_eval20264313.npz",
+      "sha256": "99602178b93018edd6cdd45edeb426db3d347060e7fac5f7198b646d377b056f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261901_eval20264314.npz",
+      "sha256": "7ae0b0afa5a25c0325fc0dfa27e4f0d0081bb82def810e036a8a713837ca3238"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261901_eval20264315.npz",
+      "sha256": "ebd8dfa024d9795947e1e05cc719105fc3c6318d4cb7bba301891a002250fd38"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261902_eval20264311.npz",
+      "sha256": "6b41c528f37a0f617868c1798696653da6fb959a8ab9b9491d28d8c326953d27"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261902_eval20264312.npz",
+      "sha256": "e28a5df75e97d07eb01a417a07903e60171c16220591b3835b16f1991c0fc841"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261902_eval20264313.npz",
+      "sha256": "f6168877ece1578f1b2d59ea80f4e935550c0ec25cf112c3b967af20fd38781c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261902_eval20264314.npz",
+      "sha256": "7db57adf47b3694c8fc2b417eee023de3f3a735a81f69127ef57c8748e3872cd"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261902_eval20264315.npz",
+      "sha256": "89db2ef6f03dddd87b9d246f659a05690429ebdfa981396043fcd9dd0cdd34bf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261903_eval20264311.npz",
+      "sha256": "20c561682eea4151fe0bd6761c3a9e50fb213746a7ed5f1e2b830b20db4c8d39"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261903_eval20264312.npz",
+      "sha256": "d9f7720ba526af07351b9c4807f502742f777f6c318464d8fe9d3c8fe5ade200"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261903_eval20264313.npz",
+      "sha256": "e7cabac4399c60276ce6306c910a5e12d7dea072a9f1da862954dae777d0fe0b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261903_eval20264314.npz",
+      "sha256": "5a1d12fcbad057547a6161f2fb1ca2ee7aa2bdd70dad0aa5398d844047dd70e8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264201\\push_train20261903_eval20264315.npz",
+      "sha256": "f12f3dfd5e34fa9d8767e2e3db8e99a91697842e39440972c432d98b5cae2132"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261901_eval20264311.npz",
+      "sha256": "55c315acd709b67559153adf727d8dc1b707af858ff16253972f264cbf37afa3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261901_eval20264312.npz",
+      "sha256": "d6808710e4a72c2a794fe357b4c1b96fc4656f1ab1af85e1f368064461b2444b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261901_eval20264313.npz",
+      "sha256": "71316ec22c09a6736ec2ad2be475e43e178bffda0ee1126929eda805b3fe7496"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261901_eval20264314.npz",
+      "sha256": "c5ee163a1aa6d1c54c3e333ce541f4e691f915d7b5103343a4dc6a5f22713838"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261901_eval20264315.npz",
+      "sha256": "433f0fe8a88fb38aab1830233ea22ed9892f62b5f3490f43b36feae0feb1415e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261902_eval20264311.npz",
+      "sha256": "a009215e130a0a4b25de52f8c876bcc9e7835cfcb21ac721346a221e785f05c2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261902_eval20264312.npz",
+      "sha256": "13c95b79fc14b4c94217342d31b01bd5259116c36171d6458b17ba61697ad185"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261902_eval20264313.npz",
+      "sha256": "0f3be17be0e0b66b2ed33e0afcc38ed72c8f1a8822f9edcde0a3ac7d94a682a7"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261902_eval20264314.npz",
+      "sha256": "668b4b7e0d133194fee61e6169d301c7537b58c88bc5c989335e562085490b4d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261902_eval20264315.npz",
+      "sha256": "ca3ca824382174799887fe601022c7dd9c34fd6dee748a8e6809a906e96f1ab4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261903_eval20264311.npz",
+      "sha256": "a2e15ee64cfd1f221d483822906ebc38c9bd958a909a6727ff950e15bbda8930"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261903_eval20264312.npz",
+      "sha256": "985655fae2607555f346eee103c4a1af218eadbc24e5054feb945f2ac06eb2a4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261903_eval20264313.npz",
+      "sha256": "a113c66d3f273cc45580ca20f4e9338e82a03330624ea156326ed3ea80f3b283"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261903_eval20264314.npz",
+      "sha256": "a5a5ba1eab4199b77e723ba960ed7bfeaf1ad0c65effa1f370639bb03a572719"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\steady_train20261903_eval20264315.npz",
+      "sha256": "3e378f1e06c73e5b17bc0c4d75d9cefbf82a164ebc6293ace31867ba9aa824b2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261901_eval20264311.npz",
+      "sha256": "997a606a5f7450a621735f45782b8a769cdced459de883ea3a29f490e6825144"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261901_eval20264312.npz",
+      "sha256": "60efc160f5fe1e8e0ebd7d26af6d4afbe5128bc1f243ceb30de9fb6dcd7ea43f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261901_eval20264313.npz",
+      "sha256": "66475301ecc7d97dbba398e1e25f7aa5586256ef5661eed24229a918668e0a0b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261901_eval20264314.npz",
+      "sha256": "abf817bc528784b37e76ef9151de5791884fe051034f55c0724922d9e883c9ac"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261901_eval20264315.npz",
+      "sha256": "3c6ddca3a107703becd7e8b42f9a7cbbaacd0ff4e3fac132ecd0e4c507bbca93"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261902_eval20264311.npz",
+      "sha256": "d5884dc3899280b3c13b52bb85c53870640c8696256c362cd8c1dca23b5471e3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261902_eval20264312.npz",
+      "sha256": "62bc2fb88978c5dd63b77fc24e2f98cefd89c98b7736b6717ec3082b232134f6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261902_eval20264313.npz",
+      "sha256": "4f84017434e8f1197eff0653ac345de58a84f8396546d4db5a5b95fe9bdecedf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261902_eval20264314.npz",
+      "sha256": "ba89963eefc5f973ed4fb9f053152fbb923e26b0ffb9cbd80aaab5f485bbc04a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261902_eval20264315.npz",
+      "sha256": "06448e8ec006b75e4325459695f641b812440df24eb0f21af73448c93cc2d668"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261903_eval20264311.npz",
+      "sha256": "54415a7bc72ed88dea37eb49b5f333b88e81cf0d0a9d6c35cec826a915b61e7b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261903_eval20264312.npz",
+      "sha256": "eb4ecaeb974d5b8b4ba17b464633dbbfedabc1020602257e31f00e12ec9ea877"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261903_eval20264313.npz",
+      "sha256": "0066b58b745e7c53bcc7effff9a6d8641fdf9f3651f6a8b1be71a141c5ddbf4b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261903_eval20264314.npz",
+      "sha256": "04a45d086e0588740632b009346aa5bcbd8c451bf01cd71c9fdf6b951d365490"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264202\\push_train20261903_eval20264315.npz",
+      "sha256": "15da908673c321b28d106100c7f7d3cf886d91cc09a027962568d9d9cdca8543"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261901_eval20264311.npz",
+      "sha256": "aa86a2738f2c5f4ec245e97d83826d5d795f55b70c9f0fc5807e3e72ee8e4f1a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261901_eval20264312.npz",
+      "sha256": "f4367ee25ae024c4707a8a82a3597d192a4738c7467b9a566dd37cd8661d383b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261901_eval20264313.npz",
+      "sha256": "37be7a955f4453ddf41ab007a71ee4e2d127067d32e946c9f0ed232344daad39"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261901_eval20264314.npz",
+      "sha256": "d97cdd18da2e60d4905b04721fb58f86cbb754d68e874e2192a781da80f69baa"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261901_eval20264315.npz",
+      "sha256": "37221666a63f38cab3d52110500941a522d34fb55f61d034867633fd01350cbf"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261902_eval20264311.npz",
+      "sha256": "0065a2bc27e6abd93cdb5242aef3d20cf1dac7870b15e96bc68bbac3c511195a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261902_eval20264312.npz",
+      "sha256": "5ad5f61a29b5cdce348791ed9ee5366a71bae05af741804b88ae072adc81016f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261902_eval20264313.npz",
+      "sha256": "52a121f138ec78fa7f0b33cd647cb39beaba082e41d8e4b3976843b262f74195"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261902_eval20264314.npz",
+      "sha256": "60c12a67d591ff4d9149105e3d61e51728daf4f8409498690b089abebc0b307d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261902_eval20264315.npz",
+      "sha256": "bcc1b281492b6ad8641af44618ef3b721cce37b52b6bad5c2e38d82340f5aaa6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261903_eval20264311.npz",
+      "sha256": "7ab56974a68969d39d31db2e15a4e12814c5046fef3e2238f5322e74a2ca166d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261903_eval20264312.npz",
+      "sha256": "27e7393954fed01a1b2d904457bfefe3363cd5428ad1120ac66026db6df69195"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261903_eval20264313.npz",
+      "sha256": "ed6cf1c7ff8f0ef989b57377951d99bd24c1227729df5288051d3930c213f633"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261903_eval20264314.npz",
+      "sha256": "7feb4728eb3d1f002383f15afdf08d14579b106ba4d85ff567d9a5e2cd413f1b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\steady_train20261903_eval20264315.npz",
+      "sha256": "48c9d3b306659134567714f1cbfc612e0d549008992026bb90650efb0489dc62"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261901_eval20264311.npz",
+      "sha256": "62d5e43ebb46a2048a5c74b3848c6a529b498897d3424308ad5155b8f4ff9b01"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261901_eval20264312.npz",
+      "sha256": "7d2b9bc0f9f15aa5f5a8d927c26177711b95f5f9a4c6a664f6139e2f43a4b3ab"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261901_eval20264313.npz",
+      "sha256": "3ee0e4b59261462c00e6ab23181f8dedae87b0c9b1063de2c1fe366516d1c103"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261901_eval20264314.npz",
+      "sha256": "0d0d9b4ed36abbadfa62a1ac5c80fde1dceb854ccacb3d762e95d2103dc37c6c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261901_eval20264315.npz",
+      "sha256": "070c3891db80646ec5108e268afefa1b7c34ff9fdf723af8431bb24709553ac0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261902_eval20264311.npz",
+      "sha256": "f869107574731c3774a7b772ab1ad416592eefd3a1446a0c6314a3b707753b24"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261902_eval20264312.npz",
+      "sha256": "cfdc6531831ce1c3d447ccbc02daf16d7344c65bdea5fa0bb782beadf914ca9a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261902_eval20264313.npz",
+      "sha256": "6c220d0402113defdeb520c52d1a38afc69a610b2b370fede95797b1c6dfde21"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261902_eval20264314.npz",
+      "sha256": "bfd32461d5aebb4f5cc2452c0d3d880c2e5260ffc3fc0ff01a34a37abd9c7769"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261902_eval20264315.npz",
+      "sha256": "17275bc87433f281c6eb87857d8e1519ba6220e0b0303d008bd7b4e0385bfb09"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261903_eval20264311.npz",
+      "sha256": "4812440a38374d31136104b6f53aeb51bdccf1b3fb1329607175389e34a81c99"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261903_eval20264312.npz",
+      "sha256": "a9a0cd9b75cac52f989421a21896e6dc24ef536bbf6e3479931ca096fb2d433d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261903_eval20264313.npz",
+      "sha256": "bca56c8858e608f0d3b6010be721663d571d79beb99ab7aedfdfb3d29809c86c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261903_eval20264314.npz",
+      "sha256": "5ab04e5f60a1fd2332415dadeaa7a817e70e69e8c4870eed62299b861458d9b6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DC_terrain20264203\\push_train20261903_eval20264315.npz",
+      "sha256": "bf29d271ae6f65da9c5b196a45353a90c33a2f8aac7f7147483c836e9566a827"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261901_eval20264311.npz",
+      "sha256": "24c7d034c4953965a5ad53364d5a19721e29800d65de336f91caa832d85b6034"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261901_eval20264312.npz",
+      "sha256": "447ac51f22a8c37daddaa7349ea3e31d57c71a0f2e80f6365dcbd981ecb72175"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261901_eval20264313.npz",
+      "sha256": "23bdb488fd3859b3f3d25485f088003c5cc4a17810ad1314d007d69561f5f37d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261901_eval20264314.npz",
+      "sha256": "0114b24a036e8f31257bb7b5ae6f50753deaf1065a6555e1e7f500857eb75f72"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261901_eval20264315.npz",
+      "sha256": "da4ab8d32fdf7c769b1b88486d754dca28cecce6ba93620f59dca957d6c606a1"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261902_eval20264311.npz",
+      "sha256": "2d0233835595208c373a9a095b3b0b26e3ba3a84f49c4735b8fb35e7a219fcb8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261902_eval20264312.npz",
+      "sha256": "71fe8c5739282faeecb24b602593320d7f70bf2bc5b9b86cc524bbb49bad8479"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261902_eval20264313.npz",
+      "sha256": "0d520d1cd124284a9898230c8d20fcbf4cca8821f9e101e44d885b16b09b869a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261902_eval20264314.npz",
+      "sha256": "c78020d37369bf47d8873b77f4c7ae0e460ca176f37a86113cf1c389f340d3b6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261902_eval20264315.npz",
+      "sha256": "46e4bf0876987c5336bb6a11a4280752c0a5fc5f261c98951e34f9ff71a02f78"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261903_eval20264311.npz",
+      "sha256": "600fa7e412698fce25a98abb84dabb8803a3445ae13edc010cf0f1ed1700db9a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261903_eval20264312.npz",
+      "sha256": "9b0ce5689023acd14378cd711e03d7a04859f989d5a1e5471d66547a89589bc4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261903_eval20264313.npz",
+      "sha256": "a766a415b5352f0bc2ddf4d0c3792e8001408b299058b2411824c24f35209433"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261903_eval20264314.npz",
+      "sha256": "bdf5a5fa62491581ff0cb5f882810dcb684a5badb5b648ca64b85b16a1ea2f54"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\steady_train20261903_eval20264315.npz",
+      "sha256": "385dda7b120b0dc296b1f7a9f38a9cec3e2162cb8b384fef68ad7f408ce58e94"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261901_eval20264311.npz",
+      "sha256": "c8d0e6c0b85dce6f0ef5f7bc48d2db1ec4530cf92ddebd902efb614ee6fdeadd"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261901_eval20264312.npz",
+      "sha256": "f07f88592049b50c69756f5e58bb1f45d01c2878237338b5988d87ce1ec7883e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261901_eval20264313.npz",
+      "sha256": "5d51d9d8702ad7253d893351c4e4a991633e7084d45e58077b848fb28b684fbc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261901_eval20264314.npz",
+      "sha256": "63ab7962440f0c25931b09b2a395107d9623cc967f8c4b8b9d1cfb2dbc133064"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261901_eval20264315.npz",
+      "sha256": "1beb1ed01f42f8f6e85cc5224b161cbcf6aec7b939b8dc097dc673c4439e245e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261902_eval20264311.npz",
+      "sha256": "6bc74dd0e07d37471cf1ed12494b22419e13eb4cab91922eb3378e9c5f3b544d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261902_eval20264312.npz",
+      "sha256": "b2c8d5831f4260121c06bcb9e0fc45a3935da3e7471b9b1d1a5d704eea07d28e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261902_eval20264313.npz",
+      "sha256": "c3e17fbcaf2576fe0ec259c207c3419c6f19c4c833340b7dab90586ab720895f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261902_eval20264314.npz",
+      "sha256": "b55897337465db7eebe4a30254bb789a2655ba4bdeb206f82bbb4df63da820a0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261902_eval20264315.npz",
+      "sha256": "4b8c3f67af5c7ef077d61e57777d7c5cdb748e614780e1feb510604c40974144"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261903_eval20264311.npz",
+      "sha256": "d6c3a48ff5c28c742cd424922d42e731acbf83cb00b1549791f4d1933e09be9c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261903_eval20264312.npz",
+      "sha256": "1b9b871a57cf9581be47e6865e9cb6d47b2751203ea97d85fafe01ccd95b6f3c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261903_eval20264313.npz",
+      "sha256": "1f079ffab6f51b16a3203cfa2f55376a6df968949081d2ed2beae5d708605e6e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261903_eval20264314.npz",
+      "sha256": "a5115766f6589ebe5061eb28929f347d734ec2116df880c0a20a77e06a330c08"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain0\\push_train20261903_eval20264315.npz",
+      "sha256": "f96d0e9fbdadde94fedcb3fc2379d7ea30e98299a1b36fcb172546bfc8b20e2a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261901_eval20264311.npz",
+      "sha256": "ce213605ae4a474cf3d08cf105595eb0f957c0e82cd9ed615759a952ec473371"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261901_eval20264312.npz",
+      "sha256": "6f74383ab7eea48d79a249a2fc233db791d2b2a1033340845c472c60f8af9aca"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261901_eval20264313.npz",
+      "sha256": "2ed19ba2c769bab2bcba9375dc8c305e2628cb2a860a64ab67a06a9087fad173"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261901_eval20264314.npz",
+      "sha256": "2870a8bcb7290d196266c2604d37ffcc70956fe8ee59b1676c50d91d1bdc67b9"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261901_eval20264315.npz",
+      "sha256": "80e1322191b26d5f3d2c99fb492bd6d08d7c36a56dfe0fd19083a4e9682cfdea"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261902_eval20264311.npz",
+      "sha256": "d33b5864beab0c8975ef1afe2ec4131af5e55c5af4b72d5a2447af3c370cd271"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261902_eval20264312.npz",
+      "sha256": "2730cdd6d6628030c46007548533d0c405a3ad70b692f4b494b871e9a9916b2e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261902_eval20264313.npz",
+      "sha256": "1e7739581412df24b3b30235afab4e7b4caea337d8304d6f153080571b9bf63f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261902_eval20264314.npz",
+      "sha256": "567c8dbf363ff8471efc603283ae97a40e6dd7bfe8f58951f3c16ef9126f7e7e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261902_eval20264315.npz",
+      "sha256": "09fcb3d2fb4b666655b6e798567cabbf27d2e0c1e5582c2e345d78dfd238f26e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261903_eval20264311.npz",
+      "sha256": "b7cb6d878bbd1df32e6568d058b878ca191e98c68b3ab3ebd54bb39a64363e78"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261903_eval20264312.npz",
+      "sha256": "afdd69f7ced1db33065fd7464ae48ed5d46200b6a3a9a3fe2956dd14a6bcc8c3"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261903_eval20264313.npz",
+      "sha256": "d2783cb6d6e4b8d4a543e7ea039efc599b49582d6f3d83bc1eef383037780a4a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261903_eval20264314.npz",
+      "sha256": "e55e9c6a6fda921c851328905ae65e392587ace11a8398a32af64e62d9e2c981"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\steady_train20261903_eval20264315.npz",
+      "sha256": "9c4dd398bd0362a3ce839473af6939454a5f6d355093e8df4c575b05c73c89d5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261901_eval20264311.npz",
+      "sha256": "3b56d08b3793671037aa1257facbe1666ce5dd66c59182b1e13c51f75c5f3340"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261901_eval20264312.npz",
+      "sha256": "f9f6708635ba83855d8c4bc3fc656e3410aebd7f3d2ef6cee831539d7217dbf5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261901_eval20264313.npz",
+      "sha256": "7fd68502d9008fb31f2f16e7618c8b55e0dbae21ef119d5f04b3c9d02d5c7f83"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261901_eval20264314.npz",
+      "sha256": "cb69fadcaa64d46c989fe4e78069f49f3f7421fdbc4ead0997ef8fb20709375b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261901_eval20264315.npz",
+      "sha256": "41bfbaba0f5f43fbe899ea3fa6d940b00ee23a43954cdd73d7a34d5c8104ea65"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261902_eval20264311.npz",
+      "sha256": "5996056e666fc16d31182d1b69f28258bb488e20547d7efc328da44880a1a878"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261902_eval20264312.npz",
+      "sha256": "45f183a109ef4578e7b3420cacc4ba0db0e652953e11318fc88221dc4f768e10"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261902_eval20264313.npz",
+      "sha256": "327beb2ce4b3fc372692722ff1316a7283a03d3945626608a971896a0aa06bc8"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261902_eval20264314.npz",
+      "sha256": "b9a237e151f31298e1f7c2e660bb6ba9750942b2505b2a4ae41881b62fa991d5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261902_eval20264315.npz",
+      "sha256": "8249f389c03c55a54dfa45e23ac6f9d8144dba5150635113dd5468ee2b350fa4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261903_eval20264311.npz",
+      "sha256": "d731212b00d2f369ea750d877ab43633a2e849de69651debbbe520c49bc55fd4"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261903_eval20264312.npz",
+      "sha256": "83d3850d8d4ff555b0e22ff792df8998b6591a0316f17899366f5ecfc2b6b85d"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261903_eval20264313.npz",
+      "sha256": "7d2b1a9ca8204c65a4cdf2ef7e57a36a49bb1f95bd6acfc78235641c448c34d2"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261903_eval20264314.npz",
+      "sha256": "bc9de3a028d5bec2293ddb4ed8b2931969365428985aa59b118f9f349aa0bfb0"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264201\\push_train20261903_eval20264315.npz",
+      "sha256": "9c6b4e2026b22dff802cff8b111e1a6eb1a4832abfecf4501a4d58d78914e2f6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261901_eval20264311.npz",
+      "sha256": "30b18bd5a896bffc19c5d633127be490c0daad70664d6f840d3c8b91aaf48417"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261901_eval20264312.npz",
+      "sha256": "872ffac1611c5febf2c4febcf916e1f1c148740201d06cc4754ee595d11c102c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261901_eval20264313.npz",
+      "sha256": "12dc4ff394403e4c4f8a0dacd1e8a838b684f839ddc120ee14124961e25ef435"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261901_eval20264314.npz",
+      "sha256": "682c5138cec6623157adb94e47894b289d0d7138b360e9052ad96a9ad5314b94"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261901_eval20264315.npz",
+      "sha256": "31d274cc3fe5dd9500bb65e5033cbb335774a681521accde051a16875600bd2f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261902_eval20264311.npz",
+      "sha256": "4dd63715ddc539e902d7a66546aaa2dd7d7ca9dbc39a3e8a948c8e0937fac40a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261902_eval20264312.npz",
+      "sha256": "57d2bba01ad5574b15bc46590fdc9bf4bfaea877ad71c0abbeaa178e626a5098"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261902_eval20264313.npz",
+      "sha256": "df58aaf58e6159a73d3abefd62ebf4818d41c51f2889ee08c8729a9828aa8081"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261902_eval20264314.npz",
+      "sha256": "10d2a79b12fd99c8cf2ef0619a172c2822b880262fb12c06e682d9c10af70d68"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261902_eval20264315.npz",
+      "sha256": "90828d265682a2fdb4597a5bd19ef0461bbe47a4bce7e6771c86ae29b4c71040"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261903_eval20264311.npz",
+      "sha256": "3bc146f98f05118ddf0c100b65d9c186ca5e9530aa8c1a39be21d9d4cbc54436"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261903_eval20264312.npz",
+      "sha256": "b66777aec82e6bada4ca117e45bb423ee79fd61f87a9a5be3558ff17ebab1d69"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261903_eval20264313.npz",
+      "sha256": "0aec30240353cf95f962ee9f74e20735068b35b57b0ad6bc524552ef63692885"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261903_eval20264314.npz",
+      "sha256": "af3bc4367a85fc22225df2896a5240e4d2a6a452a624cbe918d11fa9fc3bd064"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\steady_train20261903_eval20264315.npz",
+      "sha256": "626c1a305e3feaeb544a06e050ea9355b89270cecee8fb4d230a36635566f806"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261901_eval20264311.npz",
+      "sha256": "9f5859a45cb6a7930b3857cebaa338ea81c66f47bc82fc290d6afe7b7f88aa4c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261901_eval20264312.npz",
+      "sha256": "010b348995b1ceb13ec3d7c9bf145d5b1793fb5aba2f84358c07db5630e0233c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261901_eval20264313.npz",
+      "sha256": "5e397f5c101fd47b07d5e14286094846283a23d96a55ab7a78369aeb773ab8b5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261901_eval20264314.npz",
+      "sha256": "504a78ee9083a61c45290eb9ddc76de16b2bfca9de26c4c895c01ee0e81d220e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261901_eval20264315.npz",
+      "sha256": "c0d443c2fba464ec75177be7575464121c65a6a2739aed2ce37765fccf9cc725"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261902_eval20264311.npz",
+      "sha256": "da5a39c5d24b86a01d49be59b56cf49277b18e8dc49e98dff80fce8e9b850f22"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261902_eval20264312.npz",
+      "sha256": "9038a6fcc48565f72a65937ffad8f57b9ffde3f41538a3f95db53b2d216cc751"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261902_eval20264313.npz",
+      "sha256": "5da4679158a2afe47db4bd4f0ed09b44f91ad962f1850a8779eaa4cd4ab04cab"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261902_eval20264314.npz",
+      "sha256": "f0f98c986d0f1f2a451998363f784ca9bbfea92a0b41558591d62c955020fc18"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261902_eval20264315.npz",
+      "sha256": "808f22afb01af68e5d14701a7790904cf08f6fc83d746e261c486aee08283d48"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261903_eval20264311.npz",
+      "sha256": "8c965350a3fc72b42bdcb6c1a8bbd426a6c2fb6ee04f270688d051c5f3a1cd14"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261903_eval20264312.npz",
+      "sha256": "2a04eb9b20286d450116f755db1cb2e650a5faecaeae58607d3e7da5f61fdf6f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261903_eval20264313.npz",
+      "sha256": "4813768b2473508e6bdb5b7813a27b98f04907bded52349e33c86e6983a091ef"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261903_eval20264314.npz",
+      "sha256": "6ef94898aeda5a52f34059e9767399c0c35bb21d7d0d3fe58434104f577f31bc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264202\\push_train20261903_eval20264315.npz",
+      "sha256": "14a9cadb1bdd8a14fa2084b8c6695c76f2482bad7f693ca88926ff2fdb368e66"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261901_eval20264311.npz",
+      "sha256": "24918c7e064f424099b1b2d1b3dac937872ef58f1705de447c3de91e1ce777ee"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261901_eval20264312.npz",
+      "sha256": "ce2f06542d8039eb5f2d02edf81cc8fe4603ebeaaaca2bac0141a01302c36756"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261901_eval20264313.npz",
+      "sha256": "94f16f0a3f4bfcd5fd0ef4a6c4d9864c79fdaead248e4304a3474ba1905c9d57"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261901_eval20264314.npz",
+      "sha256": "a23a36493d29bd6d8a998eae23669b2cade611bcb5ea43cb9b5bf17e4cfb86c5"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261901_eval20264315.npz",
+      "sha256": "0b1b217ee325861e5ff37e539c76a4173de731f546ac1fe5eebf0296f9d08c9a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261902_eval20264311.npz",
+      "sha256": "ab41551757d5a593ebef5dd80e8a10164b313324ca83cd6a9afb262fb5603102"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261902_eval20264312.npz",
+      "sha256": "0b5c735eb0148751e13e94cf3a7b2a1432ec34824ea902c680d46af808dc778b"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261902_eval20264313.npz",
+      "sha256": "b69a9161f7758514c90005868211fbfc15cea2726e838c2500a65c7caf65755a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261902_eval20264314.npz",
+      "sha256": "3d2b8ee8bbe50096c7267a2e3d4616c161399165cbeaef6681ceef03290c8e99"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261902_eval20264315.npz",
+      "sha256": "8d9a11ccdefd8bb9f60b8bd44f239c0277c4f3cf3977ebfc6d362d16d1ac5c72"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261903_eval20264311.npz",
+      "sha256": "c12fe700300d9fa7f06548c072228cac8b2f45903802154425238d4f6355406a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261903_eval20264312.npz",
+      "sha256": "59f6b141c1ba87080d9e456e3c57604d09855445973142ace927c172b4e0cd69"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261903_eval20264313.npz",
+      "sha256": "db0719fc30501e915d6e1bae3cc064fa6615c1e3663b77d8f965dc64cde917bc"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261903_eval20264314.npz",
+      "sha256": "162d45a3840baa9e1b4bf0183faaaf51e3374768ac6bda2ab181b97df1c2f79c"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\steady_train20261903_eval20264315.npz",
+      "sha256": "965d572bebe5b1f49556494adc187d3b0af4debf6b56e21e73b586317a0509e6"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261901_eval20264311.npz",
+      "sha256": "c601ac14c9701498afb7a23f29792baa2105bb5e6de7a82d697429262cb34477"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261901_eval20264312.npz",
+      "sha256": "f3764de76c719fcc1c205805c6912a38affe45fe51a0deaca609664198d3851e"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261901_eval20264313.npz",
+      "sha256": "fd654a8b9b0f91dc0f7754f355065fac7b2e3d3f383204b9751a2a909ff02609"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261901_eval20264314.npz",
+      "sha256": "bf44a691eba1fafa67322ee0bcbb9f101e04e328b3a1a675272fc35cd7f9b74f"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261901_eval20264315.npz",
+      "sha256": "f472e11248e4ef25f650aac47f2b761789082f36df8a5f4aca510431288b7120"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261902_eval20264311.npz",
+      "sha256": "c6e1dd71306ebe61df5fae443fbcf064af787b018b9b112a2f6a818b16c82730"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261902_eval20264312.npz",
+      "sha256": "ca1e0b1f4f7f762facb80bd825771730c788e1fa747d07f046900597ed1d8427"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261902_eval20264313.npz",
+      "sha256": "d47eafe4a8edadf70ce66d58889a14a18c249f3ff8c1d209ad77e6be08fbbe17"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261902_eval20264314.npz",
+      "sha256": "28d8145ec7583186351e861a4cdf13e2b68c44b9c68fd1a40418aa737b687009"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261902_eval20264315.npz",
+      "sha256": "f6f93989c779de57bb8d891c946b11df2c6b48464817f8d1d4be007c2738567a"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261903_eval20264311.npz",
+      "sha256": "3c942d1b834cd97a0bf64cb8190dea264c4f662222b1b32a3e8ae248a71fd199"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261903_eval20264312.npz",
+      "sha256": "a4cad3826e0e9fa32323f7ff9e1be914441bed6a04ccfa7c55b3a49ec40d7b52"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261903_eval20264313.npz",
+      "sha256": "9e01d6a29ba0947c0a8b1f009a54c49144284fe03ab392d6d964921a707e93be"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261903_eval20264314.npz",
+      "sha256": "fef78138478ad87461c4a7601e0d3699148d998c6ab1aed2420126d326bd2a82"
+    },
+    {
+      "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\rollouts\\DE_terrain20264203\\push_train20261903_eval20264315.npz",
+      "sha256": "0fcee0505b854b6a2dad8b3022dab02d49185b927fa16feddcda673dd3ad26cc"
+    }
+  ],
+  "effective_eval_transitions": 289880,
+  "simulator_world_steps": 465600,
+  "PPO_updates": 0,
+  "Adam_steps": 0,
+  "independent_arithmetic": "same operator; own CPU raw scorer/contact/seed arithmetic, no production scoring/analysis imports; not new training seeds or second reviewer",
+  "candidate_comparator_pass": {
+    "DC": false,
+    "AC": true
+  },
+  "scope": "15 shared rough patches, three training seeds, exploratory only; no causal feedback benefit confirmation"
+}

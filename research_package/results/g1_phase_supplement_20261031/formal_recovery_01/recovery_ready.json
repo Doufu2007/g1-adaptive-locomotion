@@ -1,0 +1,7 @@
+{
+  "status": "PREPARED_WAITING_FOR_DISK",
+  "at": "2026-10-31T07:08:17.682045+00:00",
+  "C_free_GiB": 1.4110755920410156,
+  "E_free_GiB": 58.45709228515625,
+  "actual_sampling": 0
+}

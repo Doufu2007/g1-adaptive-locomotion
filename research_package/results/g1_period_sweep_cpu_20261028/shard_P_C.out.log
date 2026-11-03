@@ -1,0 +1,13 @@
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264701, 'period': 0.4}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264702, 'period': 0.4}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264703, 'period': 0.4}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264701, 'period': 0.45}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264702, 'period': 0.45}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264703, 'period': 0.45}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264701, 'period': 0.5}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264702, 'period': 0.5}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264703, 'period': 0.5}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264701, 'period': 0.55}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264702, 'period': 0.55}
+run {'probe': 'P', 'method': 'RC_clock', 'terrain': 20264703, 'period': 0.55}
+{"ran": 12, "total": 12}

@@ -1,0 +1,73 @@
+{
+  "memory": {
+    "total": 16344801280,
+    "available": 2956689408,
+    "percent": 81.9,
+    "used": 13388111872,
+    "free": 2956689408
+  },
+  "processes": [
+    {
+      "pid": 26484,
+      "name": "python.exe",
+      "cpu": 514.453125,
+      "cmd": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "C:\\AIC20261030\\recovered_lr10_midpoint\\next_single_model_plan\\fullview_compare\\evaluate_fullview.py",
+        "--out",
+        "C:\\AIC20261030\\recovered_lr10_midpoint\\next_single_model_plan\\fullview_compare\\external800",
+        "--external-only",
+        "--external-raw",
+        "C:\\Users\\郑傅韬\\_aic_analysis\\fullview480"
+      ],
+      "rss": 142196736
+    },
+    {
+      "pid": 28664,
+      "name": "python.exe",
+      "cpu": 0.71875,
+      "cmd": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "C:/AIC20261030/recovered_lr10_midpoint/next_single_model_plan/fullview_compare/queue_fullview_compare.py"
+      ],
+      "rss": 24547328
+    },
+    {
+      "pid": 32296,
+      "name": "powershell.exe",
+      "cpu": 0.75,
+      "cmd": [
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      ],
+      "rss": 4558848
+    },
+    {
+      "pid": 34308,
+      "name": "powershell.exe",
+      "cpu": 0.625,
+      "cmd": [
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      ],
+      "rss": 17113088
+    },
+    {
+      "pid": 36612,
+      "name": "python.exe",
+      "cpu": 0.109375,
+      "cmd": [
+        "C:\\Progra~1\\Python313\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/run_g1_phase_supplement_20261031.py",
+        "resources"
+      ],
+      "rss": 19886080
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "DESIGN_DRAFT_NOT_LOCKED",
+  "at": "2026-10-28T02:38:44.548Z",
+  "scope": "new-map/new-eval-seed fixed-policy confirmation plus matched learned-phase feedback ablation; zero PPO",
+  "source_S": {
+    "protocol_sha256": "0a1ad3b7d6b8023db05a567d108d737e17236c386b08d07ec0136ea1413eadc2",
+    "analysis_sha256": "901ef23fdeb65dc44dfa2ba5c5fdb1806e4a4845c9c731184363d3d8cffec429",
+    "independent_audit": "PASS"
+  },
+  "new_terrain_seeds": [
+    20264901,
+    20264902,
+    20264903
+  ],
+  "new_eval_seeds": [
+    20264911,
+    20264912,
+    20264913,
+    20264914,
+    20264915
+  ],
+  "methods": [
+    "RE_live",
+    "RE_frozen",
+    "RC_clock",
+    "FC_clock"
+  ],
+  "source_lineages": [
+    20261901,
+    20261902,
+    20261903
+  ],
+  "scenarios": [
+    "steady",
+    "push"
+  ],
+  "planned_episodes": 360,
+  "planned_effective_eval_transitions": 360000,
+  "planned_PPO_updates": 0,
+  "primary_gates": {
+    "RE_live_vs_RC_clock": {
+      "completion_margin": 0.1,
+      "fall_margin": -0.1,
+      "map_family_direction_min": 2
+    },
+    "RE_live_vs_RE_frozen": {
+      "completion_margin": 0.1,
+      "fall_margin": -0.1,
+      "map_family_direction_min": 2
+    },
+    "rough_protection": [
+      "mae_forward_velocity_mps",
+      "forward_displacement_m",
+      "tilt_rms_rad",
+      "abs_heading_change_rad"
+    ]
+  },
+  "limitations": [
+    "fixed S source lineages; independent evaluation maps/seeds, not fresh training lineages",
+    "same operator arithmetic until external review; no claim before audit"
+  ],
+  "status_note": "must implement/review/smoke and then reseal before any queue"
+}

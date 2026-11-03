@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-27T20:36:59.617Z",
+  "original_claim": "用从机器人近期运动中学习的相位替代固定CPG时钟，让步态节奏随实际运动状态调整，从而改善行走稳定性和鲁棒性，尤其粗糙地形表现。",
+  "overall": "CORE_PERFORMANCE_AND_CAUSAL_CLAIM_NOT_ESTABLISHED",
+  "R_completed": true,
+  "overall_task_completed": false,
+  "claims": [
+    {
+      "id": "motion_phase",
+      "status": "IMPLEMENTED_WITH_PRIOR_OFFLINE_AND_ONLINE_EVIDENCE",
+      "scope": "Method implementation; not a universal true-phase claim",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_source_anchor_20261027/claim_evidence_status_20261028.json"
+    },
+    {
+      "id": "closed_loop_substitution",
+      "status": "IMPLEMENTED_AND_EXECUTABLE",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_transfer_20261028/independent_audit.json",
+      "scope": "Frozen98-dimensional policies run closed-loop on actualrough andflat; comparative benefit separate"
+    },
+    {
+      "id": "rhythm_follows_motion",
+      "status": "PARTIAL_BEHAVIORAL_SUPPORT_NOT_CAUSAL",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_transfer_20261028/supplementary_analysis.json",
+      "observation": "DE flat phase/contact correlation per seed [.729, .713, −.230]; rough [.014, .019, −.107]. No consistent rough alignment. Motion dependence does not establish beneficial correction."
+    },
+    {
+      "id": "rough_stability",
+      "status": "EXPLORATORY_POINT_EFFECT_ONLY",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_transfer_20261028/analysis.json",
+      "observation": "DE falls 59/90 vs DC 71/90; DE completion 13/90 vs DC 9/90; three training seeds, CI spans zero, Holm adjusted p=1. Completion +4.44pp misses the locked +10pp gate."
+    },
+    {
+      "id": "push_robustness",
+      "status": "NOT_ESTABLISHED",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_transfer_20261028/supplementary_analysis.json",
+      "observation": "R rough push completion is DE=DC=5/45. No arm recovers under locked 2D velocity error <.15 m/s for 1 s. Steady windows also fail this criterion, so this does not isolate push recovery."
+    },
+    {
+      "id": "feedback_causes_benefit",
+      "status": "NOT_TESTED_BY_MATCHED_FEEDBACK_REMOVAL",
+      "scope": "R compares complete pipelines; no matched feedback-removal intervention and no causal claim.",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_transfer_20261028/PROJECT_PLAN.md"
+    },
+    {
+      "id": "independent_superiority",
+      "status": "NOT_TRIGGERED_CANDIDATE_FAILED",
+      "scope": "Auditing 480 raw trajectories is not new training seed replication. R joint gate failed.",
+      "evidence": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_transfer_20261028/independent_audit.json"
+    }
+  ],
+  "cause_status": {
+    "established": "Source anchor reduces fixed-bank source KL for both phase pipelines. R uses 12 plane-trained policies on new rough terrain.",
+    "unresolved": "The E-specific gap, appropriate rough phase correction, and causal contributions of training domain and state feedback remain unresolved."
+  },
+  "next": "One separately frozen boundedrough-adaptation design is the nextdesign target, not launched. KeepRnegative gate and Dflat speedfailure; no infinite tuning."
+}

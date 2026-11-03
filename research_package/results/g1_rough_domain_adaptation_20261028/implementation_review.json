@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "revision": "technical_amendment_01",
+  "reviewer": "/root/rough_domain_implementation_review",
+  "scope": "fresh independent read-only static/CPU targeted review; no GPU/environment sampling",
+  "unresolved_critical_important": 0,
+  "unresolved_minor": 0,
+  "code": [
+    {
+      "path": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/scripts/g1_rough_domain_contract_20261028.py",
+      "sha256": "0b8d82f8e500b9ee6b5842296230875ad6ca0708ec6dfe2942f9e96a61a937e8"
+    },
+    {
+      "path": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/scripts/g1_rough_domain_experiment_20261028.py",
+      "sha256": "a535baa89a1514d3359261b4a13ebc4b3fd2c5bab07995a48a5a3bca72de0e8a"
+    },
+    {
+      "path": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/scripts/g1_rough_domain_evaluation_20261028.py",
+      "sha256": "9f9277458605b6ddfbc914616ef82c583d485a3d53fef08253f7f95051c8bc7d"
+    },
+    {
+      "path": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/results/g1_rough_domain_adaptation_20261028/independent_audit.py",
+      "sha256": "2e74010c16b4cda10c97550992191528199f0c90f703451c138c786104d113c3"
+    },
+    {
+      "path": "C:/Users/郑傅韬/Desktop/大学生活/论文/宇树/phasor/tests/test_g1_rough_domain_20261028.py",
+      "sha256": "18152108c038575ec5668baf80902391a41d013cc56aff063b18b307d4bd6450"
+    }
+  ]
+}

@@ -1,0 +1,1550 @@
+{
+  "status": "LOCKED_BEFORE_S_SAMPLING",
+  "at": "2026-10-27T21:29:54.585943+00:00",
+  "identity": {
+    "files": [
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\envs\\manager_based_rl_env.py",
+        "sha256": "67e5df93d1ab082aa063884cac469f8a032ad2e7bc6a204436b0733dc47f3087"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\rl\\runner.py",
+        "sha256": "032798af6eab60d8e917d9ebc79f9a4292de476d98ba4ddf91f95e35d490eb03"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\sim\\sim.py",
+        "sha256": "a7064df06cc51f702a8f45053d1adf7c784d463b5ef35d6be0633a3f53692d94"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\terrains\\heightfield_terrains.py",
+        "sha256": "b2657a2a6018e7198e5158e4f6216a4415a18423e608bfd553c14875d2c89976"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\terrains\\terrain_entity.py",
+        "sha256": "3f524ed89831e624710c5d927a76c9269d8ade5e37846a85b8e002fc38b721a6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\terrains\\terrain_generator.py",
+        "sha256": "7f4f8d046b50f60ca9515aaebedeba6ecae2d58235a3d2407ce15727b7868157"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\utils\\random.py",
+        "sha256": "5ba445435efa5f064aac4b572d035c6a6e98ca3ce459faf1f00dc6f73cbabbc8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\mujoco_warp\\_src\\types.py",
+        "sha256": "fbd913d8b060a625a1325f4478058dc6fd9c2c961e55ccb36b413ab13dd536ac"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\rsl_rl\\algorithms\\ppo.py",
+        "sha256": "a2d35e7ad7b884c80b7434e7d2ce785a6da1e18d93c96f1179fbd3a208669f8c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\rsl_rl\\models\\mlp_model.py",
+        "sha256": "6219ebb3ed4df036dae7ff1c30d0fbb169eaaa659e44a659dd757a292124476b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\rsl_rl\\modules\\distribution.py",
+        "sha256": "4631eae1939dcd6b065d79c3c0128a88ba2c6126d08f46944c8795682a208a1b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\AppData\\Roaming\\Python\\Python313\\site-packages\\rsl_rl\\runners\\on_policy_runner.py",
+        "sha256": "39358a0a60219fdb360df7acddf80f6a382837aa58e2ec0ccf875df4afee4825"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\deliveries\\g1_stateful_phase_20261025\\snapshot\\results\\g1_stateful_phase_20261025\\training\\observer_sensors_mixed_seed20261026\\final.pt",
+        "sha256": "8e6b15dcf409f51948f49c18fc04b686ba502e53586476db9c78d8c35a0fc346"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\plans\\2026-10-27-g1-phase-lr-factorial.md",
+        "sha256": "0bcda810f4dcdd98cf2c645caccb1c990f52f16388b9a239ec7d6fc9fda2bc97"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\plans\\2026-10-27-g1-source-anchor.md",
+        "sha256": "e4fb9a471ff4dae0b3038174727ff7c0db6fe268d120b7fb029af7870afcad28"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\plans\\2026-10-28-g1-rough-domain-adaptation.md",
+        "sha256": "30ade136f7d1694f8e5f0d5c955d866ad9a8de4f713f4cc64b1ede0824958f69"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\plans\\2026-10-28-g1-rough-transfer.md",
+        "sha256": "4b4bce802854fb7c2b63a511ebfda56d9770f681384b3d2ad31ca3ec0e43b7c7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\specs\\2026-10-27-g1-phase-lr-factorial-design.md",
+        "sha256": "16f7a8386cd60c29670e417c78b287584ed15235cdc21b0770411b5ee289639d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\specs\\2026-10-27-g1-source-anchor-design.md",
+        "sha256": "49e17c8c42bcddc5541305ed5abb5cd005274cb5aa65aea8e43ed591d967b520"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\specs\\2026-10-28-g1-rough-domain-adaptation-design.md",
+        "sha256": "d1ce13a7abb0649e2d25f8dcd1e87dbed1dcb929db1d60b4243502316299e9fa"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\docs\\superpowers\\specs\\2026-10-28-g1-rough-transfer-design.md",
+        "sha256": "c199d8a65971d85a8043606c5f0f25ebb9d4e656b206d25d38d3766ac2c93159"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\logs\\rsl_rl\\g1_velocity\\2026-08-10_09-35-45_baseline_full\\model_9900.pt",
+        "sha256": "949fae33632b9a3592e6346a6155eea059ee2fd39487207a0a0cea5d35edd8b4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\analysis.json",
+        "sha256": "bceaf4fe9bf8342f103fea6c467672d798d77f281b4a6de0db949eaaf3837cb0"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u0\\episodes.json",
+        "sha256": "0ec166c01502fb285ad4fb916e271c89785704c147046ba3cd1d57e36ac7218b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u0\\manifest.json",
+        "sha256": "4c65bb3ddaf4ce690b0046484849ae8a0cdd37eb4e8ff16236b6c835aa08225b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u100\\episodes.json",
+        "sha256": "89774a62b4c6cca08d8b909aba19b106de195e4dc9b7779a8019621aa6a11278"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u100\\manifest.json",
+        "sha256": "2cddf1c64b2f01e5f0312541ce27fc4ce25a64a74a78a0fb35132ecea0c78968"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u1\\episodes.json",
+        "sha256": "6cbbf02d81d28d86fbb1fb031af041567fa1b4ff6618374366a20b55e3405a93"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u1\\manifest.json",
+        "sha256": "b3effad85961e9beed7063fc0dc7f53f00eacf3fa29f6c3b317055d322607e9a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u251\\episodes.json",
+        "sha256": "eecabc5ce78c2a1d81b19a658811ebbd9d0431d54b31a16e88b6617c2ad99c99"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u251\\manifest.json",
+        "sha256": "5c0f7b5c85397ef95d835d127e81e7e466862d511143167c1e1b47a393bcc3bb"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u25\\episodes.json",
+        "sha256": "903e457dbe4a2b8de51c5bf75a305f6e69b93430031f360adadee20b8d6ad642"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u25\\manifest.json",
+        "sha256": "334d40fa6a1553789059b5292b4c62b0f8b57021482c98f36488517c2fd0368f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u501\\episodes.json",
+        "sha256": "d22d6a6a5a94393121c3b706e2a6ba187bda414b173a72b00e30c11ff81451b6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261901_u501\\manifest.json",
+        "sha256": "5af0ce1e006be37a4d9ef460ada6cdf7784070d1c160656ea0700821257f8f3a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u0\\episodes.json",
+        "sha256": "94c16f53d243ce7cd7cb310f4de95e822102a17378a50036902ec481ec729138"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u0\\manifest.json",
+        "sha256": "9baf74d9541c295d37c83e4743e3f635f2e42546f1b8b08b1bb98466371c9f11"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u100\\episodes.json",
+        "sha256": "3d18f5e6c5865d1085b064005923e3f6dd1aca3485f8f4438129971926b6e0fe"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u100\\manifest.json",
+        "sha256": "5ae783d2b63b976402b5ac07d9b5bfa7d3222b166920eb681845d5df23cd5bd9"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u1\\episodes.json",
+        "sha256": "f30506a9a72d58543368cc65337f8243c609e0b60048fb46c9511a2c809caf11"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u1\\manifest.json",
+        "sha256": "5ed6aa5dbc996f264fb22aed4789d14958f51918c42514c41332721df6f4f184"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u251\\episodes.json",
+        "sha256": "207775c9ca75b9cd24bb9219719c6d1b6786109682dd41f1334c1dae9747f6c4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u251\\manifest.json",
+        "sha256": "6f64dc26cdeca4eed327c93b669d230c238f7fde0c1984367accbbebcb303da3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u25\\episodes.json",
+        "sha256": "1dfe34baa7220c4e6da0d9dada6701f57171e867e35a44cb08f7f96b0d054db4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u25\\manifest.json",
+        "sha256": "33babf2c2602ba32259c053b06e4114f9f5aa1b3b8be19d950bbe784275d4106"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u501\\episodes.json",
+        "sha256": "140cefe4d3ace0b921f15fe48c5a2ab3df2ce0e3449959e5795693bc2e21dcd8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261902_u501\\manifest.json",
+        "sha256": "01337446ec086b83f1254cd4c9c4f09d776f00ad96ec32c058d8d06acd4a007e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u0\\episodes.json",
+        "sha256": "e9bfaa751f42451dbc451d7d02c4144197e3bef20744f08a3265634b2e0a26fb"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u0\\manifest.json",
+        "sha256": "50148c05327e2388f2f012b0de8f185832ff29ff605389470796233109244c3d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u100\\episodes.json",
+        "sha256": "30edfcb031bda1f382048ff980f0ad4ecceefebfd948b4ee52b3c7eb1f491bfd"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u100\\manifest.json",
+        "sha256": "f76db7e520f3d10e4ac808688c8e9a2f9c30e5d61f9234ffed1a02646b556810"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u1\\episodes.json",
+        "sha256": "a74670ab79885a9aad42d4da819d6ba6845cd862061846468cd8f09587e2469c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u1\\manifest.json",
+        "sha256": "8416457b5a9d4189854d2f315d7100c70d6f31fadf165dcbbcb7ff51097d7c8e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u251\\episodes.json",
+        "sha256": "7448eaa21e5d85c715ee334a15eda36b2b1897018b197ab7eafe2bcd8be19d26"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u251\\manifest.json",
+        "sha256": "7f7a1393996d3bc834a803008b29f13c657cdd9d475ddbd744b94471e721428b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u25\\episodes.json",
+        "sha256": "3d7d3da9593e9d807c669ab1ee3d94eeeda9b6c6530673ea48c607d48266a576"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u25\\manifest.json",
+        "sha256": "43d84d34d1230cc5fa8d0b723eb497183de29c1c9dc428f2982e621db4597170"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u501\\episodes.json",
+        "sha256": "22aac47271a412b7ca99892734fd47a62da13e1777dd0170db359362a38a7a40"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\clock_low_20261903_u501\\manifest.json",
+        "sha256": "9025267d62a61cae13912ce56f1b3a5561f3c6bea6b6f3d048384bc488d93e73"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u0\\episodes.json",
+        "sha256": "4fa570bb085be37fde825a14d81a92dc6272e5c749a8b039c55fdb9f2f10d51b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u0\\manifest.json",
+        "sha256": "2301a56f55e584f9847569ddc0b4641691986bed12fbc0555fff2124369f36ef"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u100\\episodes.json",
+        "sha256": "52b7ee2ef460deb0e4ec43e7c021384dab9feadba9905e124bfef63a7830e948"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u100\\manifest.json",
+        "sha256": "21146c9c943d19fd55608658f741cb4fc4f524f0945268cb6a6a462647fd3657"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u1\\episodes.json",
+        "sha256": "c392bfad535ead65212b172187814588d55515b2d60170ea9bd3a6e3859b3e5b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u1\\manifest.json",
+        "sha256": "dc42608384d172b21953cf4bd72d5231859a7b49e132a50fe82cc2e007a9b562"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u251\\episodes.json",
+        "sha256": "4a585574710aee369749c5be079971759b642ee2871d4a2c049954ca90f9ab74"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u251\\manifest.json",
+        "sha256": "fcd3551bc53623cb6189148ff2ac1ba17982e87dc7412a42b57165030290ba7b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u25\\episodes.json",
+        "sha256": "eca188b1a16cbb85250ebe208a72ee028ced0a68dbe7a165d812a1ae1292c796"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u25\\manifest.json",
+        "sha256": "97b56213acc18deae4cfb5e06f1509ad72f1ed93be36a5d24b5540cb69f33c9a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u501\\episodes.json",
+        "sha256": "02f55cff7622f14c2ea76e5d562868bb2f72e0d58b45f238867d04f6ff0a61db"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261901_u501\\manifest.json",
+        "sha256": "8b27495ee953a8dc006988a129e1bceaf0b10312a0abc6a06585cea6bce9b1bd"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u0\\episodes.json",
+        "sha256": "20a28d9a0f7aeac4a77921b47207c3b2150b1fed90db405bbeaaa08a48b00c4b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u0\\manifest.json",
+        "sha256": "e5f2a022347b3820d23af5976dfb95b3eea1df97a5d3a067ce8046c0b4832e19"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u100\\episodes.json",
+        "sha256": "15760c43c12672bc62597ff9459e41cbb21c29cb2ea23edeadbfe0d4be30d06e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u100\\manifest.json",
+        "sha256": "b2f1471070dd828fed5544504f29249d5bf7e54341ee986101a1b9f61bdad1c9"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u1\\episodes.json",
+        "sha256": "479351283d5b314653f66f2bb977156acd5674bb553ba34237f8610021f44690"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u1\\manifest.json",
+        "sha256": "cb0e61080bbc816d43ed3998644a6fbeaca171fa70173bb786b5015ba02da983"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u251\\episodes.json",
+        "sha256": "1b927a86d5141e84a4e118943dfa2bbb8ddf8999682bf6ae653fe6823f2e09a2"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u251\\manifest.json",
+        "sha256": "fdb66a85db5ed351950e84184f4002ed607d25c8248c95518e7b8f7b901f98c0"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u25\\episodes.json",
+        "sha256": "5f95a4b43af6dd84aa3a70372f0c0df52426da7199da715495e1f5d8ba984cc3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u25\\manifest.json",
+        "sha256": "6ce02edff8d9a62612bfd763909284788077eb1d074645a71d2af31056a86d9d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u501\\episodes.json",
+        "sha256": "502e94943a3a37b45255dd001a44aa6e09f2e1677ffdd868218631be9c2039e5"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261902_u501\\manifest.json",
+        "sha256": "bfc53806a6daab1098bf9c81eb934b165128d5bed12a34a29543e28d6bb455a2"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u0\\episodes.json",
+        "sha256": "55bb9060337e39c0c36534708e358427f810207a755a418891ae555dc4ee6de0"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u0\\manifest.json",
+        "sha256": "dffdc6019c2874c998e51df4f691ff190c0a4f97e572fffc73f74d4ea3b5e8f8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u100\\episodes.json",
+        "sha256": "3188ff0ae93c72518327d334fff0b67f54a5c1291dc0d7a2c2e4d8a00eb2c2da"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u100\\manifest.json",
+        "sha256": "5fdf5f67e6077acf5a48b749421bdff28fde8f31a0769e8444fe89a14af0ea42"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u1\\episodes.json",
+        "sha256": "13dfb1c395f928618c4fb9879ba17165134c515d6975a2f88eb8a8815d101513"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u1\\manifest.json",
+        "sha256": "57a714c20223da6f0c4e589404a25b149cc126c6bfafba760a27562418b427a6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u251\\episodes.json",
+        "sha256": "6f1195d28675e49ffef7cd21d38389f319cc590502cad5d0bc7ca50c784e3547"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u251\\manifest.json",
+        "sha256": "69886c3530f248686aaf2942f9c46ef1fd00bf79705f5a45b25e1835ed8c9732"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u25\\episodes.json",
+        "sha256": "323d202d41db45420e3c3539f3a2b12a498f137f8b97ea9b45389b459fa42cd1"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u25\\manifest.json",
+        "sha256": "c49708625546b13dff55d599e98ff81e8921a65de48557c95672be79723f23fa"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u501\\episodes.json",
+        "sha256": "2bcf9e2f91fa51ccc76612a010998829b83ae717a84396e0e12cbcc17fb7dbfe"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\evaluation\\learned_low_20261903_u501\\manifest.json",
+        "sha256": "fe6d4a0136e7e03ff7e0d16b5d4d98567f9cdc9e723892a299bdc7f6da7162e7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\prospective_protocol.json",
+        "sha256": "da093cabb6e98c6ee76ec4bd0edffa03248204b251933b80d638874109c73d72"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\training\\clock_low_20261901\\manifest.json",
+        "sha256": "80b485fbf1ec237eb69afd76f92782f60087a08b3d1f8f263b2f5ca9e0f41348"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\training\\clock_low_20261902\\manifest.json",
+        "sha256": "a0df2bb2eb7dca516ed6d2657dd239ae459b989c45a3e0a690caa3f7aa05897b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\training\\clock_low_20261903\\manifest.json",
+        "sha256": "e3cb57ee7bc8bb90fbb6f61ce4632aabf8f2c3b29a8d4b74a291617f42cfa027"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\training\\learned_low_20261901\\manifest.json",
+        "sha256": "5442fcce5b1e54ef0a708d86093c15529bfd65459e0fd7b2b07f9ed756d68a56"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\training\\learned_low_20261902\\manifest.json",
+        "sha256": "a39433394a76d414af8ecb87cc644de1ebff0186ce1e41c6dd0ae24ce5d1d26e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_lr_factorial_20261027\\training\\learned_low_20261903\\manifest.json",
+        "sha256": "f6e8221e0d459d3e77d68d8588022e554be9882adf7208a833d3098c99878eb6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_policy_cross_20261027\\analysis.json",
+        "sha256": "d58909cbe64cee298557a597e3ae7e43a98dc966ac40756745a7287e7942bf23"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_policy_cross_20261027\\independent_audit.json",
+        "sha256": "60ce351e29429591618d2b2a6ab024f065a0b7ebfedde8df6b602c4aba3828db"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_phase_policy_cross_20261027\\prospective_protocol.json",
+        "sha256": "71b91d290a1503f3b5bb853c38cf61ec9afd7bfa983950a6aa63dd5c558659aa"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\clock_20261901\\batch.pt",
+        "sha256": "4ef750726b496aff6988b2386f3f3a52744251ee3dd5b42f5618fc6e55218c00"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\clock_20261901\\manifest.json",
+        "sha256": "799d9be20d3380755c1e9aa2f6dbffec9214ee5290cc68f73f15bc41a3a5727f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\clock_20261902\\batch.pt",
+        "sha256": "ddb5611f471538095348f7a6a073ec58816807286687fd487948e7d803af45d2"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\clock_20261902\\manifest.json",
+        "sha256": "4a162ad31c1d873d21224dd5c9cd7e66f5ec4c9ea08004cad8aa24d1509fc733"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\clock_20261903\\batch.pt",
+        "sha256": "21485a8b6bcfdedf6d8b89a0d9b6ee0732709e49eb7158ecf49572dfde94364e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\clock_20261903\\manifest.json",
+        "sha256": "dbc13c8607436f6b192b9b7849fa5fe8bae3e8c4c0843bb01677a8c54c0e2a1d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\learned_20261901\\batch.pt",
+        "sha256": "fa1186f4655fccbb93cbef719d87c4d32fcaa49bd7dc677b03560afecae6f964"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\learned_20261901\\manifest.json",
+        "sha256": "a8ee696235c2ceea7d45d01a481bb739efed641da23f1f3e46786036fbdd0fba"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\learned_20261902\\batch.pt",
+        "sha256": "fa31be5a7c2a8dda67cfe8dfc02446fdf6bb7b516d4cde9723e76c1e7168924a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\learned_20261902\\manifest.json",
+        "sha256": "824022210bba15dc9e974681cf62d186e578e080df342073b3339567e401772f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\learned_20261903\\batch.pt",
+        "sha256": "890a9fa8311eb2ac5131c809590ccced3530f6538a0dbd7c415ea961fd9f0eef"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_ppo_initialization_probe_20261026\\local_reconstruction_v3\\captures\\learned_20261903\\manifest.json",
+        "sha256": "44a4cffec721871d2f20b3fbb74a6eece110db92f2e9296dc6cf0b0bead14b79"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\PROJECT_PLAN.md",
+        "sha256": "2a4b20394491d91dda4bcef81b733e91c1d2cc832d5a86196cc5dba7541ae49f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\builder_check.md",
+        "sha256": "227766ffbff305f6b18480335deefc80ab9abc4c8f3b21ed733e6a78782a2aa3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\cpu_preflight.json",
+        "sha256": "380cd101775c21c0c96e170454c6d4758124430217be537f645cae3057ea80ac"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\experiment_matrix.md",
+        "sha256": "f611ba1b0d7e50b56d7aa7fa0bf83653966838e00e9595c6c1db753f86b90fb5"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\failure-tree.json",
+        "sha256": "17d1fd0b2be3298ad1716410ef8d0b0e5af1b134769126c7a571433ec50ae809"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\failure_tree_report.json",
+        "sha256": "59d08c88d73bda09ab4e0a4497826783d82f31111c98b9c8f247bc3c61f3cd8b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\implementation_review.json",
+        "sha256": "610cee53e0f87079437a41ba38e07a37ef0c6eed429d47427593978f9f95e28b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\implementation_review.md",
+        "sha256": "698b7df6b23edb19127a84e1c57563e14f03b205340cae580ab8e366815f61d8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\independent_audit.py",
+        "sha256": "2e74010c16b4cda10c97550992191528199f0c90f703451c138c786104d113c3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\independent_audit_plan.json",
+        "sha256": "7d0564a1c7b6c326d58104e722750c00a3d0a1138fe9035955ea44a406d6f1f4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\plan_findings.json",
+        "sha256": "7eecd0152a0f6bbfda6e1b90de42de3e685be42e3ade07bf468741f75f81cea9"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\plan_package.json",
+        "sha256": "35097561148d69158fcb2dd1bed4166bf199bd716bfc6b82ed4b13d6763e02f7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\plan_spec.json",
+        "sha256": "d3f920a45cd27b2da5ed4ab77e86df992571d4b07e01eb31c9aa137f7a47780b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\prepare_plan_package.py",
+        "sha256": "3e02aa7dd2597bfc9c873284384f9ab12f7911453a251165658d29ee61c20729"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\preregistration.md",
+        "sha256": "acf9169e633f8a4529ca50b92f67b7c6ff06867c1dfeb03f9e478d51344186f7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\reproducibility-checklist.md",
+        "sha256": "c5025b301cc01baf69b51b91bdcd6e40ad895e4ec2c977fe4a6fcb14f23e9a7e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\research_package_report.json",
+        "sha256": "19112df1c67f8f5bc68576580a35aee6fe38ca0dfe3698836f50be679d7198d6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\source_state_audit.json",
+        "sha256": "112c605fc42d5603a945d6286e17a8cb8881d0f45bf788b6228474e15fc4e30a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\target-chain.json",
+        "sha256": "b2d154db638f0d8233adc265d5d658c97905032fce17107fbbb5cffcd9932164"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\target_chain_report.json",
+        "sha256": "720646682e27a2277c4180817864ce52c5e9ca0f350ea3469f2ee99351fb6111"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\technical_amendment_01.json",
+        "sha256": "7a83daa71d764b5dd1c51475a3423c14628faba73e5a3b25262955f42b6bb065"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\technical_failure_01\\failure_summary.json",
+        "sha256": "0f114d0ff75455a125e3ba4ccf1715df1a674d1eaaa04ac399674f6819b09d86"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\technical_failure_01\\prospective_protocol.json",
+        "sha256": "8d06e16ef96741333596080ed687c1831143b2f2ba18e81ab04904251020786a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_domain_adaptation_20261028\\tests_final_cpu.log",
+        "sha256": "e4ea6d5b0426a3b51191c598cd7ef5bf1426850ff7f40cd27a0a30843b28d5ec"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\PROJECT_PLAN.md",
+        "sha256": "c199d8a65971d85a8043606c5f0f25ebb9d4e656b206d25d38d3766ac2c93159"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\analysis.json",
+        "sha256": "57975081073354b63960f923e9d9d8f9940916bd483594ee0034ce77f7fab873"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\builder_check.md",
+        "sha256": "a83712488452ce3718db2d776664c1e862abe1f4015b41d6b57a99adf33d3916"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\cpu_preflight.json",
+        "sha256": "53a6a28ed8c1e8c83da0fb6f03e49797acd1238aa6ab3bc5471b7892d9b50fac"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\experiment_matrix.md",
+        "sha256": "fcb58bd2d4b49f190e3c0f14e6b257b6d61956fd7795dcc3d8af40c52292d574"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\failure-tree.json",
+        "sha256": "b4ffc5ad8ef1d13d2d755cacdad74a317e8fcca1e566284e402332618ec1abd8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\failure_tree_report.json",
+        "sha256": "07b9cd4e890151dea1288aa72b2032e87f314729453b8fa22d9410d19e21e2b6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\implementation_review.md",
+        "sha256": "a4fa8b3516ffab7c76940e1e068de936c6160bf738f8a30949e89f1030bd2ac7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\plan_findings.json",
+        "sha256": "d5584362ff5a28de6011425a6373fa7e0d75d316e8b866b5aad498240590e070"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\plan_package.json",
+        "sha256": "7d2fbb0fcfc7c66091d3352205d06c2dfbee19ac1767f30fe2268bc08d2beadb"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\plan_spec.json",
+        "sha256": "b693735054d1aa2314162e0f92aab0030b3c983b70fc9ee20da6bd6dd172ba3d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\preregistration.md",
+        "sha256": "569c9b33ea4961ce449bb4792f80de1eaa99d58dd493995909ff4b8951218bce"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\prospective_protocol.json",
+        "sha256": "bc28c4f96040e2368f82189f4f7147426ed93f6861b5b2ebba4a045fcf890873"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\reproducibility-checklist.md",
+        "sha256": "dc504f082d5fb34021ef88c475b05113653c8465279a1e529378169f8eb1b22e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\research_package_report.json",
+        "sha256": "d2c055676aed490ed2d7122f539e7167109edc8f9479b14226af139bf1b2f35a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\target-chain.json",
+        "sha256": "17538b96a13d22ddbdcc9f2820cbd917a4d8495fbba027198b5f62ca3199c60a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_rough_transfer_20261028\\target_chain_report.json",
+        "sha256": "720646682e27a2277c4180817864ce52c5e9ca0f350ea3469f2ee99351fb6111"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\analysis.json",
+        "sha256": "bb647176dd7b5227264324f66a98841b00f6f8d5648789486a608bcb1729bbf7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\prospective_protocol.json",
+        "sha256": "ed980fdda67e18b9ffb1c9de3b5b69a385137b383838966ccc66478d97e00ab1"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\technical_amendment_01.json",
+        "sha256": "19a6f0ce1f59f3205cc83d7f9bdfcfd58d448eef4891183d99c115040974e9a9"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\technical_amendment_02.json",
+        "sha256": "d47d28cf64cbfbd961ef668c6c7a2530cf4591c55007490f1dd43e38da94590a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\technical_failure_01\\prospective_protocol.json",
+        "sha256": "82d27f2d2ed72410dae00785b8a3f3d775a715bdb8770a9f848e7d40c7dd8540"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\technical_failure_02\\prospective_protocol.json",
+        "sha256": "264162c8604c78a3a6d9258614df623291fa179cae7141ff554bfa90fa99f252"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\agent.yaml",
+        "sha256": "967d51763077de13e1ae665f6ea7dfc26a958e146890df7008065c25fa19cd46"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\env.yaml",
+        "sha256": "95bb67c9122139eddb548be9ed33fb39b0cd18f31c1d30cffe7c80c28e42134e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\manifest.json",
+        "sha256": "937d5eb5a10c4964fb652a6f8f9d377e1ae9dad478bc6f802ebb65fa15357b08"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\model_501.pt",
+        "sha256": "596e544ec166eab83e43482c5834431c0c273215ac50df708d7cf1508984f7b9"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\policy_501.onnx",
+        "sha256": "2ecef210061c3147fc08bd9df67cb2d7bc65c6c6bfab28d9e51c8363bc8cbc20"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\pre_sampling_pairing.json",
+        "sha256": "3c119d0edda39d0b00897b541a3f29f0a4d2e24c5f0efd0d3fb9cb26db215090"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\updates.jsonl",
+        "sha256": "e7ec9f16453cef4f39fc335c875d5387721df48a229121848d36c9c0dccc6176"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\agent.yaml",
+        "sha256": "2358535ddf7cfdc3bbc711b870023bb8c1bbb83ff54a8c698b0c1b9a1ad6c1e4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\env.yaml",
+        "sha256": "7ff870367e5bdc2bfc268d2bcbad23486c053aafa4548f578611c6bb3d49ed85"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\manifest.json",
+        "sha256": "e0b23b4be021a96bd17805753e7c45eb28c0a5e652eea698ab1b0b1919fddb14"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\model_501.pt",
+        "sha256": "1d8f823022c2f40f2a94a5e2285e65099e15f9a76920d2ff7d8d4f7fbb5d56fe"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\policy_501.onnx",
+        "sha256": "017f7ea8bcaa7cb4b5083801cffd47dbc6b6203382987e9f97ade4241efcb144"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\pre_sampling_pairing.json",
+        "sha256": "16d56d430f57723df71fbbf33dfbe29e5f2b871429d9c4ba44a459bf03642747"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\updates.jsonl",
+        "sha256": "47a1ba38cd84349fa1fc0d162b30ecd6ede040ccf7b96d6580e7f3fc76de4711"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\agent.yaml",
+        "sha256": "990ac4a6041eab3e9ca9ed332286ae410de170f4f2377963757c0520255937b3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\env.yaml",
+        "sha256": "82e0857a740905f26b94382f108efd3629369af10ed2b6225443858291edb6a6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\manifest.json",
+        "sha256": "74c02c6d8887ff55da63818fea55f8d225424c24af2f7a9288c460fff75353dc"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\model_501.pt",
+        "sha256": "8604fc82a0fb8e06559aa6f35eb63ec95f9d06227dc23a90f057f208cc6116a7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\policy_501.onnx",
+        "sha256": "f7582a1e3e3d4656b7672093dd4a354146a042a1b23eb54f1a05035b1219bb7c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\pre_sampling_pairing.json",
+        "sha256": "461c642bbd10484dd91ddfafef9852c6ac7c51f7e1981a0772d0de11b1130ff4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\updates.jsonl",
+        "sha256": "1c47465f7f7f12f4741bc09819f6993237608874443314249c0da6e7c1d1ea1b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\agent.yaml",
+        "sha256": "967d51763077de13e1ae665f6ea7dfc26a958e146890df7008065c25fa19cd46"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\env.yaml",
+        "sha256": "2429c9ced799c154ea04e493ba97bd1b45130d0e364c8d617280a402361f218f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\manifest.json",
+        "sha256": "9baab3a4b88d98931e3b05d025a794406aba30e126984c43acd7459354a2330f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\model_501.pt",
+        "sha256": "369224184e7bc79130f005f6a2c07198556de09371c274af016a3cfe43540d19"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\policy_501.onnx",
+        "sha256": "cbbf29ad78bd170d988c0e2f0043d3a5256f8a0611a43462be12f1a6f54c2eec"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\pre_sampling_pairing.json",
+        "sha256": "0161e74fae9dcf37e2837ce7d9d65e5789f9bd834a31e32fac3c7a9a36ff3b2b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\updates.jsonl",
+        "sha256": "041837927e4fcfd4f63b5938ecb62031534806d12e1c3ef94f17acc763f605c3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\agent.yaml",
+        "sha256": "2358535ddf7cfdc3bbc711b870023bb8c1bbb83ff54a8c698b0c1b9a1ad6c1e4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\env.yaml",
+        "sha256": "c57a69d406c1295bf304b9b1a4ba19f9ab0480c904eef67d9f5bdb3279df16b1"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\manifest.json",
+        "sha256": "9c475cc07d93086544c162582708e8bd487779e4d446d5a111a3d26dc28bc1e3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\model_501.pt",
+        "sha256": "b6718cb9d58763dc0377525e083031eb4045b4a82087b99674c77180db0a0c1d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\policy_501.onnx",
+        "sha256": "fd043146406196e54c107b894cd2b85a62f5b48dbd9aa269df1be9e3fe55245f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\pre_sampling_pairing.json",
+        "sha256": "e48efd7f6f25d7037cb3d9918f970f3818f74ffb113a560d485eeab6f23061bf"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\updates.jsonl",
+        "sha256": "80e0a2322022d364a8c7ce9f560567f9597b6dd651246ff9d0da7daa11c19f43"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\agent.yaml",
+        "sha256": "990ac4a6041eab3e9ca9ed332286ae410de170f4f2377963757c0520255937b3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\env.yaml",
+        "sha256": "09a29ec967cc5ea86663895a95e2371a33715a185fc715a3ec8c887aef26308b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\manifest.json",
+        "sha256": "238af85f50968986bed65947b1bba2ad40e355893a757d903c2369b28f33d61b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\model_501.pt",
+        "sha256": "a0a4c406adbf9638fe3ae40e24fe10cbd344ec0dc7334948a16062de3b5bdde2"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\policy_501.onnx",
+        "sha256": "044b7b10a236502f121441f75f2996e489335b1f3ca17b3d91eafcadda841ab5"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\pre_sampling_pairing.json",
+        "sha256": "be4b8cc31282e513395253bad319d4342645bbdcdbf5057884901c786b9a70b3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\updates.jsonl",
+        "sha256": "f842ff0a2dd51b9fbc1b80f8186f7d79668bbc1b9e6f4eb1369cc8ddf9a19b9a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\phasor_pilot_20261016\\run_pilot.py",
+        "sha256": "a60e417d84c63ab7ea584a9e9c6c83fac8b0134637c0b87dc3a0b07aefdbe4f0"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\diagnose_g1_initial_update_20261026.py",
+        "sha256": "04b77d3fdd07a8ac41d1cdb22292edb3eeff7071399fae9610357689d783e120"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_best_phase_batched.py",
+        "sha256": "51d62d2a8ebb2beff121ad6da6c89511d20d8a102b8e7657e7a658e6f2a02da8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_closed_loop_metrics.py",
+        "sha256": "05131849cdb33a4ea879da7c6e035046e3d5d08c459a2f7f963a41c4cd93e3f3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_feedback_probe_20261026.py",
+        "sha256": "b551158c70da711e20de27013dbca16873155e542606936403119a53047e6356"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_phase_lr_factorial_20261027.py",
+        "sha256": "318ae13e2921e5104b6b4bd252a3dac736768f13dce9281ea3d5a80ab7d27dfb"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_domain_contract_20261028.py",
+        "sha256": "0b8d82f8e500b9ee6b5842296230875ad6ca0708ec6dfe2942f9e96a61a937e8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_domain_evaluation_20261028.py",
+        "sha256": "9f9277458605b6ddfbc914616ef82c583d485a3d53fef08253f7f95051c8bc7d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_domain_experiment_20261028.py",
+        "sha256": "a535baa89a1514d3359261b4a13ebc4b3fd2c5bab07995a48a5a3bca72de0e8a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_transfer_contract_20261028.py",
+        "sha256": "577b834682bfc7bd58a73557f557553bfcf3a8ccb94aa8c54afbe35f94105db8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_rough_transfer_experiment_20261028.py",
+        "sha256": "fa49c56837953367615d821eeddf50ff02ccf611907898ff542a079bf86b88f5"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_source_anchor_experiment_20261027.py",
+        "sha256": "f3d600e612f2d754b58130567ee4a9497c092a116cde19ce0e771c97f13bb8c8"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_source_anchor_ppo_20261027.py",
+        "sha256": "a4d9dfcb39a9dcbaf15d6121e638641be50c070f139e956de6b2ca16a0252216"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_stateful_flat_ppo.py",
+        "sha256": "c2ae454ce52e916cc275e2b7f205e4a7aad59df2b09069d477cce84400c7118a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\g1_stateful_online.py",
+        "sha256": "73710e0a6fe6e9fc449e73a825d62f950fc411d6526a4462bfce25b3142b628d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_best_e_ppo_20261026.py",
+        "sha256": "7b4fa95430c6f58071b93317f2206e5166a9e653e84497eb6e6a799a44cda241"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_cause_audit_windows_20261026.py",
+        "sha256": "3cb66b8a8ce110b5d10b82a130fd8ffd5e588d62259e75fdd3b8dab8eaa552cc"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\scripts\\run_g1_stateful_flat_ppo_remote_20261025.py",
+        "sha256": "dcd5093532b119bc410e275c1cb7523a61e2f22f3fa3d9f7c7ca5132ae7b585d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\__init__.py",
+        "sha256": "479a0ae48d56e95521d9cfd6ccb3bbcebc2bf985355d96879ce3a50d20a142ea"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\a2\\__init__.py",
+        "sha256": "8d0a603b8053e41e712e088980408578d7e7c0d173925f4a06b404be47a3d51c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\a2\\env_cfgs.py",
+        "sha256": "130878ca621c04f9ae245aefd9a66e290409df290f3fe6ed3248ff696526a7ab"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\a2\\rl_cfg.py",
+        "sha256": "13c6c13b9cfc8023f58887fe49fa0d6ffbc4a2f30796974aa4d79f3e17bbe39b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\as2\\__init__.py",
+        "sha256": "1bd4ec954eed6ba7147ca52551cce153f554ea14002ddd2978bf3f2c9084d85b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\as2\\env_cfgs.py",
+        "sha256": "4b979f27070295f3f46885f156afd0f5f2e4e27aae5852649a3a343e58b43b6f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\as2\\rl_cfg.py",
+        "sha256": "0bf124c14e466e3f5121584aed46b3071693e25c5df80b646b50c9fbf8c7e4be"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1\\__init__.py",
+        "sha256": "7e2152b0d6740e61d26c7d74236d8df45b0efa2025ac25a604382a83817bc654"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1\\env_cfgs.py",
+        "sha256": "af58daa8f56467823073b6e2a40e6c20846b7184b5eedf1ed0c1cc7010baa41e"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1\\rl_cfg.py",
+        "sha256": "816d29bc673326ab75d949c542eb7cb8f0f4bbb334a575e316e699ea66f55f7c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1_23dof\\__init__.py",
+        "sha256": "6acb67b0e0935367172dfb6e3d9a8d44152816f79f4aec6ba82c4c8f4c0f764d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1_23dof\\env_cfgs.py",
+        "sha256": "8e35151c8a916bd1d52af765f50ba4c996538d70e542c3b874302a2a7601088c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\g1_23dof\\rl_cfg.py",
+        "sha256": "5c8270d663f26c40e56128f360028e63ab33ea41d412658c1280e1e7a87d4703"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\go2\\__init__.py",
+        "sha256": "b9694f745b3135396301a621dd57c1d4dbd16fc7e24995cfa378a7a517467771"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\go2\\env_cfgs.py",
+        "sha256": "98defb863edccf071070074c31cb77790f83a40276e0589cf2982137c44cd293"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\go2\\rl_cfg.py",
+        "sha256": "8850b0544c50731a30d34995a887c79dca625411b3bf2f0317ab5eaf32f50bdc"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h1_2\\__init__.py",
+        "sha256": "9e7fdfd68d136ab362a82e024815ee4fd94a4dfb51ca346d04d41f23926932a2"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h1_2\\env_cfgs.py",
+        "sha256": "c3d64b28090d6a77f3c5d72f3d5b2fbb9b80e52759e6697a075cd20f2577ef34"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h1_2\\rl_cfg.py",
+        "sha256": "ec77d26ecec8af153c8b38726a44f920c767b34859c736f4cd82ce3e0fb4c871"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h2\\__init__.py",
+        "sha256": "536322fbf2fa1e7841de84368e3de6aed8aad153ac9aa7b28122c04894e1bc8a"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h2\\env_cfgs.py",
+        "sha256": "448f2349ab51636d390efb59c9650ce4df82c47c8825db4157daf106ba8b0692"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\h2\\rl_cfg.py",
+        "sha256": "1e3e6600b58f396fa9e6b3d8f7bbe2e010c24537dd2a5b7da6a98258c0b16e47"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\r1\\__init__.py",
+        "sha256": "1661339b28fd419fe370b246d29a5095c8e15416865a89857f0c01351ea7987b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\r1\\env_cfgs.py",
+        "sha256": "c1d761d8ed0e737f007d4d3968af481b3c00f0de050ff67285b126f488b6a4a1"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\config\\r1\\rl_cfg.py",
+        "sha256": "391035799b1778d596e4607b829ca88d45f3ac8ea8157e890cc221270c02df3b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\__init__.py",
+        "sha256": "231f35d88929e89ae17dbf403b6d049dd9f1f8bba21bfaf74a087bb9435e7dfe"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\curriculums.py",
+        "sha256": "1577cd47b45d6812bee934c4edf89cfaec1b07e16e1acbc21de28049a8324f35"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\observations.py",
+        "sha256": "fc10971f9d66359ab8aef8c8bbd89c4f6f6bd2aec10d4d8da021be27565083cc"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\rewards.py",
+        "sha256": "7fe94933ef6090b5015d281e2ee5d409c1b400792cda799d259ebaa820507a77"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\terminations.py",
+        "sha256": "24d0abf600372026327d32d10f133f9a7cba117de85604515d20eeb7884ba13d"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\mdp\\velocity_command.py",
+        "sha256": "f9f55d5507e318494a690cb7929d4e4ae92419cea76425fbab0873914b279482"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\__init__.py",
+        "sha256": "0a48fbfd90467e9c5aac4a7c65c6941fdd35f7578b64cdab9877c17067946bd5"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\confirmation.py",
+        "sha256": "8e8555eee26abe14bc0a018ddcc2e0d37f9d26e6ab6db377482ecddc421baafa"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\data.py",
+        "sha256": "85c4af635ba26996625e73d46f94586dafef3f98e360abac98946bf82f42f15f"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\diagnostics.py",
+        "sha256": "e06bbe03a13ce88110983bdd94f56526e32ef9705c3cc5605f049a891df8cf3c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder.py",
+        "sha256": "fb205b5376b3beb15f2c47ca9ab3a5640a6eca78a6da928f46c15ee10d8d7750"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tcn.py",
+        "sha256": "80e955520e3577b2cde2c0d3d59a6a0be022211ad922f97a15fe1526eb8663df"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tcn_context.py",
+        "sha256": "bcfc3abb8d627e11797e676ac92ec170571cb3902844a43b9ebf2bfadebb2590"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tcn_long_rate.py",
+        "sha256": "24a836e086fca500a469adf5d44789d569dcea8b8d628acf45adbc0005a3e6e6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_tctst_runtime.py",
+        "sha256": "8dac660e641b5c4dbe6212732f561ad459c5c3ab911676dcc0214dc524b022da"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_v2.py",
+        "sha256": "382afcc658c1e6df6b743fe1c6268dfeb04df195b7393a742982c7b4009e8404"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_v2_1.py",
+        "sha256": "12d5c4754762ac1ef8cce7a4afa41f03fdefc8aa380529ffd856847fa867a559"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\encoder_v2_1b.py",
+        "sha256": "0ec18a619fcd8d830adeeeacf892c13af8b6ff77737f6b69fe7e74cc807b10a6"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\mujoco_io.py",
+        "sha256": "801e8b30645650177383f086e755386986cc838163b490875c6ad2f2cd6f27e7"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\phase_gate_v4.py",
+        "sha256": "e72b7de76338dc4d8575deeed9f6bb03cec55b13bc94848488e0c7cdab3372c3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\phase_gate_v4_2.py",
+        "sha256": "18794a59cf8ec56aa965b40270a84b43fe752128979dcc79a7716c495c742810"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\runtime.py",
+        "sha256": "e3cbc317bcf0a69ec3dab7a38d49fa805d6a4918fd89976923cb1da6f2d3cab4"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\phasor\\train_encoder.py",
+        "sha256": "88cb9e134fbabe0a16b0c905269dc1931b1fcf3da2944045f7d84ec3ddb17882"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\rl\\__init__.py",
+        "sha256": "c0df1a85535f191511cf7ee3d45c6bf9236081e8a72903e0b52e0a017a07d6df"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\rl\\runner.py",
+        "sha256": "1a12eb152cb307b57e024814a3a3f9026458759bab6cf43a5cfcccc0b9a0e0cf"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\src\\tasks\\velocity\\velocity_env_cfg.py",
+        "sha256": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\tests\\test_g1_phase_lr_factorial_20261027.py",
+        "sha256": "9cff0713d8675ee2567f24fc637cf484e8acab9cb2f58b3f76d5e79574f3d39b"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\tests\\test_g1_rough_domain_20261028.py",
+        "sha256": "18152108c038575ec5668baf80902391a41d013cc56aff063b18b307d4bd6450"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\tests\\test_g1_rough_transfer_20261028.py",
+        "sha256": "0bee2dc21e301f2766eec9738a37728c4fae5562f49047cc6372c88da4d3613c"
+      },
+      {
+        "path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\tests\\test_g1_source_anchor_20261027.py",
+        "sha256": "66d3691e23d2a0f305032b733b5276985177894203e88940f9a9f161ecfdb60a"
+      }
+    ],
+    "sources": [
+      {
+        "method": "FC",
+        "source_seed": 20261901,
+        "phase": "clock",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\model_501.pt",
+        "checkpoint_sha256": "596e544ec166eab83e43482c5834431c0c273215ac50df708d7cf1508984f7b9",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\policy_501.onnx",
+        "policy_sha256": "2ecef210061c3147fc08bd9df67cb2d7bc65c6c6bfab28d9e51c8363bc8cbc20",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\manifest.json",
+        "manifest_sha256": "937d5eb5a10c4964fb652a6f8f9d377e1ae9dad478bc6f802ebb65fa15357b08"
+      },
+      {
+        "method": "FC",
+        "source_seed": 20261902,
+        "phase": "clock",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\model_501.pt",
+        "checkpoint_sha256": "1d8f823022c2f40f2a94a5e2285e65099e15f9a76920d2ff7d8d4f7fbb5d56fe",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\policy_501.onnx",
+        "policy_sha256": "017f7ea8bcaa7cb4b5083801cffd47dbc6b6203382987e9f97ade4241efcb144",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\manifest.json",
+        "manifest_sha256": "e0b23b4be021a96bd17805753e7c45eb28c0a5e652eea698ab1b0b1919fddb14"
+      },
+      {
+        "method": "FC",
+        "source_seed": 20261903,
+        "phase": "clock",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\model_501.pt",
+        "checkpoint_sha256": "8604fc82a0fb8e06559aa6f35eb63ec95f9d06227dc23a90f057f208cc6116a7",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\policy_501.onnx",
+        "policy_sha256": "f7582a1e3e3d4656b7672093dd4a354146a042a1b23eb54f1a05035b1219bb7c",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\manifest.json",
+        "manifest_sha256": "74c02c6d8887ff55da63818fea55f8d225424c24af2f7a9288c460fff75353dc"
+      },
+      {
+        "method": "FE",
+        "source_seed": 20261901,
+        "phase": "learned",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\model_501.pt",
+        "checkpoint_sha256": "369224184e7bc79130f005f6a2c07198556de09371c274af016a3cfe43540d19",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\policy_501.onnx",
+        "policy_sha256": "cbbf29ad78bd170d988c0e2f0043d3a5256f8a0611a43462be12f1a6f54c2eec",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\manifest.json",
+        "manifest_sha256": "9baab3a4b88d98931e3b05d025a794406aba30e126984c43acd7459354a2330f"
+      },
+      {
+        "method": "FE",
+        "source_seed": 20261902,
+        "phase": "learned",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\model_501.pt",
+        "checkpoint_sha256": "b6718cb9d58763dc0377525e083031eb4045b4a82087b99674c77180db0a0c1d",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\policy_501.onnx",
+        "policy_sha256": "fd043146406196e54c107b894cd2b85a62f5b48dbd9aa269df1be9e3fe55245f",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\manifest.json",
+        "manifest_sha256": "9c475cc07d93086544c162582708e8bd487779e4d446d5a111a3d26dc28bc1e3"
+      },
+      {
+        "method": "FE",
+        "source_seed": 20261903,
+        "phase": "learned",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\model_501.pt",
+        "checkpoint_sha256": "a0a4c406adbf9638fe3ae40e24fe10cbd344ec0dc7334948a16062de3b5bdde2",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\policy_501.onnx",
+        "policy_sha256": "044b7b10a236502f121441f75f2996e489335b1f3ca17b3d91eafcadda841ab5",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\manifest.json",
+        "manifest_sha256": "238af85f50968986bed65947b1bba2ad40e355893a757d903c2369b28f33d61b"
+      },
+      {
+        "method": "RC",
+        "source_seed": 20261901,
+        "phase": "clock",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\model_501.pt",
+        "checkpoint_sha256": "596e544ec166eab83e43482c5834431c0c273215ac50df708d7cf1508984f7b9",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\policy_501.onnx",
+        "policy_sha256": "2ecef210061c3147fc08bd9df67cb2d7bc65c6c6bfab28d9e51c8363bc8cbc20",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261901\\manifest.json",
+        "manifest_sha256": "937d5eb5a10c4964fb652a6f8f9d377e1ae9dad478bc6f802ebb65fa15357b08"
+      },
+      {
+        "method": "RC",
+        "source_seed": 20261902,
+        "phase": "clock",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\model_501.pt",
+        "checkpoint_sha256": "1d8f823022c2f40f2a94a5e2285e65099e15f9a76920d2ff7d8d4f7fbb5d56fe",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\policy_501.onnx",
+        "policy_sha256": "017f7ea8bcaa7cb4b5083801cffd47dbc6b6203382987e9f97ade4241efcb144",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261902\\manifest.json",
+        "manifest_sha256": "e0b23b4be021a96bd17805753e7c45eb28c0a5e652eea698ab1b0b1919fddb14"
+      },
+      {
+        "method": "RC",
+        "source_seed": 20261903,
+        "phase": "clock",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\model_501.pt",
+        "checkpoint_sha256": "8604fc82a0fb8e06559aa6f35eb63ec95f9d06227dc23a90f057f208cc6116a7",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\policy_501.onnx",
+        "policy_sha256": "f7582a1e3e3d4656b7672093dd4a354146a042a1b23eb54f1a05035b1219bb7c",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\clock_low_20261903\\manifest.json",
+        "manifest_sha256": "74c02c6d8887ff55da63818fea55f8d225424c24af2f7a9288c460fff75353dc"
+      },
+      {
+        "method": "RE",
+        "source_seed": 20261901,
+        "phase": "learned",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\model_501.pt",
+        "checkpoint_sha256": "369224184e7bc79130f005f6a2c07198556de09371c274af016a3cfe43540d19",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\policy_501.onnx",
+        "policy_sha256": "cbbf29ad78bd170d988c0e2f0043d3a5256f8a0611a43462be12f1a6f54c2eec",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261901\\manifest.json",
+        "manifest_sha256": "9baab3a4b88d98931e3b05d025a794406aba30e126984c43acd7459354a2330f"
+      },
+      {
+        "method": "RE",
+        "source_seed": 20261902,
+        "phase": "learned",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\model_501.pt",
+        "checkpoint_sha256": "b6718cb9d58763dc0377525e083031eb4045b4a82087b99674c77180db0a0c1d",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\policy_501.onnx",
+        "policy_sha256": "fd043146406196e54c107b894cd2b85a62f5b48dbd9aa269df1be9e3fe55245f",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261902\\manifest.json",
+        "manifest_sha256": "9c475cc07d93086544c162582708e8bd487779e4d446d5a111a3d26dc28bc1e3"
+      },
+      {
+        "method": "RE",
+        "source_seed": 20261903,
+        "phase": "learned",
+        "checkpoint": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\model_501.pt",
+        "checkpoint_sha256": "a0a4c406adbf9638fe3ae40e24fe10cbd344ec0dc7334948a16062de3b5bdde2",
+        "policy": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\policy_501.onnx",
+        "policy_sha256": "044b7b10a236502f121441f75f2996e489335b1f3ca17b3d91eafcadda841ab5",
+        "manifest": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\g1_source_anchor_20261027\\training\\learned_low_20261903\\manifest.json",
+        "manifest_sha256": "238af85f50968986bed65947b1bba2ad40e355893a757d903c2369b28f33d61b"
+      }
+    ],
+    "train_jobs": [
+      {
+        "method": "FC",
+        "source_seed": 20261903,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 0
+      },
+      {
+        "method": "RE",
+        "source_seed": 20261903,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 20264603
+      },
+      {
+        "method": "RE",
+        "source_seed": 20261901,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 20264601
+      },
+      {
+        "method": "RC",
+        "source_seed": 20261901,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 20264601
+      },
+      {
+        "method": "RC",
+        "source_seed": 20261902,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 20264602
+      },
+      {
+        "method": "RC",
+        "source_seed": 20261903,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 20264603
+      },
+      {
+        "method": "FE",
+        "source_seed": 20261901,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 0
+      },
+      {
+        "method": "RE",
+        "source_seed": 20261902,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 20264602
+      },
+      {
+        "method": "FE",
+        "source_seed": 20261903,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 0
+      },
+      {
+        "method": "FC",
+        "source_seed": 20261902,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 0
+      },
+      {
+        "method": "FE",
+        "source_seed": 20261902,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 0
+      },
+      {
+        "method": "FC",
+        "source_seed": 20261901,
+        "updates": 251,
+        "transitions": 385536,
+        "training_map": 0
+      }
+    ],
+    "evaluation_jobs": [
+      {
+        "method": "FC",
+        "terrain_seed": 20264702
+      },
+      {
+        "method": "FE",
+        "terrain_seed": 20264702
+      },
+      {
+        "method": "FE",
+        "terrain_seed": 20264703
+      },
+      {
+        "method": "RE",
+        "terrain_seed": 20264701
+      },
+      {
+        "method": "RE",
+        "terrain_seed": 20264703
+      },
+      {
+        "method": "FC",
+        "terrain_seed": 20264703
+      },
+      {
+        "method": "FE",
+        "terrain_seed": 0
+      },
+      {
+        "method": "RC",
+        "terrain_seed": 20264702
+      },
+      {
+        "method": "RE",
+        "terrain_seed": 0
+      },
+      {
+        "method": "RC",
+        "terrain_seed": 0
+      },
+      {
+        "method": "FC",
+        "terrain_seed": 0
+      },
+      {
+        "method": "FE",
+        "terrain_seed": 20264701
+      },
+      {
+        "method": "RC",
+        "terrain_seed": 20264703
+      },
+      {
+        "method": "RC",
+        "terrain_seed": 20264701
+      },
+      {
+        "method": "RE",
+        "terrain_seed": 20264702
+      },
+      {
+        "method": "FC",
+        "terrain_seed": 20264701
+      }
+    ],
+    "slots": [
+      {
+        "train_seed": 20261901,
+        "eval_seed": 20264811,
+        "patch_col": 0
+      },
+      {
+        "train_seed": 20261901,
+        "eval_seed": 20264812,
+        "patch_col": 1
+      },
+      {
+        "train_seed": 20261901,
+        "eval_seed": 20264813,
+        "patch_col": 2
+      },
+      {
+        "train_seed": 20261901,
+        "eval_seed": 20264814,
+        "patch_col": 3
+      },
+      {
+        "train_seed": 20261901,
+        "eval_seed": 20264815,
+        "patch_col": 4
+      },
+      {
+        "train_seed": 20261902,
+        "eval_seed": 20264811,
+        "patch_col": 0
+      },
+      {
+        "train_seed": 20261902,
+        "eval_seed": 20264812,
+        "patch_col": 1
+      },
+      {
+        "train_seed": 20261902,
+        "eval_seed": 20264813,
+        "patch_col": 2
+      },
+      {
+        "train_seed": 20261902,
+        "eval_seed": 20264814,
+        "patch_col": 3
+      },
+      {
+        "train_seed": 20261902,
+        "eval_seed": 20264815,
+        "patch_col": 4
+      },
+      {
+        "train_seed": 20261903,
+        "eval_seed": 20264811,
+        "patch_col": 0
+      },
+      {
+        "train_seed": 20261903,
+        "eval_seed": 20264812,
+        "patch_col": 1
+      },
+      {
+        "train_seed": 20261903,
+        "eval_seed": 20264813,
+        "patch_col": 2
+      },
+      {
+        "train_seed": 20261903,
+        "eval_seed": 20264814,
+        "patch_col": 3
+      },
+      {
+        "train_seed": 20261903,
+        "eval_seed": 20264815,
+        "patch_col": 4
+      }
+    ],
+    "checkpoints": [
+      0,
+      1,
+      25,
+      100,
+      251
+    ],
+    "formal_train_transitions": 4626432,
+    "formal_PPO_updates": 3012,
+    "formal_Adam_steps": 60240,
+    "formal_eval_episodes": 480,
+    "maximum_effective_eval_transitions": 480000,
+    "smoke_train_transitions": 12288,
+    "smoke_PPO_updates": 8,
+    "smoke_Adam_steps": 160,
+    "smoke_max_eval_transitions": 80,
+    "training_maps": [
+      20264601,
+      20264602,
+      20264603
+    ],
+    "evaluation_maps": [
+      0,
+      20264701,
+      20264702,
+      20264703
+    ],
+    "beta": 0.1,
+    "encoder_sha256": "8e6b15dcf409f51948f49c18fc04b686ba502e53586476db9c78d8c35a0fc346",
+    "source_completed_updates": 501,
+    "relative_updates": 251,
+    "warm_start": "full actor/critic/Adam/normalizers/original teacher/LR/RNG; new simulation, not exact physics resume",
+    "statistical_unit": "three reused matched source training seeds; exploratory only; exact p minimum .25",
+    "family": "RE-RC;RE-FE;RC-FC;interaction x completion/fall; Holm8",
+    "rough_guards": {
+      "mae_forward_velocity_mps": 0.02,
+      "forward_displacement_m": -0.5,
+      "tilt_rms_rad": 0.02,
+      "abs_heading_change_rad": 0.2
+    },
+    "flat_guards": {
+      "completed": -0.1,
+      "fell": 0.1,
+      "mae_forward_velocity_mps": 0.02,
+      "forward_displacement_m": -0.5,
+      "tilt_rms_rad": 0.02,
+      "abs_heading_change_rad": 0.2
+    },
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "mjlab": "1.2.0",
+      "mujoco": "3.5.0",
+      "mujoco-warp": "3.5.0",
+      "warp-lang": "1.13.0",
+      "rsl-rl-lib": "5.0.1",
+      "onnxruntime": "1.27.0",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1"
+    }
+  }
+}

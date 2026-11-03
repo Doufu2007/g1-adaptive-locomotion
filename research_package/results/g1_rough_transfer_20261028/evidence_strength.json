@@ -1,0 +1,147 @@
+{
+  "status": "NO_CONFIRMED_SUPERIORITY",
+  "at": "2026-10-27T20:33:13.514Z",
+  "family_size": 8,
+  "unit": "3 paired training seeds, not480 independent runs",
+  "family": {
+    "DE_minus_DC:completed": {
+      "per_seed": [
+        0,
+        0.033333333333333354,
+        0.1
+      ],
+      "mean": 0.04444444444444445,
+      "ci95": [
+        -0.08204165667544755,
+        0.17093054556433646
+      ],
+      "p_exact": 0.5,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "DE_minus_DC:fell": {
+      "per_seed": [
+        0.06666666666666676,
+        -0.2666666666666667,
+        -0.20000000000000007
+      ],
+      "mean": -0.13333333333333333,
+      "ci95": [
+        -0.5714940405152288,
+        0.30482737384856207
+      ],
+      "p_exact": 0.5,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "AE_minus_AC:completed": {
+      "per_seed": [
+        0,
+        -0.06666666666666668,
+        -0.03333333333333333
+      ],
+      "mean": -0.03333333333333333,
+      "ci95": [
+        -0.11613792372501103,
+        0.049471257058344355
+      ],
+      "p_exact": 0.5,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "AE_minus_AC:fell": {
+      "per_seed": [
+        -0.033333333333333326,
+        0.1333333333333333,
+        0
+      ],
+      "mean": 0.033333333333333326,
+      "ci95": [
+        -0.1857470202576142,
+        0.25241368692428084
+      ],
+      "p_exact": 1,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "DE_minus_AE:completed": {
+      "per_seed": [
+        0.1,
+        0.16666666666666669,
+        0.13333333333333333
+      ],
+      "mean": 0.13333333333333333,
+      "ci95": [
+        0.050528742941655644,
+        0.216137923725011
+      ],
+      "p_exact": 0.25,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "DE_minus_AE:fell": {
+      "per_seed": [
+        -0.19999999999999996,
+        -0.4666666666666667,
+        -0.2333333333333334
+      ],
+      "mean": -0.3,
+      "ci95": [
+        -0.6609368415786021,
+        0.060936841578602075
+      ],
+      "p_exact": 0.25,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "interaction:completed": {
+      "per_seed": [
+        0,
+        0.10000000000000003,
+        0.13333333333333333
+      ],
+      "mean": 0.07777777777777779,
+      "ci95": [
+        -0.09459372264029765,
+        0.25014927819585325
+      ],
+      "p_exact": 0.5,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    },
+    "interaction:fell": {
+      "per_seed": [
+        0.10000000000000009,
+        -0.4,
+        -0.19999999999999996
+      ],
+      "mean": -0.16666666666666663,
+      "ci95": [
+        -0.7918276146042443,
+        0.4584942812709111
+      ],
+      "p_exact": 0.5,
+      "n": 3,
+      "p_holm": 1,
+      "grade": "none",
+      "language_ceiling": "descriptive/exploratory; no confirmed superiority"
+    }
+  },
+  "overall_candidate_passed": false,
+  "core_claim_status": "NOT_ESTABLISHED",
+  "continuation": "Previously authorized bounded prospective investigation; no post-result change to R."
+}

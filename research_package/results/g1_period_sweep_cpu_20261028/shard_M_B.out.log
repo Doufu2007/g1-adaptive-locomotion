@@ -1,0 +1,11 @@
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269106, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269106, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269107, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269107, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269108, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269108, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269109, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269109, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269110, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269110, 'period': 0.6}
+{"ran": 10, "total": 10}

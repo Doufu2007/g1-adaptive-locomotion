@@ -1,5 +1,10 @@
 """Unitree G1 velocity environment configurations."""
 
+from functools import lru_cache
+import json
+import os
+from pathlib import Path
+
 from src.assets.robots import (
   G1_ACTION_SCALE,
   get_g1_robot_cfg,
@@ -155,6 +160,10 @@ def unitree_g1_rough_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
       params={},
     )
 
+    # Rough terrain creates many contacts — let mujoco_warp auto-size nconmax
+    # based on actual mjd.ncon instead of the hardcoded 48 (which overflows).
+    cfg.sim.nconmax = None
+
     if cfg.scene.terrain is not None:
       if cfg.scene.terrain.terrain_generator is not None:
         cfg.scene.terrain.terrain_generator.curriculum = False
@@ -197,3 +206,187 @@ def unitree_g1_flat_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     twist_cmd.ranges.ang_vel_z = (-0.5, 0.5)
 
   return cfg
+
+
+def unitree_g1_flat_phasor_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Flat terrain with PHASOR in both actor observation and gait reward."""
+    cfg = unitree_g1_flat_env_cfg(play=play)
+    return _configure_flat_phasor(cfg, actor_phase=True, reward_phase=True)
+
+
+def unitree_g1_flat_no_phase_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Flat baseline reward with a zeroed actor phase channel."""
+    from mjlab.managers.observation_manager import ObservationTermCfg
+    import src.tasks.velocity.mdp as src_mdp
+
+    cfg = unitree_g1_flat_env_cfg(play=play)
+    cfg.observations["actor"].terms["phase"] = ObservationTermCfg(
+        func=src_mdp.zero_phase,
+        params={"command_name": "twist"},
+    )
+    return cfg
+
+
+def unitree_g1_flat_phasor_obs_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Flat terrain with learned actor phase and the fixed-clock reward."""
+    cfg = unitree_g1_flat_env_cfg(play=play)
+    return _configure_flat_phasor(cfg, actor_phase=True, reward_phase=False)
+
+
+def unitree_g1_flat_phasor_reward_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Flat terrain with fixed-clock actor input and learned-phase reward."""
+    cfg = unitree_g1_flat_env_cfg(play=play)
+    return _configure_flat_phasor(cfg, actor_phase=False, reward_phase=True)
+
+
+def unitree_g1_flat_fixed_clock_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Pre-registered fixed-clock baseline (actor, reward, and critic)."""
+    return unitree_g1_flat_env_cfg(play=play)
+
+
+def unitree_g1_flat_actor_ablation_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Actor ablation: learned phase for actor, fixed clock for reward/critic."""
+    return unitree_g1_flat_phasor_obs_env_cfg(play=play)
+
+
+def unitree_g1_flat_reward_ablation_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Reward ablation: learned phase for reward, fixed clock for actor/critic."""
+    return unitree_g1_flat_phasor_reward_env_cfg(play=play)
+
+
+def unitree_g1_flat_joint_phase_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Joint method: learned phase drives actor and contact reward."""
+    return unitree_g1_flat_phasor_env_cfg(play=play)
+
+
+def unitree_g1_flat_random_vector_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Random-vector control: episode-fixed unit vector, fixed clock reward."""
+    from mjlab.managers.observation_manager import ObservationTermCfg
+    import src.tasks.velocity.mdp as src_mdp
+
+    cfg = unitree_g1_flat_env_cfg(play=play)
+    cfg.observations["actor"].terms["phase"] = ObservationTermCfg(
+        func=src_mdp.random_episode_phase,
+        params={},
+    )
+    cfg.events["reset_episode_random_phase"] = EventTermCfg(
+        func=src_mdp.reset_random_phase,
+        mode="reset",
+        params={},
+    )
+    return cfg
+
+
+def _configure_flat_phasor(
+    cfg: ManagerBasedRlEnvCfg,
+    *,
+    actor_phase: bool,
+    reward_phase: bool,
+) -> ManagerBasedRlEnvCfg:
+    from mjlab.managers.observation_manager import ObservationTermCfg
+    from mjlab.managers.reward_manager import RewardTermCfg
+    import src.tasks.velocity.mdp as src_mdp
+
+    artifacts = _g1_phase_runtime_artifacts()
+    encoder_path = artifacts["encoder_path"]
+    reward_template = artifacts["reward_template"]
+
+    cfg.events["reset_phasor_phase_history"] = EventTermCfg(
+        func=src_mdp.reset_learned_phase_history,
+        mode="reset",
+        params={"encoder_path": encoder_path},
+    )
+
+    if actor_phase:
+        cfg.observations["actor"].terms["phase"] = ObservationTermCfg(
+            func=src_mdp.learned_phase,
+            params={"encoder_path": encoder_path},
+        )
+
+    if reward_phase:
+        cfg.rewards["foot_gait"] = RewardTermCfg(
+            func=src_mdp.feet_gait_learned,
+            weight=0.5,
+            params={
+                "offset": list(reward_template["offset_cycles"]),
+                "threshold": float(reward_template["stance_threshold"]),
+                "command_threshold": 0.1,
+                "command_name": "twist",
+                "sensor_name": "feet_ground_contact",
+                "encoder_path": encoder_path,
+            },
+        )
+
+    return cfg
+
+
+def unitree_g1_rough_phasor_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+    """Rough terrain with learned phase (PHASOR) replacing fixed 0.6s CPG."""
+    from mjlab.managers.observation_manager import ObservationTermCfg
+    from mjlab.managers.reward_manager import RewardTermCfg
+    import src.tasks.velocity.mdp as src_mdp
+
+    cfg = unitree_g1_rough_env_cfg(play=play)
+    artifacts = _g1_phase_runtime_artifacts()
+    encoder_path = artifacts["encoder_path"]
+    reward_template = artifacts["reward_template"]
+
+    cfg.events["reset_phasor_phase_history"] = EventTermCfg(
+        func=src_mdp.reset_learned_phase_history,
+        mode="reset",
+        params={"encoder_path": encoder_path},
+    )
+
+    cfg.observations["actor"].terms["phase"] = ObservationTermCfg(
+        func=src_mdp.learned_phase,
+        params={"encoder_path": encoder_path},
+    )
+
+    cfg.rewards["foot_gait"] = RewardTermCfg(
+        func=src_mdp.feet_gait_learned,
+        weight=0.5,
+        params={
+            "offset": list(reward_template["offset_cycles"]),
+            "threshold": float(reward_template["stance_threshold"]),
+            "command_threshold": 0.1,
+            "command_name": "twist",
+            "sensor_name": "feet_ground_contact",
+            "encoder_path": encoder_path,
+        },
+    )
+
+    return cfg
+
+
+@lru_cache(maxsize=1)
+def _g1_phase_runtime_artifacts() -> dict[str, object]:
+    """Resolve the frozen encoder and train-only reward template."""
+    from src.tasks.velocity.phasor.data import G1_JOINT_ORDER
+
+    root = Path(__file__).resolve().parents[5]
+    artifact_dir = root / "results" / "g1_phase_dataset_20261019"
+    # Default runtime encoder is the 2026-10-21 architecture-sweep TCN
+    # (gate 0.4793 vs 0.4163 for the v1 CNN, both on the 603-cycle validation
+    # set).  It is still below the 0.90 bar, so it does not authorise a PPO run.
+    # Set G1_PHASOR_ENCODER_RUNTIME=phase_encoder_runtime_v1.pt to roll back.
+    encoder_name = os.environ.get(
+        "G1_PHASOR_ENCODER_RUNTIME", "phase_encoder_runtime_tcn_20261021.pt"
+    )
+    encoder_path = (artifact_dir / encoder_name).resolve(strict=True)
+    template_path = artifact_dir / "g1_reward_template_v1.json"
+    template = json.loads(template_path.read_text(encoding="utf-8"))
+    if template.get("schema") != "g1.learned_phase_reward_template.v1":
+        raise ValueError("unsupported G1 learned-phase reward template")
+    if template.get("status") != "FROZEN" or template.get("fit_split") != "train":
+        raise ValueError("G1 learned-phase reward template must be frozen from train")
+    if tuple(template.get("joint_order", ())) != G1_JOINT_ORDER:
+        raise ValueError("reward template joint order does not match the G1 encoder")
+    offset = template.get("offset_cycles")
+    threshold = template.get("stance_threshold")
+    if not isinstance(offset, list) or len(offset) != 2:
+        raise ValueError("reward template must define two leg phase offsets")
+    if not all(isinstance(value, (int, float)) for value in offset):
+        raise ValueError("reward offsets must be numeric cycle fractions")
+    if not isinstance(threshold, (int, float)) or not 0.0 < float(threshold) < 1.0:
+        raise ValueError("stance threshold must be a cycle fraction between zero and one")
+    return {"encoder_path": str(encoder_path), "reward_template": template}

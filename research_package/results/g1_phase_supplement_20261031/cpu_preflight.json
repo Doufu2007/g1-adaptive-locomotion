@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "at": "2026-10-31T06:43:40.599517+00:00",
+  "source_sha256": "949fae33632b9a3592e6346a6155eea059ee2fd39487207a0a0cea5d35edd8b4",
+  "encoder_sha256": "8e6b15dcf409f51948f49c18fc04b686ba502e53586476db9c78d8c35a0fc346",
+  "rows": [
+    {
+      "method": "learned",
+      "actor_shape": [
+        1,
+        98
+      ],
+      "critic_shape": [
+        1,
+        113
+      ],
+      "phase": {
+        "actor": {
+          "clip": null,
+          "delay_hold_prob": 0.0,
+          "delay_max_lag": 0,
+          "delay_min_lag": 0,
+          "delay_per_env": true,
+          "delay_per_env_phase": true,
+          "delay_update_period": 0,
+          "flatten_history_dim": true,
+          "func": "scripts.g1_stateful_online.learned_phase",
+          "history_length": 0,
+          "noise": null,
+          "params": {
+            "encoder_path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\deliveries\\g1_stateful_phase_20261025\\snapshot\\results\\g1_stateful_phase_20261025\\training\\observer_sensors_mixed_seed20261026\\final.pt"
+          },
+          "scale": null
+        },
+        "critic": {
+          "clip": null,
+          "delay_hold_prob": 0.0,
+          "delay_max_lag": 0,
+          "delay_min_lag": 0,
+          "delay_per_env": true,
+          "delay_per_env_phase": true,
+          "delay_update_period": 0,
+          "flatten_history_dim": true,
+          "func": "scripts.g1_stateful_online.learned_phase",
+          "history_length": 0,
+          "noise": null,
+          "params": {
+            "encoder_path": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\deliveries\\g1_stateful_phase_20261025\\snapshot\\results\\g1_stateful_phase_20261025\\training\\observer_sensors_mixed_seed20261026\\final.pt"
+          },
+          "scale": null
+        }
+      },
+      "named_physics_sha256": "38f2e61b20331aeab1519b60fa8a5b9cc11530b41739744f46637b809e0ce978",
+      "physics_sha256": "9737768c048a0c05123eb8fd733f0273fc216b80fc827b8421008368857db8a5"
+    },
+    {
+      "method": "clock55",
+      "actor_shape": [
+        1,
+        98
+      ],
+      "critic_shape": [
+        1,
+        113
+      ],
+      "phase": {
+        "actor": {
+          "clip": null,
+          "delay_hold_prob": 0.0,
+          "delay_max_lag": 0,
+          "delay_min_lag": 0,
+          "delay_per_env": true,
+          "delay_per_env_phase": true,
+          "delay_update_period": 0,
+          "flatten_history_dim": true,
+          "func": "src.tasks.velocity.mdp.observations.phase",
+          "history_length": 0,
+          "noise": null,
+          "params": {
+            "command_name": "twist",
+            "period": 0.55
+          },
+          "scale": null
+        },
+        "critic": {
+          "clip": null,
+          "delay_hold_prob": 0.0,
+          "delay_max_lag": 0,
+          "delay_min_lag": 0,
+          "delay_per_env": true,
+          "delay_per_env_phase": true,
+          "delay_update_period": 0,
+          "flatten_history_dim": true,
+          "func": "src.tasks.velocity.mdp.observations.phase",
+          "history_length": 0,
+          "noise": null,
+          "params": {
+            "command_name": "twist",
+            "period": 0.55
+          },
+          "scale": null
+        }
+      },
+      "named_physics_sha256": "38f2e61b20331aeab1519b60fa8a5b9cc11530b41739744f46637b809e0ce978",
+      "physics_sha256": "9737768c048a0c05123eb8fd733f0273fc216b80fc827b8421008368857db8a5"
+    },
+    {
+      "method": "clock60",
+      "actor_shape": [
+        1,
+        98
+      ],
+      "critic_shape": [
+        1,
+        113
+      ],
+      "phase": {
+        "actor": {
+          "clip": null,
+          "delay_hold_prob": 0.0,
+          "delay_max_lag": 0,
+          "delay_min_lag": 0,
+          "delay_per_env": true,
+          "delay_per_env_phase": true,
+          "delay_update_period": 0,
+          "flatten_history_dim": true,
+          "func": "src.tasks.velocity.mdp.observations.phase",
+          "history_length": 0,
+          "noise": null,
+          "params": {
+            "command_name": "twist",
+            "period": 0.6
+          },
+          "scale": null
+        },
+        "critic": {
+          "clip": null,
+          "delay_hold_prob": 0.0,
+          "delay_max_lag": 0,
+          "delay_min_lag": 0,
+          "delay_per_env": true,
+          "delay_per_env_phase": true,
+          "delay_update_period": 0,
+          "flatten_history_dim": true,
+          "func": "src.tasks.velocity.mdp.observations.phase",
+          "history_length": 0,
+          "noise": null,
+          "params": {
+            "command_name": "twist",
+            "period": 0.6
+          },
+          "scale": null
+        }
+      },
+      "named_physics_sha256": "38f2e61b20331aeab1519b60fa8a5b9cc11530b41739744f46637b809e0ce978",
+      "physics_sha256": "9737768c048a0c05123eb8fd733f0273fc216b80fc827b8421008368857db8a5"
+    }
+  ],
+  "train_transitions": 0,
+  "eval_transitions": 0,
+  "PPO_updates": 0,
+  "Adam_steps": 0
+}

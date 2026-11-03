@@ -8,7 +8,33 @@ from datetime import datetime
 from pathlib import Path
 from typing import Literal, cast
 
+# Allow both ``python -m scripts.train`` and ``python scripts/train.py`` from
+# the repository root, and set an ASCII Windows temp path before torch/Warp
+# imports can cache the Unicode user temp directory.
+_PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(_PROJECT_ROOT) not in sys.path:
+  sys.path.insert(0, str(_PROJECT_ROOT))
+
+from src.runtime_compat import (
+  configure_windows_ascii_temp_dir,
+  configure_warp_ascii_paths,
+)
+
+configure_windows_ascii_temp_dir()
+
 import tyro
+
+# mjlab 1.2.0 accesses ``warp.context`` while Warp 1.13 exposes the same
+# runtime module through ``warp._src.context``.  Install the compatibility
+# alias before mjlab imports its simulator module.
+try:
+  import warp as _warp
+  if not hasattr(_warp, "context"):
+    import warp._src.context as _warp_context
+    _warp.context = _warp_context
+  configure_warp_ascii_paths(_warp)
+except ImportError:
+  pass
 
 from mjlab.envs import ManagerBasedRlEnv, ManagerBasedRlEnvCfg
 from mjlab.rl import MjlabOnPolicyRunner, RslRlBaseRunnerCfg, RslRlVecEnvWrapper
@@ -40,6 +66,11 @@ class TrainConfig:
 
 
 def run_train(task_id: str, cfg: TrainConfig, log_dir: Path) -> None:
+  from src.tasks.velocity.phasor.mujoco_io import (
+    install_mjlab_scene_xml_unicode_compat,
+  )
+
+  install_mjlab_scene_xml_unicode_compat()
   cuda_visible = os.environ.get("CUDA_VISIBLE_DEVICES", "")
   if cuda_visible == "":
     device = "cpu"

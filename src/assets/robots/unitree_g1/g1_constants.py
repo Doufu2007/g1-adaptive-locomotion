@@ -5,6 +5,7 @@ from pathlib import Path
 import mujoco
 
 from src import SRC_PATH
+from src.tasks.velocity.phasor.mujoco_io import load_mjcf_spec
 from mjlab.actuator import BuiltinPositionActuatorCfg
 from mjlab.entity import EntityArticulationInfoCfg, EntityCfg
 from mjlab.utils.actuator import (
@@ -31,7 +32,7 @@ def get_assets(meshdir: str) -> dict[str, bytes]:
 
 
 def get_spec() -> mujoco.MjSpec:
-  spec = mujoco.MjSpec.from_file(str(G1_XML))
+  spec = load_mjcf_spec(mujoco.MjSpec, G1_XML)
   spec.assets = get_assets(spec.meshdir)
   return spec
 

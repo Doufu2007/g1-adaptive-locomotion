@@ -1,0 +1,125 @@
+{
+  "at": "2026-10-31T06:59:29.178320+00:00",
+  "entries": [
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_training\\clock55_20271301\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 3072,
+      "simulator_world_steps": 0,
+      "PPO_updates": 2,
+      "Adam_steps": 40,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_training\\clock60_20271301\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 3072,
+      "simulator_world_steps": 0,
+      "PPO_updates": 2,
+      "Adam_steps": 40,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_training\\learned_20271301\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 3072,
+      "simulator_world_steps": 0,
+      "PPO_updates": 2,
+      "Adam_steps": 40,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_rollouts\\clock55\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 200,
+      "simulator_world_steps": 200,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_rollouts\\clock60\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 200,
+      "simulator_world_steps": 200,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_rollouts\\constant\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 200,
+      "simulator_world_steps": 200,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_rollouts\\live\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 200,
+      "simulator_world_steps": 200,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_rollouts\\live_repeat\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 200,
+      "simulator_world_steps": 200,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\smoke_rollouts\\replay\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": true,
+      "transitions": 200,
+      "simulator_world_steps": 200,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\initialization_preflight\\clock55_20271301\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": false,
+      "transitions": 0,
+      "simulator_world_steps": 0,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\initialization_preflight\\clock60_20271301\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": false,
+      "transitions": 0,
+      "simulator_world_steps": 0,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    },
+    {
+      "path": "E:\\phasor_phase_supplement_20261031\\initialization_preflight\\learned_20271301\\manifest.json",
+      "status": "COMPLETED",
+      "smoke": false,
+      "transitions": 0,
+      "simulator_world_steps": 0,
+      "PPO_updates": 0,
+      "Adam_steps": 0,
+      "caveat": "last persisted progress is lower bound for running/failed process; preserve unknown tail"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+skip completed {'probe': 'M', 'method': 'RE_live', 'terrain': 20269101, 'period': 0.6}
+skip completed {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269101, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269102, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269102, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269103, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269103, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269104, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269104, 'period': 0.6}
+run {'probe': 'M', 'method': 'RE_live', 'terrain': 20269105, 'period': 0.6}
+run {'probe': 'M', 'method': 'RC_clock', 'terrain': 20269105, 'period': 0.6}
+{"ran": 8, "total": 10}

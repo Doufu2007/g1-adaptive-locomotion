@@ -1,0 +1,72 @@
+{
+  "at": 1793430074.2576694,
+  "disk_C": {
+    "total": 508337393664,
+    "used": 506796261376,
+    "free": 1541132288
+  },
+  "disk_E": {
+    "total": 500105736192,
+    "used": 437145104384,
+    "free": 62960631808
+  },
+  "swap": {
+    "total": 20606865408,
+    "used": 2170380288,
+    "free": 18436485120,
+    "percent": 10.5,
+    "sin": 0,
+    "sout": 0
+  },
+  "system_files": [
+    {
+      "path": "C:\\pagefile.sys",
+      "bytes": 29736816640
+    },
+    {
+      "path": "C:\\hiberfil.sys",
+      "error": "FileNotFoundError(2, '系统找不到指定的文件。')"
+    },
+    {
+      "path": "C:\\swapfile.sys",
+      "bytes": 16777216
+    }
+  ],
+  "roots": [
+    {
+      "root": "C:\\Users\\Public\\phasor_pilot_warp_cache",
+      "bytes": 57043789,
+      "files": 226,
+      "recent_3h_bytes": 0,
+      "recent_large_files": []
+    },
+    {
+      "root": "C:\\AIC20261031",
+      "bytes": 2321474439,
+      "files": 2335,
+      "recent_3h_bytes": 12690958,
+      "recent_large_files": []
+    },
+    {
+      "root": "C:\\Users\\郑傅韬\\AppData\\Local\\Temp",
+      "bytes": 7940787457,
+      "files": 32210,
+      "recent_3h_bytes": 42165152,
+      "recent_large_files": []
+    },
+    {
+      "root": "C:\\Users\\郑傅韬\\.cache",
+      "bytes": 255684409,
+      "files": 20,
+      "recent_3h_bytes": 0,
+      "recent_large_files": []
+    },
+    {
+      "root": "C:\\Users\\Public\\phasor_pilot_warp_cache\\1.13.0",
+      "bytes": 56322958,
+      "files": 216,
+      "recent_3h_bytes": 0,
+      "recent_large_files": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "CONFIRMED_ACTUAL_FORMAL_TRAINING_PROGRESS",
+  "at": "2026-10-27T21:42:13.434Z",
+  "protocol_sha256": "0a1ad3b7d6b8023db05a567d108d737e17236c386b08d07ec0136ea1413eadc2",
+  "queue_pid": 15892,
+  "method": "FC",
+  "source_seed": 20261903,
+  "progress": {
+    "at": "2026-10-27T21:42:10.676504+00:00",
+    "updates": 12,
+    "transitions": 18432,
+    "lr": 0.00001,
+    "PPO_updates": 12,
+    "Adam_steps": 240
+  },
+  "source_RNG_equal": true,
+  "source_Adam_steps": 10020,
+  "restored_cuda": true,
+  "scope": "confirms actual native PPO progress only; not efficacy or overall completion"
+}
