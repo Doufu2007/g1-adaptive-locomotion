@@ -1,0 +1,40 @@
+{
+  "adapter_sha256": "57795ac00fb7150cdff0c0727a808d98a68fe737894a444736d0cb1202f24b1d",
+  "allowed_existing_gpu_jobs": {
+    "6698": 1793706287.47,
+    "7660": 1793706972.98
+  },
+  "arm": "original",
+  "child_created_at": 1793709417.73,
+  "child_pid": 15894,
+  "completed_formal_runs": [],
+  "created_at": 1793709413.15,
+  "existing_services_modified": false,
+  "existing_services_stopped": false,
+  "formal_training_started": true,
+  "free_gpu_mib": 6981,
+  "log": "/root/autodl-tmp/g1_semantic_split_rough_20261103/formal_1024/logs/train_original_20262101_1793709417914299755.log",
+  "observed_gpu_jobs": [
+    {
+      "created_at": 1793706287.47,
+      "name": "VLLM::EngineCore",
+      "pid": 6698
+    },
+    {
+      "created_at": 1793706972.98,
+      "name": "VLLM::EngineCore",
+      "pid": 7660
+    }
+  ],
+  "pid": 15821,
+  "protocol_sha256": "450114a11a350ac9768ce8707af1cb1ef29f382051382a8d96f9b2abfe712e81",
+  "required_free_gpu_mib": 2695,
+  "required_train_mib": 2695,
+  "service_snapshot_note": "Only existing vLLM processes are admitted; no services are started or stopped",
+  "stage": "train",
+  "started_at": "2026-11-03T12:36:57.466149+00:00",
+  "status": "RUNNING",
+  "training_seed": 20262101,
+  "updated_at": "2026-11-03T12:36:57.916609+00:00",
+  "user_authorization": "APPROVED"
+}
