@@ -1,0 +1,55 @@
+{
+  "schema": "g1.semantic_split.remote_launch.v1",
+  "date_local": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "host": "connect.westc.seetacloud.com",
+  "port": 35063,
+  "user": "root",
+  "user_authorization": "APPROVED: user explicitly supplied this instance and instructed running the experiments",
+  "remote_workspace": "/root/autodl-tmp/g1_semantic_split_20261103",
+  "study_scope": "original four-arm 4096-environment protocol; pilot then 12 formal runs then paired robustness evaluation",
+  "source_archive_sha256": "852747647b32b68171085d71c49446efb0fec70dadba64a5ed17a023b59e7f9a",
+  "existing_workload": "two vLLM engine processes consume about 30 GB of the 32 GB GPU",
+  "constraint": "User asks whether workloads can run concurrently; no authorization to stop existing services",
+  "status": "ENGINEERING_PILOT_RUNNING",
+  "credentials_stored": false,
+  "global_environment_modification": false,
+  "training_started": false,
+  "deployment_state": "INSTALLED_AND_HEADLESS_VALIDATED",
+  "validation_supervisor_pid": 21327,
+  "gpu_name": "NVIDIA GeForce RTX 4080 SUPER",
+  "gpu_total_mib": 32760,
+  "current_free_mib": 1617,
+  "allowed_existing_vllm_pids": [
+    17599,
+    18239
+  ],
+  "vllm_reservation_fractions": [
+    0.68,
+    0.26
+  ],
+  "source_transfer_verified": true,
+  "resource_probe_plan": [
+    4,
+    1024,
+    4096
+  ],
+  "checks_passed": 21,
+  "rendering": "MUJOCO_GL=disable",
+  "original_4096_configuration": "FAILED_GPU_MEMORY_WHILE_BOTH_VLLM_SERVICES_RUNNING",
+  "coexistence_1024_configuration": "PASSED_REAL_GPU_TRAINING_AND_ONNX_EXPORT",
+  "pilot_num_envs": 1024,
+  "pilot_updates_per_arm": 1000,
+  "pilot_arms": [
+    "original",
+    "matched",
+    "semantic",
+    "random"
+  ],
+  "pilot_queue_pid": 25538,
+  "pilot_child_pid": 25612,
+  "formal_training_started": false,
+  "formal_budget": "PENDING_USER_CHOICE",
+  "existing_vllm_services_stopped": false,
+  "last_snapshot": "2026-11-03T10:17:55.737191+00:00"
+}

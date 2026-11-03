@@ -1,0 +1,81 @@
+{
+  "agent": {
+    "actor": {
+      "activation": "elu",
+      "class_name": "MLPModel",
+      "distribution_cfg": {
+        "class_name": "GaussianDistribution",
+        "init_std": 1.0,
+        "std_type": "scalar"
+      },
+      "hidden_dims": [
+        512,
+        256,
+        128
+      ],
+      "obs_normalization": true
+    },
+    "algorithm": {
+      "class_name": "PPO",
+      "clip_param": 0.2,
+      "desired_kl": 0.01,
+      "entropy_coef": 0.01,
+      "gamma": 0.99,
+      "lam": 0.95,
+      "learning_rate": 0.001,
+      "max_grad_norm": 1.0,
+      "normalize_advantage_per_mini_batch": false,
+      "num_learning_epochs": 5,
+      "num_mini_batches": 4,
+      "optimizer": "adam",
+      "schedule": "adaptive",
+      "share_cnn_encoders": false,
+      "use_clipped_value_loss": true,
+      "value_loss_coef": 1.0
+    },
+    "class_name": "OnPolicyRunner",
+    "clip_actions": null,
+    "critic": {
+      "activation": "elu",
+      "class_name": "MLPModel",
+      "cnn_cfg": null,
+      "distribution_cfg": null,
+      "hidden_dims": [
+        512,
+        256,
+        128
+      ],
+      "obs_normalization": true
+    },
+    "experiment_name": "g1_velocity",
+    "load_checkpoint": "model_.*.pt",
+    "load_run": ".*",
+    "logger": "tensorboard",
+    "max_iterations": 2,
+    "num_steps_per_env": 24,
+    "obs_groups": {
+      "actor": [
+        "actor"
+      ],
+      "critic": [
+        "critic"
+      ]
+    },
+    "resume": false,
+    "run_name": "",
+    "save_interval": 100,
+    "seed": 20262100,
+    "upload_model": false,
+    "wandb_project": "mjlab",
+    "wandb_tags": []
+  },
+  "identity": {
+    "arm": "original",
+    "iterations": 2,
+    "num_envs": 4,
+    "protocol_sha256": "8804e5f6e2a7e902ce1a1d5580c20575dbdcf09fbafb0a95962f9bc4e254f88c",
+    "seed": 20262100,
+    "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+    "stage": "smoke"
+  }
+}

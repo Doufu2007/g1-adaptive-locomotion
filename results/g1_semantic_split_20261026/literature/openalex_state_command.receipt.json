@@ -1,0 +1,110 @@
+{
+  "file": "openalex_state_command.json",
+  "http_status": 200,
+  "provider": "openalex",
+  "proxy_mode": "per-request direct connection; system proxy left unchanged",
+  "query": "locomotion separate state command encoder",
+  "records": [
+    {
+      "abstract": "The cerebellum is involved in coordinating motor behaviour, but how the cerebellar network regulates locomotion is still not well understood. We characterised the activity of putative cerebellar Purkinje cells, Golgi cells and mossy fibres in awake mice engaged in an active locomotion task, using high-density silicon electrode arrays. Analysis of the activity of over 300 neurons in response to locomotion revealed that the majority of cells (53%) were significantly modulated by phase of the stepping cycle. However, in contrast to studies involving passive locomotion on a treadmill, we found that a high proportion of cells (45%) were tuned to the speed of locomotion, and 19% were tuned to yaw movements. The activity of neurons in the cerebellar vermis provided more information about future speed of locomotion than about past or present speed, suggesting a motor, rather than purely sensory, role. We were able to accurately decode the speed of locomotion with a simple linear algorithm, with only a relatively small number of well-chosen cells needed, irrespective of cell class. Our observations suggest that behavioural state modulates cerebellar sensorimotor integration, and advocate a role for the cerebellar vermis in control of high-level locomotor kinematic parameters such as speed and yaw.",
+      "openalex_id": "https://openalex.org/W2949742050",
+      "primary_url": "https://doi.org/10.1371/journal.pone.0203900",
+      "title": "Encoding of locomotion kinematics in the mouse cerebellum",
+      "url": "https://doi.org/10.1371/journal.pone.0203900",
+      "year": 2018
+    },
+    {
+      "abstract": "Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle. To address this challenge, we propose Global-Local Attention Decomposition (GLAD) for terrain encoding in humanoid locomotion. Realized by a coarse-to-fine encoder over a robot-centric elevation map, GLAD explicitly separates these objectives: a global attention branch uses attention pooling to summarize the surrounding terrain context, while a local attention branch sparsifies the local features by terrain saliency and applies state-conditioned attention to encode precise foothold-relevant geometry. This explicit attention decomposition prevents the dilution of fine-grained spatial cues while reducing training overhead. Experiments demonstrate that GLAD enables reliable locomotion over challenging gaps, stepping stones, and stairs. Furthermore, the learned policy exhibits emergent terrain-responsive behaviors, autonomously following narrow paths and avoiding obstacles under forward-velocity commands alone, without explicit navigation planners. In real-world deployment on a Unitree G1 humanoid robot using onboard LiDAR, the proposed method achieves robust zero-shot sim-to-real transfer across diverse sparse-foothold and obstacle-rich domains.",
+      "openalex_id": "https://openalex.org/W7163171196",
+      "primary_url": "https://doi.org/10.1109/lra.2026.3743710",
+      "title": "Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion",
+      "url": "https://doi.org/10.1109/lra.2026.3743710",
+      "year": 2026
+    },
+    {
+      "abstract": "Humans achieve locomotor dexterity that far exceeds the capability of modern robots, yet this is achieved despite slower actuators, imprecise sensors, and vastly slower communication. We propose that this spectacular performance arises from encoding motor commands in terms of dynamic primitives. We propose three primitives as a foundation for a comprehensive theoretical framework that can embrace a wide range of upper- and lower-limb behaviors. Building on previous work that suggested discrete and rhythmic movements as elementary dynamic behaviors, we define submovements and oscillations: as discrete movements cannot be combined with sufficient flexibility, we argue that suitably-defined submovements are primitives. As the term \"rhythmic\" may be ambiguous, we define oscillations as the corresponding class of primitives. We further propose mechanical impedances as a third class of dynamic primitives, necessary for interaction with the physical environment. Combination of these three classes of primitive requires care. One approach is through a generalized equivalent network: a virtual trajectory composed of simultaneous and/or sequential submovements and/or oscillations that interacts with mechanical impedances to produce observable forces and motions. Reliable experimental identification of these dynamic primitives presents challenges: identification of mechanical impedances is exquisitely sensitive to assumptions about their dynamic structure; identification of submovements and oscillations is sensitive to their assumed form and to details of the algorithm used to extract them. Some methods to address these challenges are presented. Some implications of this theoretical framework for locomotor rehabilitation are considered.",
+      "openalex_id": "https://openalex.org/W1528495916",
+      "primary_url": "https://doi.org/10.3389/fncom.2013.00071",
+      "title": "Dynamic primitives in the control of locomotion",
+      "url": "https://doi.org/10.3389/fncom.2013.00071",
+      "year": 2013
+    },
+    {
+      "abstract": "Agile maneuvers such as sprinting and high-speed turning in the wild are challenging for legged robots.We present an end-to-end learned controller that achieves record agility for the MIT Mini Cheetah, sustaining speeds up to 3.9 m/s.This system runs and turns fast on natural terrains like grass, ice, and gravel and responds robustly to disturbances.Our controller is a neural network trained in simulation via reinforcement learning and transferred to the real world.The two key components are (i) an adaptive curriculum on velocity commands and (ii) an online system identification strategy for sim-to-real transfer leveraged from prior work.Videos of the robot's behaviors are available at https://agility.csail.mit.edu/.",
+      "openalex_id": "https://openalex.org/W4283787029",
+      "primary_url": "https://doi.org/10.15607/rss.2022.xviii.022",
+      "title": "Rapid Locomotion via Reinforcement Learning",
+      "url": "https://doi.org/10.15607/rss.2022.xviii.022",
+      "year": 2022
+    },
+    {
+      "abstract": "Legged locomotion holds the premise of universal mobility, a critical capability for many real-world robotic applications. Both model-based and learning-based approaches have advanced the field of legged locomotion in the past three decades. In recent years, however, a number of factors have dramatically accelerated progress in learning-based methods, including the rise of deep learning, rapid progress in simulating robotic systems, and the availability of high-performance and affordable hardware. This article aims to give a brief history of the field, to summarize recent efforts in learning locomotion skills for quadrupeds, and to provide researchers new to the area with an understanding of the key issues involved. With the recent proliferation of humanoid robots, we further outline the rapid rise of analogous methods for bipedal locomotion. We conclude with a discussion of open problems as well as related societal impact.",
+      "openalex_id": "https://openalex.org/W4406779533",
+      "primary_url": "https://doi.org/10.1177/02783649241312698",
+      "title": "Learning-based legged locomotion: State of the art and future perspectives",
+      "url": "https://doi.org/10.1177/02783649241312698",
+      "year": 2025
+    },
+    {
+      "abstract": "Motor behavior is generated by specific neural circuits. Those producing locomotion are located in the spinal cord, and their activation depends on descending inputs from the brain or on sensory inputs. In this study, we have used an in vitro brainstem-spinal cord preparation from adult zebrafish to localize a region where stimulation of descending inputs can induce sustained locomotor activity. We show that a brief stimulation of descending inputs at the junction between the brainstem and spinal cord induces long-lasting swimming activity. The swimming frequencies induced are remarkably similar to those observed in freely moving adult fish, arguing that the induced locomotor episode is highly physiological. The motor pattern is mediated by activation of ionotropic glutamate and glycine receptors in the spinal cord and is not the result of synaptic interactions between neurons at the site of the stimulation in the brainstem. We also compared the activity of motoneurons during locomotor activity induced by electrical stimulation of descending inputs and by exogenously applied NMDA. Prolonged NMDA application changes the shape of the synaptic drive and action potentials in motoneurons. When escape activity occurs, the swimming activity in the intact zebrafish was interrupted and some of the motoneurons involved became inhibited in vitro. Thus, the descending inputs seem to act as a switch to turn on the activity of the spinal locomotor network in the caudal spinal cord. We propose that recurrent synaptic activity within the spinal locomotor circuits can transform a brief input into a well coordinated and long-lasting swimming pattern.",
+      "openalex_id": "https://openalex.org/W2087342543",
+      "primary_url": "https://doi.org/10.1523/jneurosci.1012-11.2011",
+      "title": "Initiation of Locomotion in Adult Zebrafish",
+      "url": "https://doi.org/10.1523/jneurosci.1012-11.2011",
+      "year": 2011
+    },
+    {
+      "abstract": "Fast and versatile locomotion can be achieved with wheeled quadruped robots that drive quickly on flat terrain, but are also able to overcome challenging terrain by adapting their body pose and by making steps. In this paper, we present a state estimation approach for four-legged robots with non-steerable wheels that enables hybrid driving-stepping locomotion capabilities. We formulate a Kalman Filter (KF) for state estimation that integrates driven wheels into the filter equations and estimates the robot state (position and velocity) as well as the contribution of driving with wheels to the above state. Our estimation approach allows us to use the control framework of the Mini Cheetah quadruped robot with minor modifications. We tested our approach on this robot that we augmented with actively driven wheels in simulation and in the real world. The experimental results are available at https://www.ais.uni-bonn.de/~hosseini/se-dsq.",
+      "openalex_id": "https://openalex.org/W4317877696",
+      "primary_url": "https://doi.org/10.1109/irc55401.2022.00027",
+      "title": "State Estimation for Hybrid Locomotion of Driving-Stepping Quadrupeds",
+      "url": "https://doi.org/10.1109/irc55401.2022.00027",
+      "year": 2022
+    },
+    {
+      "abstract": "Humanoid robots that can autonomously operate in diverse environments have the potential to help address labor shortages in factories, assist elderly at home, and colonize new planets. Although classical controllers for humanoid robots have shown impressive results in a number of settings, they are challenging to generalize and adapt to new environments. Here, we present a fully learning-based approach for real-world humanoid locomotion. Our controller is a causal transformer that takes the history of proprioceptive observations and actions as input and predicts the next action. We hypothesized that the observation-action history contains useful information about the world that a powerful transformer model can use to adapt its behavior in context, without updating its weights. We trained our model with large-scale model-free reinforcement learning on an ensemble of randomized environments in simulation and deployed it to the real-world zero-shot. Our controller could walk over various outdoor terrains, was robust to external disturbances, and could adapt in context.",
+      "openalex_id": "https://openalex.org/W4394872716",
+      "primary_url": "https://doi.org/10.1126/scirobotics.adi9579",
+      "title": "Real-world humanoid locomotion with reinforcement learning",
+      "url": "https://doi.org/10.1126/scirobotics.adi9579",
+      "year": 2024
+    },
+    {
+      "abstract": "Locomotor behaviors are critical for survival and enable animals to navigate their environment, find food and evade predators. The circuits in the brain and spinal cord that initiate and maintain such different modes of locomotion in vertebrates have been studied in numerous species for over a century. In recent decades, the zebrafish has emerged as one of the main model systems for the study of locomotion, owing to its experimental amenability, and work in zebrafish has revealed numerous new insights into locomotor circuit function. Here, we review the literature that has led to our current understanding of the neural circuits controlling swimming and escape in zebrafish. We highlight recent studies that have enriched our comprehension of key topics, such as the interactions between premotor excitatory interneurons (INs) and motoneurons (MNs), supraspinal and spinal circuits that coordinate escape maneuvers, and developmental changes in overall circuit composition. We also discuss roles for neuromodulators and sensory inputs in modifying the relative strengths of constituent circuit components to provide flexibility in zebrafish behavior, allowing the animal to accommodate changes in the environment. We aim to provide a coherent framework for understanding the circuitry in the brain and spinal cord of zebrafish that allows the animal to flexibly transition between different speeds, and modes, of locomotion.",
+      "openalex_id": "https://openalex.org/W2892012523",
+      "primary_url": "https://doi.org/10.3389/fncir.2018.00073",
+      "title": "Principles Governing Locomotion in Vertebrates: Lessons From Zebrafish",
+      "url": "https://doi.org/10.3389/fncir.2018.00073",
+      "year": 2018
+    },
+    {
+      "abstract": "In this letter, we propose a whole-body planning framework that unifies dynamic locomotion and manipulation tasks by formulating a single multi-contact optimal control problem. We model the hybrid nature of a generic multi-limbed mobile manipulator as a switched system, and introduce a set of constraints that can encode any pre-defined gait sequence or manipulation schedule in the formulation. Since the system is designed to actively manipulate its environment, the equations of motion are composed by augmenting the robot's centroidal dynamics with the manipulated-object dynamics. This allows us to describe any high-level task in the same cost/constraint function. The resulting planning framework could be solved on the robot's onboard computer in real-time within a model predictive control scheme. This is demonstrated in a set of real hardware experiments done in free-motion, such as base or end-effector pose tracking, and while pushing/pulling a heavy resistive door. Robustness against model mismatches and external disturbances is also verified during these test cases.",
+      "openalex_id": "https://openalex.org/W3133921809",
+      "primary_url": "https://doi.org/10.1109/lra.2021.3068908",
+      "title": "A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation",
+      "url": "https://doi.org/10.1109/lra.2021.3068908",
+      "year": 2021
+    },
+    {
+      "abstract": "Adding a learned adapter to a frozen, command-conditioned locomotion policy is worthwhile only if the interface exposes improvements that are both real and recoverable from deployment-time observations. We introduce an adapter necessity audit that separates global operating-point gain,same-state counterfactual headroom, deployment gain over a cross-fitted fixed action, and state-allocation gain over a frequency-matched randomized policy. Source-cluster learner refits map these quantities and constraint violations to a GO/NO-GO/ABSTAIN decision. Closed-loop command- response identification provides optional decision features. On Go2, an archived scale-prefix diagnostic finds 5.2% same-state headroom but only 0.55% recovered allocation gain. Our confirmatory audit evaluates direct, scale, heading, and yaw interventions on twenty independent clusters for each of three query distributions induced by direct control, VGCC, and MPC, using 200 full learner refits. At 1% deployment and allocation thresholds and a 5% violation tolerance, direct queries return NO-GO, while VGCC and MPC queries ABSTAIN. VGCC has the largest mean deployment gain (1.34%), but its allocation lower bound is 0.09% and its violation upper bound is 6.25%. A deployment-representative twenty-cluster H1 audit also returns NO-GO, whereas a learner-level synthetic control returns GO. The audit therefore tests whether observable signal justifies state-dependent adaptation rather than presuming that an adapter is valuable.",
+      "openalex_id": "https://openalex.org/W7171379080",
+      "primary_url": "https://arxiv.org/abs/2607.21867",
+      "title": "When Is a Learned Command Adapter Worth It? Closed-Loop Identification and Counterfactual Auditing of Frozen Locomotion Policies",
+      "url": "https://doi.org/10.48550/arxiv.2607.21867",
+      "year": 2026
+    },
+    {
+      "abstract": "Locomotion and Posture ControlWhen we think of birds moving through space, we think mainly of how they fly.It is an amazing skill, of which we humans sometimes get jealous.Yes, pilots can fly planes, but planes are not nearly as agile as birds.Even jetpacks are not nearly as maneuverable as we imagine them to be.Perhaps the closest we can come to flying like a bird is scuba",
+      "openalex_id": "https://openalex.org/W4413014546",
+      "primary_url": "https://doi.org/10.7551/mitpress/15397.003.0005",
+      "title": "Locomotion and Posture Control",
+      "url": "https://doi.org/10.7551/mitpress/15397.003.0005",
+      "year": 2025
+    }
+  ],
+  "retrieved_at": "2026-10-26T05:29:51.947420+00:00",
+  "sha256": "862d3b2371a7aa5c9e0daf75c96f922d71bb44f89cc9a5671524e662373a7a4e",
+  "started_at": "2026-10-26T05:29:50.266174+00:00",
+  "status": "RETRIEVED",
+  "url": "https://api.openalex.org/works?search=locomotion+separate+state+command+encoder&per-page=12"
+}

@@ -1,0 +1,75 @@
+{
+  "actor_budget": {
+    "all_buffers": 393,
+    "linear_macs_per_action": 212352,
+    "linear_parameters": 213277,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 295,
+    "trainable_parameters": 213306
+  },
+  "argv": [
+    "/root/autodl-tmp/g1_semantic_split_20261103/pilot_1024.py",
+    "--mode",
+    "train",
+    "--arm",
+    "semantic"
+  ],
+  "checkpoint_file": "model_999.pt",
+  "checkpoint_sha256": "8a33de3135e630129f2a7fba961fb67109ea732205ca3230f6655a23b76c713f",
+  "common_agent_sha256": "14069f670b7bbc433327ebe8da5d45ac566c659d1b0aa5e6bd29cae28c31308c",
+  "common_env_sha256": "d4a4f94e5b566f73b8be4018e1447c7971133ebb5980e1a806cd7631fd0aebcc",
+  "completed_transitions": 24576000,
+  "completed_updates": 1000,
+  "critic_budget": {
+    "all_buffers": 340,
+    "linear_macs_per_action": 221824,
+    "linear_parameters": 222721,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 340,
+    "trainable_parameters": 222721
+  },
+  "critic_initialization_controlled": true,
+  "current_attempt_transitions": 14721024,
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4080 SUPER",
+  "ended_at": "2026-11-03T11:36:34.752818+00:00",
+  "fresh_actor_and_critic": false,
+  "identity": {
+    "arm": "semantic",
+    "iterations": 1000,
+    "num_envs": 1024,
+    "protocol_sha256": "e763a25fd0c73929b834c36eb98a46ef3244e068106a07846ab0f6e87334ec41",
+    "seed": 20262100,
+    "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+    "stage": "pilot"
+  },
+  "initial_actor_sha256": "210bb40bc2fae449ec108583c8a518e2bdee3640c5dec3b873739c1ba6f99952",
+  "initial_critic_sha256": "00bec1ad4a26b91861fefa99e3d83c4509a43f690a8a5877f5fa03acf656e592",
+  "latest_checkpoint": "model_999.pt",
+  "onnx_parity": {
+    "atol": 2e-05,
+    "backend": "torch CPU fp32 vs ONNX Runtime CPU fp32",
+    "max_abs_error": 9.5367431640625e-07,
+    "passed": true,
+    "rtol": 0.0002,
+    "samples": 32
+  },
+  "policy_file": "policy.onnx",
+  "policy_sha256": "231f415173ede422952b6b4edde8684a69277405a613adf24efc987b7c668ebf",
+  "recovered_updates": 401,
+  "recovery_checkpoint_sha256": "f594316995a3b67a669136bd9be6fcde641f22019d5609a9630e3d855b0fb16e",
+  "rejected_checkpoints": [],
+  "resume_limitation": "physics state is reset at recovery; not an uninterrupted trajectory",
+  "resume_requested": true,
+  "resumed": true,
+  "schema": "g1.semantic_split.run.v1",
+  "started_at": "2026-11-03T11:24:55.993091+00:00",
+  "startup_physics": {
+    "body_ipos": "cfacdd98543be0621b8cdd89151f7fe8a7bf47264a9a2c32a54034eda194e985",
+    "body_mass": "8b1b441125ce31e8b04392ff8a4312ef68d36eb11454764f37d47cd74e4de5c4",
+    "geom_friction": "66479d2acfc975d196d0c6f3069c515e6b9b7714e9a59c9096a1915b278b40e6"
+  },
+  "status": "COMPLETED",
+  "training_wall_seconds": 681.4004152738489,
+  "updated_at": "2026-11-03T11:36:34.564412+00:00"
+}

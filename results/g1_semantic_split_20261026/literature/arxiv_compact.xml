@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oqvI69LCa1i2H0POvRvQDj6CKno</id>
+  <title>arXiv Query: search_query=all:locomotion AND (all:"parameter efficient" OR all:"compact policy" OR all:"network architecture")&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-10-26T05:29:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:locomotion+AND+(all:%22parameter+efficient%22+OR+(all:%22compact+policy%22+OR+all:%22network+architecture%22))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>27</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19054v2</id>
+    <title>RANDPOL: Parameter-Efficient End-to-End Quadruped Locomotion via Randomized Policy Learning</title>
+    <updated>2026-04-15T00:15:10Z</updated>
+    <link href="https://arxiv.org/abs/2505.19054v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19054v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern learning-based locomotion controllers typically rely on fully trainable deep neural networks with a large number of parameters. This paper studies a different design point for end-to-end control: whether effective quadruped locomotion can be achieved with a drastically reduced trainable parameter space. We present RANDomized POlicy Learning (RANDPOL), a policy learning approach in which the hidden layers of the actor and critic are randomly initialized and fixed, while only the final linear readout is trained. This yields a parameter-efficient controller class that retains nonlinear expressiveness through a fixed random basis while substantially reducing the dimension of the optimization problem. RANDPOL is supported by the mathematical foundation of randomized function approximation, which provides a principled basis for using fixed random nonlinear features as expressive function classes. We evaluate RANDPOL on end-to-end locomotion control for the Unitree Go2 quadruped and compare it with Proximal Policy Optimization (PPO). The results show that RANDPOL attains comparative locomotion performance with far fewer trainable parameters, lower learning-phase computation time per iteration, and a favorable performance-complexity trade-off. We further demonstrate successful zero-shot sim-to-real transfer of the learned RANDPOL controller on the physical Unitree Go2 under user-issued forward-velocity and yaw-rate commands. These results indicate that, for structured robotic control problems, reducing trainable complexity can remain compatible with effective simulated and real-world performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-25T09:17:22Z</published>
+    <arxiv:comment>6 pages main, 7 pages total, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhuochen Liu</name>
+    </author>
+    <author>
+      <name>Rahul Jain</name>
+    </author>
+    <author>
+      <name>Quan Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.07300v1</id>
+    <title>Learning Quadruped Locomotion using Bio-Inspired Neural Networks with Intrinsic Rhythmicity</title>
+    <updated>2023-05-12T08:10:31Z</updated>
+    <link href="https://arxiv.org/abs/2305.07300v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.07300v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Biological studies reveal that neural circuits located at the spinal cord called central pattern generator (CPG) oscillates and generates rhythmic signals, which are the underlying mechanism responsible for rhythmic locomotion behaviors of animals. Inspired by CPG's capability to naturally generate rhythmic patterns, researchers have attempted to create mathematical models of CPG and utilize them for the locomotion of legged robots. In this paper, we propose a network architecture that incorporates CPGs for rhythmic pattern generation and a multi-layer perceptron (MLP) network for sensory feedback. We also proposed a method that reformulates CPGs into a fully-differentiable stateless network, allowing CPGs and MLP to be jointly trained with gradient-based learning. The results show that our proposed method learned agile and dynamic locomotion policies which are capable of blind traversal over uneven terrain and resist external pushes. Simulation results also show that the learned policies are capable of self-modulating step frequency and step length to adapt to the locomotion velocity.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-12T08:10:31Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chuanyu Yang</name>
+    </author>
+    <author>
+      <name>Can Pu</name>
+    </author>
+    <author>
+      <name>Tianqi Wei</name>
+    </author>
+    <author>
+      <name>Cong Wang</name>
+    </author>
+    <author>
+      <name>Zhibin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.04322v1</id>
+    <title>Learning Vision-Guided Dynamic Locomotion Over Challenging Terrains</title>
+    <updated>2021-09-09T14:56:00Z</updated>
+    <link href="https://arxiv.org/abs/2109.04322v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.04322v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Legged robots are becoming increasingly powerful and popular in recent years for their potential to bring the mobility of autonomous agents to the next level. This work presents a deep reinforcement learning approach that learns a robust Lidar-based perceptual locomotion policy in a partially observable environment using Proximal Policy Optimisation. Visual perception is critical to actively overcome challenging terrains, and to do so, we propose a novel learning strategy: Dynamic Reward Strategy (DRS), which serves as effective heuristics to learn a versatile gait using a neural network architecture without the need to access the history data. Moreover, in a modified version of the OpenAI gym environment, the proposed work is evaluated with scores over 90% success rate in all tested challenging terrains.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-09T14:56:00Z</published>
+    <arxiv:comment>9 pages, 27 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhaocheng Liu</name>
+    </author>
+    <author>
+      <name>Fernando Acero</name>
+    </author>
+    <author>
+      <name>Zhibin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.14218v1</id>
+    <title>DMAP: a Distributed Morphological Attention Policy for Learning to Locomote with a Changing Body</title>
+    <updated>2022-09-28T16:45:35Z</updated>
+    <link href="https://arxiv.org/abs/2209.14218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.14218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Biological and artificial agents need to deal with constant changes in the real world. We study this problem in four classical continuous control environments, augmented with morphological perturbations. Learning to locomote when the length and the thickness of different body parts vary is challenging, as the control policy is required to adapt to the morphology to successfully balance and advance the agent. We show that a control policy based on the proprioceptive state performs poorly with highly variable body configurations, while an (oracle) agent with access to a learned encoding of the perturbation performs significantly better. We introduce DMAP, a biologically-inspired, attention-based policy network architecture. DMAP combines independent proprioceptive processing, a distributed policy with individual controllers for each joint, and an attention mechanism, to dynamically gate sensory information from different body parts to different controllers. Despite not having access to the (hidden) morphology information, DMAP can be trained end-to-end in all the considered environments, overall matching or surpassing the performance of an oracle agent. Thus DMAP, implementing principles from biological motor control, provides a strong inductive bias for learning challenging sensorimotor tasks. Overall, our work corroborates the power of these principles in challenging locomotion tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-28T16:45:35Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Alberto Silvio Chiappa</name>
+    </author>
+    <author>
+      <name>Alessandro Marin Vargas</name>
+    </author>
+    <author>
+      <name>Alexander Mathis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.02402v1</id>
+    <title>Learning Memory-Based Control for Human-Scale Bipedal Locomotion</title>
+    <updated>2020-06-03T17:21:12Z</updated>
+    <link href="https://arxiv.org/abs/2006.02402v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.02402v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling a non-statically stable biped is a difficult problem largely due to the complex hybrid dynamics involved. Recent work has demonstrated the effectiveness of reinforcement learning (RL) for simulation-based training of neural network controllers that successfully transfer to real bipeds. The existing work, however, has primarily used simple memoryless network architectures, even though more sophisticated architectures, such as those including memory, often yield superior performance in other RL domains. In this work, we consider recurrent neural networks (RNNs) for sim-to-real biped locomotion, allowing for policies that learn to use internal memory to model important physical properties. We show that while RNNs are able to significantly outperform memoryless policies in simulation, they do not exhibit superior behavior on the real biped due to overfitting to the simulation physics unless trained using dynamics randomization to prevent overfitting; this leads to consistently better sim-to-real transfer. We also show that RNNs could use their learned memory states to perform online system identification by encoding parameters of the dynamics into memory.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-03T17:21:12Z</published>
+    <arxiv:comment>8 pages, 5 figures, submitted to Robotics: Science and Systems 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jonah Siekmann</name>
+    </author>
+    <author>
+      <name>Srikar Valluri</name>
+    </author>
+    <author>
+      <name>Jeremy Dao</name>
+    </author>
+    <author>
+      <name>Lorenzo Bermillo</name>
+    </author>
+    <author>
+      <name>Helei Duan</name>
+    </author>
+    <author>
+      <name>Alan Fern</name>
+    </author>
+    <author>
+      <name>Jonathan Hurst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.17320v3</id>
+    <title>Leveraging Symmetry in RL-based Legged Locomotion Control</title>
+    <updated>2025-03-11T12:43:09Z</updated>
+    <link href="https://arxiv.org/abs/2403.17320v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.17320v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model-free reinforcement learning is a promising approach for autonomously solving challenging robotics control problems, but faces exploration difficulty without information of the robot's kinematics and dynamics morphology. The under-exploration of multiple modalities with symmetric states leads to behaviors that are often unnatural and sub-optimal. This issue becomes particularly pronounced in the context of robotic systems with morphological symmetries, such as legged robots for which the resulting asymmetric and aperiodic behaviors compromise performance, robustness, and transferability to real hardware. To mitigate this challenge, we can leverage symmetry to guide and improve the exploration in policy learning via equivariance/invariance constraints. In this paper, we investigate the efficacy of two approaches to incorporate symmetry: modifying the network architectures to be strictly equivariant/invariant, and leveraging data augmentation to approximate equivariant/invariant actor-critics. We implement the methods on challenging loco-manipulation and bipedal locomotion tasks and compare with an unconstrained baseline. We find that the strictly equivariant policy consistently outperforms other methods in sample efficiency and task performance in simulation. In addition, symmetry-incorporated approaches exhibit better gait quality, higher robustness and can be deployed zero-shot in real-world experiments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-26T02:02:35Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 6899-6906</arxiv:journal_ref>
+    <author>
+      <name>Zhi Su</name>
+    </author>
+    <author>
+      <name>Xiaoyu Huang</name>
+    </author>
+    <author>
+      <name>Daniel Ordoñez-Apraez</name>
+    </author>
+    <author>
+      <name>Yunfei Li</name>
+    </author>
+    <author>
+      <name>Zhongyu Li</name>
+    </author>
+    <author>
+      <name>Qiayuan Liao</name>
+    </author>
+    <author>
+      <name>Giulio Turrisi</name>
+    </author>
+    <author>
+      <name>Massimiliano Pontil</name>
+    </author>
+    <author>
+      <name>Claudio Semini</name>
+    </author>
+    <author>
+      <name>Yi Wu</name>
+    </author>
+    <author>
+      <name>Koushil Sreenath</name>
+    </author>
+    <arxiv:doi>10.1109/IROS58592.2024.10802439</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/IROS58592.2024.10802439" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09537v1</id>
+    <title>Iterative Reinforcement Learning Based Design of Dynamic Locomotion Skills for Cassie</title>
+    <updated>2019-03-22T14:48:40Z</updated>
+    <link href="https://arxiv.org/abs/1903.09537v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.09537v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep reinforcement learning (DRL) is a promising approach for developing legged locomotion skills. However, the iterative design process that is inevitable in practice is poorly supported by the default methodology. It is difficult to predict the outcomes of changes made to the reward functions, policy architectures, and the set of tasks being trained on. In this paper, we propose a practical method that allows the reward function to be fully redefined on each successive design iteration while limiting the deviation from the previous iteration. We characterize policies via sets of Deterministic Action Stochastic State (DASS) tuples, which represent the deterministic policy state-action pairs as sampled from the states visited by the trained stochastic policy. New policies are trained using a policy gradient algorithm which then mixes RL-based policy gradients with gradient updates defined by the DASS tuples. The tuples also allow for robust policy distillation to new network architectures. We demonstrate the effectiveness of this iterative-design approach on the bipedal robot Cassie, achieving stable walking with different gait styles at various speeds. We demonstrate the successful transfer of policies learned in simulation to the physical robot without any dynamics randomization, and that variable-speed walking policies for the physical robot can be represented by a small dataset of 5-10k tuples.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-22T14:48:40Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhaoming Xie</name>
+    </author>
+    <author>
+      <name>Patrick Clary</name>
+    </author>
+    <author>
+      <name>Jeremy Dao</name>
+    </author>
+    <author>
+      <name>Pedro Morais</name>
+    </author>
+    <author>
+      <name>Jonathan Hurst</name>
+    </author>
+    <author>
+      <name>Michiel van de Panne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.13224v1</id>
+    <title>PI-ARS: Accelerating Evolution-Learned Visual-Locomotion with Predictive Information Representations</title>
+    <updated>2022-07-27T00:26:15Z</updated>
+    <link href="https://arxiv.org/abs/2207.13224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.13224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evolution Strategy (ES) algorithms have shown promising results in training complex robotic control policies due to their massive parallelism capability, simple implementation, effective parameter-space exploration, and fast training time. However, a key limitation of ES is its scalability to large capacity models, including modern neural network architectures. In this work, we develop Predictive Information Augmented Random Search (PI-ARS) to mitigate this limitation by leveraging recent advancements in representation learning to reduce the parameter search space for ES. Namely, PI-ARS combines a gradient-based representation learning technique, Predictive Information (PI), with a gradient-free ES algorithm, Augmented Random Search (ARS), to train policies that can process complex robot sensory inputs and handle highly nonlinear robot dynamics. We evaluate PI-ARS on a set of challenging visual-locomotion tasks where a quadruped robot needs to walk on uneven stepping stones, quincuncial piles, and moving platforms, as well as to complete an indoor navigation task. Across all tasks, PI-ARS demonstrates significantly better learning efficiency and performance compared to the ARS baseline. We further validate our algorithm by demonstrating that the learned policies can successfully transfer to a real quadruped robot, for example, achieving a 100% success rate on the real-world stepping stone environment, dramatically improving prior results achieving 40% success.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-27T00:26:15Z</published>
+    <arxiv:comment>To appear at IROS 2022. The supplementary video is available at https://kuanghuei.github.io/piars</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kuang-Huei Lee</name>
+    </author>
+    <author>
+      <name>Ofir Nachum</name>
+    </author>
+    <author>
+      <name>Tingnan Zhang</name>
+    </author>
+    <author>
+      <name>Sergio Guadarrama</name>
+    </author>
+    <author>
+      <name>Jie Tan</name>
+    </author>
+    <author>
+      <name>Wenhao Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.09163v2</id>
+    <title>D2RL: Deep Dense Architectures in Reinforcement Learning</title>
+    <updated>2020-11-27T20:22:38Z</updated>
+    <link href="https://arxiv.org/abs/2010.09163v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.09163v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While improvements in deep learning architectures have played a crucial role in improving the state of supervised and unsupervised learning in computer vision and natural language processing, neural network architecture choices for reinforcement learning remain relatively under-explored. We take inspiration from successful architectural choices in computer vision and generative modelling, and investigate the use of deeper networks and dense connections for reinforcement learning on a variety of simulated robotic learning benchmark environments. Our findings reveal that current methods benefit significantly from dense connections and deeper networks, across a suite of manipulation and locomotion tasks, for both proprioceptive and image-based observations. We hope that our results can serve as a strong baseline and further motivate future research into neural network architectures for reinforcement learning. The project website with code is at this link https://sites.google.com/view/d2rl/home.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-19T01:27:07Z</published>
+    <arxiv:comment>NeurIPS 2020 Deep RL Workshop. Preprint. Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Samarth Sinha</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Aravind Srinivas</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.02971v6</id>
+    <title>Continuous control with deep reinforcement learning</title>
+    <updated>2019-07-05T10:47:27Z</updated>
+    <link href="https://arxiv.org/abs/1509.02971v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.02971v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We adapt the ideas underlying the success of Deep Q-Learning to the continuous action domain. We present an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous action spaces. Using the same learning algorithm, network architecture and hyper-parameters, our algorithm robustly solves more than 20 simulated physics tasks, including classic problems such as cartpole swing-up, dexterous manipulation, legged locomotion and car driving. Our algorithm is able to find policies whose performance is competitive with those found by a planning algorithm with full access to the dynamics of the domain and its derivatives. We further demonstrate that for many of the tasks the algorithm can learn policies end-to-end: directly from raw pixel inputs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-09T23:01:36Z</published>
+    <arxiv:comment>10 pages + supplementary</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Timothy P. Lillicrap</name>
+    </author>
+    <author>
+      <name>Jonathan J. Hunt</name>
+    </author>
+    <author>
+      <name>Alexander Pritzel</name>
+    </author>
+    <author>
+      <name>Nicolas Heess</name>
+    </author>
+    <author>
+      <name>Tom Erez</name>
+    </author>
+    <author>
+      <name>Yuval Tassa</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <author>
+      <name>Daan Wierstra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.08444v1</id>
+    <title>Relational Mimic for Visual Adversarial Imitation Learning</title>
+    <updated>2019-12-18T08:19:39Z</updated>
+    <link href="https://arxiv.org/abs/1912.08444v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.08444v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we introduce a new method for imitation learning from video demonstrations. Our method, Relational Mimic (RM), improves on previous visual imitation learning methods by combining generative adversarial networks and relational learning. RM is flexible and can be used in conjunction with other recent advances in generative adversarial imitation learning to better address the need for more robust and sample-efficient approaches. In addition, we introduce a new neural network architecture that improves upon the previous state-of-the-art in reinforcement learning and illustrate how increasing the relational reasoning capabilities of the agent enables the latter to achieve increasingly higher performance in a challenging locomotion task with pixel inputs. Finally, we study the effects and contributions of relational learning in policy evaluation, policy improvement and reward learning through ablation studies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-18T08:19:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lionel Blondé</name>
+    </author>
+    <author>
+      <name>Yichuan Charlie Tang</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Russ Webb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00022v2</id>
+    <title>Learning a Structured Neural Network Policy for a Hopping Task</title>
+    <updated>2018-08-06T14:31:13Z</updated>
+    <link href="https://arxiv.org/abs/1710.00022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.00022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we present a method for learning a reactive policy for a simple dynamic locomotion task involving hard impact and switching contacts where we assume the contact location and contact timing to be unknown. To learn such a policy, we use optimal control to optimize a local controller for a fixed environment and contacts. We learn the contact-rich dynamics for our underactuated systems along these trajectories in a sample efficient manner. We use the optimized policies to learn the reactive policy in form of a neural network. Using a new neural network architecture, we are able to preserve more information from the local policy and make its output interpretable in the sense that its output in terms of desired trajectories, feedforward commands and gains can be interpreted. Extensive simulations demonstrate the robustness of the approach to changing environments, outperforming a model-free gradient policy based methods on the same tasks in simulation. Finally, we show that the learned policy can be robustly transferred on a real robot.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-29T18:35:54Z</published>
+    <arxiv:comment>IEEE Robotics and Automation Letters 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Julian Viereck</name>
+    </author>
+    <author>
+      <name>Jules Kozolinsky</name>
+    </author>
+    <author>
+      <name>Alexander Herzog</name>
+    </author>
+    <author>
+      <name>Ludovic Righetti</name>
+    </author>
+    <arxiv:doi>10.1109/LRA.2018.2861466</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LRA.2018.2861466" title="doi"/>
+  </entry>
+</feed>

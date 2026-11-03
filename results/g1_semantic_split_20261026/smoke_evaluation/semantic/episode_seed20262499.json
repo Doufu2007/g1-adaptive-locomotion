@@ -1,0 +1,163 @@
+{
+  "dt": 0.02,
+  "episode_seed": 20262499,
+  "horizon_steps": 10,
+  "identity": {
+    "arm": "semantic",
+    "episode_seed": 20262499,
+    "policy_sha256": "cc82956eab94af7945e7270c8376a2c0b7255829a037ca25101577809373ff35",
+    "split": "engineering_smoke",
+    "training_seed": 20262100
+  },
+  "rows": [
+    {
+      "alive_planar_rmse_mps": 0.38637683508693027,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.38587668061962954,
+      "lateral_rmse_mps": 0.019653143406828184,
+      "planar_rmse_mps": 0.38637683508693027,
+      "scenario": "clean",
+      "slot": 0,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.09392149606230149
+    },
+    {
+      "alive_planar_rmse_mps": 0.37528750504689823,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.37489487035554264,
+      "lateral_rmse_mps": 0.017162389851840074,
+      "planar_rmse_mps": 0.37528750504689823,
+      "scenario": "noise_low",
+      "slot": 1,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.08500779954243085
+    },
+    {
+      "alive_planar_rmse_mps": 0.44932511606719155,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.4481348904344828,
+      "lateral_rmse_mps": 0.03268302164839222,
+      "planar_rmse_mps": 0.44932511606719155,
+      "scenario": "noise_high",
+      "slot": 2,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.10323896308919378
+    },
+    {
+      "alive_planar_rmse_mps": 0.5147517331909931,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.42364475313472544,
+      "lateral_rmse_mps": 0.29239437403026214,
+      "planar_rmse_mps": 0.5147517331909931,
+      "scenario": "push_low",
+      "slot": 3,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.11241464719565816
+    },
+    {
+      "alive_planar_rmse_mps": 0.7262559060148541,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.40528540096495275,
+      "lateral_rmse_mps": 0.6026536192425415,
+      "planar_rmse_mps": 0.7262559060148541,
+      "scenario": "push_high",
+      "slot": 4,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.21321871212656213
+    },
+    {
+      "alive_planar_rmse_mps": 0.42426733856767296,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.4237233505637374,
+      "lateral_rmse_mps": 0.021477820241741993,
+      "planar_rmse_mps": 0.42426733856767296,
+      "scenario": "delay_1",
+      "slot": 5,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.055208955664585446
+    },
+    {
+      "alive_planar_rmse_mps": 0.4669216775618846,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.46374484347259237,
+      "lateral_rmse_mps": 0.054374379350804934,
+      "planar_rmse_mps": 0.4669216775618846,
+      "scenario": "delay_2",
+      "slot": 6,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.13098530425181204
+    }
+  ],
+  "trajectory_file": "episode_seed20262499.npz",
+  "trajectory_sha256": "b05bd84e918e91c546cdccfd1883aa1f9787d64642660c33f59f63bff440d256"
+}

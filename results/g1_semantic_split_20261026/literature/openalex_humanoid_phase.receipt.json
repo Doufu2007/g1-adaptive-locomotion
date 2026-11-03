@@ -1,0 +1,110 @@
+{
+  "file": "openalex_humanoid_phase.json",
+  "http_status": 200,
+  "provider": "openalex",
+  "proxy_mode": "per-request direct connection; system proxy left unchanged",
+  "query": "humanoid proprioception command phase policy network",
+  "records": [
+    {
+      "abstract": "Humanoid robots are entering our physical world at scale, yet as oversized toys--good at singing and dancing, but short on force-interaction capabilities for practical tasks. Bridging this gap necessitates prioritizing reliable contact perception as a fundamental requirement. Estimating external wrenches in humanoids is complicated by floating-base dynamics and indeterminate contact locations. Existing analytical frameworks require idealistic assumptions and hard-to-obtain measurements, which are often unavailable in practice. To bridge this gap, we propose SixthSense, a task-agnostic approach that infers whole-body contact timing, location, and wrenches from proprioception and IMU data alone. To capture the multi-modal dynamics between unstructured contact inputs and the uncertain motion outputs, we employ conditional flow matching to tokenize proprioceptive histories and estimate a spatiotemporally sparse contact-event flow. SixthSense serves as a plug-and-play perception module for applications including collision detection, physical human-robot interaction, and force-feedback teleoperation. Experiments across standing, walking, and whole-body motion-tracking policies showcased unprecedented performance in diverse behaviors.",
+      "openalex_id": "https://openalex.org/W7160283546",
+      "primary_url": "https://arxiv.org/abs/2605.01427",
+      "title": "SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids",
+      "url": "https://doi.org/10.48550/arxiv.2605.01427",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid robots hold immense potential for real-world assistance, yet agile interaction with objects in unstructured environments demands tightly coupled whole-body coordination. Despite recent advancements, current controllers face a critical deployment gap. They rely heavily on dense reference trajectories and perfect state observability, which inherently limits physical generalization. We present Vision Guided Agile Interaction Control (VAIC), a unified framework that bridges this gap by operating exclusively on onboard depth, historical proprioception, and a decoupled user command interface. VAIC employs a two-stage distillation paradigm. First, a privileged teacher policy masters diverse interaction skills using precise object kinematics and exact environmental states. Second, a deployable student policy distills these capabilities by replacing full body tracking with velocity targets across multiple axes and an interaction indicator for each frame. The student utilizes a recurrent object adaptation module to implicitly infer unobservable object dynamics from raw depth streams and proprioception. Evaluations and real-world deployments on the humanoid robot demonstrate that a single VAIC policy successfully executes highly diverse dynamic tasks. These tasks include box carrying, cart interaction, and skateboarding, consistently outperforming baselines and advancing autonomous humanoid deployment.",
+      "openalex_id": "https://openalex.org/W7164013887",
+      "primary_url": "https://arxiv.org/abs/2606.09286",
+      "title": "VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands",
+      "url": "https://doi.org/10.48550/arxiv.2606.09286",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid robots hold great promise for operating in human-centric environments, yet achieving robust whole-body coordination across the head, hands, and legs remains a major challenge. We present a system that combines a modular teleoperation interface with a scalable learning framework to address this problem. Our teleoperation design decomposes humanoid control into intuitive submodules, which include hand-eye coordination, grasp primitives, arm end-effector tracking, and locomotion. This modularity allows us to collect high-quality demonstrations efficiently. Building on this, we introduce Choice Policy, an imitation learning approach that generates multiple candidate actions and learns to score them. This architecture enables both fast inference and effective modeling of multimodal behaviors. We validate our approach on two real-world tasks: dishwasher loading and whole-body loco-manipulation for whiteboard wiping. Experiments show that Choice Policy significantly outperforms diffusion policies and standard behavior cloning. Furthermore, our results indicate that hand-eye coordination is critical for success in long-horizon tasks. Our work demonstrates a practical path toward scalable data collection and learning for coordinated humanoid manipulation in unstructured environments.",
+      "openalex_id": "https://openalex.org/W7117973341",
+      "primary_url": "http://arxiv.org/abs/2512.25072",
+      "title": "Coordinated Humanoid Manipulation with Choice Policies",
+      "url": "https://doi.org/10.48550/arxiv.2512.25072",
+      "year": 2025
+    },
+    {
+      "abstract": "In the approximately century-long journey of robotics, humanoid robots made their debut around six decades ago. While current humanoids bear human-like appearances, none have embodied true humaneness, remaining distant from achieving human-like to human-level intelligence. The rapid recent advancements in generative AI and (multimodal) large language models have further reignited and escalated interest in humanoids toward real-time, interactive, and multimodal designs and applications, such as fostering humanoid workers, advisers, educators, medical professionals, caregivers, and receptionists. These unveil boundless opportunities of transforming (1) AI robotics into a research era of humanoid AI , and (2) AI robots into new-generation humanoid AI robots (AI humanoids). Our unique and comprehensive review of about 30 reported humanoids discloses a systematic terminology and a paradigmatic landscape of human-looking to human-like and human-level humanoids. It inspires comprehensive new perspectives and directions of humanoid AI as an area: transitioning from human-looking to humane humanoids, humanizing humanoids with functional and nonfunctional specifications, and cultivating technical and actionable advances of AI humanoids. Humanoid AI and AI humanoids nurture symbiotic advancements and future opportunities of synthesizing and transforming humanity modeling and conventional, generative to human-level AI into humanoid robotics.",
+      "openalex_id": "https://openalex.org/W4414764826",
+      "primary_url": "https://doi.org/10.1145/3770574",
+      "title": "Humanoid Robots and Humanoid AI: Review, Perspectives and Directions",
+      "url": "https://doi.org/10.1145/3770574",
+      "year": 2025
+    },
+    {
+      "abstract": "For humanoid robots to interact naturally with humans and seamlessly integrate into daily life, natural language serves as an essential communication medium. While recent advances in imitation learning have enabled robots to acquire complex motions through expert demonstration, traditional approaches often rely on rigid task specifications or single-modal inputs, limiting their ability to interpret high-level semantic instructions (e.g., natural language commands) or dynamically switch between actions. Directly translating natural language into executable control commands remains a significant challenge. To address this, we propose ToggleMimic, an end-to-end imitation learning framework that generates robotic motions from textual instructions, enabling language-driven multi-task control. In contrast to end-to-end methods that struggle with generalization or single-action models that lack flexibility, our ToggleMimic framework uniquely combines the following: (1) a two-stage policy distillation that efficiently bridges the sim-to-real gap, (2) a lightweight cross-attention mechanism for interpretable text-to-action mapping, and (3) a gating network that enhances robustness to linguistic variations. Extensive simulation and real-world experiments demonstrate the framework's effectiveness, generalization capability, and robust text-guided control performance. This work establishes an efficient, interpretable, and scalable learning paradigm for cross-modal semantic-driven autonomous robot control.",
+      "openalex_id": "https://openalex.org/W4416784245",
+      "primary_url": "https://doi.org/10.3390/s25237259",
+      "title": "ToggleMimic: A Two-Stage Policy for Text-Driven Humanoid Whole-Body Control",
+      "url": "https://doi.org/10.3390/s25237259",
+      "year": 2025
+    },
+    {
+      "abstract": "Humanoids deployed in human-centered environments must handle force-interactive tasks, where external contacts introduce unexpected disturbances that disrupt locomotion accuracy and stability. Existing learning-based approaches rely on broad domain randomization, task-specific force objectives, or learning-based force estimators from motion history, each of which compromises accuracy, task transferability, or out-of-distribution (OOD) robustness. We present Analytical Disturbance-Aware Policy Training (ADAPT), a framework that equips humanoid policies with a physically grounded disturbance observer. The core of ADAPT is an analytical whole-body disturbance observer that estimates residual force/torque online with the accessible robot dynamics, without requiring force/torque sensors. Fed directly into the policy, the estimated disturbances give the humanoid an explicit, physics-derived sense of external force/torque that can generalize across diverse unseen scenes. Experiments on a Unitree G1 humanoid show that ADAPT achieves accurate disturbance prediction and stronger robustness than a proprioception-only baseline under torso perturbations, standing pushes, and asymmetric hand payloads, with improved velocity tracking even on OOD disturbances. Moreover, ADAPT enables penalizing inferred disturbances at lower-body joints to encourage lighter locomotion.",
+      "openalex_id": "https://openalex.org/W7164886140",
+      "primary_url": "https://arxiv.org/abs/2606.16542",
+      "title": "ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion",
+      "url": "https://doi.org/10.48550/arxiv.2606.16542",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid robots, with their human-like morphology, hold great potential for industrial applications. However, existing loco-manipulation methods primarily focus on dexterous manipulation, falling short of the combined requirements for dexterity and proactive force interaction in high-load industrial scenarios. To bridge this gap, we propose a reinforcement learning-based framework with a decoupled three-stage training pipeline, consisting of an upper-body policy, a lower-body policy, and a delta-command policy. To accelerate upper-body training, a heuristic reward function is designed. By implicitly embedding forward kinematics priors, it enables the policy to converge faster and achieve superior performance. For the lower body, a force-based curriculum learning strategy is developed, enabling the robot to actively exert and regulate interaction forces with the environment.",
+      "openalex_id": "https://openalex.org/W4416785335",
+      "primary_url": "http://arxiv.org/abs/2511.21169",
+      "title": "Kinematics-Aware Multi-Policy Reinforcement Learning for Force-Capable Humanoid Loco-Manipulation",
+      "url": "https://doi.org/10.48550/arxiv.2511.21169",
+      "year": 2025
+    },
+    {
+      "abstract": "Reliable fall recovery, which commonly aims at attaining a nominal upright posture, is essential for the autonomous operation of humanoid robots in unstructured field environments. Although existing posture-centered methods can synthesize coordinated whole-body recovery motions from diverse fallen configurations, they may result in a dynamically fragile support state, leading to secondary loss of balance or unstable resumption of commanded locomotion, particularly under terrain-dependent contact conditions. We propose to learn a unified humanoid policy from fall recovery to locomotion (UniReLo) across heterogeneous field terrains. UniReLo leverages continuously gated multi-scale motion priors to modulate frame-, sequence-, and gait-level adversarial supervision according to recovery progress, preserving the distinct temporal structures of recovery and locomotion without requiring fixed-threshold switching. In addition, terrain-conditioned recovery guidance evaluates the evolving support state using a terrain-relative support representation and support-feasibility assessment. Simulation and outdoor real-world experiments demonstrate that UniReLo can deliver stable and continuous recovery-to-locomotion behaviors for humanoids across diverse field terrains. The supplementary video is available at https://vsislab.github.io/UniReLo/.",
+      "openalex_id": "https://openalex.org/W7164023959",
+      "primary_url": "https://arxiv.org/abs/2606.08922",
+      "title": "UniReLo: Learning a Unified Humanoid Policy from Fall Recovery to Locomotion across Diverse Terrains",
+      "url": "https://doi.org/10.48550/arxiv.2606.08922",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework that pairs a learned stop policy with learned stoppability estimators. The estimators are complementary: a stop-probability estimator supervised by the actual outcomes of the fixed stop policy, and a reach-avoidance estimator supervised by a Hamilton-Jacobi backup over physical state. The first captures emergent stopping behavior of the learned controller; the second provides a complementary recoverability signal. Because the stop policy and estimators do not depend on the behavior policy that preceded the stop command, they transfer across diverse upstream tasks without retraining. At deployment, the two estimates are combined: Safe-Stop commits to the stop only when both estimators indicate that stopping remains feasible, otherwise it hands off to a fall policy, instantiated as a damping fallback. This agreement check yields decisions that are robust without sacrificing reactivity.",
+      "openalex_id": "https://openalex.org/W7207528192",
+      "primary_url": "https://arxiv.org/abs/2609.02358",
+      "title": "Humanoid Safe Stop via Learned Stoppability Value",
+      "url": "https://doi.org/10.48550/arxiv.2609.02358",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations. We present ViLoMan, a scalable framework for autonomous humanoid loco-manipulation. ViLoMan first transforms partial kinematic demonstrations of human-object interactions into complete, physically executable robot trajectories. It then leverages these trajectories within a teacher-student distillation framework to learn a unified policy that maps egocentric depth observations and proprioceptive measurements directly to joint-level whole-body actions. During deployment, the policy requires neither reference motions nor intermediate commands. We evaluate ViLoMan on door-closing tasks across diverse door configurations and robot initial conditions in both simulation and the real world. Experimental results demonstrate that a single policy enables a Unitree G1 humanoid to complete the full task using only onboard depth sensing and proprioception, while generalizing robustly across task variations and transferring effectively from simulation to reality. Project page: viloman-anonymous.pages.dev.",
+      "openalex_id": "https://openalex.org/W7213675617",
+      "primary_url": "https://arxiv.org/abs/2609.19340",
+      "title": "ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots",
+      "url": "https://openalex.org/W7213675617",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid local navigation in cluttered environments must jointly resolve obstacle avoidance, sparse-goal recovery, and stable whole-body locomotion under short-range and partially observable sensing. Explicit planner-control decompositions introduce latency and can mismatch agile humanoid command-tracking limits, while purely reactive controllers may lose the goal after obstacle occlusion. We present LP-NavOA, a limited-perception navigation and obstacle-avoidance framework for humanoid robots. A raycast-conditioned perception-action proximal policy optimization (PPO) locomotion backbone is first trained with a robot-centered circular heading-speed command and a shared command-side safety filter. With this backbone frozen, A-star and waypoint teachers generate rollouts for distilling a recurrent local planner that overwrites only the heading command at deployment, leaving the whole-body policy intact. At runtime, LP-NavOA uses proprioception, short-range local range sensing, and a body-frame goal direction, requiring no global map, waypoint stream, or external planner. In MuJoCo open-wall and indoor layouts, the distilled planner produces obstacle bypassing and post-avoidance goal recovery, raising teacher-calibrated on-time arrival from 38--40\\% to 85--97\\% and reducing brush/contact-heavy progress relative to a backbone-only controller. Ablations show that dynamic route shaping, teacher-active data collection, and the circular command interface are important for navigation efficiency and for training the 3.0\\,m/s backbone. A Unitree G1 deployment analysis demonstrates hardware executability without continuous joystick steering.",
+      "openalex_id": "https://openalex.org/W7165687960",
+      "primary_url": "https://arxiv.org/abs/2606.23249",
+      "title": "LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception",
+      "url": "https://doi.org/10.48550/arxiv.2606.23249",
+      "year": 2026
+    },
+    {
+      "abstract": "Humanoid robots are expected to traverse complex terrains, where the plantar support may vary dramatically due to foot placement errors, ground properties, and transient dynamics. To achieve robust locomotion, the robots are required to adapt to uneven terrain and uncertain foot--ground interactions. Existing locomotion policies rely primarily on proprioception or exteroceptive terrain perception, where the former provides only indirect evidence of plantar support, while the latter predicts contact conditions before touchdown but cannot observe the actual support in real-time. Although some studies incorporate plantar contacts as an auxiliary perception, they rely mainly on summary statistics, overlooking the spatial topology of plantar pressure, which provides a more direct characterization of the realized contact state. To bridge this gap, we present Tac4Loco, a tactile-perceptive framework that incorporates multi-array plantar pressure as direct feedback for humanoid locomotion. We formulate a topology-preserving ordinal representation to map simulated and physical sensor signals into a shared observation space, with a dual-branch encoder for extracting their spatial and temporal representations. Subsequently, the learned spatiotemporal features are integrated with augmented proprioception including terrain estimation cues, and provided to an asymmetric actor-critic architecture for policy learning. Extensive simulation and real-world experiments demonstrate improved tracking performance and support adaptation on terrains with inclined, partial, asymmetric, and changing support. We further demonstrate its zero-shot deployment on unseen compliant and unstructured terrains, including a foam platform and a gravel road. All code and experimental configurations will be released as open-source to facilitate reproducibility.",
+      "openalex_id": "https://openalex.org/W7203709126",
+      "primary_url": "https://arxiv.org/abs/2608.15766",
+      "title": "Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion",
+      "url": "https://doi.org/10.48550/arxiv.2608.15766",
+      "year": 2026
+    }
+  ],
+  "retrieved_at": "2026-10-26T05:29:52.285732+00:00",
+  "sha256": "281db12a91ccc3f2ee9739565a5e3f201845ab981bde0f5ce4da6e45ddddac50",
+  "started_at": "2026-10-26T05:29:50.833401+00:00",
+  "status": "RETRIEVED",
+  "url": "https://api.openalex.org/works?search=humanoid+proprioception+command+phase+policy+network&per-page=12"
+}

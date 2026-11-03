@@ -1,0 +1,58 @@
+{
+  "actor_budget": {
+    "all_buffers": 393,
+    "linear_macs_per_action": 212352,
+    "linear_parameters": 213277,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 295,
+    "trainable_parameters": 213306
+  },
+  "argv": [
+    "/root/autodl-tmp/g1_semantic_split_20261103/pilot_1024.py",
+    "--mode",
+    "train",
+    "--arm",
+    "semantic"
+  ],
+  "common_agent_sha256": "14069f670b7bbc433327ebe8da5d45ac566c659d1b0aa5e6bd29cae28c31308c",
+  "common_env_sha256": "d4a4f94e5b566f73b8be4018e1447c7971133ebb5980e1a806cd7631fd0aebcc",
+  "completed_transitions": 9854976,
+  "completed_updates": 401,
+  "critic_budget": {
+    "all_buffers": 340,
+    "linear_macs_per_action": 221824,
+    "linear_parameters": 222721,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 340,
+    "trainable_parameters": 222721
+  },
+  "critic_initialization_controlled": true,
+  "current_attempt_transitions": 9854976,
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4080 SUPER",
+  "fresh_actor_and_critic": true,
+  "identity": {
+    "arm": "semantic",
+    "iterations": 1000,
+    "num_envs": 1024,
+    "protocol_sha256": "e763a25fd0c73929b834c36eb98a46ef3244e068106a07846ab0f6e87334ec41",
+    "seed": 20262100,
+    "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+    "stage": "pilot"
+  },
+  "initial_actor_sha256": "210bb40bc2fae449ec108583c8a518e2bdee3640c5dec3b873739c1ba6f99952",
+  "initial_critic_sha256": "00bec1ad4a26b91861fefa99e3d83c4509a43f690a8a5877f5fa03acf656e592",
+  "latest_checkpoint": "model_400.pt",
+  "resume_limitation": null,
+  "resume_requested": true,
+  "resumed": false,
+  "schema": "g1.semantic_split.run.v1",
+  "started_at": "2026-11-03T10:51:52.710868+00:00",
+  "startup_physics": {
+    "body_ipos": "cfacdd98543be0621b8cdd89151f7fe8a7bf47264a9a2c32a54034eda194e985",
+    "body_mass": "8b1b441125ce31e8b04392ff8a4312ef68d36eb11454764f37d47cd74e4de5c4",
+    "geom_friction": "66479d2acfc975d196d0c6f3069c515e6b9b7714e9a59c9096a1915b278b40e6"
+  },
+  "status": "RUNNING",
+  "updated_at": "2026-11-03T10:59:14.300546+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "INSTALLING",
+  "pid": 21241,
+  "project": "/root/autodl-tmp/g1_semantic_split_20261103/g1_semantic_split",
+  "python": "/root/autodl-tmp/g1_semantic_split_20261103/venv/bin/python",
+  "archive_sha256": "852747647b32b68171085d71c49446efb0fec70dadba64a5ed17a023b59e7f9a",
+  "existing_vllm_services_stopped": false,
+  "global_python_modified": false
+}

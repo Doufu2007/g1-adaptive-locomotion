@@ -1,0 +1,22 @@
+.....................                                                    [100%]
+=============================== warnings summary ===============================
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+  /root/autodl-tmp/g1_semantic_split_20261103/g1_semantic_split/tests/test_g1_semantic_split.py:75: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+    torch.onnx.export(wrapper, (obs['actor'][:1],), str(path),
+
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+tests/test_g1_semantic_split.py::test_onnx_export_matches_cpu_torch_for_every_arm
+  /root/miniconda3/lib/python3.12/site-packages/torch/onnx/_internal/torchscript_exporter/utils.py:218: DeprecationWarning: The feature will be removed. Please remove usage of this function
+    setup_onnx_logging(verbose) as log_ctx,
+
+tests/test_g1_semantic_split_execution.py::test_shared_physical_configuration_retains_phase_reward_and_normalizer
+  /root/miniconda3/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+21 passed, 9 warnings in 10.68s

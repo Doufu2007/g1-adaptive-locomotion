@@ -1,0 +1,105 @@
+{
+  "arms": [
+    {
+      "actor_budget": {
+        "all_buffers": 295,
+        "linear_macs_per_action": 217728,
+        "linear_parameters": 218653,
+        "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+        "normalization_buffers": 295,
+        "trainable_parameters": 218682
+      },
+      "arm": "original",
+      "cpu_latency_us": {
+        "p50": 66.2,
+        "p95": 295.0999999999998,
+        "p99": 1686.4469999999988
+      },
+      "evaluation_scenarios": 7,
+      "onnx_max_abs_error": 5.364418029785156e-07,
+      "resume_requested": false,
+      "resumed": false,
+      "training_wall_seconds": 8.10722959999839,
+      "transitions": 192,
+      "updates": 2
+    },
+    {
+      "actor_budget": {
+        "all_buffers": 295,
+        "linear_macs_per_action": 212418,
+        "linear_parameters": 213328,
+        "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+        "normalization_buffers": 295,
+        "trainable_parameters": 213357
+      },
+      "arm": "matched",
+      "cpu_latency_us": {
+        "p50": 78.95,
+        "p95": 450.7099999999997,
+        "p99": 1313.2969999999987
+      },
+      "evaluation_scenarios": 7,
+      "onnx_max_abs_error": 5.066394805908203e-07,
+      "resume_requested": true,
+      "resumed": false,
+      "training_wall_seconds": 8.104972900000575,
+      "transitions": 192,
+      "updates": 2
+    },
+    {
+      "actor_budget": {
+        "all_buffers": 393,
+        "linear_macs_per_action": 212352,
+        "linear_parameters": 213277,
+        "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+        "normalization_buffers": 295,
+        "trainable_parameters": 213306
+      },
+      "arm": "semantic",
+      "cpu_latency_us": {
+        "p50": 89.4,
+        "p95": 344.36999999999995,
+        "p99": 1299.8989999999997
+      },
+      "evaluation_scenarios": 7,
+      "onnx_max_abs_error": 5.960464477539062e-07,
+      "resume_requested": false,
+      "resumed": false,
+      "training_wall_seconds": 8.03532599999744,
+      "transitions": 192,
+      "updates": 2
+    },
+    {
+      "actor_budget": {
+        "all_buffers": 393,
+        "linear_macs_per_action": 212352,
+        "linear_parameters": 213277,
+        "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+        "normalization_buffers": 295,
+        "trainable_parameters": 213306
+      },
+      "arm": "random",
+      "cpu_latency_us": {
+        "p50": 80.1,
+        "p95": 161.12999999999988,
+        "p99": 402.30299999999954
+      },
+      "evaluation_scenarios": 7,
+      "onnx_max_abs_error": 8.344650268554688e-07,
+      "resume_requested": false,
+      "resumed": false,
+      "training_wall_seconds": 8.039076699998986,
+      "transitions": 192,
+      "updates": 2
+    }
+  ],
+  "at": "2026-10-26T06:12:39.222126+00:00",
+  "checks_passed": 21,
+  "fairness_hashes_match": true,
+  "holdout_started": false,
+  "protocol_sha256": "8804e5f6e2a7e902ce1a1d5580c20575dbdcf09fbafb0a95962f9bc4e254f88c",
+  "scientific_training_status": "NOT_STARTED",
+  "scope": "2-update smoke only; no scientific outcome",
+  "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+  "status": "ENGINEERING_VALIDATED"
+}

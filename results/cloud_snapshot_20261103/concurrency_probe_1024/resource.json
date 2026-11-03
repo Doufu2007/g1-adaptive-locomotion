@@ -1,0 +1,40 @@
+{
+  "num_envs": 1024,
+  "started_at": "2026-11-03T10:11:30.471671+00:00",
+  "command": [
+    "/root/autodl-tmp/g1_semantic_split_20261103/venv/bin/python",
+    "-u",
+    "-m",
+    "scripts.run_g1_semantic_split",
+    "--stage",
+    "smoke",
+    "--arm",
+    "semantic",
+    "--seed",
+    "20262100",
+    "--device",
+    "cuda:0",
+    "--smoke-envs",
+    "1024",
+    "--output",
+    "/root/autodl-tmp/g1_semantic_split_20261103/concurrency_probe_1024/output"
+  ],
+  "before_gpu": {
+    "used_mib": 30615,
+    "free_mib": 1617,
+    "utilization_percent": 0
+  },
+  "status": "PASSED",
+  "scope": "2 PPO updates, engineering resource probe, not a scientific outcome",
+  "pid": 24985,
+  "peak_total_gpu_used_mib": 31490,
+  "elapsed_seconds": 16.576271418482065,
+  "samples": 8,
+  "exit_code": 0,
+  "ended_at": "2026-11-03T10:11:47.087089+00:00",
+  "after_gpu": {
+    "used_mib": 30615,
+    "free_mib": 1617,
+    "utilization_percent": 0
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "at_utc": "2026-11-03T10:17:55.737191+00:00",
+  "validation": {
+    "status": "FAILED",
+    "started_at": "2026-11-03T10:10:06.537169+00:00",
+    "stage": "concurrency",
+    "updated_at": "2026-11-03T10:10:19.339187+00:00",
+    "exit_codes": {
+      "dependencies": 0,
+      "tests": 0,
+      "concurrency": 1
+    },
+    "failed_stage": "concurrency"
+  },
+  "probes": {
+    "status": "FAILED",
+    "records": [
+      {
+        "num_envs": 4,
+        "started_at": "2026-11-03T10:10:19.395309+00:00",
+        "command": [
+          "/root/autodl-tmp/g1_semantic_split_20261103/venv/bin/python",
+          "-u",
+          "-m",
+          "scripts.run_g1_semantic_split",
+          "--stage",
+          "smoke",
+          "--arm",
+          "semantic",
+          "--seed",
+          "20262100",
+          "--device",
+          "cuda:0",
+          "--smoke-envs",
+          "4",
+          "--output",
+          "/root/autodl-tmp/g1_semantic_split_20261103/concurrency_probe_4/output"
+        ],
+        "before_gpu": {
+          "used_mib": 30615,
+          "free_mib": 1617,
+          "utilization_percent": 0
+        },
+        "status": "PASSED",
+        "scope": "2 PPO updates, engineering resource probe, not a scientific outcome",
+        "pid": 24697,
+        "peak_total_gpu_used_mib": 31130,
+        "elapsed_seconds": 70.91389652900398,
+        "samples": 34,
+        "exit_code": 0,
+        "ended_at": "2026-11-03T10:11:30.388577+00:00",
+        "after_gpu": {
+          "used_mib": 30615,
+          "free_mib": 1617,
+          "utilization_percent": 0
+        }
+      },
+      {
+        "num_envs": 1024,
+        "started_at": "2026-11-03T10:11:30.471671+00:00",
+        "command": [
+          "/root/autodl-tmp/g1_semantic_split_20261103/venv/bin/python",
+          "-u",
+          "-m",
+          "scripts.run_g1_semantic_split",
+          "--stage",
+          "smoke",
+          "--arm",
+          "semantic",
+          "--seed",
+          "20262100",
+          "--device",
+          "cuda:0",
+          "--smoke-envs",
+          "1024",
+          "--output",
+          "/root/autodl-tmp/g1_semantic_split_20261103/concurrency_probe_1024/output"
+        ],
+        "before_gpu": {
+          "used_mib": 30615,
+          "free_mib": 1617,
+          "utilization_percent": 0
+        },
+        "status": "PASSED",
+        "scope": "2 PPO updates, engineering resource probe, not a scientific outcome",
+        "pid": 24985,
+        "peak_total_gpu_used_mib": 31490,
+        "elapsed_seconds": 16.576271418482065,
+        "samples": 8,
+        "exit_code": 0,
+        "ended_at": "2026-11-03T10:11:47.087089+00:00",
+        "after_gpu": {
+          "used_mib": 30615,
+          "free_mib": 1617,
+          "utilization_percent": 0
+        }
+      },
+      {
+        "num_envs": 4096,
+        "started_at": "2026-11-03T10:11:47.149760+00:00",
+        "command": [
+          "/root/autodl-tmp/g1_semantic_split_20261103/venv/bin/python",
+          "-u",
+          "-m",
+          "scripts.run_g1_semantic_split",
+          "--stage",
+          "smoke",
+          "--arm",
+          "semantic",
+          "--seed",
+          "20262100",
+          "--device",
+          "cuda:0",
+          "--smoke-envs",
+          "4096",
+          "--output",
+          "/root/autodl-tmp/g1_semantic_split_20261103/concurrency_probe_4096/output"
+        ],
+        "before_gpu": {
+          "used_mib": 30615,
+          "free_mib": 1617,
+          "utilization_percent": 0
+        },
+        "status": "FAILED",
+        "scope": "2 PPO updates, engineering resource probe, not a scientific outcome",
+        "pid": 25191,
+        "peak_total_gpu_used_mib": 32204,
+        "elapsed_seconds": 18.808118350803852,
+        "samples": 9,
+        "exit_code": 1,
+        "ended_at": "2026-11-03T10:12:06.057297+00:00",
+        "after_gpu": {
+          "used_mib": 30615,
+          "free_mib": 1617,
+          "utilization_percent": 0
+        }
+      }
+    ],
+    "failed_num_envs": 4096,
+    "original_4096_env_configuration_fits": false,
+    "existing_services_stopped": false
+  },
+  "pilot_queue": {
+    "adapter_sha256": "7e97d7441a49a96f17f7414c5a9922c169d8669fc54f83d6b266dc5dda9d024e",
+    "arm": "original",
+    "child_pid": 25612,
+    "created_at": 1793700966.88,
+    "existing_services_stopped": false,
+    "formal_training_started": false,
+    "free_gpu_mib": 1617,
+    "log": "/root/autodl-tmp/g1_semantic_split_20261103/engineering_pilot_1024/pilot_original_1793700970784330843.log",
+    "pid": 25538,
+    "required_free_gpu_mib": 1387,
+    "stage": "pilot",
+    "started_at": "2026-11-03T10:16:10.588418+00:00",
+    "status": "RUNNING",
+    "updated_at": "2026-11-03T10:16:10.785252+00:00"
+  },
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER, 32760, 31500, 731, 43",
+  "gpu_jobs": "17599, VLLM::EngineCore, 22000\n18239, VLLM::EngineCore, 8600\n25612, /root/autodl-tmp/g1_semantic_split_20261103/venv/bin/python, 880",
+  "runs": [
+    {
+      "manifest": {
+        "actor_budget": {
+          "all_buffers": 295,
+          "linear_macs_per_action": 217728,
+          "linear_parameters": 218653,
+          "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+          "normalization_buffers": 295,
+          "trainable_parameters": 218682
+        },
+        "argv": [
+          "/root/autodl-tmp/g1_semantic_split_20261103/pilot_1024.py",
+          "--mode",
+          "train",
+          "--arm",
+          "original"
+        ],
+        "common_agent_sha256": "14069f670b7bbc433327ebe8da5d45ac566c659d1b0aa5e6bd29cae28c31308c",
+        "common_env_sha256": "d4a4f94e5b566f73b8be4018e1447c7971133ebb5980e1a806cd7631fd0aebcc",
+        "completed_transitions": 24576,
+        "completed_updates": 1,
+        "critic_budget": {
+          "all_buffers": 340,
+          "linear_macs_per_action": 221824,
+          "linear_parameters": 222721,
+          "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+          "normalization_buffers": 340,
+          "trainable_parameters": 222721
+        },
+        "critic_initialization_controlled": true,
+        "current_attempt_transitions": 24576,
+        "device": "cuda:0",
+        "device_name": "NVIDIA GeForce RTX 4080 SUPER",
+        "fresh_actor_and_critic": true,
+        "identity": {
+          "arm": "original",
+          "iterations": 1000,
+          "num_envs": 1024,
+          "protocol_sha256": "e763a25fd0c73929b834c36eb98a46ef3244e068106a07846ab0f6e87334ec41",
+          "seed": 20262100,
+          "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+          "stage": "pilot"
+        },
+        "initial_actor_sha256": "0121c6f6c238bfc58c3446b148ed6a8fd44f822ba5fef2335021221e4513babe",
+        "initial_critic_sha256": "00bec1ad4a26b91861fefa99e3d83c4509a43f690a8a5877f5fa03acf656e592",
+        "latest_checkpoint": "model_0.pt",
+        "resume_limitation": null,
+        "resume_requested": true,
+        "resumed": false,
+        "schema": "g1.semantic_split.run.v1",
+        "started_at": "2026-11-03T10:16:13.850744+00:00",
+        "startup_physics": {
+          "body_ipos": "cfacdd98543be0621b8cdd89151f7fe8a7bf47264a9a2c32a54034eda194e985",
+          "body_mass": "8b1b441125ce31e8b04392ff8a4312ef68d36eb11454764f37d47cd74e4de5c4",
+          "geom_friction": "66479d2acfc975d196d0c6f3069c515e6b9b7714e9a59c9096a1915b278b40e6"
+        },
+        "status": "RUNNING",
+        "updated_at": "2026-11-03T10:16:23.043515+00:00"
+      },
+      "training_rows": 94,
+      "last_metrics": [
+        {
+          "iteration": 74,
+          "losses": {
+            "value": 0.00968550774268806,
+            "surrogate": -0.01501112644909881,
+            "entropy": 35.3781156539917
+          },
+          "collect_seconds": 0.7131240367889404,
+          "learn_seconds": 0.1155388355255127
+        },
+        {
+          "iteration": 75,
+          "losses": {
+            "value": 0.011430600471794606,
+            "surrogate": -0.015000240335939451,
+            "entropy": 35.31381607055664
+          },
+          "collect_seconds": 0.7140729427337646,
+          "learn_seconds": 0.11670160293579102
+        },
+        {
+          "iteration": 76,
+          "losses": {
+            "value": 0.011172320647165179,
+            "surrogate": -0.02007623699028045,
+            "entropy": 35.216160202026366
+          },
+          "collect_seconds": 0.7187094688415527,
+          "learn_seconds": 0.1133890151977539
+        },
+        {
+          "iteration": 77,
+          "losses": {
+            "value": 0.010138295497745276,
+            "surrogate": -0.019772510993061588,
+            "entropy": 35.12113456726074
+          },
+          "collect_seconds": 0.724400520324707,
+          "learn_seconds": 0.11478996276855469
+        },
+        {
+          "iteration": 78,
+          "losses": {
+            "value": 0.011179059324786068,
+            "surrogate": -0.01552032686304301,
+            "entropy": 35.06936683654785
+          },
+          "collect_seconds": 0.7276263236999512,
+          "learn_seconds": 0.2771167755126953
+        },
+        {
+          "iteration": 79,
+          "losses": {
+            "value": 0.011372987134382128,
+            "surrogate": -0.018087183125317097,
+            "entropy": 34.973992347717285
+          },
+          "collect_seconds": 0.7314803600311279,
+          "learn_seconds": 0.28380513191223145
+        },
+        {
+          "iteration": 80,
+          "losses": {
+            "value": 0.01514865756034851,
+            "surrogate": -0.013421814190223813,
+            "entropy": 34.93621635437012
+          },
+          "collect_seconds": 0.7415499687194824,
+          "learn_seconds": 0.2846992015838623
+        },
+        {
+          "iteration": 81,
+          "losses": {
+            "value": 0.01264559435658157,
+            "surrogate": -0.016241175937466323,
+            "entropy": 34.89324550628662
+          },
+          "collect_seconds": 0.7423903942108154,
+          "learn_seconds": 0.2823672294616699
+        },
+        {
+          "iteration": 82,
+          "losses": {
+            "value": 0.01945496555417776,
+            "surrogate": -0.017177361116046085,
+            "entropy": 34.8275806427002
+          },
+          "collect_seconds": 0.7421963214874268,
+          "learn_seconds": 0.28412961959838867
+        },
+        {
+          "iteration": 83,
+          "losses": {
+            "value": 0.022117858193814753,
+            "surrogate": -0.012668389602913522,
+            "entropy": 34.790906524658205
+          },
+          "collect_seconds": 0.7303619384765625,
+          "learn_seconds": 0.27938103675842285
+        },
+        {
+          "iteration": 84,
+          "losses": {
+            "value": 0.01651663747616112,
+            "surrogate": -0.015522463340312242,
+            "entropy": 34.745304107666016
+          },
+          "collect_seconds": 0.7739095687866211,
+          "learn_seconds": 0.3140099048614502
+        },
+        {
+          "iteration": 85,
+          "losses": {
+            "value": 0.017293704114854334,
+            "surrogate": -0.015452709229430183,
+            "entropy": 34.700470733642575
+          },
+          "collect_seconds": 0.7382073402404785,
+          "learn_seconds": 0.27991724014282227
+        },
+        {
+          "iteration": 86,
+          "losses": {
+            "value": 0.015483014518395066,
+            "surrogate": -0.016056071425555273,
+            "entropy": 34.65077724456787
+          },
+          "collect_seconds": 0.7291216850280762,
+          "learn_seconds": 0.27643895149230957
+        },
+        {
+          "iteration": 87,
+          "losses": {
+            "value": 0.014888383075594902,
+            "surrogate": -0.018230370082892477,
+            "entropy": 34.57523403167725
+          },
+          "collect_seconds": 0.7308790683746338,
+          "learn_seconds": 0.2767980098724365
+        },
+        {
+          "iteration": 88,
+          "losses": {
+            "value": 0.016153207840397955,
+            "surrogate": -0.014471436548046768,
+            "entropy": 34.53337841033935
+          },
+          "collect_seconds": 0.735083818435669,
+          "learn_seconds": 0.27579259872436523
+        },
+        {
+          "iteration": 89,
+          "losses": {
+            "value": 0.01517499191686511,
+            "surrogate": -0.017758061416679995,
+            "entropy": 34.475617218017575
+          },
+          "collect_seconds": 0.7407867908477783,
+          "learn_seconds": 0.2744333744049072
+        },
+        {
+          "iteration": 90,
+          "losses": {
+            "value": 0.017236981261521577,
+            "surrogate": -0.01657616321463138,
+            "entropy": 34.41854953765869
+          },
+          "collect_seconds": 0.7379541397094727,
+          "learn_seconds": 0.273439884185791
+        },
+        {
+          "iteration": 91,
+          "losses": {
+            "value": 0.018196978885680438,
+            "surrogate": -0.014886600858881138,
+            "entropy": 34.37853870391846
+          },
+          "collect_seconds": 0.7393379211425781,
+          "learn_seconds": 0.28206419944763184
+        },
+        {
+          "iteration": 92,
+          "losses": {
+            "value": 0.020088700763881206,
+            "surrogate": -0.017167418566532432,
+            "entropy": 34.32691993713379
+          },
+          "collect_seconds": 0.7374355792999268,
+          "learn_seconds": 0.2773003578186035
+        },
+        {
+          "iteration": 93,
+          "losses": {
+            "value": 0.01999781038612127,
+            "surrogate": -0.015960697861737573,
+            "entropy": 34.28931732177735
+          },
+          "collect_seconds": 0.7357759475708008,
+          "learn_seconds": 0.2786555290222168
+        }
+      ],
+      "recent_mean_seconds_per_update": 0.9822586297988891,
+      "checkpoint_files": [
+        "model_0.pt"
+      ]
+    }
+  ],
+  "formal_training_started": false,
+  "tests_summary": "21 passed, 9 warnings in 10.68s",
+  "preserved_vllm_processes": [
+    {
+      "pid": 17599,
+      "running": true
+    },
+    {
+      "pid": 18239,
+      "running": true
+    }
+  ]
+}

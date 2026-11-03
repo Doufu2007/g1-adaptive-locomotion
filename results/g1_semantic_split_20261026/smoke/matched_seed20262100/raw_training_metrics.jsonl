@@ -1,0 +1,2 @@
+{"iteration": 0, "losses": {"value": 0.44621974378824236, "surrogate": -0.10005309935659171, "entropy": 41.14190788269043}, "collect_seconds": 3.3447961807250977, "learn_seconds": 0.17716169357299805}
+{"iteration": 1, "losses": {"value": 1.3375348091125487, "surrogate": -0.10300814225338399, "entropy": 41.14505138397217}, "collect_seconds": 2.9191484451293945, "learn_seconds": 0.22493815422058105}

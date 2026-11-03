@@ -1,0 +1,10 @@
+{
+  "http_status": 200,
+  "query": "all:\"G1\" AND (all:\"command embedding\" OR all:\"dual-stream\" OR all:\"state encoder\")",
+  "raw_sha256": "30e0dded3cbd64e91f23ebe295f0cab4cfadf76f4b85fda11e7164fd2348ee32",
+  "records": [],
+  "retrieved_at": "2026-10-26T05:35:53.009776+00:00",
+  "started_at": "2026-10-26T05:35:52.418466+00:00",
+  "status": "RETRIEVED",
+  "url": "https://export.arxiv.org/api/query?search_query=all%3A%22G1%22+AND+%28all%3A%22command+embedding%22+OR+all%3A%22dual-stream%22+OR+all%3A%22state+encoder%22%29&max_results=15&sortBy=relevance"
+}

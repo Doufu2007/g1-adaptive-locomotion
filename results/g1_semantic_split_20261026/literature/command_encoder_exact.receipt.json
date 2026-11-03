@@ -1,0 +1,25 @@
+{
+  "http_status": 200,
+  "query": "all:\"command encoder\" AND (all:robot OR all:locomotion)",
+  "raw_sha256": "4ab5432dd2986f9af498c3405d699deb1db06b413079eee2585550f94ad07f62",
+  "records": [
+    {
+      "abstract": "Learning a general humanoid whole-body controller is challenging because practical reference motions can exhibit noise and inconsistencies after being transferred to the robot domain, and local defects may be amplified by closed-loop execution, causing drift or failure in highly dynamic and contact-rich behaviors. We propose a dynamics-conditioned command aggregation framework that uses a causal temporal encoder to summarize recent proprioception and a multi-head cross-attention command encoder to selectively aggregate a context window based on the current dynamics. We further integrate a fall recovery curriculum with random unstable initialization and an annealed upward assistance force to improve robustness and disturbance rejection. The resulting policy requires only about 3.5 hours of motion data and supports single-stage end-to-end training without distillation. The proposed method is evaluated under diverse reference inputs and challenging motion regimes, demonstrating zero-shot transfer to unseen motions as well as robust sim-to-real transfer on a physical humanoid robot.",
+      "published": "2026-01-30T15:27:43Z",
+      "title": "Robust and Generalized Humanoid Motion Tracking",
+      "updated": "2026-01-30T15:27:43Z",
+      "url": "http://arxiv.org/abs/2601.23080v1"
+    },
+    {
+      "abstract": "Geometric organization of objects into semantically meaningful arrangements pervades the built world. As such, assistive robots operating in warehouses, offices, and homes would greatly benefit from the ability to recognize and rearrange objects into these semantically meaningful structures. To be useful, these robots must contend with previously unseen objects and receive instructions without significant programming. While previous works have examined recognizing pairwise semantic relations and sequential manipulation to change these simple relations none have shown the ability to arrange objects into complex structures such as circles or table settings. To address this problem we propose a novel transformer-based neural network, StructFormer, which takes as input a partial-view point cloud of the current object arrangement and a structured language command encoding the desired object configuration. We show through rigorous experiments that StructFormer enables a physical robot to rearrange novel objects into semantically meaningful structures with multi-object relational constraints inferred from the language command.",
+      "published": "2021-10-19T18:13:01Z",
+      "title": "StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement of Novel Objects",
+      "updated": "2021-10-19T18:13:01Z",
+      "url": "http://arxiv.org/abs/2110.10189v1"
+    }
+  ],
+  "retrieved_at": "2026-10-26T05:35:45.798210+00:00",
+  "started_at": "2026-10-26T05:35:45.226457+00:00",
+  "status": "RETRIEVED",
+  "url": "https://export.arxiv.org/api/query?search_query=all%3A%22command+encoder%22+AND+%28all%3Arobot+OR+all%3Alocomotion%29&max_results=15&sortBy=relevance"
+}

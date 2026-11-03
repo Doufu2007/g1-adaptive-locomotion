@@ -1,0 +1,217 @@
+{
+  "analysis": {
+    "comparisons": [
+      [
+        "semantic",
+        "matched"
+      ],
+      [
+        "semantic",
+        "random"
+      ]
+    ],
+    "inconclusive_action": "retain all runs; consider more training repeats without editing original outcomes",
+    "max_failure_increase": 0.02,
+    "primary": "clean planar velocity RMSE [m/s], equal weight per command/episode then per training seed",
+    "screening_relative_improvement": 0.05,
+    "secondary": [
+      "yaw RMSE [rad/s]",
+      "failure proportion",
+      "completion",
+      "robustness per scenario"
+    ],
+    "threshold_status": "implementation defaults chosen before new results; exploratory screening, not acceptance criteria for publication",
+    "uncertainty": "paired training-seed t intervals and Holm adjustment; low precision with n=3",
+    "unit": "independently trained policy; episodes are repeated measurements"
+  },
+  "arms": [
+    "original",
+    "matched",
+    "semantic",
+    "random"
+  ],
+  "checkpoint_selection": "final_budget_checkpoint_only",
+  "command_curriculum": "disabled for every arm; fixed common command support",
+  "created_at": "2026-10-26",
+  "critic": [
+    512,
+    256,
+    128
+  ],
+  "engineering_amendment": {
+    "adapter_sha256": "7e97d7441a49a96f17f7414c5a9922c169d8669fc54f83d6b266dc5dda9d024e",
+    "date": "2026-11-03",
+    "formal_budget": "pending user choice; no formal job authorized through this engineering adapter",
+    "interpretation": "pipeline stability and speed only; not method ranking or original pilot completion",
+    "original_protocol_sha256": "8804e5f6e2a7e902ce1a1d5580c20575dbdcf09fbafb0a95962f9bc4e254f88c",
+    "pilot_transitions_per_arm": 24576000,
+    "pilot_updates_per_arm": 1000,
+    "reason": "4096 environments exhausted GPU memory alongside two existing vLLM services; 1024 passed"
+  },
+  "evaluation": {
+    "commands": [
+      [
+        0.5,
+        0.0,
+        0.0
+      ],
+      [
+        0.8,
+        0.0,
+        0.0
+      ],
+      [
+        0.3,
+        0.2,
+        0.0
+      ],
+      [
+        0.3,
+        -0.2,
+        0.0
+      ],
+      [
+        0.3,
+        0.0,
+        0.4
+      ],
+      [
+        0.3,
+        0.0,
+        -0.4
+      ]
+    ],
+    "development_seeds": [
+      20262201,
+      20262202,
+      20262203,
+      20262204,
+      20262205,
+      20262206,
+      20262207,
+      20262208,
+      20262209,
+      20262210
+    ],
+    "failure_tail": "zero physical velocity through the fixed horizon; also report completion and alive-only errors",
+    "holdout_gate": "all twelve formal policies sealed before any holdout rollout",
+    "holdout_seeds": [
+      20262301,
+      20262302,
+      20262303,
+      20262304,
+      20262305,
+      20262306,
+      20262307,
+      20262308,
+      20262309,
+      20262310,
+      20262311,
+      20262312,
+      20262313,
+      20262314,
+      20262315,
+      20262316,
+      20262317,
+      20262318,
+      20262319,
+      20262320,
+      20262321,
+      20262322,
+      20262323,
+      20262324,
+      20262325,
+      20262326,
+      20262327,
+      20262328,
+      20262329,
+      20262330
+    ],
+    "horizon_seconds": 20.0,
+    "noise_uniform_half_width": {
+      "base_ang_vel": 0.2,
+      "joint_pos": 0.01,
+      "joint_vel": 1.5,
+      "projected_gravity": 0.05
+    },
+    "policy": "deterministic mean, frozen normalizer, CPU float32 ONNX",
+    "scenarios": {
+      "clean": {},
+      "delay_1": {
+        "action_delay_steps": 1
+      },
+      "delay_2": {
+        "action_delay_steps": 2
+      },
+      "noise_high": {
+        "state_noise_scale": 2.0
+      },
+      "noise_low": {
+        "state_noise_scale": 1.0
+      },
+      "push_high": {
+        "at_seconds": 5.0,
+        "lateral_delta_v_mps": 0.6
+      },
+      "push_low": {
+        "at_seconds": 5.0,
+        "lateral_delta_v_mps": 0.3
+      }
+    }
+  },
+  "execution_scope": "ENGINEERING_PILOT_ONLY; formal and holdout execution prohibited by this adapter",
+  "latency": {
+    "backend": "onnxruntime CPUExecutionProvider float32",
+    "batch": 1,
+    "quantiles": [
+      50,
+      95,
+      99
+    ],
+    "samples": 2000,
+    "scope": "normalization, gathers, encoders, fusion, head; excludes simulation and sensor IO",
+    "threads": 1,
+    "warmup": 200
+  },
+  "normalization": "shared policy: running per-feature statistics fitted on each policy training rollouts only",
+  "partition_seed": 20261026,
+  "phase": "analytic sin/cos, period 0.6s",
+  "question": "At near-equal actor budgets, does state/condition grouping improve G1 velocity tracking and robustness?",
+  "schema": "g1.semantic_split.protocol.v1",
+  "status": "LOCAL_FROZEN_PLAN_NOT_EXTERNAL_REGISTRATION",
+  "stopping": {
+    "budget_exhaustion": "report INCOMPLETE; never replace missing results with pilot results",
+    "evaluation": "fixed horizon; first non-timeout termination marks episode failed",
+    "training": "fixed updates; abort numerical or identity failures; no performance early stopping"
+  },
+  "task": "Unitree-G1-Flat",
+  "training": {
+    "formal_iterations": 10001,
+    "from_scratch": true,
+    "hyperparameter_search_trials_per_arm": 0,
+    "num_envs": 1024,
+    "pilot_iterations": 1000,
+    "pilot_seed": 20262100,
+    "save_interval": 100,
+    "seeds": [
+      20262101,
+      20262102,
+      20262103
+    ],
+    "steps_per_env": 24
+  },
+  "training_command_ranges": {
+    "ang_vel_z": [
+      -0.5,
+      0.5
+    ],
+    "lin_vel_x": [
+      -0.5,
+      1.0
+    ],
+    "lin_vel_y": [
+      -0.5,
+      0.5
+    ]
+  }
+}

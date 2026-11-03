@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-26T05:49:17.620971+00:00",
+  "local_gpu": "NVIDIA GeForce RTX 4050 Laptop GPU, 6141, 5286",
+  "gpu_compute_processes": "28736, C:\\Program Files\\Python313\\python.exe\n7468, C:\\Program Files\\Python313\\python.exe",
+  "remote_endpoints": [
+    {
+      "host": "connect.weste.seetacloud.com",
+      "port": 49663,
+      "status": "ConnectionRefusedError: [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002"
+    },
+    {
+      "host": "connect.westc.seetacloud.com",
+      "port": 48802,
+      "status": "ConnectionRefusedError: [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002"
+    },
+    {
+      "host": "connect.westd.seetacloud.com",
+      "port": 23827,
+      "status": "ConnectionRefusedError: [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002"
+    }
+  ],
+  "scientific_training_status": "NOT_STARTED_RESOURCE_BLOCKED",
+  "formal_gpu_required_free_mib": 22000,
+  "cloud_account_or_key_created": false,
+  "other_processes_stopped": false
+}

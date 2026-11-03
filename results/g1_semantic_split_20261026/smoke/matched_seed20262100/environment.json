@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-26T05:48:00.237834+00:00",
+  "cublas_workspace_config": ":4096:8",
+  "executable": "C:\\Program Files\\Python313\\python.exe",
+  "packages": {
+    "mjlab": "1.2.0",
+    "mujoco": "3.5.0",
+    "mujoco-warp": "3.5.0",
+    "numpy": "2.4.2",
+    "onnx": "1.22.0",
+    "onnxruntime": "1.27.0",
+    "rsl-rl-lib": "5.0.1",
+    "scipy": "1.17.1",
+    "torch": "2.6.0+cu124",
+    "warp-lang": "1.13.0"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "pythonhashseed": "20262100",
+  "seed_scope": "Python, NumPy, torch and CUDA; fixed cuDNN flags; no cross-hardware bitwise claim"
+}

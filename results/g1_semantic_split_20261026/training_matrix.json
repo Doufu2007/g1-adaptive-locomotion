@@ -1,0 +1,86 @@
+{
+  "formal": [
+    {
+      "arm": "original",
+      "seed": 20262101,
+      "stage": "formal"
+    },
+    {
+      "arm": "matched",
+      "seed": 20262101,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20262101,
+      "stage": "formal"
+    },
+    {
+      "arm": "random",
+      "seed": 20262101,
+      "stage": "formal"
+    },
+    {
+      "arm": "random",
+      "seed": 20262102,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20262102,
+      "stage": "formal"
+    },
+    {
+      "arm": "matched",
+      "seed": 20262102,
+      "stage": "formal"
+    },
+    {
+      "arm": "original",
+      "seed": 20262102,
+      "stage": "formal"
+    },
+    {
+      "arm": "original",
+      "seed": 20262103,
+      "stage": "formal"
+    },
+    {
+      "arm": "matched",
+      "seed": 20262103,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20262103,
+      "stage": "formal"
+    },
+    {
+      "arm": "random",
+      "seed": 20262103,
+      "stage": "formal"
+    }
+  ],
+  "pilot": [
+    {
+      "arm": "original",
+      "seed": 20262100,
+      "stage": "pilot"
+    },
+    {
+      "arm": "matched",
+      "seed": 20262100,
+      "stage": "pilot"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20262100,
+      "stage": "pilot"
+    },
+    {
+      "arm": "random",
+      "seed": 20262100,
+      "stage": "pilot"
+    }
+  ]
+}

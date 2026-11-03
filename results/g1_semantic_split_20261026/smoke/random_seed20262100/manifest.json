@@ -1,0 +1,78 @@
+{
+  "actor_budget": {
+    "all_buffers": 393,
+    "linear_macs_per_action": 212352,
+    "linear_parameters": 213277,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 295,
+    "trainable_parameters": 213306
+  },
+  "argv": [
+    "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\_worktrees\\g1-semantic-split\\scripts\\run_g1_semantic_split.py",
+    "--output",
+    "results\\g1_semantic_split_20261026",
+    "--device",
+    "cpu",
+    "--stage",
+    "smoke",
+    "--arm",
+    "random",
+    "--seed",
+    "20262100"
+  ],
+  "checkpoint_file": "model_1.pt",
+  "checkpoint_sha256": "deef1d1e5a522d3f49de17a9212a7f21b9216b431bfa76e9547cc53b77225e58",
+  "common_agent_sha256": "14069f670b7bbc433327ebe8da5d45ac566c659d1b0aa5e6bd29cae28c31308c",
+  "common_env_sha256": "8e62df465960db3ce97826e6e53490908e920867e58c25021e91b3014a80cb30",
+  "completed_transitions": 192,
+  "completed_updates": 2,
+  "critic_budget": {
+    "all_buffers": 340,
+    "linear_macs_per_action": 221824,
+    "linear_parameters": 222721,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 340,
+    "trainable_parameters": 222721
+  },
+  "critic_initialization_controlled": true,
+  "current_attempt_transitions": 192,
+  "device": "cpu",
+  "device_name": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD",
+  "ended_at": "2026-10-26T05:50:33.962439+00:00",
+  "fresh_actor_and_critic": true,
+  "identity": {
+    "arm": "random",
+    "iterations": 2,
+    "num_envs": 4,
+    "protocol_sha256": "8804e5f6e2a7e902ce1a1d5580c20575dbdcf09fbafb0a95962f9bc4e254f88c",
+    "seed": 20262100,
+    "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+    "stage": "smoke"
+  },
+  "initial_actor_sha256": "772a0f3e5f4e2535a9347024ebb54569592f4684b8d56ef8847d6095fdf1af84",
+  "initial_critic_sha256": "16a971beaa24f1582a057fdc1cb233d50e2ef40bb0ab45dda8dfe83fe1bf907f",
+  "latest_checkpoint": "model_1.pt",
+  "onnx_parity": {
+    "atol": 2e-05,
+    "backend": "torch CPU fp32 vs ONNX Runtime CPU fp32",
+    "max_abs_error": 8.344650268554688e-07,
+    "passed": true,
+    "rtol": 0.0002,
+    "samples": 32
+  },
+  "policy_file": "policy.onnx",
+  "policy_sha256": "a37098a82f781c3fe19378b9664db3ce2e1556779eb3096f2bce7f08d8f07488",
+  "resume_limitation": null,
+  "resume_requested": false,
+  "resumed": false,
+  "schema": "g1.semantic_split.run.v1",
+  "started_at": "2026-10-26T05:50:09.049752+00:00",
+  "startup_physics": {
+    "body_ipos": "0d4cb39289d19830248c8a2439479c89c022a1e7b464466e86bfd2d5f38ae700",
+    "body_mass": "0f87b703c8942743fb8a593747607574e33f7dded841551cf17ae13997da2f04",
+    "geom_friction": "1ea8fbcd9a99021ae770c0819ef235c59cec7d00e21dcee7b3662626106b6600"
+  },
+  "status": "COMPLETED",
+  "training_wall_seconds": 8.039076699998986,
+  "updated_at": "2026-10-26T05:50:33.315583+00:00"
+}

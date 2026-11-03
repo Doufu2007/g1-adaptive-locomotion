@@ -1,0 +1,96 @@
+{
+  "at": "2026-11-03T11:33:25.954530+00:00",
+  "endpoint": "connect.weste.seetacloud.com:16963",
+  "states": {
+    "formal_1024_launch.json": {
+      "pid": 5634,
+      "at": "2026-11-03T11:33:07.085981+00:00",
+      "endpoint": "connect.weste.seetacloud.com:16963",
+      "adapter_sha256": "390e50f2551c71e0beec29c80e9ccaa170b69d44f8fa68bd3b73ba768424e77f",
+      "training_budget": "1024 x 10001 x 24 per run, 12 runs",
+      "user_authorization": "APPROVED",
+      "services_stopped": false,
+      "pid_alive_at_snapshot": true
+    },
+    "formal_1024/queue_status.json": {
+      "adapter_sha256": "390e50f2551c71e0beec29c80e9ccaa170b69d44f8fa68bd3b73ba768424e77f",
+      "completed_formal_runs": [],
+      "created_at": 1793705586.9,
+      "dependency": {
+        "adapter_sha256": "7e97d7441a49a96f17f7414c5a9922c169d8669fc54f83d6b266dc5dda9d024e",
+        "arm": "semantic",
+        "child_pid": 3310,
+        "completed_arms": [
+          "original",
+          "matched"
+        ],
+        "created_at": 1793705080.5,
+        "existing_services_stopped": false,
+        "formal_training_started": false,
+        "free_gpu_mib": 32230,
+        "log": "/root/autodl-tmp/g1_semantic_split_20261103/engineering_pilot_1024/pilot_semantic_1793705092626469970.log",
+        "pid": 3099,
+        "required_free_gpu_mib": 1387,
+        "stage": "pilot",
+        "started_at": "2026-11-03T11:24:43.995943+00:00",
+        "status": "RUNNING",
+        "updated_at": "2026-11-03T11:24:52.627535+00:00"
+      },
+      "existing_services_modified": false,
+      "existing_services_stopped": false,
+      "formal_training_started": false,
+      "pid": 5634,
+      "protocol_sha256": "6fa4b4b860dc4dfa868e51d880cc595d1b6210e2efc933286927c0a666a3bb66",
+      "started_at": "2026-11-03T11:33:11.039754+00:00",
+      "status": "WAITING_FOR_ENGINEERING_PILOTS",
+      "updated_at": "2026-11-03T11:33:11.041389+00:00",
+      "user_authorization": "APPROVED",
+      "pid_alive_at_snapshot": true
+    },
+    "engineering_pilot_1024/pilot_queue_status.json": {
+      "adapter_sha256": "7e97d7441a49a96f17f7414c5a9922c169d8669fc54f83d6b266dc5dda9d024e",
+      "arm": "semantic",
+      "child_pid": 3310,
+      "completed_arms": [
+        "original",
+        "matched"
+      ],
+      "created_at": 1793705080.5,
+      "existing_services_stopped": false,
+      "formal_training_started": false,
+      "free_gpu_mib": 32230,
+      "log": "/root/autodl-tmp/g1_semantic_split_20261103/engineering_pilot_1024/pilot_semantic_1793705092626469970.log",
+      "pid": 3099,
+      "required_free_gpu_mib": 1387,
+      "stage": "pilot",
+      "started_at": "2026-11-03T11:24:43.995943+00:00",
+      "status": "RUNNING",
+      "updated_at": "2026-11-03T11:24:52.627535+00:00",
+      "pid_alive_at_snapshot": true
+    }
+  },
+  "pilots": [
+    {
+      "arm": "matched",
+      "status": "COMPLETED",
+      "completed_updates": 1000,
+      "last_logged_iteration": 999,
+      "resumed": false
+    },
+    {
+      "arm": "original",
+      "status": "COMPLETED",
+      "completed_updates": 1000,
+      "last_logged_iteration": 999,
+      "resumed": false
+    },
+    {
+      "arm": "semantic",
+      "status": "RUNNING",
+      "completed_updates": 801,
+      "last_logged_iteration": 831,
+      "resumed": true
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER, 882, 31350\n"
+}

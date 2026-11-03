@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sV/QJJRec/gMmuR+0ugtuuOdlUw</id>
+  <title>arXiv Query: search_query=all:"command encoder" AND (all:robot OR all:locomotion)&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-10-26T05:35:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22command+encoder%22+AND+(all:robot+OR+all:locomotion)&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23080v1</id>
+    <title>Robust and Generalized Humanoid Motion Tracking</title>
+    <updated>2026-01-30T15:27:43Z</updated>
+    <link href="https://arxiv.org/abs/2601.23080v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23080v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning a general humanoid whole-body controller is challenging because practical reference motions can exhibit noise and inconsistencies after being transferred to the robot domain, and local defects may be amplified by closed-loop execution, causing drift or failure in highly dynamic and contact-rich behaviors. We propose a dynamics-conditioned command aggregation framework that uses a causal temporal encoder to summarize recent proprioception and a multi-head cross-attention command encoder to selectively aggregate a context window based on the current dynamics. We further integrate a fall recovery curriculum with random unstable initialization and an annealed upward assistance force to improve robustness and disturbance rejection. The resulting policy requires only about 3.5 hours of motion data and supports single-stage end-to-end training without distillation. The proposed method is evaluated under diverse reference inputs and challenging motion regimes, demonstrating zero-shot transfer to unseen motions as well as robust sim-to-real transfer on a physical humanoid robot.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T15:27:43Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yubiao Ma</name>
+    </author>
+    <author>
+      <name>Han Yu</name>
+    </author>
+    <author>
+      <name>Jiayin Xie</name>
+    </author>
+    <author>
+      <name>Changtai Lv</name>
+    </author>
+    <author>
+      <name>Qiang Luo</name>
+    </author>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Yunpeng Yin</name>
+    </author>
+    <author>
+      <name>Boyang Xing</name>
+    </author>
+    <author>
+      <name>Xuemei Ren</name>
+    </author>
+    <author>
+      <name>Dongdong Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.10189v1</id>
+    <title>StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement of Novel Objects</title>
+    <updated>2021-10-19T18:13:01Z</updated>
+    <link href="https://arxiv.org/abs/2110.10189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.10189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Geometric organization of objects into semantically meaningful arrangements pervades the built world. As such, assistive robots operating in warehouses, offices, and homes would greatly benefit from the ability to recognize and rearrange objects into these semantically meaningful structures. To be useful, these robots must contend with previously unseen objects and receive instructions without significant programming. While previous works have examined recognizing pairwise semantic relations and sequential manipulation to change these simple relations none have shown the ability to arrange objects into complex structures such as circles or table settings. To address this problem we propose a novel transformer-based neural network, StructFormer, which takes as input a partial-view point cloud of the current object arrangement and a structured language command encoding the desired object configuration. We show through rigorous experiments that StructFormer enables a physical robot to rearrange novel objects into semantically meaningful structures with multi-object relational constraints inferred from the language command.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-19T18:13:01Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Weiyu Liu</name>
+    </author>
+    <author>
+      <name>Chris Paxton</name>
+    </author>
+    <author>
+      <name>Tucker Hermans</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+  </entry>
+</feed>

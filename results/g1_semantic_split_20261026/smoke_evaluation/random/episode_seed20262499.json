@@ -1,0 +1,163 @@
+{
+  "dt": 0.02,
+  "episode_seed": 20262499,
+  "horizon_steps": 10,
+  "identity": {
+    "arm": "random",
+    "episode_seed": 20262499,
+    "policy_sha256": "a37098a82f781c3fe19378b9664db3ce2e1556779eb3096f2bce7f08d8f07488",
+    "split": "engineering_smoke",
+    "training_seed": 20262100
+  },
+  "rows": [
+    {
+      "alive_planar_rmse_mps": 0.4052321506901339,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.4047281312610905,
+      "lateral_rmse_mps": 0.020204843945374244,
+      "planar_rmse_mps": 0.4052321506901339,
+      "scenario": "clean",
+      "slot": 0,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.15837033861115782
+    },
+    {
+      "alive_planar_rmse_mps": 0.39109748663405164,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.3906448403157153,
+      "lateral_rmse_mps": 0.018810975152327578,
+      "planar_rmse_mps": 0.39109748663405164,
+      "scenario": "noise_low",
+      "slot": 1,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.14081265120531974
+    },
+    {
+      "alive_planar_rmse_mps": 0.4661254593997787,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.46498141648046104,
+      "lateral_rmse_mps": 0.03263780367118434,
+      "planar_rmse_mps": 0.4661254593997787,
+      "scenario": "noise_high",
+      "slot": 2,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.11280652200645369
+    },
+    {
+      "alive_planar_rmse_mps": 0.5214122588611282,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.44041903363907275,
+      "lateral_rmse_mps": 0.27910897244461585,
+      "planar_rmse_mps": 0.5214122588611282,
+      "scenario": "push_low",
+      "slot": 3,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.2014378161577791
+    },
+    {
+      "alive_planar_rmse_mps": 0.7259493820037807,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.42186519864246025,
+      "lateral_rmse_mps": 0.5907895220855128,
+      "planar_rmse_mps": 0.7259493820037807,
+      "scenario": "push_high",
+      "slot": 4,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.32097780742605375
+    },
+    {
+      "alive_planar_rmse_mps": 0.440158963630855,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.43974709524302624,
+      "lateral_rmse_mps": 0.019036950646284787,
+      "planar_rmse_mps": 0.440158963630855,
+      "scenario": "delay_1",
+      "slot": 5,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.07725071485564637
+    },
+    {
+      "alive_planar_rmse_mps": 0.4783507127591843,
+      "alive_steps": 10,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "command_id": 0,
+      "completion": 1,
+      "episode_seed": 20262499,
+      "fell": false,
+      "forward_rmse_mps": 0.4763579770941908,
+      "lateral_rmse_mps": 0.04361745127755681,
+      "planar_rmse_mps": 0.4783507127591843,
+      "scenario": "delay_2",
+      "slot": 6,
+      "survival_fraction": 1.0,
+      "survival_seconds": 0.2,
+      "yaw_rmse_radps": 0.07394951730785163
+    }
+  ],
+  "trajectory_file": "episode_seed20262499.npz",
+  "trajectory_sha256": "f09eb74a14b7e288abdbcc65d97d75cbc3477519f4a78174f5c31127ba358a66"
+}

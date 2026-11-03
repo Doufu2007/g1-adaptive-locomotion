@@ -1,0 +1,14 @@
+* -text
+*.py diff
+*.md diff
+*.json diff
+*.jsonl diff
+*.txt diff
+*.xml diff
+*.yaml diff
+*.yml diff
+*.STL binary
+*.obj binary
+*.pt binary
+*.onnx binary
+*.npz binary

@@ -1,0 +1,21 @@
+{
+  "adapter_sha256": "7e97d7441a49a96f17f7414c5a9922c169d8669fc54f83d6b266dc5dda9d024e",
+  "arm": "random",
+  "child_pid": 5839,
+  "completed_arms": [
+    "original",
+    "matched",
+    "semantic"
+  ],
+  "created_at": 1793705080.5,
+  "existing_services_stopped": false,
+  "formal_training_started": false,
+  "free_gpu_mib": 32230,
+  "log": "/root/autodl-tmp/g1_semantic_split_20261103/engineering_pilot_1024/pilot_random_1793705797028838482.log",
+  "pid": 3099,
+  "required_free_gpu_mib": 1387,
+  "stage": "pilot",
+  "started_at": "2026-11-03T11:24:43.995943+00:00",
+  "status": "RUNNING",
+  "updated_at": "2026-11-03T11:36:37.029711+00:00"
+}

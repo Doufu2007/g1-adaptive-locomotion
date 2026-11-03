@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "tests/test_g1_semantic_split.py",
+    "tests/test_g1_semantic_split_execution.py",
+    "-q"
+  ],
+  "source": "actual tool output copied into this receipt",
+  "status": "PASSED",
+  "passed": 21,
+  "elapsed_seconds": 32.24,
+  "exit_code": 0,
+  "stdout": "..................... [100%]\n21 passed in 32.24s",
+  "scope": "unit/integration checks of grouping, models, ONNX, metrics, identity, recovery and evaluation integrity"
+}

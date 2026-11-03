@@ -1,0 +1,5 @@
+{
+  "prior_version_failure_reproduced": true,
+  "fixed_version_passed": true,
+  "scope": "subprocess failure handling; GPU and workers simulated, not training evidence"
+}

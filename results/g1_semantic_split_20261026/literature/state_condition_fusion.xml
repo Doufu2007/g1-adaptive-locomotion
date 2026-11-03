@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8u8kmkrGMnyyCnQ0xW060mlMazY</id>
+  <title>arXiv Query: search_query=all:locomotion AND (all:"late fusion" OR all:"separate encoders" OR all:"dual-stream")&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-10-26T05:35:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:locomotion+AND+(all:%22late+fusion%22+OR+(all:%22separate+encoders%22+OR+all:%22dual-stream%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14247v3</id>
+    <title>GeoFlow-SLAM: A Robust Tightly-Coupled RGBD-Inertial and Legged Odometry Fusion SLAM for Dynamic Legged Robotics</title>
+    <updated>2025-07-22T06:30:03Z</updated>
+    <link href="https://arxiv.org/abs/2503.14247v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14247v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents GeoFlow-SLAM, a robust and effective Tightly-Coupled RGBD-inertial SLAM for legged robotics undergoing aggressive and high-frequency motions.By integrating geometric consistency, legged odometry constraints, and dual-stream optical flow (GeoFlow), our method addresses three critical challenges:feature matching and pose initialization failures during fast locomotion and visual feature scarcity in texture-less scenes.Specifically, in rapid motion scenarios, feature matching is notably enhanced by leveraging dual-stream optical flow, which combines prior map points and poses. Additionally, we propose a robust pose initialization method for fast locomotion and IMU error in legged robots, integrating IMU/Legged odometry, inter-frame Perspective-n-Point (PnP), and Generalized Iterative Closest Point (GICP). Furthermore, a novel optimization framework that tightly couples depth-to-map and GICP geometric constraints is first introduced to improve the robustness and accuracy in long-duration, visually texture-less environments. The proposed algorithms achieve state-of-the-art (SOTA) on collected legged robots and open-source datasets. To further promote research and development, the open-source datasets and code will be made publicly available at https://github.com/HorizonRobotics/GeoFlowSlam</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T13:35:49Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Tingyang Xiao</name>
+    </author>
+    <author>
+      <name>Xiaolin Zhou</name>
+    </author>
+    <author>
+      <name>Liu Liu</name>
+    </author>
+    <author>
+      <name>Wei Sui</name>
+    </author>
+    <author>
+      <name>Wei Feng</name>
+    </author>
+    <author>
+      <name>Jiaxiong Qiu</name>
+    </author>
+    <author>
+      <name>Xinjie Wang</name>
+    </author>
+    <author>
+      <name>Zhizhong Su</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.12377v3</id>
+    <title>Multimodal Attention Networks for Low-Level Vision-and-Language Navigation</title>
+    <updated>2021-07-30T09:13:11Z</updated>
+    <link href="https://arxiv.org/abs/1911.12377v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.12377v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-and-Language Navigation (VLN) is a challenging task in which an agent needs to follow a language-specified path to reach a target destination. The goal gets even harder as the actions available to the agent get simpler and move towards low-level, atomic interactions with the environment. This setting takes the name of low-level VLN. In this paper, we strive for the creation of an agent able to tackle three key issues: multi-modality, long-term dependencies, and adaptability towards different locomotive settings. To that end, we devise "Perceive, Transform, and Act" (PTA): a fully-attentive VLN architecture that leaves the recurrent approach behind and the first Transformer-like architecture incorporating three different modalities - natural language, images, and low-level actions for the agent control. In particular, we adopt an early fusion strategy to merge lingual and visual information efficiently in our encoder. We then propose to refine the decoding phase with a late fusion extension between the agent's history of actions and the perceptual modalities. We experimentally validate our model on two datasets: PTA achieves promising results in low-level VLN on R2R and achieves good performance in the recently proposed R4R benchmark. Our code is publicly available at https://github.com/aimagelab/perceive-transform-and-act.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-27T19:00:24Z</published>
+    <arxiv:comment>Computer Vision and Image Understanding (CVIU)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Federico Landi</name>
+    </author>
+    <author>
+      <name>Lorenzo Baraldi</name>
+    </author>
+    <author>
+      <name>Marcella Cornia</name>
+    </author>
+    <author>
+      <name>Massimiliano Corsini</name>
+    </author>
+    <author>
+      <name>Rita Cucchiara</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.02512v3</id>
+    <title>QuaDreamer: Controllable Panoramic Video Generation for Quadruped Robots</title>
+    <updated>2025-10-15T16:33:18Z</updated>
+    <link href="https://arxiv.org/abs/2508.02512v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.02512v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Panoramic cameras, capturing comprehensive 360-degree environmental data, are suitable for quadruped robots in surrounding perception and interaction with complex environments. However, the scarcity of high-quality panoramic training data-caused by inherent kinematic constraints and complex sensor calibration challenges-fundamentally limits the development of robust perception systems tailored to these embodied platforms. To address this issue, we propose QuaDreamer-the first panoramic data generation engine specifically designed for quadruped robots. QuaDreamer focuses on mimicking the motion paradigm of quadruped robots to generate highly controllable, realistic panoramic videos, providing a data source for downstream tasks. Specifically, to effectively capture the unique vertical vibration characteristics exhibited during quadruped locomotion, we introduce Vertical Jitter Encoding (VJE). VJE extracts controllable vertical signals through frequency-domain feature filtering and provides high-quality prompts. To facilitate high-quality panoramic video generation under jitter signal control, we propose a Scene-Object Controller (SOC) that effectively manages object motion and boosts background jitter control through the attention mechanism. To address panoramic distortions in wide-FoV video generation, we propose the Panoramic Enhancer (PE)-a dual-stream architecture that synergizes frequency-texture refinement for local detail enhancement with spatial-structure correction for global geometric consistency. We further demonstrate that the generated video sequences can serve as training data for the quadruped robot's panoramic visual perception model, enhancing the performance of multi-object tracking in 360-degree scenes. The source code and model weights will be publicly available at https://github.com/losehu/QuaDreamer.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-04T15:18:01Z</published>
+    <arxiv:comment>Accepted to CoRL 2025. The source code and model weights will be publicly available at https://github.com/losehu/QuaDreamer</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Sheng Wu</name>
+    </author>
+    <author>
+      <name>Fei Teng</name>
+    </author>
+    <author>
+      <name>Hao Shi</name>
+    </author>
+    <author>
+      <name>Qi Jiang</name>
+    </author>
+    <author>
+      <name>Kai Luo</name>
+    </author>
+    <author>
+      <name>Kaiwei Wang</name>
+    </author>
+    <author>
+      <name>Kailun Yang</name>
+    </author>
+  </entry>
+</feed>

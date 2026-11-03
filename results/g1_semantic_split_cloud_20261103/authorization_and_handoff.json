@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-11-03T11:34:17.484945+00:00",
+  "formal_user_authorization": "APPROVED",
+  "user_selected_budget": "1024 environments x 10001 PPO updates per run",
+  "matrix": "four actors x three training seeds; no pilot weights",
+  "constraint": "Do not stop or modify other services",
+  "new_endpoint": "connect.weste.seetacloud.com:16963",
+  "credentials_stored": false,
+  "source_sha256": "473b1ac73da939c4f069143471d3a06e26d1f9b1fccbba5670d97b6c485613f0",
+  "protocol_sha256": "6fa4b4b860dc4dfa868e51d880cc595d1b6210e2efc933286927c0a666a3bb66",
+  "adapter_sha256": "390e50f2551c71e0beec29c80e9ccaa170b69d44f8fa68bd3b73ba768424e77f",
+  "remote_status": "WAITING_FOR_ENGINEERING_PILOTS",
+  "remaining": "finish pilots, 12 formal runs, seal, 12 holdout evaluations, latency, analysis, result download"
+}

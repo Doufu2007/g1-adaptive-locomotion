@@ -1,0 +1,298 @@
+Setting seed: 20262100
+Warp 1.13.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.5
+   Devices:
+     "cpu"      : "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD"
+     "cuda:0"   : "NVIDIA GeForce RTX 4050 Laptop GPU" (6 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     C:\Windows\Temp\g1_warp\warp_cache\1.13.0
+
++-----------------------------------+
+|          Base Environment         |
++------------------------+----------+
+| Property               | Value    |
++------------------------+----------+
+| Number of environments | 4        |
+| Environment device     | cpu      |
+| Environment seed       | 20262100 |
+| Physics step-size      | 0.005    |
+| Environment step-size  | 0.02     |
++------------------------+----------+
+
+[INFO] <EventManager> contains 3 active terms.
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++--------+----------------------------+
+| Index  | Name                       |
++--------+----------------------------+
+|   0    | reset_base                 |
+|   1    | reset_robot_joints         |
++--------+----------------------------+
++----------------------------------------------+
+|    Active Event Terms in Mode: 'interval'    |
++-------+------------+-------------------------+
+| Index | Name       | Interval time range (s) |
++-------+------------+-------------------------+
+|   0   | push_robot |        (5.0, 6.0)       |
++-------+------------+-------------------------+
++---------------------------------------+
+| Active Event Terms in Mode: 'startup' |
++-----------+---------------------------+
+|   Index   | Name                      |
++-----------+---------------------------+
+|     0     | foot_friction             |
+|     1     | encoder_bias              |
+|     2     | base_com                  |
++-----------+---------------------------+
++-----------------------------+
+| Domain Randomization Fields |
++-------+---------------------+
+| Index | Field Name          |
++-------+---------------------+
+|   0   | geom_friction       |
+|   1   | body_ipos           |
+|   2   | body_subtreemass    |
+|   3   | dof_invweight0      |
+|   4   | body_invweight0     |
+|   5   | tendon_length0      |
+|   6   | tendon_invweight0   |
++-------+---------------------+
+
+Module repeat_array_kernel_6bf8ef65 fdde3a8 load on device 'cpu' took 30.63 ms  (cached)
+Module repeat_array_kernel_6bf8ef65 6b7f4f1 load on device 'cpu' took 1.95 ms  (cached)
+Module repeat_array_kernel_6bf8ef65 b507026 load on device 'cpu' took 1.40 ms  (cached)
+[INFO] <CommandManager> contains 1 active terms.
++----------------------------------------+
+|          Active Command Terms          |
++-------+-------+------------------------+
+| Index | Name  |          Type          |
++-------+-------+------------------------+
+|   0   | twist | UniformVelocityCommand |
++-------+-------+------------------------+
+
+[INFO] <ActionManager> contains 1 active terms.
++---------------------------------+
+| Active Action Terms (shape: 29) |
++-------+-----------+-------------+
+| Index | Name      |   Dimension |
++-------+-----------+-------------+
+|   0   | joint_pos |          29 |
++-------+-----------+-------------+
+
+[INFO] <ObservationManager> contains 2 groups.
++-----------------------------------------------------------+
+| Active Observation Terms in Group: 'actor' (shape: (98,)) |
++--------+------------------------+-------------------------+
+| Index  | Name                   |          Shape          |
++--------+------------------------+-------------------------+
+|   0    | base_ang_vel           |      (3,)  ← 1×(3,)     |
+|   1    | projected_gravity      |      (3,)  ← 1×(3,)     |
+|   2    | command                |      (3,)  ← 1×(3,)     |
+|   3    | phase                  |      (2,)  ← 1×(2,)     |
+|   4    | joint_pos              |     (29,)  ← 1×(29,)    |
+|   5    | joint_vel              |     (29,)  ← 1×(29,)    |
+|   6    | actions                |     (29,)  ← 1×(29,)    |
++--------+------------------------+-------------------------+
++-------------------------------------------------------------+
+| Active Observation Terms in Group: 'critic' (shape: (113,)) |
++--------+---------------------------+------------------------+
+| Index  | Name                      |         Shape          |
++--------+---------------------------+------------------------+
+|   0    | base_ang_vel              |     (3,)  ← 1×(3,)     |
+|   1    | projected_gravity         |     (3,)  ← 1×(3,)     |
+|   2    | command                   |     (3,)  ← 1×(3,)     |
+|   3    | phase                     |     (2,)  ← 1×(2,)     |
+|   4    | joint_pos                 |    (29,)  ← 1×(29,)    |
+|   5    | joint_vel                 |    (29,)  ← 1×(29,)    |
+|   6    | actions                   |    (29,)  ← 1×(29,)    |
+|   7    | base_lin_vel              |     (3,)  ← 1×(3,)     |
+|   8    | foot_height               |     (2,)  ← 1×(2,)     |
+|   9    | foot_air_time             |     (2,)  ← 1×(2,)     |
+|   10   | foot_contact              |     (2,)  ← 1×(2,)     |
+|   11   | foot_contact_forces       |     (6,)  ← 1×(6,)     |
++--------+---------------------------+------------------------+
+
+[INFO] <TerminationManager> contains 2 active terms.
++------------------------------+
+|   Active Termination Terms   |
++-------+-----------+----------+
+| Index | Name      | Time Out |
++-------+-----------+----------+
+|   0   | time_out  |   True   |
+|   1   | fell_over |  False   |
++-------+-----------+----------+
+
+[INFO] <RewardManager> contains 16 active terms.
++-------------------------------------------+
+|            Active Reward Terms            |
++-------+------------------------+----------+
+| Index | Name                   |   Weight |
++-------+------------------------+----------+
+|   0   | track_linear_velocity  |      1.0 |
+|   1   | track_angular_velocity |      1.0 |
+|   2   | body_orientation_l2    |     -1.0 |
+|   3   | pose                   |      1.0 |
+|   4   | body_ang_vel           |    -0.05 |
+|   5   | angular_momentum       |   -0.025 |
+|   6   | is_terminated          |   -200.0 |
+|   7   | joint_acc_l2           | -2.5e-07 |
+|   8   | joint_pos_limits       |    -10.0 |
+|   9   | action_rate_l2         |    -0.05 |
+|   10  | foot_gait              |      0.5 |
+|   11  | foot_clearance         |     -1.0 |
+|   12  | foot_slip              |    -0.25 |
+|   13  | soft_landing           |   -0.001 |
+|   14  | stand_still            |     -1.0 |
+|   15  | self_collisions        |     -1.0 |
++-------+------------------------+----------+
+
+[INFO] <NullCurriculumManager> (inactive)
+[INFO] <MetricsManager> contains 1 active terms.
++-------------------------+
+|   Active Metrics Terms  |
++-------+-----------------+
+| Index | Name            |
++-------+-----------------+
+|   0   | mean_action_acc |
++-------+-----------------+
+
+Module mujoco_warp._src.io 0b280c6 load on device 'cpu' took 2.91 ms  (cached)
+Module mujoco_warp._src.smooth 9a43c75 load on device 'cpu' took 2.21 ms  (cached)
+Module reset_data__locals__reset_xfrc_applied_b884863b 2738bd6 load on device 'cpu' took 1.72 ms  (cached)
+Module reset_data__locals__reset_qM_c422fd69 56066a9 load on device 'cpu' took 2.08 ms  (cached)
+Module reset_data__locals__reset_mocap_f5f54ae4 0d9f92d load on device 'cpu' took 1.56 ms  (cached)
+Module reset_data__locals__reset_contact_a2350e83 70b3da1 load on device 'cpu' took 1.68 ms  (cached)
+Module reset_data__locals__reset_nworld_cb3912d1 1402028 load on device 'cpu' took 1.88 ms  (cached)
+Module mujoco_warp._src.collision_driver 650dd6d load on device 'cpu' took 2.35 ms  (cached)
+Module _nxn_broadphase__locals__kernel_3d7c974f 1ae7c4e load on device 'cpu' took 1.95 ms  (cached)
+Module _primitive_narrowphase__locals__primitive_narrowphase_ef1d56ee 2ee01e7 load on device 'cpu' took 2.10 ms  (cached)
+Module mujoco_warp._src.constraint 512e485 load on device 'cpu' took 3.08 ms  (cached)
+Module _actuator_velocity__locals__actuator_velocity_be7f5e99 9abc606 load on device 'cpu' took 1.61 ms  (cached)
+Module mujoco_warp._src.passive b6987ab load on device 'cpu' took 2.14 ms  (cached)
+Module mujoco_warp._src.sensor a668156 load on device 'cpu' took 3.54 ms  (cached)
+Module mujoco_warp._src.forward b3d3ea6 load on device 'cpu' took 1.91 ms  (cached)
+Module mujoco_warp._src.support ff3d680 load on device 'cpu' took 1.72 ms  (cached)
+Module mujoco_warp._src.solver 55c3bd4 load on device 'cpu' took 2.07 ms  (cached)
+Module solve_init_jaref__locals__kernel_85d042f0 0c52eaf load on device 'cpu' took 1.83 ms  (cached)
+Module mul_m_sparse__locals___mul_m_sparse_5da27f10 430312f load on device 'cpu' took 2.80 ms  (cached)
+Module update_constraint_gauss_cost__locals__kernel_4c32a9fe 9da953a load on device 'cpu' took 1.36 ms  (cached)
+Module update_gradient_JTDAJ_sparse_tiled__locals__kernel_21beeaf5 f16403f load on device 'cpu' took 2.16 ms  (cached)
+Module update_gradient_cholesky_blocked__locals__kernel_92d3649a b16f06f load on device 'cpu' took 1.44 ms  (cached)
+Module linesearch_jv_fused__locals__kernel_8cbf3662 77e2395 load on device 'cpu' took 1.80 ms  (cached)
+Module linesearch_prepare_gauss__locals__kernel_6e06badf 62e4ece load on device 'cpu' took 1.85 ms  (cached)
+Module _contact_sort__locals__contact_sort_1f0b834a 1426cbc load on device 'cpu' took 2.39 ms  (cached)
+--------------------------------------------------------------------------------
+Resolved observation sets: 
+	 actor :  ('actor',)
+	 critic :  ('critic',)
+--------------------------------------------------------------------------------
+Actor Model: MLPModel(
+  (obs_normalizer): EmpiricalNormalization()
+  (distribution): GaussianDistribution()
+  (mlp): MLP(
+    (0): Linear(in_features=98, out_features=512, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=128, out_features=29, bias=True)
+  )
+)
+Critic Model: MLPModel(
+  (obs_normalizer): EmpiricalNormalization()
+  (mlp): MLP(
+    (0): Linear(in_features=113, out_features=512, bias=True)
+    (1): ELU(alpha=1.0)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=128, out_features=1, bias=True)
+  )
+)
+Setting seed: 20292100
+Could not find git repository in C:\Users\郑傅韬\AppData\Roaming\Python\Python313\site-packages\rsl_rl\__init__.py. Skipping.
+Module mujoco_warp._src.derivative 97e4d82 load on device 'cpu' took 1.74 ms  (cached)
+################################################################################
+[1m                             Learning iteration 0/2                             [0m 
+
+                            Total steps: 96 
+                       Steps per second: 27 
+                        Collection time: 3.270s 
+                          Learning time: 0.227s 
+                        Mean value loss: 0.4046
+                    Mean surrogate loss: -0.1088
+                      Mean entropy loss: 41.1436
+                        Mean action std: 1.00
+   Episode_Reward/track_linear_velocity: 0.0000
+  Episode_Reward/track_angular_velocity: 0.0000
+     Episode_Reward/body_orientation_l2: 0.0000
+                    Episode_Reward/pose: 0.0000
+            Episode_Reward/body_ang_vel: 0.0000
+        Episode_Reward/angular_momentum: 0.0000
+           Episode_Reward/is_terminated: 0.0000
+            Episode_Reward/joint_acc_l2: 0.0000
+        Episode_Reward/joint_pos_limits: 0.0000
+          Episode_Reward/action_rate_l2: 0.0000
+               Episode_Reward/foot_gait: 0.0000
+          Episode_Reward/foot_clearance: 0.0000
+               Episode_Reward/foot_slip: 0.0000
+            Episode_Reward/soft_landing: 0.0000
+             Episode_Reward/stand_still: 0.0000
+         Episode_Reward/self_collisions: 0.0000
+        Episode_Metrics/mean_action_acc: 0.0000
+             Metrics/twist/error_vel_xy: 0.0000
+            Metrics/twist/error_vel_yaw: 0.0000
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 0.0000
+          Metrics/angular_momentum_mean: 2.0521
+             Metrics/slip_velocity_mean: 0.3566
+             Metrics/landing_force_mean: 390.6505
+--------------------------------------------------------------------------------
+                         Iteration time: 3.50s
+                           Time elapsed: 00:00:03
+                                    ETA: 00:00:03
+
+################################################################################
+[1m                             Learning iteration 1/2                             [0m 
+
+                            Total steps: 192 
+                       Steps per second: 30 
+                        Collection time: 2.977s 
+                          Learning time: 0.195s 
+                        Mean value loss: 3.5041
+                    Mean surrogate loss: -0.1027
+                      Mean entropy loss: 41.1432
+                            Mean reward: -9.46
+                    Mean episode length: 48.00
+                        Mean action std: 1.00
+   Episode_Reward/track_linear_velocity: 0.0003
+  Episode_Reward/track_angular_velocity: 0.0001
+     Episode_Reward/body_orientation_l2: -0.0005
+                    Episode_Reward/pose: 0.0003
+            Episode_Reward/body_ang_vel: -0.0014
+        Episode_Reward/angular_momentum: -0.0024
+           Episode_Reward/is_terminated: -0.0083
+            Episode_Reward/joint_acc_l2: -0.0006
+        Episode_Reward/joint_pos_limits: -0.0006
+          Episode_Reward/action_rate_l2: -0.0057
+               Episode_Reward/foot_gait: 0.0005
+          Episode_Reward/foot_clearance: -0.0002
+               Episode_Reward/foot_slip: -0.0002
+            Episode_Reward/soft_landing: -0.0002
+             Episode_Reward/stand_still: 0.0000
+         Episode_Reward/self_collisions: -0.0010
+        Episode_Metrics/mean_action_acc: 0.0791
+             Metrics/twist/error_vel_xy: 0.0044
+            Metrics/twist/error_vel_yaw: 0.0127
+           Episode_Termination/time_out: 0.0000
+          Episode_Termination/fell_over: 0.0417
+          Metrics/angular_momentum_mean: 8.4999
+             Metrics/slip_velocity_mean: 0.6478
+             Metrics/landing_force_mean: 285.4404
+--------------------------------------------------------------------------------
+                         Iteration time: 3.17s
+                           Time elapsed: 00:00:06
+                                    ETA: 00:00:00
+

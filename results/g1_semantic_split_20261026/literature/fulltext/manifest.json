@@ -1,0 +1,47 @@
+{
+  "retrieved_at": "2026-10-26T05:31:46.458491+00:00",
+  "sources": [
+    {
+      "arxiv": "2505.19054",
+      "bytes": 143489,
+      "sha256": "4ef05ada803dc2e4bbbc56af6a8a81d6bc5ec29d81cd0fb96339c54885f1267e",
+      "status": "RETRIEVED",
+      "url": "https://arxiv.org/html/2505.19054"
+    },
+    {
+      "arxiv": "2209.14218",
+      "bytes": 401186,
+      "sha256": "ffbee3450744ae28a1b9b7a62a730e7c16c0d84d8eec3d3fd71734ba48eb7b7d",
+      "status": "RETRIEVED",
+      "url": "https://arxiv.org/html/2209.14218"
+    },
+    {
+      "arxiv": "2505.20619",
+      "bytes": 160471,
+      "sha256": "d6f93f61a275a9b5105d7d1198265f0d8810d774cd4e59bc5de6967c62f929d5",
+      "status": "RETRIEVED",
+      "url": "https://arxiv.org/html/2505.20619"
+    },
+    {
+      "arxiv": "1509.02971",
+      "bytes": 191036,
+      "sha256": "0f83c4651e25dc0d902637961e49d4cdf2b3d30b30fea6e43a16a1e207e69e77",
+      "status": "RETRIEVED",
+      "url": "https://arxiv.org/html/1509.02971"
+    },
+    {
+      "arxiv": "2010.09163",
+      "bytes": 319444,
+      "sha256": "1b20085dadbfde5c64a3330d2e09e81445bcc9e6f562128e816eda3dedd88174",
+      "status": "RETRIEVED",
+      "url": "https://arxiv.org/html/2010.09163"
+    },
+    {
+      "arxiv": "2607.21867",
+      "bytes": 454054,
+      "sha256": "40bfce489cef07615b2c73de5a4831a313075b6f629167200e10dc073b3986b7",
+      "status": "RETRIEVED",
+      "url": "https://arxiv.org/html/2607.21867"
+    }
+  ]
+}

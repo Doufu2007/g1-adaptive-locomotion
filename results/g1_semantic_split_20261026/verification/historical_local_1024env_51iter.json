@@ -1,0 +1,204 @@
+{
+  "schema": "phasor.local_smoke_train.v1",
+  "note": "1024-env local smoke run; NOT the 4096-env pilot and not comparable to it",
+  "records": [
+    {
+      "condition": "phasor",
+      "task": "Unitree-G1-Rough-PHASOR",
+      "num_envs": 1024,
+      "iterations": 51,
+      "seed": 20261030,
+      "wall_seconds": 280.71535959999983,
+      "seconds_per_iteration": 5.504222737254898,
+      "env_steps_per_second": 4464.935590934443,
+      "log_dir": "results\\phasor_local_pilot_20261020\\logs\\2026-10-20_16-38-57_local_smoke_phasor_1024_51",
+      "agent_config": {
+        "seed": 20261030,
+        "num_steps_per_env": 24,
+        "max_iterations": 51,
+        "obs_groups": {
+          "actor": [
+            "actor"
+          ],
+          "critic": [
+            "critic"
+          ]
+        },
+        "save_interval": 100,
+        "experiment_name": "g1_velocity",
+        "run_name": "",
+        "logger": "tensorboard",
+        "wandb_project": "mjlab",
+        "wandb_tags": [],
+        "resume": false,
+        "load_run": ".*",
+        "load_checkpoint": "model_.*.pt",
+        "clip_actions": null,
+        "upload_model": true,
+        "class_name": "OnPolicyRunner",
+        "actor": {
+          "hidden_dims": [
+            512,
+            256,
+            128
+          ],
+          "activation": "elu",
+          "obs_normalization": true,
+          "cnn_cfg": null,
+          "distribution_cfg": {
+            "class_name": "GaussianDistribution",
+            "init_std": 1.0,
+            "std_type": "scalar"
+          },
+          "class_name": "MLPModel"
+        },
+        "critic": {
+          "hidden_dims": [
+            512,
+            256,
+            128
+          ],
+          "activation": "elu",
+          "obs_normalization": true,
+          "cnn_cfg": null,
+          "distribution_cfg": null,
+          "class_name": "MLPModel"
+        },
+        "algorithm": {
+          "num_learning_epochs": 5,
+          "num_mini_batches": 4,
+          "learning_rate": 0.001,
+          "schedule": "adaptive",
+          "gamma": 0.99,
+          "lam": 0.95,
+          "entropy_coef": 0.01,
+          "desired_kl": 0.01,
+          "max_grad_norm": 1.0,
+          "value_loss_coef": 1.0,
+          "use_clipped_value_loss": true,
+          "clip_param": 0.2,
+          "normalize_advantage_per_mini_batch": false,
+          "optimizer": "adam",
+          "share_cnn_encoders": false,
+          "class_name": "PPO"
+        }
+      },
+      "logs": {
+        "tag_count": 37,
+        "tags": [
+          "Curriculum/terrain_levels",
+          "Episode_Metrics/mean_action_acc",
+          "Episode_Reward/action_rate_l2",
+          "Episode_Reward/angular_momentum",
+          "Episode_Reward/body_ang_vel",
+          "Episode_Reward/body_orientation_l2",
+          "Episode_Reward/foot_clearance",
+          "Episode_Reward/foot_gait",
+          "Episode_Reward/foot_slip",
+          "Episode_Reward/is_terminated",
+          "Episode_Reward/joint_acc_l2",
+          "Episode_Reward/joint_pos_limits",
+          "Episode_Reward/pose",
+          "Episode_Reward/self_collisions",
+          "Episode_Reward/soft_landing",
+          "Episode_Reward/stand_still",
+          "Episode_Reward/track_angular_velocity",
+          "Episode_Reward/track_linear_velocity",
+          "Episode_Termination/fell_over",
+          "Episode_Termination/time_out",
+          "Loss/entropy",
+          "Loss/learning_rate",
+          "Loss/surrogate",
+          "Loss/value",
+          "Metrics/angular_momentum_mean",
+          "Metrics/landing_force_mean",
+          "Metrics/slip_velocity_mean",
+          "Metrics/twist/error_vel_xy",
+          "Metrics/twist/error_vel_yaw",
+          "Perf/collection_time",
+          "Perf/learning_time",
+          "Perf/total_fps",
+          "Policy/mean_std",
+          "Train/mean_episode_length",
+          "Train/mean_episode_length/time",
+          "Train/mean_reward",
+          "Train/mean_reward/time"
+        ],
+        "missing_required": [],
+        "tail": {
+          "Episode_Termination/fell_over": [
+            33.208335876464844,
+            32.958335876464844,
+            36.208335876464844,
+            37.208335876464844,
+            37.083335876464844
+          ],
+          "Episode_Reward/track_linear_velocity": [
+            0.008189858868718147,
+            0.008110396564006805,
+            0.007959725335240364,
+            0.007494016550481319,
+            0.007538465317338705
+          ],
+          "Episode_Reward/track_angular_velocity": [
+            0.002705107443034649,
+            0.0026273985859006643,
+            0.002563348039984703,
+            0.0023700459860265255,
+            0.0023417212069034576
+          ],
+          "Episode_Reward/foot_gait": [
+            0.00795934908092022,
+            0.0078782569617033,
+            0.007610691245645285,
+            0.00716277165338397,
+            0.007237953599542379
+          ],
+          "Loss/value": [
+            0.02398090995848179,
+            0.023613641038537025,
+            0.021915892139077187,
+            0.01903381198644638,
+            0.01634920947253704
+          ],
+          "Loss/surrogate": [
+            -0.02392018772661686,
+            -0.02744235470890999,
+            -0.01658940128982067,
+            -0.025026028975844383,
+            -0.02609415166079998
+          ],
+          "Loss/entropy": [
+            37.935211181640625,
+            37.83097457885742,
+            37.7773323059082,
+            37.67302703857422,
+            37.55837631225586
+          ],
+          "Policy/mean_std": [
+            0.8944505453109741,
+            0.8915131688117981,
+            0.8897906541824341,
+            0.8862125873565674,
+            0.8821076154708862
+          ],
+          "Train/mean_episode_length": [
+            31.09000015258789,
+            31.5,
+            29.68000030517578,
+            28.15999984741211,
+            27.790000915527344
+          ],
+          "Perf/total_fps": [
+            4472.0,
+            4683.0,
+            4722.0,
+            4572.0,
+            4957.0
+          ]
+        },
+        "fall_over_nan_or_inf": false
+      }
+    }
+  ]
+}

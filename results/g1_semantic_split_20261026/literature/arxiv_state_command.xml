@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/11afsl3x9/N0Saw6EHkwW20PHYw</id>
+  <title>arXiv Query: search_query=all:locomotion AND (all:"command encoder" OR all:"state encoder" OR all:"task-conditioned")&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-10-26T05:29:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:locomotion+AND+(all:%22command+encoder%22+OR+(all:%22state+encoder%22+OR+all:%22task-conditioned%22))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.14329v2</id>
+    <title>Wearable-informed generative digital avatars predict task-conditioned post-stroke locomotion</title>
+    <updated>2026-01-05T02:38:10Z</updated>
+    <link href="https://arxiv.org/abs/2512.14329v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.14329v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic prediction of locomotor capacity after stroke could enable more individualized rehabilitation, yet current assessments largely provide static impairment scores and do not indicate whether patients can perform specific tasks such as slope walking or stair climbing. Here, we present a wearable-informed data-physics hybrid generative framework that reconstructs a stroke survivor's locomotor control from wearable inertial sensing and predicts task-conditioned post-stroke locomotion in new environments. From a single 20 m level-ground walking trial recorded by five IMUs, the framework personalizes a physics-based digital avatar using a healthy-motion prior and hybrid imitation learning, generating dynamically feasible, patient-specific movements for inclined walking and stair negotiation. Across 11 stroke inpatients, predicted postures reached 82.2% similarity for slopes and 69.9% for stairs, substantially exceeding a physics-only baseline. In a multicentre pilot randomized study (n = 21; 28 days), access to scenario-specific locomotion predictions to support task selection and difficulty titration was associated with larger gains in Fugl-Meyer lower-extremity scores than standard care (mean change 6.0 vs 3.7 points; $p &lt; 0.05$). These results suggest that wearable-informed generative digital avatars may augment individualized gait rehabilitation planning and provide a pathway toward dynamically personalized post-stroke motor recovery strategies.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-16T11:55:11Z</published>
+    <arxiv:comment>27 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Yanning Dai</name>
+    </author>
+    <author>
+      <name>Chenyu Tang</name>
+    </author>
+    <author>
+      <name>Ruizhi Zhang</name>
+    </author>
+    <author>
+      <name>Wenyu Yang</name>
+    </author>
+    <author>
+      <name>Yilan Zhang</name>
+    </author>
+    <author>
+      <name>Yuhui Wang</name>
+    </author>
+    <author>
+      <name>Junliang Chen</name>
+    </author>
+    <author>
+      <name>Xuhang Chen</name>
+    </author>
+    <author>
+      <name>Ruimou Xie</name>
+    </author>
+    <author>
+      <name>Yangyue Cao</name>
+    </author>
+    <author>
+      <name>Qiaoying Li</name>
+    </author>
+    <author>
+      <name>Jin Cao</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Hubin Zhao</name>
+    </author>
+    <author>
+      <name>Yu Pan</name>
+    </author>
+    <author>
+      <name>Arokia Nathan</name>
+    </author>
+    <author>
+      <name>Xin Gao</name>
+    </author>
+    <author>
+      <name>Peter Smielewski</name>
+    </author>
+    <author>
+      <name>Shuo Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00261v2</id>
+    <title>Task-Conditioned Uncertainty Costmaps for Legged Locomotion</title>
+    <updated>2026-07-18T20:30:46Z</updated>
+    <link href="https://arxiv.org/abs/2605.00261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Legged robots maintain dynamic feasibility through multicontact interactions with terrain. Learned foothold prediction can provide feasibility-aware costs for motion planning and path selection, but accurately predicting future contacts from perceptual inputs such as height scans remains challenging on highly unstructured terrain, even with a repetitive gait cycle. In this work, we show that modeling epistemic uncertainty in predicted footholds, conditioned on terrain observations and commanded motion, distinguishes in-distribution from out-of-distribution operating regimes in simulation and real-world settings. This allows a single learned model, trained on limited data distributions, to express uncertainty caused by missing training coverage. We use this learned uncertainty to detect OOD regions and incorporate them into a unified costmap-generation framework for uncertainty-aware path planning. Using these uncertainty-aware costmaps, we evaluate feasibility error across in-distribution and OOD terrains in simulation and real-world settings. The results show improved OOD detection, up to a 37% reduction in simulation feasibility error, and more reliable planning behavior than geometry-only baselines.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T21:54:43Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kartikeya Singh</name>
+    </author>
+    <author>
+      <name>Christo Aluckal</name>
+    </author>
+    <author>
+      <name>Romeo Orsolino</name>
+    </author>
+    <author>
+      <name>Karthik Dantu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.13572v1</id>
+    <title>ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching</title>
+    <updated>2026-10-09T13:25:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.13572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.13572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humanoid tennis requires reactive whole-body coordination under rapidly changing ball dynamics, yet collecting task-specific motion-capture demonstrations that cover diverse approach states, contact locations, and timing conditions is costly. Inspired by how humans acquire new skills by combining reusable motor experience with task-specific demonstrations, we present ATHLETE, a framework for learning reactive humanoid tennis from generic locomotion data and ordinary tennis videos. ATHLETE combines LAFAN1 locomotion with video-derived striking motions and uses Trajectory-Guided Motion Matching (TGMM) to construct diverse task-conditioned whole-body references. These references are transformed into a reactive policy through physics-based teacher--student learning with online DAgger distillation, followed by PPO fine-tuning for the tennis task. The resulting policy responds directly to robot and ball observations without requiring reference-motion inputs at deployment. On a real humanoid robot, ATHLETE achieves forehand and backhand hit rates of $90.00\%$ and $86.67\%$, respectively, and enables multi-shot rallies with human players. These results demonstrate that ATHLETE can learn dynamic humanoid tennis skills from reusable locomotion data and video demonstrations. Result videos and code can be found at https://anonymous.4open.science/w/ATHLETE2027/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-09T13:25:56Z</published>
+    <arxiv:comment>projectpage:https://hazintihoa.github.io/athlete.github.io/#overview</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhihao Tian</name>
+    </author>
+    <author>
+      <name>Zifan Wang</name>
+    </author>
+    <author>
+      <name>Enzheng Zhu</name>
+    </author>
+    <author>
+      <name>Xun Yang</name>
+    </author>
+    <author>
+      <name>Jialong Qin</name>
+    </author>
+    <author>
+      <name>Mengbo Wang</name>
+    </author>
+    <author>
+      <name>Junwei Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.10602v1</id>
+    <title>Learning to Move in Rhythm: Task-Conditioned Motion Policies with Orbital Stability Guarantees</title>
+    <updated>2025-07-12T17:10:03Z</updated>
+    <link href="https://arxiv.org/abs/2507.10602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.10602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning from demonstration provides a sample-efficient approach to acquiring complex behaviors, enabling robots to move robustly, compliantly, and with fluidity. In this context, Dynamic Motion Primitives offer built - in stability and robustness to disturbances but often struggle to capture complex periodic behaviors. Moreover, they are limited in their ability to interpolate between different tasks. These shortcomings substantially narrow their applicability, excluding a wide class of practically meaningful tasks such as locomotion and rhythmic tool use. In this work, we introduce Orbitally Stable Motion Primitives (OSMPs) - a framework that combines a learned diffeomorphic encoder with a supercritical Hopf bifurcation in latent space, enabling the accurate acquisition of periodic motions from demonstrations while ensuring formal guarantees of orbital stability and transverse contraction. Furthermore, by conditioning the bijective encoder on the task, we enable a single learned policy to represent multiple motion objectives, yielding consistent zero-shot generalization to unseen motion objectives within the training distribution. We validate the proposed approach through extensive simulation and real-world experiments across a diverse range of robotic platforms - from collaborative arms and soft manipulators to a bio-inspired rigid-soft turtle robot - demonstrating its versatility and effectiveness in consistently outperforming state-of-the-art baselines such as diffusion policies, among others.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-12T17:10:03Z</published>
+    <arxiv:comment>73 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Maximilian Stölzle</name>
+    </author>
+    <author>
+      <name>T. Konstantin Rusch</name>
+    </author>
+    <author>
+      <name>Zach J. Patterson</name>
+    </author>
+    <author>
+      <name>Rodrigo Pérez-Dattari</name>
+    </author>
+    <author>
+      <name>Francesco Stella</name>
+    </author>
+    <author>
+      <name>Josie Hughes</name>
+    </author>
+    <author>
+      <name>Cosimo Della Santina</name>
+    </author>
+    <author>
+      <name>Daniela Rus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13498v1</id>
+    <title>Factorized Spectral Representations for Reinforcement Learning</title>
+    <updated>2026-07-15T06:52:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.13498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning a compact model of the world from interaction data is central to sample-efficient deep reinforcement learning. Spectral representation methods have become the leading paradigm for representation learning in continuous control by taking a matrix view of the transition kernel, with state-action pairs on one side and next states on the other, and learning a low-rank factorization through self-supervised contrastive objectives. We take this view one step further. The transition kernel is naturally a three-mode tensor over states, actions, and next states, and a CP decomposition gives one feature map per mode. We propose FaStR, which fits this decomposition with a noise contrastive objective, producing separate state, action, and next-state encoders that together form a single spectral representation. The factored form yields a smaller hypothesis class, and the sample size needed for representation learning shrinks by a factor that scales with the smaller of the state and action dimensions. Empirically, FaStR delivers its largest gains on high-dimensional locomotion tasks whose dynamics align with the factored structure, and the learned state encoder transfers intact across actuator shift while only the action encoder is retrained.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T06:52:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Junyi Wu</name>
+    </author>
+    <author>
+      <name>Dan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.15632v1</id>
+    <title>Structural Optimization of Lightweight Bipedal Robot via SERL</title>
+    <updated>2024-08-28T08:34:05Z</updated>
+    <link href="https://arxiv.org/abs/2408.15632v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.15632v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing a bipedal robot is a complex and challenging task, especially when dealing with a multitude of structural parameters. Traditional design methods often rely on human intuition and experience. However, such approaches are time-consuming, labor-intensive, lack theoretical guidance and hard to obtain optimal design results within vast design spaces, thus failing to full exploit the inherent performance potential of robots. In this context, this paper introduces the SERL (Structure Evolution Reinforcement Learning) algorithm, which combines reinforcement learning for locomotion tasks with evolution algorithms. The aim is to identify the optimal parameter combinations within a given multidimensional design space. Through the SERL algorithm, we successfully designed a bipedal robot named Wow Orin, where the optimal leg length are obtained through optimization based on body structure and motor torque. We have experimentally validated the effectiveness of the SERL algorithm, which is capable of optimizing the best structure within specified design space and task conditions. Additionally, to assess the performance gap between our designed robot and the current state-of-the-art robots, we compared Wow Orin with mainstream bipedal robots Cassie and Unitree H1. A series of experimental results demonstrate the Outstanding energy efficiency and performance of Wow Orin, further validating the feasibility of applying the SERL algorithm to practical design.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-28T08:34:05Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Yi Cheng</name>
+    </author>
+    <author>
+      <name>Chenxi Han</name>
+    </author>
+    <author>
+      <name>Yuheng Min</name>
+    </author>
+    <author>
+      <name>Linqi Ye</name>
+    </author>
+    <author>
+      <name>Houde Liu</name>
+    </author>
+    <author>
+      <name>Hang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.11997v3</id>
+    <title>Continual Model-Based Reinforcement Learning with Hypernetworks</title>
+    <updated>2026-05-26T04:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2009.11997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.11997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective planning in model-based reinforcement learning (MBRL) and model-predictive control (MPC) relies on the accuracy of the learned dynamics model. In many instances of MBRL and MPC, this model is assumed to be stationary and is periodically re-trained from scratch on state transition experience collected from the beginning of environment interactions. This implies that the time required to train the dynamics model - and the pause required between plan executions - grows linearly with the size of the collected experience. We argue that this is too slow for lifelong robot learning and propose HyperCRL, a method that continually learns the encountered dynamics in a sequence of tasks using task-conditional hypernetworks. Our method has three main attributes: first, it includes dynamics learning sessions that do not revisit training data from previous tasks, so it only needs to store the most recent fixed-size portion of the state transition experience; second, it uses fixed-capacity hypernetworks to represent non-stationary and task-aware dynamics; third, it outperforms existing continual learning alternatives that rely on fixed-capacity networks, and does competitively with baselines that remember an ever increasing coreset of past experience. We show that HyperCRL is effective in continual model-based reinforcement learning in robot locomotion and manipulation scenarios, such as tasks involving pushing and door opening. Our project website with videos is at this link https://rvl.cs.toronto.edu/blog/hypercrl</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-25T01:46:26Z</published>
+    <arxiv:comment>Updated link to project website in the abstract. 7 pages (+2 pages in appendix), 8 figures. In proceedings of the 2021 IEEE International Conference on Robotics and Automation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yizhou Huang</name>
+    </author>
+    <author>
+      <name>Kevin Xie</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Florian Shkurti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.24847v1</id>
+    <title>DiPLO: Self-distilled Diffusion Planning for Loco-manipulation</title>
+    <updated>2026-10-17T19:51:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.24847v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.24847v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy. Our planner is pretrained via supervised learning on motions derived from human-to-humanoid retargeting, while the tracker is trained via RL to execute them. DiPLO centers around two complementary post-training stages. First, we introduce Self-Distillation Diffusion Policy Optimisation (SD:DPO) to remove the planner's dependence on strong task conditioning, which we identify as a crucial ingredient for effective pretraining, as downstream fine-tuning does not recover comparable performance when it is omitted.. We then fine-tune this distilled model with Diffusion-Augmented Proximal Policy Optimization (DA:PPO), a maximum-entropy RL method for diffusion models, to improve task success and align generated plans with the frozen tracker's execution capabilities. Together, these stages enable motion generation through state-history and goal conditioning alone, enabling 99% task success in pick-carry-place tasks, compared to just 45% for the pretrained model. The resulting planner also generates motions for unseen object goals, with further evaluations on kicking and pushing/pulling tasks. Finally, we deploy our pipeline on the hardware, using our DA:PPO planner-tracker on a Unitree G1, achieving repeated successful executions without any real-world fine-tuning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-17T19:51:59Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Shafeef Omar</name>
+    </author>
+    <author>
+      <name>Sebastian Sanokowski</name>
+    </author>
+    <author>
+      <name>Elham Daneshmand</name>
+    </author>
+    <author>
+      <name>Dian Yu</name>
+    </author>
+    <author>
+      <name>Daniel Cremers</name>
+    </author>
+    <author>
+      <name>Cordelia Schmid</name>
+    </author>
+    <author>
+      <name>Majid Khadiv</name>
+    </author>
+  </entry>
+</feed>
