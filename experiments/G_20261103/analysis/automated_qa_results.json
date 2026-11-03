@@ -1,0 +1,54 @@
+{
+  "at_utc": "2026-11-03T12:02:16.178939+00:00",
+  "checks": [
+    {
+      "check": "source",
+      "returncode": 0,
+      "log": "source.qa.log"
+    },
+    {
+      "check": "severe_absolute_text",
+      "returncode": 0,
+      "log": "severe_absolute_text.qa.log"
+    },
+    {
+      "check": "severe_absolute_collision",
+      "returncode": 0,
+      "log": "severe_absolute_collision.qa.log"
+    },
+    {
+      "check": "severe_paired_text",
+      "returncode": 0,
+      "log": "severe_paired_text.qa.log"
+    },
+    {
+      "check": "severe_paired_collision",
+      "returncode": 0,
+      "log": "severe_paired_collision.qa.log"
+    },
+    {
+      "check": "normal_speed_text",
+      "returncode": 0,
+      "log": "normal_speed_text.qa.log"
+    },
+    {
+      "check": "normal_speed_collision",
+      "returncode": 0,
+      "log": "normal_speed_collision.qa.log"
+    }
+  ],
+  "source_counts": {
+    "PASS": 19,
+    "WARN": 2,
+    "FAIL": 0
+  },
+  "reviewed_warnings": [
+    "PNG previews at 300 dpi are for the stage report; editable PDF/SVG are the primary line-art exports. No journal-submission TIFF claim."
+  ],
+  "visual_review": {
+    "normal_speed": "All five points per group, labels and seed SD readable; no clipping or overlap.",
+    "severe_absolute": "All four panels visually reviewed; axes and all seeds readable; 88–104% probability axis disclosed in report.",
+    "severe_paired": "All four panels visually reviewed; zero reference, all paired seeds and SD readable."
+  },
+  "statistical_unit": "Five training seeds after averaging three matched evaluation repeats; all cases retained."
+}

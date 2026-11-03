@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "retargeted_human",
+  "split": "development",
+  "source_url": "https://huggingface.co/datasets/lvhaidong/LAFAN1_Retargeting_Dataset/resolve/ce1572906efe6157840e8474d5a0d7aa87481e74/g1/walk1_subject1.csv",
+  "source_revision": "ce1572906efe6157840e8474d5a0d7aa87481e74",
+  "source_sha256": "68c7887438e94f1f3d9ebacd3a8ce59251a22c7b05129a0f5d7cacaedc48c28d",
+  "license": "Original LAFAN1 motion: CC BY-NC-ND 4.0; retarget repository LICENSE: BSD-3-Clause. Local noncommercial use only; do not redistribute the adapted reference.",
+  "description": "G1 29-joint reference selected from real LAFAN1 retargeted walking, 30 Hz. Source-only cycle selection; no policy results used. Kinematic retargeting, not dynamically verified motion.",
+  "sha256": "4dcbf6eda5e43a44f9256f0a97f0ae511cf0a26ca0ec24c9289fe746c572e647",
+  "selection": {
+    "score": 0.0675892592647304,
+    "start_frame_zero_based": 946,
+    "frames": 42,
+    "mean_forward_speed_mps": 0.67775459340413,
+    "forward_speed_std_mps": 0.04513731452994697,
+    "end_pose_residual_max_rad": 0.048819,
+    "yaw_drift_rad": 0.0021067508041143768
+  },
+  "kinematic_checks": {
+    "phase_offset_cycles": 0.35,
+    "kinematic_support_agreement": 0.8690476190476191,
+    "foot_height_ranges_m": [
+      [
+        0.010630148992439435,
+        0.010056588316566126
+      ],
+      [
+        0.1176130387895199,
+        0.12322806490734538
+      ]
+    ],
+    "joint_limit_max_violation_rad": 0.0,
+    "loop_step_max_rad": 0.13958399999999993
+  },
+  "training_role": "PILOT_DEVELOPMENT_REFERENCE_NOT_HELD_OUT_TEST",
+  "selection_scope": "One clip and one cycle; no claim of generality across people or motions."
+}

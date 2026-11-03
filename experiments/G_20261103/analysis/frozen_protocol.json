@@ -1,0 +1,248 @@
+{
+  "version": "G_today_20261103",
+  "created_at_utc": "2026-11-03T04:25:17.992862+00:00",
+  "purpose": "DEVELOPMENT_ONLY_NO_GUARANTEED_POSITIVE_EFFECT",
+  "frozen_campaign_protocol_sha256": "3a7d5c4083b3d772f37c45c771fdc57e353e9b31096bd08c0d3446e8e04fb072",
+  "parents": [
+    {
+      "group": "C",
+      "seed": 42,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-01_01-32-32_style_pilot_C_seed42/model_1999.pt",
+      "sha256": "e4e2fd2bdbd5958c0f5b273c996ada18d4686923e8980b779ba89889cb18a40e",
+      "completed_updates": 2000
+    },
+    {
+      "group": "D",
+      "seed": 42,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-01_03-58-58_style_pilot_D_seed42/model_1999.pt",
+      "sha256": "e70a4eb768e6804e62c80783038e6d111e2289b469492f1498e7ff65d6bd939a",
+      "completed_updates": 2000
+    },
+    {
+      "group": "A",
+      "seed": 42,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-01_13-09-07_style_pilot_A_seed42/model_1999.pt",
+      "sha256": "eb3ed86fd64f36b839545d48bd37440be163ae6b35471901e1750f08518d7d72",
+      "completed_updates": 2000
+    },
+    {
+      "group": "B",
+      "seed": 42,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-01_13-55-17_style_pilot_B_seed42/model_1999.pt",
+      "sha256": "ec13fb3a8c28086b0e271e69f9f581b18968e5cd879ea5bd893dae2cb9e2dcfd",
+      "completed_updates": 2000
+    },
+    {
+      "group": "D",
+      "seed": 43,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-23_style_pilot_D_seed43/model_1999.pt",
+      "sha256": "94084054a1be21bae26ddc13ea269916330e072fcdb382bed457f95a0f98785e",
+      "completed_updates": 2000
+    },
+    {
+      "group": "A",
+      "seed": 43,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-23_style_pilot_A_seed43/model_1999.pt",
+      "sha256": "b75ccccb9aba5d10dc63ef461090e753c7693afb85b8c6bc400a4b1c389183ee",
+      "completed_updates": 2000
+    },
+    {
+      "group": "B",
+      "seed": 43,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-23_style_pilot_B_seed43/model_1999.pt",
+      "sha256": "0d1cfcc6eac7a17ff0ca776cd8c6580759b2055dfddb8c36ebb0937f0507c6bf",
+      "completed_updates": 2000
+    },
+    {
+      "group": "C",
+      "seed": 43,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-23_style_pilot_C_seed43/model_1999.pt",
+      "sha256": "7d5d4bf73dc67aa7b5e1f2495bd1952606c1924fdcaaee3b4e6a5559cdd6d07c",
+      "completed_updates": 2000
+    },
+    {
+      "group": "A",
+      "seed": 44,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-23_style_pilot_A_seed44/model_1999.pt",
+      "sha256": "ab92926857bdeb2b96dfc616b2d175fec34e98183ea22d8eafc902a2ca5689d3",
+      "completed_updates": 2000
+    },
+    {
+      "group": "B",
+      "seed": 44,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-24_style_pilot_B_seed44/model_1999.pt",
+      "sha256": "e2a9f17549855eb58890ecd85022a58d62631d435af184431dd8897196801909",
+      "completed_updates": 2000
+    },
+    {
+      "group": "C",
+      "seed": 44,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-24_style_pilot_C_seed44/model_1999.pt",
+      "sha256": "d5d8ff3baeddda6ff49476f271e1ffc5dc7196efe4358c9fd9859120fd99a126",
+      "completed_updates": 2000
+    },
+    {
+      "group": "D",
+      "seed": 44,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_20-53-23_style_pilot_D_seed44/model_1999.pt",
+      "sha256": "a326c2f05cd4e774407ce52964292ee6c3bb2d47b0cc03efa6bf9430103085f4",
+      "completed_updates": 2000
+    },
+    {
+      "group": "B",
+      "seed": 45,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_22-56-53_style_pilot_B_seed45/model_1999.pt",
+      "sha256": "42e70031626a93db3cb7385cc47bb0a62c57f0e96f8f694df078f79e47e04c78",
+      "completed_updates": 2000
+    },
+    {
+      "group": "C",
+      "seed": 45,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-48-16_style_pilot_C_seed45/model_1999.pt",
+      "sha256": "69a38764f1ebac432042226baa7b262362ea876f734601467489f3861b12a4cb",
+      "completed_updates": 2000
+    },
+    {
+      "group": "D",
+      "seed": 45,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-49-21_style_pilot_D_seed45/model_1999.pt",
+      "sha256": "841193bb11a04254260e39dcf052d9dc8208e33a843f86faf6eb0e7d8c5f2bcb",
+      "completed_updates": 2000
+    },
+    {
+      "group": "A",
+      "seed": 45,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-52-47_style_pilot_A_seed45/model_1999.pt",
+      "sha256": "899778dae6625e138d0a9b37de98fa6dc2e895dc220a9a8fa5246b9a61fecddd",
+      "completed_updates": 2000
+    },
+    {
+      "group": "C",
+      "seed": 46,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-52-47_style_pilot_C_seed46/model_1999.pt",
+      "sha256": "faeff16529736e6dd223b0fdb38855b9287690db3ca738412148cbe36637ccd0",
+      "completed_updates": 2000
+    },
+    {
+      "group": "D",
+      "seed": 46,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-53-07_style_pilot_D_seed46/model_1999.pt",
+      "sha256": "328a3f32a90b28e827b0a1a607ff01414dc7bebb90ac0d3a2367ba3579009d13",
+      "completed_updates": 2000
+    },
+    {
+      "group": "A",
+      "seed": 46,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-53-07_style_pilot_A_seed46/model_1999.pt",
+      "sha256": "9118520da89de455e83075a6ec274ce7a87d85e7817015a6199497daecb5d931",
+      "completed_updates": 2000
+    },
+    {
+      "group": "B",
+      "seed": 46,
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style/2026-11-02_23-54-27_style_pilot_B_seed46/model_1999.pt",
+      "sha256": "24163f5bc87836092759900d6b9463f208f97140c20e98c84cfd2f24f04d1102",
+      "completed_updates": 2000
+    }
+  ],
+  "frozen_E_launch_receipts": {
+    "E/train/C_seed42/launch.json": "2e376ba43e72c5a4ac2d7eec93b1d9f78022be6e6137caa42a969592882f52dd",
+    "E/train/D_seed42/launch.json": "f4a8128977e314dbf398d9fcdf73ed563cd3b285f2a4586010b10d38bb97819e",
+    "E/train/A_seed42/launch.json": "ae84c9f624aef0f91e4e742d6050d97d0e62147b272f29d53d5e00583522b885",
+    "E/train/B_seed42/launch.json": "684d8f01760b82ede8634de6120ad70adf6cd628e7b09cca1c4d8245c8ffaf24",
+    "E/train/D_seed43/launch.json": "3505ffaace64a790d4ed2eb0bc4d22b5cea613ec8147cf567742e97ab5854d23",
+    "E/train/A_seed43/launch.json": "a2b56635c9f80191261bbed1bacb319e225b67d382748a982f2ae8ce916011f7",
+    "E/train/B_seed43/launch.json": "1c37b57e8029685886a4fce29c2c401bca0b2582cb37f42529f52173ee3aa5d2",
+    "E/train/C_seed43/launch.json": "24cf1830c083b4ac9b8ab90f4aceab8a673391bfe1fc38240170b1807707b0a6"
+  },
+  "branch": "G",
+  "parent_updates": 2000,
+  "added_updates": 1000,
+  "target_updates": 3000,
+  "num_envs": 1024,
+  "rollout": 24,
+  "maximum_total_E_G_train_workers": 8,
+  "cpu_threads_per_worker": 3,
+  "reference_sha256": "4dcbf6eda5e43a44f9256f0a97f0ae511cf0a26ca0ec24c9289fe746c572e647",
+  "distribution": {
+    "origin_steps": 48000,
+    "ramp_steps": 12000,
+    "stable_steps": 12000,
+    "probability_range_start": [
+      0.25,
+      0.75
+    ],
+    "probability_range_end": [
+      0.25,
+      1.0
+    ],
+    "duration_steps_start": [
+      5,
+      20
+    ],
+    "duration_steps_end": [
+      5,
+      40
+    ],
+    "full_loss_long_event_mass_start": 0.0,
+    "full_loss_long_event_mass_end": 0.25,
+    "event_probability": 0.005,
+    "fault_joint_count_range": [
+      1,
+      2
+    ]
+  },
+  "evaluation": {
+    "scenarios": {
+      "nominal": {
+        "joints": [],
+        "probability": 0.0,
+        "duration_s": 0.0
+      },
+      "left_knee_75pct_0p4s": {
+        "joints": [
+          "left_knee_joint"
+        ],
+        "probability": 0.75,
+        "duration_s": 0.4
+      },
+      "right_ankle_75pct_0p4s": {
+        "joints": [
+          "right_ankle_pitch_joint"
+        ],
+        "probability": 0.75,
+        "duration_s": 0.4
+      },
+      "right_ankle_100pct_0p8s": {
+        "joints": [
+          "right_ankle_pitch_joint"
+        ],
+        "probability": 1.0,
+        "duration_s": 0.8
+      }
+    },
+    "evaluation_seeds": [
+      1042,
+      1043,
+      1044
+    ],
+    "num_envs": 128,
+    "duration_s": 20.0,
+    "planned_cases": 240,
+    "order": "complete all 20 models and four scenarios for one paired evaluation seed before next seed",
+    "analysis_unit": "five training seeds; average paired evaluation repeats within each seed"
+  },
+  "deadlines": {
+    "train_admission": "2026-11-03T20:00:00+08:00",
+    "evaluation": "2026-11-03T22:00:00+08:00",
+    "export": "2026-11-03T23:00:00+08:00"
+  },
+  "analysis_reserve_s": 2700,
+  "export_reserve_s": 3600,
+  "sources": {
+    "scripts/cloud_stage_today_20261103.py": "dc2a65575af1f50d2417218293d418342ed057309287c6b2cd7e60a0ebc65ebd",
+    "scripts/cloud_stage_today_runtime_20261103.py": "e8af3fddfbbf79f0d4cf499615b1acd88a06efd0e97d8c68d33bffa3f8dc3015"
+  },
+  "interpretation": "G-v1 changes both budget and fault distribution. E8 are incomplete budget diagnostics, excluded from G comparisons. Joint RMSE is not visual or real-robot naturalness proof.",
+  "sha256": "3fc04aa37954e40615936cd0b53a225816156eb756067c60bb96475f2da10c92"
+}

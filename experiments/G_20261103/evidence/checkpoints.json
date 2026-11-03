@@ -1,0 +1,205 @@
+{
+  "protocol_sha256": "3fc04aa37954e40615936cd0b53a225816156eb756067c60bb96475f2da10c92",
+  "models": [
+    {
+      "index": 0,
+      "group": "C",
+      "seed": 42,
+      "parent_sha256": "e4e2fd2bdbd5958c0f5b273c996ada18d4686923e8980b779ba89889cb18a40e",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/C_seed42/model_2999.pt",
+      "sha256": "30ab197b9e42375ef9223d696a5fe94f7edab4566c46939b0bc0398188d91602",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/30ab197b9e42375ef9223d696a5fe94f7edab4566c46939b0bc0398188d91602.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 1,
+      "group": "D",
+      "seed": 42,
+      "parent_sha256": "e70a4eb768e6804e62c80783038e6d111e2289b469492f1498e7ff65d6bd939a",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/D_seed42/model_2999.pt",
+      "sha256": "b085b4b3cce5553ae2cfa4b03cb363e36515587d831513479dc909bcadb0d86f",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/b085b4b3cce5553ae2cfa4b03cb363e36515587d831513479dc909bcadb0d86f.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 2,
+      "group": "A",
+      "seed": 42,
+      "parent_sha256": "eb3ed86fd64f36b839545d48bd37440be163ae6b35471901e1750f08518d7d72",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/A_seed42/model_2999.pt",
+      "sha256": "75be5435dc47394314163b22da7a8c0c478ff8187cadcbad821f2014310fd71f",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/75be5435dc47394314163b22da7a8c0c478ff8187cadcbad821f2014310fd71f.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 3,
+      "group": "B",
+      "seed": 42,
+      "parent_sha256": "ec13fb3a8c28086b0e271e69f9f581b18968e5cd879ea5bd893dae2cb9e2dcfd",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/B_seed42/model_2999.pt",
+      "sha256": "f78e973406f4ca0a616c4c08f6e119ba90a7e0c2f3b2a948655c85c29f79e0f2",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/f78e973406f4ca0a616c4c08f6e119ba90a7e0c2f3b2a948655c85c29f79e0f2.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 4,
+      "group": "D",
+      "seed": 43,
+      "parent_sha256": "94084054a1be21bae26ddc13ea269916330e072fcdb382bed457f95a0f98785e",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/D_seed43/model_2999.pt",
+      "sha256": "8a9c29a3b372a35ad67ef091186b7a7c718992fb66c15a79a78602255dbdf650",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/8a9c29a3b372a35ad67ef091186b7a7c718992fb66c15a79a78602255dbdf650.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 5,
+      "group": "A",
+      "seed": 43,
+      "parent_sha256": "b75ccccb9aba5d10dc63ef461090e753c7693afb85b8c6bc400a4b1c389183ee",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/A_seed43/model_2999.pt",
+      "sha256": "99306c6e91acf484de501bc5029636bd119c23319f8fd05f0fa160ef1cd28688",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/99306c6e91acf484de501bc5029636bd119c23319f8fd05f0fa160ef1cd28688.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 6,
+      "group": "B",
+      "seed": 43,
+      "parent_sha256": "0d1cfcc6eac7a17ff0ca776cd8c6580759b2055dfddb8c36ebb0937f0507c6bf",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/B_seed43/model_2999.pt",
+      "sha256": "8b54ee695fca8870688a57cccb518009493da07d1fd47c8c396e65ec8d322edc",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/8b54ee695fca8870688a57cccb518009493da07d1fd47c8c396e65ec8d322edc.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 7,
+      "group": "C",
+      "seed": 43,
+      "parent_sha256": "7d5d4bf73dc67aa7b5e1f2495bd1952606c1924fdcaaee3b4e6a5559cdd6d07c",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/C_seed43/model_2999.pt",
+      "sha256": "e897da6f680ac009f1d9af19e1508c7f751b400ee823fc92f18ec9ef29346066",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/e897da6f680ac009f1d9af19e1508c7f751b400ee823fc92f18ec9ef29346066.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 8,
+      "group": "A",
+      "seed": 44,
+      "parent_sha256": "ab92926857bdeb2b96dfc616b2d175fec34e98183ea22d8eafc902a2ca5689d3",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/A_seed44/model_2999.pt",
+      "sha256": "6a11cb52b430ca870795811c0e2087ed90c0dc3b38c1f5a29448220cba364b35",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/6a11cb52b430ca870795811c0e2087ed90c0dc3b38c1f5a29448220cba364b35.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 9,
+      "group": "B",
+      "seed": 44,
+      "parent_sha256": "e2a9f17549855eb58890ecd85022a58d62631d435af184431dd8897196801909",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/B_seed44/model_2999.pt",
+      "sha256": "2d793509e5c5629bfe7c1e018e1551622ae4cbfe3abe93ed9250dac6536b4b47",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/2d793509e5c5629bfe7c1e018e1551622ae4cbfe3abe93ed9250dac6536b4b47.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 10,
+      "group": "C",
+      "seed": 44,
+      "parent_sha256": "d5d8ff3baeddda6ff49476f271e1ffc5dc7196efe4358c9fd9859120fd99a126",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/C_seed44/model_2999.pt",
+      "sha256": "720ab7835d18d4c1a863981f4d5aa0629d7209677c3985c1aac8f973b8fd3471",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/720ab7835d18d4c1a863981f4d5aa0629d7209677c3985c1aac8f973b8fd3471.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 11,
+      "group": "D",
+      "seed": 44,
+      "parent_sha256": "a326c2f05cd4e774407ce52964292ee6c3bb2d47b0cc03efa6bf9430103085f4",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/D_seed44/model_2999.pt",
+      "sha256": "a747d0677eb033636ba676d75dc1a943b47805ca1c9eac7f0344b57f28fff482",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/a747d0677eb033636ba676d75dc1a943b47805ca1c9eac7f0344b57f28fff482.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 12,
+      "group": "B",
+      "seed": 45,
+      "parent_sha256": "42e70031626a93db3cb7385cc47bb0a62c57f0e96f8f694df078f79e47e04c78",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/B_seed45/model_2999.pt",
+      "sha256": "f69cd1e688e8ed5b2de50ced8a15364e89487a51a5670088326310c8c88fadfa",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/f69cd1e688e8ed5b2de50ced8a15364e89487a51a5670088326310c8c88fadfa.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 13,
+      "group": "C",
+      "seed": 45,
+      "parent_sha256": "69a38764f1ebac432042226baa7b262362ea876f734601467489f3861b12a4cb",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/C_seed45/model_2999.pt",
+      "sha256": "b5963a6a5122b96f7d04a5faea4cc8191ab001f967ed9c67a3e420c77e59e81f",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/b5963a6a5122b96f7d04a5faea4cc8191ab001f967ed9c67a3e420c77e59e81f.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 14,
+      "group": "D",
+      "seed": 45,
+      "parent_sha256": "841193bb11a04254260e39dcf052d9dc8208e33a843f86faf6eb0e7d8c5f2bcb",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/D_seed45/model_2999.pt",
+      "sha256": "ea5ca7fc1093be26ead8d7cf7b11e0bc48820b0d3b680dfe4fe61a4c7cebe865",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/ea5ca7fc1093be26ead8d7cf7b11e0bc48820b0d3b680dfe4fe61a4c7cebe865.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 15,
+      "group": "A",
+      "seed": 45,
+      "parent_sha256": "899778dae6625e138d0a9b37de98fa6dc2e895dc220a9a8fa5246b9a61fecddd",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/A_seed45/model_2999.pt",
+      "sha256": "fd9c7b37aa2d7eec609321c73a52774d3077ba65e13ddd01f304464a5b77134f",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/fd9c7b37aa2d7eec609321c73a52774d3077ba65e13ddd01f304464a5b77134f.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 16,
+      "group": "C",
+      "seed": 46,
+      "parent_sha256": "faeff16529736e6dd223b0fdb38855b9287690db3ca738412148cbe36637ccd0",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/C_seed46/model_2999.pt",
+      "sha256": "bf45ba232ce10619287fa082d3fa0ee6fb5f80b736adaa120d5109227fe4b635",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/bf45ba232ce10619287fa082d3fa0ee6fb5f80b736adaa120d5109227fe4b635.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 17,
+      "group": "D",
+      "seed": 46,
+      "parent_sha256": "328a3f32a90b28e827b0a1a607ff01414dc7bebb90ac0d3a2367ba3579009d13",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/D_seed46/model_2999.pt",
+      "sha256": "6930b56f063396353b2f738fd7cb1be379d2265d2b89928542636d5feaf06049",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/6930b56f063396353b2f738fd7cb1be379d2265d2b89928542636d5feaf06049.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 18,
+      "group": "A",
+      "seed": 46,
+      "parent_sha256": "9118520da89de455e83075a6ec274ce7a87d85e7817015a6199497daecb5d931",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/A_seed46/model_2999.pt",
+      "sha256": "49202f8a3f565554bb12bcc8f951cc004930d62c3e67ba1997a339d42fc8eb42",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/49202f8a3f565554bb12bcc8f951cc004930d62c3e67ba1997a339d42fc8eb42.pt",
+      "completed_updates": 3000
+    },
+    {
+      "index": 19,
+      "group": "B",
+      "seed": 46,
+      "parent_sha256": "24163f5bc87836092759900d6b9463f208f97140c20e98c84cfd2f24f04d1102",
+      "checkpoint": "/root/autodl-tmp/g1_cloud/unitree_rl_mjlab/logs/rsl_rl/g1_dropout_style_G_today_20261103/B_seed46/model_2999.pt",
+      "sha256": "8f73e18c62c739d6ecb797936fbdd35da3a3098924407fd8d639d129ca02ad95",
+      "private_snapshot": "/root/.local/share/unitree_style_training/checkpoints/8f73e18c62c739d6ecb797936fbdd35da3a3098924407fd8d639d129ca02ad95.pt",
+      "completed_updates": 3000
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_backup_sha256": "335c1154bce01d98e668f9faff8a58d3d6bdf5f11b18281d595c1ccd00abce56",
+  "excluded": [
+    {
+      "name": "data/style_dropout/walking_reference.npz",
+      "reason": "Restricted raw/adapted motion reference; not redistributed.",
+      "sha256": "4dcbf6eda5e43a44f9256f0a97f0ae511cf0a26ca0ec24c9289fe746c572e647"
+    },
+    {
+      "name": "results/cloud_stage_today_20261103/delivery_20261103_2006/analysis/finalize_analysis_qa.py",
+      "reason": "Local QA orchestration has machine-specific runtime paths; QA outputs and plotting source retained.",
+      "sha256": "70a827c4ab75f883ea1bea3673f9e678e338e81c4a4d3ff8d82a991fdd1335b9"
+    },
+    {
+      "name": "delivery_manifest.json",
+      "reason": "Replaced by a new curated manifest; original describes private full backup."
+    }
+  ],
+  "original_analysis_manifest_is_historical": true,
+  "note": "The historical analysis manifest names private QA source omitted here. Use public_manifest.json for this publication."
+}
