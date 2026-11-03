@@ -50,6 +50,16 @@ def body_lateral_velocity_delta(quaternion_wxyz, magnitude):
     return v + q[:, :1] * twice_cross + torch.linalg.cross(q[:, 1:], twice_cross)
 
 
+def verify_rough_pairing(reference, snapshot):
+    """Check actual spawn state, including patch selection, across policies."""
+    reference = Path(reference)
+    if reference.exists():
+        if read(reference) != snapshot:
+            raise ValueError('rough evaluation pairing differs in actual terrain or spawn state')
+    else:
+        study.write(reference, snapshot)
+
+
 def load_batch(target, seed, protocol, identity):
     """Recompute cached scores from identity-bound raw data before accepting them."""
     target = Path(target)
@@ -134,6 +144,16 @@ def rollout_seed(raw, session, layout, protocol, episode_seed, device, target, i
     study.seed_all(episode_seed)
     raw.reset(seed=episode_seed)
     robot=raw.scene['robot']
+    if protocol.get('terrain_mode') == 'blind_rough':
+        terrain = raw.scene.terrain
+        snapshot = {name: getattr(terrain, name).detach().cpu().tolist()
+                    for name in ('terrain_levels', 'terrain_types', 'env_origins')}
+        snapshot.update({name: getattr(robot.data, field).detach().cpu().tolist()
+                         for name, field in (('initial_root_pos_w', 'root_link_pos_w'),
+                                             ('initial_root_quat_w', 'root_link_quat_w'),
+                                             ('initial_root_vel_w', 'root_link_vel_w'))})
+        verify_rough_pairing(Path(target).parent/'_rough_pairing'/f'episode_seed{episode_seed}.json', snapshot)
+        study.write(Path(target)/f'episode_seed{episode_seed}_spawn.json', snapshot)
     for step in range(steps):
         # Controlled velocity impulse, once at the specified instant; never rely
         # on play=True's (disabled) push event for robustness.
@@ -163,6 +183,8 @@ def rollout_seed(raw, session, layout, protocol, episode_seed, device, target, i
         action[~alive]=0.
         actions[step]=action
         _,_,terminated,timed_out,_=raw.step(torch.as_tensor(action,device=device))
+        if protocol.get('terrain_mode') == 'blind_rough':
+            study.check_rough_simulation(raw)
         failed=terminated.detach().cpu().numpy().astype(bool)&alive
         # The configured time limit exceeds the evaluation horizon. An early
         # timeout is a protocol failure, not a completed or silently dropped run.

@@ -264,9 +264,67 @@ def bootstrap():
     torch.set_num_threads(2)
 
 
+def deterministic_rough_terrain(env, env_ids=None):
+    terrain = env.scene.terrain
+    if terrain.terrain_origins is None:
+        return
+    ids = torch.arange(env.num_envs, device=env.device) if env_ids is None else env_ids
+    cols = ids % 5
+    terrain.terrain_levels[ids] = 0
+    terrain.terrain_types[ids] = cols
+    terrain.env_origins[ids] = terrain.terrain_origins[0, cols]
+
+
+def check_physics_capacity(contacts, contact_capacity, constraints, constraint_capacity):
+    if contacts >= contact_capacity or constraints >= constraint_capacity:
+        raise ValueError('rough physics contact/constraint capacity saturated')
+
+
+def check_rough_simulation(env):
+    data = env.sim.wp_data
+    contacts, constraints = int(data.nacon.numpy()[0]), int(data.nefc.numpy().max())
+    check_physics_capacity(contacts, data.contact.geom.shape[0], constraints, 1500)
+    return contacts, constraints
+
+
 def make_env_config(protocol, seed, num_envs, *, evaluation=False):
     from mjlab.tasks.registry import load_env_cfg
     cfg = load_env_cfg(protocol['task'], play=evaluation)
+    if protocol['task'] == 'Unitree-G1-Rough':
+        if protocol.get('terrain_mode') != 'blind_rough':
+            raise ValueError('98-feature rough comparison requires explicit blind_rough amendment')
+        for group in ('actor', 'critic'):
+            cfg.observations[group].terms.pop('height_scan', None)
+        cfg.scene.sensors = tuple(s for s in (cfg.scene.sensors or ()) if s.name != 'terrain_scan')
+        # Native rough training otherwise caps contacts at 48, which can overflow.
+        cfg.sim.nconmax = None
+        if cfg.scene.terrain.terrain_type != 'generator' or cfg.scene.terrain.terrain_generator is None:
+            raise ValueError('blind rough requires physical generated terrain')
+        cfg.scene.terrain.terrain_generator.seed = seed
+        if protocol.get('terrain_distribution') == 'phase_random_rough':
+            from mjlab.managers.event_manager import EventTermCfg
+            generator = cfg.scene.terrain.terrain_generator
+            generator.curriculum = False
+            generator.num_rows, generator.num_cols = 1, 5
+            generator.size = (32., 16.)
+            rough = copy.deepcopy(generator.sub_terrains['random_rough'])
+            rough.proportion = 1.
+            rough.noise_range, rough.noise_step = (.02, .10), .02
+            rough.horizontal_scale, rough.vertical_scale, rough.border_width = .1, .005, .25
+            generator.sub_terrains = {'random_rough': rough}
+            cfg.curriculum.pop('terrain_levels', None)
+            cfg.sim.nconmax, cfg.sim.njmax = 128, 1500
+            # 500 iterations need >8 GiB of EPA scratch at this 1024-world
+            # contact capacity. Use the explicit, common numerical amendment.
+            cfg.sim.mujoco.ccd_iterations = 50
+            cfg.events.pop('randomize_terrain', None)
+            cfg.events = {'randomize_terrain': EventTermCfg(func=deterministic_rough_terrain, mode='reset'),
+                          **cfg.events}
+        if evaluation:
+            # Select the patch before reset_base reads env_origins. The native
+            # play config appends this event after reset_base, using old origins.
+            terrain_event = cfg.events.pop('randomize_terrain')
+            cfg.events = {'randomize_terrain': terrain_event, **cfg.events}
     cfg.seed = seed
     cfg.scene.num_envs = num_envs
     cfg.episode_length_s = protocol['evaluation']['horizon_seconds'] + (1. if evaluation else 0.)
@@ -289,7 +347,7 @@ def make_env_config(protocol, seed, num_envs, *, evaluation=False):
         if term.func.__name__ != 'phase' or term.params['period'] != .6:
             raise ValueError('phase must remain the original fixed analytic clock')
     if 'height_scan' in cfg.observations['actor'].terms or 'foot_gait' not in cfg.rewards:
-        raise ValueError('requires unchanged flat baseline observation and gait reward')
+        raise ValueError('requires 98-feature baseline observation and unchanged gait reward')
     observation_layout([(n, dict(EXPECTED_TERMS).get(n, -1)) for n in cfg.observations['actor'].terms])
     return cfg
 

@@ -36,7 +36,8 @@ def source_snapshot():
     for pattern in ('setup.py', 'requirements-semantic-split.txt', 'src/**/*.py',
                     'src/assets/robots/unitree_g1/**/*', 'scripts/*g1_semantic_split*.py',
                     'tests/test_g1_semantic_split*.py', 'docs/superpowers/plans/2026-10-26-g1-semantic-split.md',
-                    'docs/superpowers/specs/2026-10-26-g1-semantic-split-protocol.md'):
+                    'docs/superpowers/specs/2026-10-26-g1-semantic-split-protocol.md',
+                    'docs/superpowers/specs/2026-11-03-g1-semantic-split-rough-amendment.md'):
         paths.update(p for p in ROOT.glob(pattern) if p.is_file() and '__pycache__' not in p.parts)
     files = {p.relative_to(ROOT).as_posix(): study.sha(p) for p in sorted(paths)}
     return {'files': files, 'sha256': study.protocol_digest(files)}
@@ -250,6 +251,10 @@ def train(output, arm, seed, stage, *, device='cuda:0', smoke_envs=4, resume=Fal
             if not torch.isfinite(action).all():
                 raise ValueError('nonfinite action')
             result = original_step(action)
+            if protocol.get('terrain_mode') == 'blind_rough':
+                contacts, constraints = study.check_rough_simulation(raw)
+                record['peak_contacts'] = max(record.get('peak_contacts', 0), contacts)
+                record['peak_constraints_per_world'] = max(record.get('peak_constraints_per_world', 0), constraints)
             collected += num_envs
             return result
         env.step = checked_step
