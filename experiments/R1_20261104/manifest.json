@@ -1,0 +1,1393 @@
+{
+  "schema_version": 1,
+  "title": "R1 final training artifacts, 2026-11-04",
+  "groups": {
+    "A": "none",
+    "B": "fixed",
+    "C": "global",
+    "D": "selective"
+  },
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_models": 12,
+  "updates_per_model": 2000,
+  "parallel_environments": 1024,
+  "rollout_steps_per_update": 24,
+  "environment_steps_per_model": 49152000,
+  "total_environment_steps": 589824000,
+  "control_dt_s": 0.02,
+  "episode_length_s": 20.0,
+  "actor_observation_dimension": 285,
+  "critic_observation_dimension": 298,
+  "action_dimension": 29,
+  "action_order": [
+    "left_hip_pitch_joint",
+    "left_hip_roll_joint",
+    "left_hip_yaw_joint",
+    "left_knee_joint",
+    "left_ankle_pitch_joint",
+    "left_ankle_roll_joint",
+    "right_hip_pitch_joint",
+    "right_hip_roll_joint",
+    "right_hip_yaw_joint",
+    "right_knee_joint",
+    "right_ankle_pitch_joint",
+    "right_ankle_roll_joint",
+    "waist_yaw_joint",
+    "waist_roll_joint",
+    "waist_pitch_joint",
+    "left_shoulder_pitch_joint",
+    "left_shoulder_roll_joint",
+    "left_shoulder_yaw_joint",
+    "left_elbow_joint",
+    "left_wrist_roll_joint",
+    "left_wrist_pitch_joint",
+    "left_wrist_yaw_joint",
+    "right_shoulder_pitch_joint",
+    "right_shoulder_roll_joint",
+    "right_shoulder_yaw_joint",
+    "right_elbow_joint",
+    "right_wrist_roll_joint",
+    "right_wrist_pitch_joint",
+    "right_wrist_yaw_joint"
+  ],
+  "initialization": "fresh network for each model",
+  "origin_training_manifest_sha256": "f389d7f1cff4e02831661fae85f65689955b203b1a17c34e4a68db4c27b047b0",
+  "reference_sha256": "4dcbf6eda5e43a44f9256f0a97f0ae511cf0a26ca0ec24c9289fe746c572e647",
+  "dependency_versions": {
+    "mjlab": "1.2.0",
+    "mujoco": "3.5.0",
+    "mujoco-warp": "3.5.0",
+    "torch": "2.13.0",
+    "rsl-rl-lib": "5.0.1",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.1"
+  },
+  "models": [
+    {
+      "model": "A_seed42",
+      "group": "A",
+      "training_seed": 42,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/A_seed42/model_1999.pt",
+      "checkpoint_sha256": "658fdc25fb75c54f828e7e2c4fddd8fb4bb844fd3cb90c510f8d83ad3bfd6ae2",
+      "agent_config": "configs/A_seed42/agent.json",
+      "environment_config": "configs/A_seed42/env.json",
+      "source_configuration_sha256": "64d77e6249fa280c533a8b5557744d7db9e6f4acfaa8f6f11bbaa01072a85bbc",
+      "source_agent_sha256": "6f403bf55d8acb43e4656bd52b979f3456a135beff80c8284d70726189de0f81",
+      "tensorboard": "logs/A_seed42/events.out.tfevents.gz",
+      "timing": "logs/A_seed42/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10370,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10370,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T00:58:22.575172+00:00",
+      "training_completed_at_utc": "2026-11-04T04:01:19.753734+00:00"
+    },
+    {
+      "model": "B_seed42",
+      "group": "B",
+      "training_seed": 42,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/B_seed42/model_1999.pt",
+      "checkpoint_sha256": "9f3849e860010e432511de278976e9701fe02d227350a8695a2abcd5665b7f3a",
+      "agent_config": "configs/B_seed42/agent.json",
+      "environment_config": "configs/B_seed42/env.json",
+      "source_configuration_sha256": "9bfe77614c762bc3b7d130297ba3927aed2ed29d80d6247846ff9e5d26b8e7cf",
+      "source_agent_sha256": "6f403bf55d8acb43e4656bd52b979f3456a135beff80c8284d70726189de0f81",
+      "tensorboard": "logs/B_seed42/events.out.tfevents.gz",
+      "timing": "logs/B_seed42/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10503,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10503,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T00:59:04.000623+00:00",
+      "training_completed_at_utc": "2026-11-04T04:03:39.944852+00:00"
+    },
+    {
+      "model": "C_seed42",
+      "group": "C",
+      "training_seed": 42,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/C_seed42/model_1999.pt",
+      "checkpoint_sha256": "4be212e3f1422f89e581149e47bda4fc5ca8f75421429cc529bb4e6e646176ca",
+      "agent_config": "configs/C_seed42/agent.json",
+      "environment_config": "configs/C_seed42/env.json",
+      "source_configuration_sha256": "3fe9ea19391c6ae7389deaae1228e037e12a91de95858a7940d3778d7998af8a",
+      "source_agent_sha256": "6f403bf55d8acb43e4656bd52b979f3456a135beff80c8284d70726189de0f81",
+      "tensorboard": "logs/C_seed42/events.out.tfevents.gz",
+      "timing": "logs/C_seed42/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10521,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10521,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T00:59:45.425572+00:00",
+      "training_completed_at_utc": "2026-11-04T04:03:52.549152+00:00"
+    },
+    {
+      "model": "D_seed42",
+      "group": "D",
+      "training_seed": 42,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/D_seed42/model_1999.pt",
+      "checkpoint_sha256": "0f05a1ff9097c162bee4efe02354747e05ffe83cd769919fc610999cdff3b7bf",
+      "agent_config": "configs/D_seed42/agent.json",
+      "environment_config": "configs/D_seed42/env.json",
+      "source_configuration_sha256": "5270b5287c7e0ca6cd3635812cdff997e51aca611f9376032583b96fa1be3de7",
+      "source_agent_sha256": "6f403bf55d8acb43e4656bd52b979f3456a135beff80c8284d70726189de0f81",
+      "tensorboard": "logs/D_seed42/events.out.tfevents.gz",
+      "timing": "logs/D_seed42/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10530,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10530,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T01:00:26.492052+00:00",
+      "training_completed_at_utc": "2026-11-04T04:04:01.428270+00:00"
+    },
+    {
+      "model": "A_seed43",
+      "group": "A",
+      "training_seed": 43,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/A_seed43/model_1999.pt",
+      "checkpoint_sha256": "c7b5161e1d5e2bec67b5052afbfba0a7aec56c1f3dcd852c7a1fd0fcd3dc52fe",
+      "agent_config": "configs/A_seed43/agent.json",
+      "environment_config": "configs/A_seed43/env.json",
+      "source_configuration_sha256": "0d1ccbce51d19639b6b0e89f9e1a061cdea735fe531b822848e0d526798de417",
+      "source_agent_sha256": "3d00370e650c7e58190dfcb2eb18df74304fd0d5b6e4b5fa9598dc8a3ab5bf75",
+      "tensorboard": "logs/A_seed43/events.out.tfevents.gz",
+      "timing": "logs/A_seed43/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10447,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10447,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T04:38:23.091620+00:00",
+      "training_completed_at_utc": "2026-11-04T07:42:39.736574+00:00"
+    },
+    {
+      "model": "B_seed43",
+      "group": "B",
+      "training_seed": 43,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/B_seed43/model_1999.pt",
+      "checkpoint_sha256": "180b70be9bce1a09dc312b4e7811a2f790692e164b74b43483dc5286ee11323d",
+      "agent_config": "configs/B_seed43/agent.json",
+      "environment_config": "configs/B_seed43/env.json",
+      "source_configuration_sha256": "ff05f98ea4df5418d7107a211c9e69157c5e429ad1b6d9800383f747890660c9",
+      "source_agent_sha256": "3d00370e650c7e58190dfcb2eb18df74304fd0d5b6e4b5fa9598dc8a3ab5bf75",
+      "tensorboard": "logs/B_seed43/events.out.tfevents.gz",
+      "timing": "logs/B_seed43/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10573,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10573,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T04:39:05.498766+00:00",
+      "training_completed_at_utc": "2026-11-04T07:44:47.999629+00:00"
+    },
+    {
+      "model": "C_seed43",
+      "group": "C",
+      "training_seed": 43,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/C_seed43/model_1999.pt",
+      "checkpoint_sha256": "0fae785a1d65a450ebd968aabe473bdeedd0d8683486254383135d902f4c8849",
+      "agent_config": "configs/C_seed43/agent.json",
+      "environment_config": "configs/C_seed43/env.json",
+      "source_configuration_sha256": "3c5b24120ee55518f40cf254e87007c395f627c7b2e02eb5b2e59b76d432f2db",
+      "source_agent_sha256": "3d00370e650c7e58190dfcb2eb18df74304fd0d5b6e4b5fa9598dc8a3ab5bf75",
+      "tensorboard": "logs/C_seed43/events.out.tfevents.gz",
+      "timing": "logs/C_seed43/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 5,
+            "maximum_step": 10577,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 5,
+            "maximum_step": 10577,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T04:39:47.847318+00:00",
+      "training_completed_at_utc": "2026-11-04T07:44:51.603518+00:00"
+    },
+    {
+      "model": "D_seed43",
+      "group": "D",
+      "training_seed": 43,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/D_seed43/model_1999.pt",
+      "checkpoint_sha256": "cc7cbf64c339f55d46c67acf83faac1d07c9244fbfa560d4b0d73e9c3877302c",
+      "agent_config": "configs/D_seed43/agent.json",
+      "environment_config": "configs/D_seed43/env.json",
+      "source_configuration_sha256": "0d25750745a1b467a7adb7e797a9a0448da2076af93d2749d8cea518d6d0a371",
+      "source_agent_sha256": "3d00370e650c7e58190dfcb2eb18df74304fd0d5b6e4b5fa9598dc8a3ab5bf75",
+      "tensorboard": "logs/D_seed43/events.out.tfevents.gz",
+      "timing": "logs/D_seed43/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10586,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 3,
+            "maximum_step": 10586,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T04:40:33.106077+00:00",
+      "training_completed_at_utc": "2026-11-04T07:44:55.450100+00:00"
+    },
+    {
+      "model": "A_seed44",
+      "group": "A",
+      "training_seed": 44,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/A_seed44/model_1999.pt",
+      "checkpoint_sha256": "5fb6b96122c7dd153c587c99ee30673777c689ac9b63f9f4819da24cca885bb9",
+      "agent_config": "configs/A_seed44/agent.json",
+      "environment_config": "configs/A_seed44/env.json",
+      "source_configuration_sha256": "36f38a6cc5f90207e5240881f42c064cc29aa113e249493c08959a28f4d473c7",
+      "source_agent_sha256": "bb3acd8d42847d16d359120afdaac01845f38127db1b8cd8b29bb5fb0696b350",
+      "tensorboard": "logs/A_seed44/events.out.tfevents.gz",
+      "timing": "logs/A_seed44/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 5,
+            "maximum_step": 10568,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 5,
+            "maximum_step": 10568,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T07:45:01.302833+00:00",
+      "training_completed_at_utc": "2026-11-04T10:51:12.904101+00:00"
+    },
+    {
+      "model": "B_seed44",
+      "group": "B",
+      "training_seed": 44,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/B_seed44/model_1999.pt",
+      "checkpoint_sha256": "0f1e88b97fb3c8110241a6590cf77c5b17ff62653c88bc35a6e7a5f9dc7b701b",
+      "agent_config": "configs/B_seed44/agent.json",
+      "environment_config": "configs/B_seed44/env.json",
+      "source_configuration_sha256": "dcbc31ed909c23a36c560495e564ceedb447eeb681ef0ab8c3f847a5b19bd8c9",
+      "source_agent_sha256": "bb3acd8d42847d16d359120afdaac01845f38127db1b8cd8b29bb5fb0696b350",
+      "tensorboard": "logs/B_seed44/events.out.tfevents.gz",
+      "timing": "logs/B_seed44/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10569,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10569,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T07:45:46.814197+00:00",
+      "training_completed_at_utc": "2026-11-04T10:51:19.678376+00:00"
+    },
+    {
+      "model": "C_seed44",
+      "group": "C",
+      "training_seed": 44,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/C_seed44/model_1999.pt",
+      "checkpoint_sha256": "3ddf2678eae423c33916479fed4e7a7a1372b073ac06290a3921eb5edd81b001",
+      "agent_config": "configs/C_seed44/agent.json",
+      "environment_config": "configs/C_seed44/env.json",
+      "source_configuration_sha256": "3143f7f79f54d2b47d24c0910b16fcc8e6c0a131bb62e521bbbc9c85e473ae16",
+      "source_agent_sha256": "bb3acd8d42847d16d359120afdaac01845f38127db1b8cd8b29bb5fb0696b350",
+      "tensorboard": "logs/C_seed44/events.out.tfevents.gz",
+      "timing": "logs/C_seed44/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 5,
+            "maximum_step": 10578,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 5,
+            "maximum_step": 10578,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T07:46:28.883290+00:00",
+      "training_completed_at_utc": "2026-11-04T10:51:23.705325+00:00"
+    },
+    {
+      "model": "D_seed44",
+      "group": "D",
+      "training_seed": 44,
+      "completed_updates": 2000,
+      "checkpoint_iteration": 1999,
+      "environment_steps": 49152000,
+      "checkpoint": "models/D_seed44/model_1999.pt",
+      "checkpoint_sha256": "878f407730dce07f2a4fdd334fff74865c72f3cb142631257001bfcef59061bf",
+      "agent_config": "configs/D_seed44/agent.json",
+      "environment_config": "configs/D_seed44/env.json",
+      "source_configuration_sha256": "a1eabf3f099cf3554e65113aa96c60dec4db48da63c9075df402f8e88f616418",
+      "source_agent_sha256": "bb3acd8d42847d16d359120afdaac01845f38127db1b8cd8b29bb5fb0696b350",
+      "tensorboard": "logs/D_seed44/events.out.tfevents.gz",
+      "timing": "logs/D_seed44/iteration_timing.csv.gz",
+      "tensorboard_scalar_coverage": {
+        "tag_count": 45,
+        "records_per_tag": 2000,
+        "update_axis_tags": 43,
+        "update_axis_step_range": [
+          0,
+          1999
+        ],
+        "time_axis_tags": {
+          "Train/mean_episode_length/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10558,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          },
+          "Train/mean_reward/time": {
+            "count": 2000,
+            "minimum_step": 4,
+            "maximum_step": 10558,
+            "unique_steps": 2000,
+            "continuous_steps_0_to_1999": false
+          }
+        }
+      },
+      "training_started_at_utc": "2026-11-04T07:47:11.146994+00:00",
+      "training_completed_at_utc": "2026-11-04T10:51:10.926953+00:00"
+    }
+  ],
+  "files": [
+    {
+      "path": "configs/A_seed42/agent.json",
+      "bytes": 1487,
+      "sha256": "ef4509e68755b55e854d108774f2a2e8b0f463c0fffdfa1d5e0cb27c04433287",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/A_seed42/configuration_receipt.json",
+          "sha256": "ca35df9db338899773a0d73ca0aebf16c9b52458552e9e6165e7ceadc30e27c0",
+          "bytes": 62854
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/A_seed42/env.json",
+      "bytes": 54943,
+      "sha256": "6932734e7faa86c2e5e576260922c7c5b116915ecad5ebe76a8e10c7154b955b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/A_seed42/configuration_receipt.json",
+          "sha256": "ca35df9db338899773a0d73ca0aebf16c9b52458552e9e6165e7ceadc30e27c0",
+          "bytes": 62854
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/A_seed43/agent.json",
+      "bytes": 1487,
+      "sha256": "915b627d0755541f75140d21bcacebd1ec210de0916ef245f26b9cee869e8453",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/A_seed43/configuration_receipt.json",
+          "sha256": "47b0a51772eac02cbfd300a2eb547b0561828bc4011085c002afd42801cdb83b",
+          "bytes": 62854
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/A_seed43/env.json",
+      "bytes": 54943,
+      "sha256": "6d70a8f51c91541fa3dc234e7eaf1220285ddcb24509a76013826174f8035db0",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/A_seed43/configuration_receipt.json",
+          "sha256": "47b0a51772eac02cbfd300a2eb547b0561828bc4011085c002afd42801cdb83b",
+          "bytes": 62854
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/A_seed44/agent.json",
+      "bytes": 1487,
+      "sha256": "6b9e9bda5ce301d79c0dcb7106b5f4b8a2f32bcf7ef7bd8285f4ca54abddc95b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/A_seed44/configuration_receipt.json",
+          "sha256": "a88288103547072fd40de5d1c773f32cb1f65ddd6c070193033c971ba04d0b2d",
+          "bytes": 62854
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/A_seed44/env.json",
+      "bytes": 54943,
+      "sha256": "c9ae6dab557f7672ab2cdba074d23dda329bdd67ca5bbf121dd48bbc7146358a",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/A_seed44/configuration_receipt.json",
+          "sha256": "a88288103547072fd40de5d1c773f32cb1f65ddd6c070193033c971ba04d0b2d",
+          "bytes": 62854
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/B_seed42/agent.json",
+      "bytes": 1487,
+      "sha256": "ef4509e68755b55e854d108774f2a2e8b0f463c0fffdfa1d5e0cb27c04433287",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/B_seed42/configuration_receipt.json",
+          "sha256": "9c0822f2536f436348330aef5584f16ff6147ec889912072e50c6cf01e6b57ef",
+          "bytes": 62856
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/B_seed42/env.json",
+      "bytes": 54945,
+      "sha256": "fcebcc0597355c2957cb386caada541f1f5cfed9f123c371e513528b042319e0",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/B_seed42/configuration_receipt.json",
+          "sha256": "9c0822f2536f436348330aef5584f16ff6147ec889912072e50c6cf01e6b57ef",
+          "bytes": 62856
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/B_seed43/agent.json",
+      "bytes": 1487,
+      "sha256": "915b627d0755541f75140d21bcacebd1ec210de0916ef245f26b9cee869e8453",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/B_seed43/configuration_receipt.json",
+          "sha256": "c9f40bc5a2570fc0091386f8704e472b2eeaf8abdf747596a13c443e7d2bc5e8",
+          "bytes": 62856
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/B_seed43/env.json",
+      "bytes": 54945,
+      "sha256": "7ce136730e84a6da46318cdb127192404245fbce1134815bbfc0b8978fd83339",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/B_seed43/configuration_receipt.json",
+          "sha256": "c9f40bc5a2570fc0091386f8704e472b2eeaf8abdf747596a13c443e7d2bc5e8",
+          "bytes": 62856
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/B_seed44/agent.json",
+      "bytes": 1487,
+      "sha256": "6b9e9bda5ce301d79c0dcb7106b5f4b8a2f32bcf7ef7bd8285f4ca54abddc95b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/B_seed44/configuration_receipt.json",
+          "sha256": "90b19271e88770ef286076882c3971057312321db63e344ee5fffdb3dbd337ea",
+          "bytes": 62856
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/B_seed44/env.json",
+      "bytes": 54945,
+      "sha256": "61a5d27907210eaad24665ec7ee88d566c3bc581b104439099838e855487528c",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/B_seed44/configuration_receipt.json",
+          "sha256": "90b19271e88770ef286076882c3971057312321db63e344ee5fffdb3dbd337ea",
+          "bytes": 62856
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/C_seed42/agent.json",
+      "bytes": 1487,
+      "sha256": "ef4509e68755b55e854d108774f2a2e8b0f463c0fffdfa1d5e0cb27c04433287",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/C_seed42/configuration_receipt.json",
+          "sha256": "fc7d4bf35bdbe8e2aca75d401d1c5a7c038e736f87276730fa477d8d28630ee7",
+          "bytes": 62857
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/C_seed42/env.json",
+      "bytes": 54946,
+      "sha256": "5d34fd81742e10d783df9d8ee0c6d10dde7b52ba3d57eaf66de21db20effa2bc",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/C_seed42/configuration_receipt.json",
+          "sha256": "fc7d4bf35bdbe8e2aca75d401d1c5a7c038e736f87276730fa477d8d28630ee7",
+          "bytes": 62857
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/C_seed43/agent.json",
+      "bytes": 1487,
+      "sha256": "915b627d0755541f75140d21bcacebd1ec210de0916ef245f26b9cee869e8453",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/C_seed43/configuration_receipt.json",
+          "sha256": "6e8e71f7ab8d7046a4ac71c601cb9f731ac88313a7f91a26741d809e8221ab2c",
+          "bytes": 62857
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/C_seed43/env.json",
+      "bytes": 54946,
+      "sha256": "89809d9680fc4110fe034a4f3bece3d31fe77a6b5490a9fa0ca8f02f80387595",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/C_seed43/configuration_receipt.json",
+          "sha256": "6e8e71f7ab8d7046a4ac71c601cb9f731ac88313a7f91a26741d809e8221ab2c",
+          "bytes": 62857
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/C_seed44/agent.json",
+      "bytes": 1487,
+      "sha256": "6b9e9bda5ce301d79c0dcb7106b5f4b8a2f32bcf7ef7bd8285f4ca54abddc95b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/C_seed44/configuration_receipt.json",
+          "sha256": "82d1432814ae777f47245e064c9483b87c4d400f1420f98ed13a1e95487b7da4",
+          "bytes": 62857
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/C_seed44/env.json",
+      "bytes": 54946,
+      "sha256": "a18c0cb49336c0b58909f83e9b4c425dfff64db5c673e64ba77a4b14c423b559",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/C_seed44/configuration_receipt.json",
+          "sha256": "82d1432814ae777f47245e064c9483b87c4d400f1420f98ed13a1e95487b7da4",
+          "bytes": 62857
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/D_seed42/agent.json",
+      "bytes": 1487,
+      "sha256": "ef4509e68755b55e854d108774f2a2e8b0f463c0fffdfa1d5e0cb27c04433287",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/D_seed42/configuration_receipt.json",
+          "sha256": "73cb53c379f40ed65f723e9090620eeedb1f6d9b41f3bf29ee31e1ebf926f1c8",
+          "bytes": 62860
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/D_seed42/env.json",
+      "bytes": 54949,
+      "sha256": "0d8652e29f2034d43c3f8ace3cff05825d1da01d497b84bd81ed0401af9a1b28",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/D_seed42/configuration_receipt.json",
+          "sha256": "73cb53c379f40ed65f723e9090620eeedb1f6d9b41f3bf29ee31e1ebf926f1c8",
+          "bytes": 62860
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/D_seed43/agent.json",
+      "bytes": 1487,
+      "sha256": "915b627d0755541f75140d21bcacebd1ec210de0916ef245f26b9cee869e8453",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/D_seed43/configuration_receipt.json",
+          "sha256": "94820a80c98d687a3f61512d2be656af0e20a5348b29b2f699d8e5c4d057c092",
+          "bytes": 62860
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/D_seed43/env.json",
+      "bytes": 54949,
+      "sha256": "cbb81034b3e755c59c857858f0314224ca4118fc97e48449689b1a46021afce9",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/D_seed43/configuration_receipt.json",
+          "sha256": "94820a80c98d687a3f61512d2be656af0e20a5348b29b2f699d8e5c4d057c092",
+          "bytes": 62860
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/D_seed44/agent.json",
+      "bytes": 1487,
+      "sha256": "6b9e9bda5ce301d79c0dcb7106b5f4b8a2f32bcf7ef7bd8285f4ca54abddc95b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/D_seed44/configuration_receipt.json",
+          "sha256": "458a9e2449f28af318ec77384a82c5506d4d362bac3cf4df3070f0f80064ea54",
+          "bytes": 62860
+        }
+      ],
+      "transformation": "Extract agent from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "configs/D_seed44/env.json",
+      "bytes": 54949,
+      "sha256": "bc33836e5410954d93371b71dec5e5b5b716c2b8ecb25169ace0d5b4d4800c5d",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/D_seed44/configuration_receipt.json",
+          "sha256": "458a9e2449f28af318ec77384a82c5506d4d362bac3cf4df3070f0f80064ea54",
+          "bytes": 62860
+        }
+      ],
+      "transformation": "Extract configuration from actual configuration receipt; remove cloud project prefix from string values; JSON serialization"
+    },
+    {
+      "path": "logs/A_seed42/events.out.tfevents.gz",
+      "bytes": 1467578,
+      "sha256": "73175201a9ef09e4ca780a9230b24126cea3e5f4152b922e478f296ab5548fac",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/A_seed42/logs/events.out.tfevents",
+          "sha256": "8005797a28c56e603c067479d53ce21443c0240fc58d18a7b05637438c01e387",
+          "bytes": 5938446
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/A_seed42/iteration_timing.csv.gz",
+      "bytes": 60815,
+      "sha256": "dabeab2f93c52be5ee1ce02b748354d3e5dde6f56f73988b94c9fcafa77a9e63",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/A_seed42/iteration_timing.jsonl",
+          "sha256": "a0f11b414a018c76b36672ef5bd3bc18d7406fbea850a086c141687f86147607",
+          "bytes": 437218
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/A_seed43/events.out.tfevents.gz",
+      "bytes": 1467875,
+      "sha256": "ea0f1dc66c209747ef672c5e45e4db88b7dd7a278fe1a8c12fdbe5f93a527e96",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/A_seed43/logs/events.out.tfevents",
+          "sha256": "5e0183c8853d2d7bdb1caa3b6b7e8eff5439c6e19e7ae0b708a461b9304644b1",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/A_seed43/iteration_timing.csv.gz",
+      "bytes": 60880,
+      "sha256": "fb4432290acf293cb040c485ad481ab4aeb75e95291c8299bd89f64c31435ae0",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/A_seed43/iteration_timing.jsonl",
+          "sha256": "73a12b8611295b77994b9ad49780e610456582837d65264f572092dbcf6e112b",
+          "bytes": 437085
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/A_seed44/events.out.tfevents.gz",
+      "bytes": 1467750,
+      "sha256": "7ced7bb1f58512e96a3aa3d0ebbb80be042e324949d54fc7408815497696a27e",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/A_seed44/logs/events.out.tfevents",
+          "sha256": "63e4dd878f3efed51048bd82456aa1c6a9a3fe312b3b2b4043dfc00843b12cb0",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/A_seed44/iteration_timing.csv.gz",
+      "bytes": 60805,
+      "sha256": "1966592d1dd3c1b574b02acf966c4c98901cb732f20fe94dc0f7b850e25eefbb",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/A_seed44/iteration_timing.jsonl",
+          "sha256": "75521271f4e9db504be2f7d19541b31dcf91901ddc4aae81f12e4ca0414889aa",
+          "bytes": 437107
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/B_seed42/events.out.tfevents.gz",
+      "bytes": 1476250,
+      "sha256": "a978bc61b248e14922ae060c93558aac0721d524393f937e573181cf53f8493b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/B_seed42/logs/events.out.tfevents",
+          "sha256": "c45cab9c3af21e7960dbb85ae7573b96fb86f37481ec21abd5ea79db594e370f",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/B_seed42/iteration_timing.csv.gz",
+      "bytes": 61082,
+      "sha256": "8dcea6154f97e850dd1933bf82a53fd35f0dd568acfce4ba6742c7743a06d746",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/B_seed42/iteration_timing.jsonl",
+          "sha256": "e3d43dd17ab49e740d5d3b335a4fce841995d7739dea4bae8a5cbf041bb93a25",
+          "bytes": 437195
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/B_seed43/events.out.tfevents.gz",
+      "bytes": 1475924,
+      "sha256": "188b0202cfa651994cc770edb3613d261a58a8da739f1e37540b06c59b5c498f",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/B_seed43/logs/events.out.tfevents",
+          "sha256": "942fb647c4b938ba6ec4860f5da330f78ecbd76366c25355ef3a64a02627e37e",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/B_seed43/iteration_timing.csv.gz",
+      "bytes": 60719,
+      "sha256": "894b0912d98999cdaef5a093ba58584dd76e06b69388e6e6d88c71d44dd66e80",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/B_seed43/iteration_timing.jsonl",
+          "sha256": "e5add29da905fd2a77ea19b912e9a65d85bad5db3d7e0e6f072fdfcedf3ffd82",
+          "bytes": 437052
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/B_seed44/events.out.tfevents.gz",
+      "bytes": 1476129,
+      "sha256": "84f8927fb445e3599233634bf1af01bf0d5986fa003e08266f3477ad4834781b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/B_seed44/logs/events.out.tfevents",
+          "sha256": "7546fa706af73da97382bf8725896c63f71da2b4fc37bdb9f5b12e9f7b8073bd",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/B_seed44/iteration_timing.csv.gz",
+      "bytes": 60788,
+      "sha256": "890fc035429f6d4821ba44eb15ac1d0b4a6d471039f324a1d26d5c774845569b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/B_seed44/iteration_timing.jsonl",
+          "sha256": "39db4e91bb508c8c659582801067172c0e46ecff174d0859b9e1f538c2255a54",
+          "bytes": 437143
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/C_seed42/events.out.tfevents.gz",
+      "bytes": 1481941,
+      "sha256": "5672030d2a71f2a525ef27b2a2a6ac95f9f764e430bd2b11193bf59a5c94e6df",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/C_seed42/logs/events.out.tfevents",
+          "sha256": "1329caf7901d41da95519bd27354d0298846ef7703e7b6438dbce8685926ac5f",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/C_seed42/iteration_timing.csv.gz",
+      "bytes": 60934,
+      "sha256": "e10a943e0fe8bb04ad296300cf846e58c79a456825a294b3545b8bab39f657f2",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/C_seed42/iteration_timing.jsonl",
+          "sha256": "2859ab244a6513490c3f2be0f3692b46d479fb5567a4943926bf786d508150f5",
+          "bytes": 437215
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/C_seed43/events.out.tfevents.gz",
+      "bytes": 1482507,
+      "sha256": "cb8f382e9911b57eab9f5c2b7a7953fdc006a3cea6c8c34a119f9d6b7c18b6f2",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/C_seed43/logs/events.out.tfevents",
+          "sha256": "601adcbec850164dac31c0ef3e4d089adfa9e60dc6436c3ccf094b1348254653",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/C_seed43/iteration_timing.csv.gz",
+      "bytes": 60801,
+      "sha256": "b3061de654c7cb91000baba39a69a2ee48faea6036e9641fa0a7d585400863f4",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/C_seed43/iteration_timing.jsonl",
+          "sha256": "5369dba25dca4cae4c30b28541680d95297e1a92060ea68f2495135b45430c3f",
+          "bytes": 437171
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/C_seed44/events.out.tfevents.gz",
+      "bytes": 1482296,
+      "sha256": "723259d433081ea30df5ccddd1fa1d4342a889d78d47b7f80dac513ebee786a5",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/C_seed44/logs/events.out.tfevents",
+          "sha256": "bd9463b188ed1061d272b88bb2fc937d6e4ac077de1e7db8458ba9fe9e4323d5",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/C_seed44/iteration_timing.csv.gz",
+      "bytes": 60951,
+      "sha256": "34e3e7caa69505cc7ca031a87e6d43291c427365f3645c916dc6ab9ee36fff30",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/C_seed44/iteration_timing.jsonl",
+          "sha256": "9dd816cbd48fa3c30ea81adf9bd325d3fd66eb90ad476008b2632bb097da38e6",
+          "bytes": 437221
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/D_seed42/events.out.tfevents.gz",
+      "bytes": 1482976,
+      "sha256": "65b21349811107b403c6cadcc07f715aa8125870ab42c590436da56bc0bdbf91",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/D_seed42/logs/events.out.tfevents",
+          "sha256": "e59505312df0d9a3e741ea80c87efce58e67fb7babcff4bc885edbc85efb5d5b",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/D_seed42/iteration_timing.csv.gz",
+      "bytes": 60935,
+      "sha256": "176db7033ece4bebd3e0e566140b3822c6be94d3a723d595f2702f6879d29c8e",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/D_seed42/iteration_timing.jsonl",
+          "sha256": "88d8c01bc559b7a998c1e81e3bd5e476e743002e2c2e25b3b34b91da99aaa646",
+          "bytes": 437152
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/D_seed43/events.out.tfevents.gz",
+      "bytes": 1482179,
+      "sha256": "33648288d16ea8671e6a109e47384ef88ffa6d1212a25ed2696fa735e74b30a0",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/D_seed43/logs/events.out.tfevents",
+          "sha256": "a5a432e78905134c9e6dad051df723634464f643f8ca1018e9b376cdaab436c6",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/D_seed43/iteration_timing.csv.gz",
+      "bytes": 60739,
+      "sha256": "10fffb59eade6f07192a153843c01a194cd70563e149a7e790e93281915dd5e1",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/D_seed43/iteration_timing.jsonl",
+          "sha256": "78ecfb623d1f426022ab25733feaae78892acc3705101ce4eb8f0639b6846a40",
+          "bytes": 437219
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "logs/D_seed44/events.out.tfevents.gz",
+      "bytes": 1482679,
+      "sha256": "10e56b79d92046fde4803af45007bf7b11d9a8bd69dfc70c817d0128fa9971fb",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/D_seed44/logs/events.out.tfevents",
+          "sha256": "f4de0d805abf01bef2c07c27c76478136eaf5469d49ca139d68d322b2398de3e",
+          "bytes": 5938448
+        }
+      ],
+      "transformation": "Lossless gzip compression; portable event filename"
+    },
+    {
+      "path": "logs/D_seed44/iteration_timing.csv.gz",
+      "bytes": 60795,
+      "sha256": "fc1feee492621e3cf0076e0a966c28ae0f50d0ef750c035c8347c215894ce23d",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/D_seed44/iteration_timing.jsonl",
+          "sha256": "4d512f54cb6bebfded4a7566e5d7a95efb737e39ed8a9875d5fbbd8b13dced69",
+          "bytes": 437124
+        }
+      ],
+      "transformation": "CSV projection retaining UTC timestamp, update, control step, collect and learn seconds; omit PID and host monotonic clock; lossless gzip"
+    },
+    {
+      "path": "models/A_seed42/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "658fdc25fb75c54f828e7e2c4fddd8fb4bb844fd3cb90c510f8d83ad3bfd6ae2",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/A_seed42/logs/model_1999.pt",
+          "sha256": "658fdc25fb75c54f828e7e2c4fddd8fb4bb844fd3cb90c510f8d83ad3bfd6ae2",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/A_seed43/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "c7b5161e1d5e2bec67b5052afbfba0a7aec56c1f3dcd852c7a1fd0fcd3dc52fe",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/A_seed43/logs/model_1999.pt",
+          "sha256": "c7b5161e1d5e2bec67b5052afbfba0a7aec56c1f3dcd852c7a1fd0fcd3dc52fe",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/A_seed44/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "5fb6b96122c7dd153c587c99ee30673777c689ac9b63f9f4819da24cca885bb9",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/A_seed44/logs/model_1999.pt",
+          "sha256": "5fb6b96122c7dd153c587c99ee30673777c689ac9b63f9f4819da24cca885bb9",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/B_seed42/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "9f3849e860010e432511de278976e9701fe02d227350a8695a2abcd5665b7f3a",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/B_seed42/logs/model_1999.pt",
+          "sha256": "9f3849e860010e432511de278976e9701fe02d227350a8695a2abcd5665b7f3a",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/B_seed43/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "180b70be9bce1a09dc312b4e7811a2f790692e164b74b43483dc5286ee11323d",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/B_seed43/logs/model_1999.pt",
+          "sha256": "180b70be9bce1a09dc312b4e7811a2f790692e164b74b43483dc5286ee11323d",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/B_seed44/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "0f1e88b97fb3c8110241a6590cf77c5b17ff62653c88bc35a6e7a5f9dc7b701b",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/B_seed44/logs/model_1999.pt",
+          "sha256": "0f1e88b97fb3c8110241a6590cf77c5b17ff62653c88bc35a6e7a5f9dc7b701b",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/C_seed42/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "4be212e3f1422f89e581149e47bda4fc5ca8f75421429cc529bb4e6e646176ca",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/C_seed42/logs/model_1999.pt",
+          "sha256": "4be212e3f1422f89e581149e47bda4fc5ca8f75421429cc529bb4e6e646176ca",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/C_seed43/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "0fae785a1d65a450ebd968aabe473bdeedd0d8683486254383135d902f4c8849",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/C_seed43/logs/model_1999.pt",
+          "sha256": "0fae785a1d65a450ebd968aabe473bdeedd0d8683486254383135d902f4c8849",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/C_seed44/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "3ddf2678eae423c33916479fed4e7a7a1372b073ac06290a3921eb5edd81b001",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/C_seed44/logs/model_1999.pt",
+          "sha256": "3ddf2678eae423c33916479fed4e7a7a1372b073ac06290a3921eb5edd81b001",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/D_seed42/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "0f05a1ff9097c162bee4efe02354747e05ffe83cd769919fc610999cdff3b7bf",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/D_seed42/logs/model_1999.pt",
+          "sha256": "0f05a1ff9097c162bee4efe02354747e05ffe83cd769919fc610999cdff3b7bf",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/D_seed43/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "cc7cbf64c339f55d46c67acf83faac1d07c9244fbfa560d4b0d73e9c3877302c",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed43/D_seed43/logs/model_1999.pt",
+          "sha256": "cc7cbf64c339f55d46c67acf83faac1d07c9244fbfa560d4b0d73e9c3877302c",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "models/D_seed44/model_1999.pt",
+      "bytes": 7612533,
+      "sha256": "878f407730dce07f2a4fdd334fff74865c72f3cb142631257001bfcef59061bf",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed44/D_seed44/logs/model_1999.pt",
+          "sha256": "878f407730dce07f2a4fdd334fff74865c72f3cb142631257001bfcef59061bf",
+          "bytes": 7612533
+        }
+      ],
+      "transformation": "exact bytes"
+    },
+    {
+      "path": "reference_provenance.json",
+      "bytes": 1016,
+      "sha256": "c8aa4dc76907f6f269671a7bac2c4571971b9a9dff4f7e3986058dadb511a44c",
+      "source_members": [
+        {
+          "member": "training_data/results/cloud_rough_R_20261103/R1_v7_1024x2000_0840/wave_seed42/A_seed42/logs/reference_provenance.json",
+          "sha256": "b2272d15add165eeb3a24bcccd50e0b2b9529e77cdcf98687e738909ea23a065",
+          "bytes": 2022
+        }
+      ],
+      "transformation": "Source attribution and content identity only; no motion or action arrays"
+    },
+    {
+      "path": "training_summary.csv",
+      "bytes": 1277,
+      "sha256": "0514abf6c56c361783475ef97a31f630bdbff6b51cb55037bc6aa18c66cebab2",
+      "source_members": [],
+      "transformation": "Training completion fields extracted from verified result/configuration/timing/checkpoint records"
+    }
+  ],
+  "source_member_naming": "TensorBoard source member names use a portable alias; the original source bytes are identified by SHA256 and size.",
+  "record_scope": "Final training checkpoints, training scalar logs, update timing, actual training configuration and source attribution",
+  "configuration_representation": "Actual configuration receipt serialized as JSON; callable entries are descriptive names; cloud project prefix is removed from path values.",
+  "metric_interpretation": "Training scalars describe the optimization run. Metrics/twist/error_vel_xy is normalized by the configured command resampling time; its scale is not physical m/s RMSE. Training scalar values alone do not establish comparative task performance or real-robot transfer."
+}
