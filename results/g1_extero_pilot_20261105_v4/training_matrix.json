@@ -1,0 +1,46 @@
+{
+  "formal": [
+    {
+      "arm": "original",
+      "seed": 20261105,
+      "stage": "formal"
+    },
+    {
+      "arm": "matched",
+      "seed": 20261105,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20261105,
+      "stage": "formal"
+    },
+    {
+      "arm": "random",
+      "seed": 20261105,
+      "stage": "formal"
+    }
+  ],
+  "pilot": [
+    {
+      "arm": "original",
+      "seed": 20261105,
+      "stage": "pilot"
+    },
+    {
+      "arm": "matched",
+      "seed": 20261105,
+      "stage": "pilot"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20261105,
+      "stage": "pilot"
+    },
+    {
+      "arm": "random",
+      "seed": 20261105,
+      "stage": "pilot"
+    }
+  ]
+}

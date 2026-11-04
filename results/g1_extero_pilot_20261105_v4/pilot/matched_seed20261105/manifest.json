@@ -1,0 +1,68 @@
+{
+  "actor_budget": {
+    "all_buffers": 856,
+    "linear_macs_per_action": 220961,
+    "linear_parameters": 221715,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 856,
+    "trainable_parameters": 221744
+  },
+  "argv": [
+    "scripts/run_g1_extero_pilot.py"
+  ],
+  "checkpoint_file": "model_299.pt",
+  "checkpoint_sha256": "10cab96c85d691b68e2f4cc33413b244dc8cba6d83e41b20813ac6cb8a9974d0",
+  "common_agent_sha256": "05a6153b350f13dd4575697fc4dfccf0a99d8dbb08ed26f53b14ae4f4004b543",
+  "common_env_sha256": "1f9d648929036e44701874fc812e4c204094dc07d1e05ee7bdf1790f89df9854",
+  "completed_transitions": 3686400,
+  "completed_updates": 300,
+  "critic_budget": {
+    "all_buffers": 901,
+    "linear_macs_per_action": 317568,
+    "linear_parameters": 318465,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 901,
+    "trainable_parameters": 318465
+  },
+  "critic_initialization_controlled": true,
+  "current_attempt_transitions": 3686400,
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4080 SUPER",
+  "ended_at": "2026-11-04T18:16:00.442274+00:00",
+  "fresh_actor_and_critic": true,
+  "identity": {
+    "arm": "matched",
+    "iterations": 300,
+    "num_envs": 512,
+    "protocol_sha256": "cc1c0ba6cc73b75801a534bc143fa144b9544d6214878a881e2834b6ec5be1ad",
+    "seed": 20261105,
+    "source_sha256": "a20ee6de89acf3fa749e7cbac4c98054e045dc32a1c1be5a2a75b9b2bcb46d37",
+    "stage": "pilot"
+  },
+  "initial_actor_sha256": "b89d7950ef12b3c0b52d6167b63a79f717d009236d45e55bdfe17a396ffc1c8a",
+  "initial_critic_sha256": "b0ef580a29f407053e0d94cb74dee9d6aaba8597e9799d4772a0191dbac25cb9",
+  "latest_checkpoint": "model_299.pt",
+  "onnx_parity": {
+    "atol": 2e-05,
+    "backend": "torch CPU fp32 vs ONNX Runtime CPU fp32",
+    "max_abs_error": 3.814697265625e-06,
+    "passed": true,
+    "rtol": 0.0002,
+    "samples": 32
+  },
+  "policy_file": "policy.onnx",
+  "policy_sha256": "e33962c9407e58387ea5cc443687773cb1b91c9d4def8e8fa7720a1cc803179c",
+  "resume_limitation": null,
+  "resume_requested": true,
+  "resumed": false,
+  "schema": "g1.semantic_split.run.v1",
+  "started_at": "2026-11-04T18:08:31.637402+00:00",
+  "startup_physics": {
+    "body_ipos": "d65a73ca3ac68d9d1aa7f7da5f4e9480bcd2163a4b854b094c28a1f5d6ddd16c",
+    "body_mass": "d53e05ef29e7e2e12a2fc3cdc9318c408f4696c30a9bcdf0a32f934b68890740",
+    "geom_friction": "73156be4a370c40c3a484f55dd80961bb17655b238afb9ba69715d40a0e8210e"
+  },
+  "status": "COMPLETED",
+  "training_wall_seconds": 440.50241746008396,
+  "updated_at": "2026-11-04T18:16:00.411260+00:00"
+}

@@ -316,6 +316,14 @@ def train(output, arm, seed, stage, *, device='cuda:0', smoke_envs=4, resume=Fal
             env.close()
 
 
+def parity_input_dim(actor):
+    """Return the actor's scalar input width for Torch/ONNX parity probes."""
+    input_dim = int(actor.obs_dim)
+    if input_dim <= 0:
+        raise ValueError('actor observation dimension must be positive')
+    return input_dim
+
+
 def export_parity(actor,path):
     import numpy as np
     import torch
@@ -323,7 +331,8 @@ def export_parity(actor,path):
     model = actor.as_onnx(verbose=False).cpu().eval()
     options = ort.SessionOptions();options.intra_op_num_threads=options.inter_op_num_threads=1
     session = ort.InferenceSession(str(path),sess_options=options,providers=['CPUExecutionProvider'])
-    inputs = np.random.default_rng(20261026).normal(size=(32,98)).astype(np.float32)
+    inputs = np.random.default_rng(20261026).normal(
+        size=(32, parity_input_dim(actor))).astype(np.float32)
     with torch.inference_mode():
         expected = model(torch.from_numpy(inputs)).numpy()
     actual = np.concatenate([session.run(None,{'obs':x[None]})[0] for x in inputs])
