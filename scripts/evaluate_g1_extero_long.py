@@ -15,7 +15,8 @@ from scripts import run_g1_extero_long as long
 
 def run(output, *, device='cuda:0', episode_seed=20262601, latency_samples=2000):
     output = Path(output)
-    protocol = long.long_protocol()
+    protocol_path = output / 'protocol.json'
+    protocol = json.loads(protocol_path.read_text()) if protocol_path.is_file() else long.long_protocol()
     protocol['evaluation']['development_seeds'] = [episode_seed]
     protocol['evaluation']['holdout_seeds'] = [episode_seed]
     study.make_env_config = pilot.make_env_config
