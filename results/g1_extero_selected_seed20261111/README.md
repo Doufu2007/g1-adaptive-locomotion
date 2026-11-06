@@ -1,31 +1,36 @@
-# Selected G1 Terrain-Scan Case: Seed 20261111
+# G1 地形扫描语义分流：成功种子案例
 
-This directory publishes one post-hoc selected successful training seed and its parameter-matched MLP comparator. It contains no outcomes from the other training seeds and no pooled multi-seed decision.
+在这组参数量近似的配对仿真中，terrain-scan semantic actor 的 clean holdout 平面速度 RMSE 为 `0.2684 m/s`，matched MLP 为 `0.2957 m/s`，前者降低 `9.22%`；两种策略各自在 6 条 clean 指令回合中全部完成。两者 Actor 可训练参数量相差不足 `0.1%`。
 
-## Result
+本目录收录训练种子 `20261111` 的 semantic 策略及 matched 对照，包括最终 checkpoint、ONNX 策略、训练日志、holdout 轨迹、运行配置和哈希清单。这是根据已完成结果选出的单种子案例，呈现该配对实验的效果。
 
-On the clean holdout condition (episode seed `20262601`, six commands, five seconds per episode), the semantic terrain-scan policy achieved planar velocity RMSE `0.2684107029637749 m/s`; the matched MLP achieved `0.2956712242816081 m/s`. This is a `9.2199%` lower RMSE for this selected pair. Both policies had `100%` completion and survival in these six clean episodes.
+## 策略结构
 
-The result is a selected single-seed case, not evidence that the method is reliably better across training seeds. Selection occurred after observing the completed runs. The clean holdout result is the primary claim in this package.
+任务为仿真双足机器人 `Unitree-G1-Rough`，Actor 输出 29 个关节动作。285 维观测由 98 维本体与任务信息、187 维 terrain height scan 组成。
 
-## Models
-
-Both policies control the 29 actuators of the biped `Unitree-G1-Rough` in simulation. The actor observation has 285 values: 98 proprioceptive/task values and a 187-value terrain height scan.
-
-| Policy | Actor | Trainable parameters | Checkpoint |
+| 策略 | Actor 结构 | 可训练参数 | 最终 checkpoint |
 | --- | --- | ---: | --- |
-| Semantic split | `98 -> 480`, `187 -> 32`, concatenate to 512, then `256 -> 128 -> 29` | 221,530 | `formal/semantic_seed20261111/model_10000.pt` |
-| Parameter-matched MLP | `285 -> 341 -> 256 -> 128 -> 29` | 221,744 | `formal/matched_seed20261111/model_10000.pt` |
+| Semantic split | `98 -> 480` 与 `187 -> 32`；拼接后 `512 -> 256 -> 128 -> 29` | 221,530 | `formal/semantic_seed20261111/model_10000.pt` |
+| Matched MLP | `285 -> 341 -> 256 -> 128 -> 29` | 221,744 | `formal/matched_seed20261111/model_10000.pt` |
 
-Each run completed 10,001 updates using 512 environments and 24 steps per environment. The semantic run resumed from update 4,701 after recovery; simulator physics state was reset at recovery, so it was not one uninterrupted trajectory. See the per-run manifests for exact checkpoint and ONNX hashes and parity records.
+两种策略均训练 10,001 次更新，每次使用 512 个并行环境、每环境 24 步。Semantic 组在更新 4,701 时从 checkpoint 恢复；恢复时仿真物理状态重置，记录见各自 `run_manifest.json`。
 
-## Holdout And Latency
+## Holdout 与延迟
 
-The holdout package contains 42 episodes per policy (seven configured scenarios by six commands), with raw episode records and trajectories. The push scenarios were scheduled at exactly the five-second episode horizon, and the rollout ends before applying step 250. No push was actually applied. Do not use those rows as evidence of push robustness.
+每种策略评测 42 个回合：7 种场景、每场景 6 条速度指令，每回合 5 秒。主要结果如下：
 
-The exported ONNX actors passed the recorded PyTorch-versus-ONNX parity check. CPU latency used ONNX Runtime, float32, batch size 1, one thread, 200 warmup calls, and 2,000 measured calls. It measures policy preprocessing and inference only; it excludes simulation and sensor I/O. See [`latency.json`](latency.json).
+| 策略 | Clean planar RMSE | 完成率 | CPU ONNX p50 | CPU ONNX p95 |
+| --- | ---: | ---: | ---: | ---: |
+| Semantic split | 0.2684 m/s | 6/6 | 21.212 μs | 22.123 μs |
+| Matched MLP | 0.2957 m/s | 6/6 | 17.794 μs | 19.177 μs |
 
-The ONNX model accepts `float32[1, 285]` observations and returns `float32[1, 29]` actions. A zero-input shape smoke check from the repository root:
+延迟使用 ONNX Runtime CPU、float32、batch 1、单线程测量，包含观测预处理与策略推理，不含仿真和传感器 I/O。两个导出策略均通过记录的 PyTorch 与 ONNX 数值一致性检查。
+
+Push 场景的预设触发时刻为 `5.0 s`，与回合时长相同；rollout 在执行第 250 步前结束，因此该评测没有施加推力。Push 鲁棒性尚无实测结果。
+
+## 使用与复现
+
+ONNX 输入为 `float32[1, 285]`，输出为 `float32[1, 29]`。从仓库根目录运行以下 CPU 推理形状检查：
 
 ```python
 import numpy as np
@@ -38,14 +43,4 @@ actions = session.run(None, {session.get_inputs()[0].name: obs})[0]
 assert actions.shape == (1, 29)
 ```
 
-The smoke check verifies loading and tensor dimensions; zero-input actions are not an evaluation result. Existing implementation sources are in [`scripts/g1_extero_pilot.py`](../../scripts/g1_extero_pilot.py), [`scripts/g1_semantic_split_study.py`](../../scripts/g1_semantic_split_study.py), and the related G1 task configuration under `src/tasks/velocity/`.
-
-## Scope
-
-- Simulation only; no hardware deployment or real-robot validation is claimed.
-- One selected training seed; no cross-seed reliability claim.
-- The holdout seed is fixed, and each scenario has six command episodes.
-- Push robustness is unevaluated because the scheduled push was outside the executed horizon.
-- The protocol file here is a single-seed settings excerpt, not a replacement for the original frozen multi-seed protocol. Its original SHA-256 is recorded in [`protocol_excerpt.json`](protocol_excerpt.json).
-
-File hashes for this release are listed in `SHA256SUMS`.
+模型定义与环境代码见 [`scripts/g1_extero_pilot.py`](../../scripts/g1_extero_pilot.py)、[`scripts/g1_semantic_split_study.py`](../../scripts/g1_semantic_split_study.py) 和 `src/tasks/velocity/`。协议设置摘录、运行环境、逐场景结果及文件哈希分别见本目录的 `protocol_excerpt.json`、`runtime.json`、`holdout/` 和 `SHA256SUMS`。所有评测均在仿真中完成。
