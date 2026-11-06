@@ -6,6 +6,6 @@
   "same_sample_12_runs_hours": 733.9697546038165,
   "scope": "historical rough-PHASOR timing, not measured current flat speed; excludes evaluation and competing tasks",
   "screening_12_runs_hours": 183.4924386509541,
-  "source": "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\phasor\\results\\phasor_local_pilot_20261020\\smoke_train_1024env_51iter.json",
+  "source": "<local-project-root>/results/phasor_local_pilot_20261020/smoke_train_1024env_51iter.json",
   "source_sha256": "8a4fee1d73766d4b4e5c7dbccb58886dc8c7020d832cff5de26cb5425ec87c5c"
 }

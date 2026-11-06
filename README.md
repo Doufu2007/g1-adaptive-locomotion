@@ -4,6 +4,8 @@
 
 ## 核心结果
 
+terrain-scan 的 9.22% 改善来自事后选出的 seed 20261111 个案。完整三种子筛查的平均相对改善为 −48.81%，判定为 NEXT_EXPERIMENT，因此该个案不代表整体优势；见[完整筛查报告（历史提交 f69c03f）](https://github.com/Doufu2007/g1-adaptive-locomotion/blob/f69c03f056fc6710b6a77fb7d6ae1918b6e4b325/results/g1_extero_full_20261105_public/RESULTS.md)。
+
 在 G1 粗糙地形 terrain-scan 仿真中，semantic 分流策略于成功种子 `20261111` 的 clean holdout 平面速度 RMSE 为 `0.2684 m/s`，参数量匹配的 MLP 为 `0.2957 m/s`，改善 `9.22%`。两种策略均完成全部 6 条 clean 指令回合，Actor 可训练参数量相差不足 `0.1%`。训练模型、日志和 holdout 轨迹见[成功种子案例](results/g1_extero_selected_seed20261111/README.md)。
 
 ## 研究线

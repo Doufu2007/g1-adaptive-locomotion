@@ -8,7 +8,7 @@
     "trainable_parameters": 213357
   },
   "argv": [
-    "C:\\Users\\郑傅韬\\Desktop\\大学生活\\论文\\宇树\\_worktrees\\g1-semantic-split\\scripts\\run_g1_semantic_split.py",
+    "<local-project-root>/scripts/run_g1_semantic_split.py",
     "--output",
     "results\\g1_semantic_split_20261026",
     "--device",
