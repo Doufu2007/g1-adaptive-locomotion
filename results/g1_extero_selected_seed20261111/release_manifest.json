@@ -1,0 +1,30 @@
+{
+  "schema": "g1.extero.selected_seed.release.v1",
+  "selection": "One post-hoc selected training seed and its parameter-matched comparator.",
+  "training_seed": 20261111,
+  "included_arms": ["semantic", "matched"],
+  "included_results": [
+    "final checkpoint and exported ONNX actor for each arm",
+    "per-update training metrics for each arm",
+    "per-arm holdout summaries, episode records, and trajectory arrays",
+    "single-seed protocol excerpt, runtime, and selected CPU latency"
+  ],
+  "excluded": "All other-seed outcomes and any pooled multi-seed summary or decision.",
+  "source_digests": {
+    "original_frozen_protocol_sha256": "381b88c349528abe448fd508e9aa4fd27bf264ef2efc9408db99943bd7a9cb3a",
+    "training_identity_protocol_sha256": "0fb250431ade0959a7c10d86d8d61a5185e00089a2fcd0245c4247965a43f8e4",
+    "training_source_tree_digest": "7d8a1fd2d1916bfc32e8f1fb41e0bfc2b82f7739f54e73c43c5ce406a050e326",
+    "source_manifest_file_sha256": "326c1447c4cf21179e1453f0e1432adc7a686219f217f99fdcfac15ec44da1ce",
+    "holdout_protocol_sha256": "7d002e89e014757011943248e80f863d165d12b47c404ad16bbed13260b6e104"
+  },
+  "artifacts": {
+    "semantic": {
+      "checkpoint_sha256": "5ccc6d3c5e3fc1047a37b42ae8e6697563e29518cf7162d59b47171d7d386ab0",
+      "policy_sha256": "33b04f7a805992ebfdc11829108f9c6712ee3fb8e25c711f84bbd355ab556906"
+    },
+    "matched": {
+      "checkpoint_sha256": "dcbaa60c1361faffcfea9e9f9441028f3a2a73c9c8f651ba65eba453a617fd2e",
+      "policy_sha256": "107e4c6a1a159aeba4ac49e967e73beeeb1b962e1934d2373b61e3e12af15c8f"
+    }
+  }
+}

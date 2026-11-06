@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETED",
+  "scope": "Policy preprocessing and inference only; excludes simulation and sensor I/O.",
+  "backend": "ONNX Runtime CPUExecutionProvider, float32",
+  "batch": 1,
+  "threads": 1,
+  "warmup": 200,
+  "samples": 2000,
+  "quantiles": [50, 95, 99],
+  "results": [
+    {
+      "arm": "matched",
+      "training_seed": 20261111,
+      "policy_sha256": "107e4c6a1a159aeba4ac49e967e73beeeb1b962e1934d2373b61e3e12af15c8f",
+      "latency_us": {"p50": 17.794, "p95": 19.17745, "p99": 24.75569}
+    },
+    {
+      "arm": "semantic",
+      "training_seed": 20261111,
+      "policy_sha256": "33b04f7a805992ebfdc11829108f9c6712ee3fb8e25c711f84bbd355ab556906",
+      "latency_us": {"p50": 21.212, "p95": 22.12325, "p99": 23.06595}
+    }
+  ]
+}

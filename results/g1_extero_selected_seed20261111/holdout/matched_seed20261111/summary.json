@@ -1,0 +1,81 @@
+{
+  "arm": "matched",
+  "episode_count": 42,
+  "episode_seed": 20262601,
+  "metrics_by_scenario": {
+    "clean": {
+      "completion": 1.0,
+      "episodes": 6,
+      "failure_rate": 0.0,
+      "forward_rmse_mps": 0.22486326636594664,
+      "lateral_rmse_mps": 0.17694324202130293,
+      "planar_rmse_mps": 0.2956712242816081,
+      "survival_fraction": 1.0,
+      "yaw_rmse_radps": 0.4885989300060556
+    },
+    "delay_1": {
+      "completion": 0.8333333333333334,
+      "episodes": 6,
+      "failure_rate": 0.16666666666666666,
+      "forward_rmse_mps": 0.3224792137095767,
+      "lateral_rmse_mps": 0.17145763287534346,
+      "planar_rmse_mps": 0.3769148137624389,
+      "survival_fraction": 0.8466666666666667,
+      "yaw_rmse_radps": 0.8450667533489552
+    },
+    "delay_2": {
+      "completion": 0.6666666666666666,
+      "episodes": 6,
+      "failure_rate": 0.3333333333333333,
+      "forward_rmse_mps": 0.3683659549546027,
+      "lateral_rmse_mps": 0.3122990328378243,
+      "planar_rmse_mps": 0.49699037290407594,
+      "survival_fraction": 0.9119999999999999,
+      "yaw_rmse_radps": 1.2786500216691936
+    },
+    "noise_high": {
+      "completion": 1.0,
+      "episodes": 6,
+      "failure_rate": 0.0,
+      "forward_rmse_mps": 0.23598386844468208,
+      "lateral_rmse_mps": 0.19444331126919676,
+      "planar_rmse_mps": 0.3160488803398122,
+      "survival_fraction": 1.0,
+      "yaw_rmse_radps": 0.6930086668284968
+    },
+    "noise_low": {
+      "completion": 1.0,
+      "episodes": 6,
+      "failure_rate": 0.0,
+      "forward_rmse_mps": 0.19433347607846,
+      "lateral_rmse_mps": 0.17280886264913298,
+      "planar_rmse_mps": 0.26793080738581965,
+      "survival_fraction": 1.0,
+      "yaw_rmse_radps": 0.617561975168511
+    },
+    "push_high": {
+      "completion": 1.0,
+      "episodes": 6,
+      "failure_rate": 0.0,
+      "forward_rmse_mps": 0.26514132949790853,
+      "lateral_rmse_mps": 0.1569317198862762,
+      "planar_rmse_mps": 0.31904860964663945,
+      "survival_fraction": 1.0,
+      "yaw_rmse_radps": 0.36441217678912036
+    },
+    "push_low": {
+      "completion": 0.8333333333333334,
+      "episodes": 6,
+      "failure_rate": 0.16666666666666666,
+      "forward_rmse_mps": 0.2894624470237234,
+      "lateral_rmse_mps": 0.18673274911753693,
+      "planar_rmse_mps": 0.3549019337658396,
+      "survival_fraction": 0.8513333333333334,
+      "yaw_rmse_radps": 0.746192107600271
+    }
+  },
+  "observation_dimension": 285,
+  "policy_sha256": "107e4c6a1a159aeba4aac49e967e73beeb1b962e1934d2373b61e3e12af15c8f",
+  "scope": "long-screening holdout; paired training seeds",
+  "training_seed": 20261111
+}

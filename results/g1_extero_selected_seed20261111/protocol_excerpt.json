@@ -1,0 +1,42 @@
+{
+  "schema": "g1.extero_split.selected_single_seed_case.v1",
+  "status": "POST_HOC_SELECTED_CASE",
+  "scope": "Single selected training seed with its parameter-matched comparator; exploratory case report, not a cross-seed efficacy estimate.",
+  "original_frozen_protocol_sha256": "381b88c349528abe448fd508e9aa4fd27bf264ef2efc9408db99943bd7a9cb3a",
+  "training_identity_protocol_sha256": "0fb250431ade0959a7c10d86d8d61a5185e00089a2fcd0245c4247965a43f8e4",
+  "training_source_tree_digest": "7d8a1fd2d1916bfc32e8f1fb41e0bfc2b82f7739f54e73c43c5ce406a050e326",
+  "source_manifest_file_sha256": "326c1447c4cf21179e1453f0e1432adc7a686219f217f99fdcfac15ec44da1ce",
+  "task": "Unitree-G1-Rough",
+  "terrain_mode": "extero_rough",
+  "terrain_distribution": "phase_random_rough",
+  "training": {
+    "training_seed": 20261111,
+    "arms": ["matched", "semantic"],
+    "updates": 10001,
+    "num_envs": 512,
+    "steps_per_env": 24,
+    "from_scratch": true,
+    "checkpoint_selection": "final budget checkpoint",
+    "command_curriculum": "disabled; fixed common command support"
+  },
+  "actor": {
+    "observation_dimension": 285,
+    "proprioception_and_task_dimension": 98,
+    "height_scan_dimension": 187,
+    "action_dimension": 29,
+    "semantic_architecture": [98, 480, 187, 32, 512, 256, 128, 29],
+    "matched_architecture": [285, 341, 256, 128, 29],
+    "semantic_trainable_parameters": 221530,
+    "matched_trainable_parameters": 221744
+  },
+  "holdout": {
+    "episode_seed": 20262601,
+    "commands_per_scenario": 6,
+    "scenarios": ["clean", "delay_1", "delay_2", "noise_low", "noise_high", "push_low", "push_high"],
+    "horizon_seconds": 5.0,
+    "holdout_protocol_sha256": "7d002e89e014757011943248e80f863d165d12b47c404ad16bbed13260b6e104",
+    "primary_metric": "clean planar velocity RMSE [m/s]"
+  },
+  "recovery_note": "The semantic run resumed from update 4701 after recovery; simulator physics state was reset, so the run was not one uninterrupted trajectory.",
+  "push_evaluation_note": "Pushes were scheduled at 5.0 seconds, exactly at the episode horizon. The rollout ends before applying step 250, so no push was applied."
+}

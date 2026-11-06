@@ -1,0 +1,70 @@
+{
+    "actor_budget":  {
+                         "all_buffers":  1141,
+                         "linear_macs_per_action":  220576,
+                         "linear_parameters":  221501,
+                         "mac_scope":  "linear layers only; excludes activations, normalization, gather and concatenation",
+                         "normalization_buffers":  856,
+                         "trainable_parameters":  221530
+                     },
+    "checkpoint_file":  "model_10000.pt",
+    "checkpoint_sha256":  "5ccc6d3c5e3fc1047a37b42ae8e6697563e29518cf7162d59b47171d7d386ab0",
+    "common_agent_sha256":  "c69f25bd3855d4a9d893a30db3184d126ccf9b58e4d8fb9194853a64fd9ee5d3",
+    "common_env_sha256":  "b9088a5380f023fa8a48f495dab010da245e971a0d69764c5f54329bd5613d36",
+    "completed_transitions":  122892288,
+    "completed_updates":  10001,
+    "critic_budget":  {
+                          "all_buffers":  901,
+                          "linear_macs_per_action":  317568,
+                          "linear_parameters":  318465,
+                          "mac_scope":  "linear layers only; excludes activations, normalization, gather and concatenation",
+                          "normalization_buffers":  901,
+                          "trainable_parameters":  318465
+                      },
+    "critic_initialization_controlled":  true,
+    "current_attempt_transitions":  65126400,
+    "device":  "cuda:0",
+    "device_name":  "NVIDIA GeForce RTX 4080 SUPER",
+    "ended_at":  "2026-11-05T13:35:57.212771+00:00",
+    "fresh_actor_and_critic":  false,
+    "identity":  {
+                     "arm":  "semantic",
+                     "iterations":  10001,
+                     "num_envs":  512,
+                     "protocol_sha256":  "0fb250431ade0959a7c10d86d8d61a5185e00089a2fcd0245c4247965a43f8e4",
+                     "seed":  20261111,
+                     "source_sha256":  "7d8a1fd2d1916bfc32e8f1fb41e0bfc2b82f7739f54e73c43c5ce406a050e326",
+                     "stage":  "formal"
+                 },
+    "initial_actor_sha256":  "51b5ae496b658c63b56a44222c0e945b1bce61c22d8dc0cb4d7fc67985e04209",
+    "initial_critic_sha256":  "3314daf517ec2f18fdc62e1945db02fbcb71422798feb499784c344c1da1f8ce",
+    "latest_checkpoint":  "model_10000.pt",
+    "onnx_parity":  {
+                        "atol":  2E-05,
+                        "backend":  "torch CPU fp32 vs ONNX Runtime CPU fp32",
+                        "max_abs_error":  1.9073486328125E-06,
+                        "passed":  true,
+                        "rtol":  0.0002,
+                        "samples":  32
+                    },
+    "policy_file":  "policy.onnx",
+    "policy_sha256":  "33b04f7a805992ebfdc11829108f9c6712ee3fb8e25c711f84bbd355ab556906",
+    "recovered_updates":  4701,
+    "recovery_checkpoint_sha256":  "30d48aa7c68f6238fed11c0a1468d5a9ef3165425057b5e3bf99e97e7e4e51d1",
+    "rejected_checkpoints":  [
+
+                             ],
+    "resume_limitation":  "physics state is reset at recovery; not an uninterrupted trajectory",
+    "resume_requested":  true,
+    "resumed":  true,
+    "schema":  "g1.semantic_split.run.v1",
+    "started_at":  "2026-11-05T11:42:17.791127+00:00",
+    "startup_physics":  {
+                            "body_ipos":  "0acf889c5eedb531c7da64c69f6409cead3e1e5d55809e2bf3646c854f80ae86",
+                            "body_mass":  "d53e05ef29e7e2e12a2fc3cdc9318c408f4696c30a9bcdf0a32f934b68890740",
+                            "geom_friction":  "daed1f341870dae7f634c62183083f1702c81552ccefed73768d5af9abab14ae"
+                        },
+    "status":  "COMPLETED",
+    "training_wall_seconds":  6804.200314478017,
+    "updated_at":  "2026-11-05T13:35:57.091704+00:00"
+}
