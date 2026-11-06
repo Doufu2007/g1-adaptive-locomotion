@@ -1,0 +1,139 @@
+{
+  "schema": "g1.extero.public-provenance.v1",
+  "scope": "Protocol, aggregate results, diagnostics, sanitized manifests and figure. Raw arrays, episode logs, ONNX models, checkpoints and full training logs are excluded.",
+  "files": [
+    {
+      "source": "results/g1_extero_full_20261105/diagnostics_20261106/ablation_summary.json",
+      "path": "diagnostics_20261106/ablation_summary.json",
+      "original_sha256": "dbf40cdfe97e062bf39d13706258dfc09a0fede8717f01a201ebf6999dfd2929",
+      "public_sha256": "dbf40cdfe97e062bf39d13706258dfc09a0fede8717f01a201ebf6999dfd2929",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/diagnostics_20261106/diagnostic_comparison.csv",
+      "path": "diagnostics_20261106/diagnostic_comparison.csv",
+      "original_sha256": "5230ade3c9701f8be2d1d9a40ceb42da800ca9ed97d3b4184034571add981a9a",
+      "public_sha256": "c584a43e6c970ecf30bb67004dafd70d83c19818df1db2a8e5901656dfb705b9",
+      "transformation": "Line endings normalized to LF; all values preserved."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/diagnostics_20261106/failure_diagnosis.pdf",
+      "path": "diagnostics_20261106/failure_diagnosis.pdf",
+      "original_sha256": "424ee13518eec0a3b69f672abef889a273f22399648b6588d2d6164e3d9953ea",
+      "public_sha256": "424ee13518eec0a3b69f672abef889a273f22399648b6588d2d6164e3d9953ea",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/diagnostics_20261106/failure_diagnosis.png",
+      "path": "diagnostics_20261106/failure_diagnosis.png",
+      "original_sha256": "4454ec301886d7f51edceaef7a1dc73500be2d54e242364149ca723bd09c7699",
+      "public_sha256": "4454ec301886d7f51edceaef7a1dc73500be2d54e242364149ca723bd09c7699",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/diagnostics_20261106/summary.json",
+      "path": "diagnostics_20261106/summary.json",
+      "original_sha256": "4af4df6157d0c510400c13ec4c9723f493e4d6a2f5dd82f9f346932cc4f46ccb",
+      "public_sha256": "4af4df6157d0c510400c13ec4c9723f493e4d6a2f5dd82f9f346932cc4f46ccb",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/formal/matched_seed20261111/manifest.json",
+      "path": "formal/matched_seed20261111/manifest.json",
+      "original_sha256": "837946d9d0dfbb350e64a079871a31ee9913b7b906de9a49e6bc88ecdaea4cd2",
+      "public_sha256": "3777958fa4598cf648ecd2fed3eb2009e55f75a9dffea4e74bfb8ea106c508ee",
+      "transformation": "Allowlisted training identity, metrics, hashes, budgets and parity; removed argv and path-bearing fields."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/formal/matched_seed20261112/manifest.json",
+      "path": "formal/matched_seed20261112/manifest.json",
+      "original_sha256": "55e2e973d3fa97e91e7108f1f7114e77f07b45e6f6f56e42688b7d69e4e9fcd1",
+      "public_sha256": "00fa2dac1ba69459c2b30fa5584db7fc8c0bbd54215a02462a9acf2eb7aab8ea",
+      "transformation": "Allowlisted training identity, metrics, hashes, budgets and parity; removed argv and path-bearing fields."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/formal/matched_seed20261113/manifest.json",
+      "path": "formal/matched_seed20261113/manifest.json",
+      "original_sha256": "19c9092b0b044415dc6dd414c9150857a64ae739f29ccf8b838febc18cb53d18",
+      "public_sha256": "36587925285f9df51180d8d138fb560c5f2bf10b707d678b5ee3a4fa06edc3c3",
+      "transformation": "Allowlisted training identity, metrics, hashes, budgets and parity; removed argv and path-bearing fields."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/formal/semantic_seed20261111/manifest.json",
+      "path": "formal/semantic_seed20261111/manifest.json",
+      "original_sha256": "f51bd985f23454572dc8068df23d4d8f479c466cabef1e52682103dffc1dab89",
+      "public_sha256": "fc2edd4ea856c9e7969180aee49d5501b8e778211f6f190762d3d0b044a8e566",
+      "transformation": "Allowlisted training identity, metrics, hashes, budgets and parity; removed argv and path-bearing fields."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/formal/semantic_seed20261112/manifest.json",
+      "path": "formal/semantic_seed20261112/manifest.json",
+      "original_sha256": "52cff988a7f2df28d4a1dbb78ecc6ceaedcc5651ed7c67fc85461dd0b6af8094",
+      "public_sha256": "9271deb57ed081f4184ccf6242b6a17a5e8ce912ec849bf7bc6e8538929def89",
+      "transformation": "Allowlisted training identity, metrics, hashes, budgets and parity; removed argv and path-bearing fields."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/formal/semantic_seed20261113/manifest.json",
+      "path": "formal/semantic_seed20261113/manifest.json",
+      "original_sha256": "c7acaa92d6f08dd459e37f1fe9f8132ed1422b8adbd86b8b6d636e3aaa3060d9",
+      "public_sha256": "c2ed4a5d735a532d50de87cc59d2c12a04d94347cc7625ab3f43380427f582e5",
+      "transformation": "Allowlisted training identity, metrics, hashes, budgets and parity; removed argv and path-bearing fields."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/holdout/decision.json",
+      "path": "holdout/decision.json",
+      "original_sha256": "5e9b77155473bd78c01bfc0d1d93353c64852ab9c2867de7c679762522623778",
+      "public_sha256": "5e9b77155473bd78c01bfc0d1d93353c64852ab9c2867de7c679762522623778",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/holdout/protocol.json",
+      "path": "holdout/protocol.json",
+      "original_sha256": "f4545c90e07a1165cb25b475327d0a2120e7190546a2bec9977105813c800b55",
+      "public_sha256": "f4545c90e07a1165cb25b475327d0a2120e7190546a2bec9977105813c800b55",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/holdout/summary.json",
+      "path": "holdout/summary.json",
+      "original_sha256": "b4870fc544174c388f100f44ab02d2ce33a557c826c590a8b85bc21ca57fdab3",
+      "public_sha256": "f75e65e019760d386e88b37b3e7eb78d17bbcaae010c36732a717c78a43e0cf1",
+      "transformation": "Removed raw_latency_us samples; aggregate results preserved; JSON serialized with LF line endings."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/protocol.json",
+      "path": "protocol.json",
+      "original_sha256": "381b88c349528abe448fd508e9aa4fd27bf264ef2efc9408db99943bd7a9cb3a",
+      "public_sha256": "381b88c349528abe448fd508e9aa4fd27bf264ef2efc9408db99943bd7a9cb3a",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/RESULTS.md",
+      "path": "RESULTS.md",
+      "original_sha256": "bc93c4afb1ee6ff979aa47254db0b9a490627cbfc93bad157682b82c1f28de19",
+      "public_sha256": "3c8fcad166cd804c0b4f0c21cc1195491925e14f8183ba87bcae1c1b89a00ddc",
+      "transformation": "Updated local-only checkpoint and excluded-raw-data references for this public package; line endings normalized to LF."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/source_manifest.json",
+      "path": "source_manifest.json",
+      "original_sha256": "326c1447c4cf21179e1453f0e1432adc7a686219f217f99fdcfac15ec44da1ce",
+      "public_sha256": "326c1447c4cf21179e1453f0e1432adc7a686219f217f99fdcfac15ec44da1ce",
+      "transformation": "Copied byte-for-byte."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/remote_sources/scripts/run_g1_extero_long.py",
+      "path": "source_snapshot/run_g1_extero_long.py",
+      "original_sha256": "6f3fe6c683598591a55f6bdfa5ad285c5fcd1fcdbc620895e7823f37186f77da",
+      "public_sha256": "6f3fe6c683598591a55f6bdfa5ad285c5fcd1fcdbc620895e7823f37186f77da",
+      "transformation": "Frozen experiment source copied byte-for-byte from the version referenced by source_manifest.json."
+    },
+    {
+      "source": "results/g1_extero_full_20261105/training_matrix.json",
+      "path": "training_matrix.json",
+      "original_sha256": "04030872ed1da6142eb6d11add87a40c0a5f8ad0efb59751598040a43e26e0e3",
+      "public_sha256": "04030872ed1da6142eb6d11add87a40c0a5f8ad0efb59751598040a43e26e0e3",
+      "transformation": "Copied byte-for-byte."
+    }
+  ]
+}

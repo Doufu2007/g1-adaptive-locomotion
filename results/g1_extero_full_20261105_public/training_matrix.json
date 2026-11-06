@@ -1,0 +1,34 @@
+{
+  "formal": [
+    {
+      "arm": "matched",
+      "seed": 20261111,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20261111,
+      "stage": "formal"
+    },
+    {
+      "arm": "matched",
+      "seed": 20261112,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20261112,
+      "stage": "formal"
+    },
+    {
+      "arm": "matched",
+      "seed": 20261113,
+      "stage": "formal"
+    },
+    {
+      "arm": "semantic",
+      "seed": 20261113,
+      "stage": "formal"
+    }
+  ]
+}

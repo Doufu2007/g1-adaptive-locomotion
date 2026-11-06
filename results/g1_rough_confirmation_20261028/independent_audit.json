@@ -1,0 +1,1520 @@
+{
+  "status": "PASS",
+  "at": "2026-10-28T05:07:05.826341+00:00",
+  "analysis_sha256": "f0aab615c354612a8d59823a6d497ee7e6dd2ccb585bf0b6340819293044e6d9",
+  "raw_count": 360,
+  "effective_eval_transitions": 223802,
+  "simulator_world_steps": 351330,
+  "evaluation_PPO_updates": 0,
+  "evaluation_Adam_steps": 0,
+  "raw_checks": [
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261901_eval20264911.npz",
+      "sha256": "aa7999f90c460f6e9548f8e9f21a0e01df4b440febdaa15b7df09ced61a5a1b7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261901_eval20264912.npz",
+      "sha256": "eb58696448dd652bc7e976166ef1484cc30e431f566148b087c35567ae57f24f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261901_eval20264913.npz",
+      "sha256": "4274132a6bddfee256aaf7087e67865dfbc01e5165855a50d289f0f4da469848"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261901_eval20264914.npz",
+      "sha256": "8c3fd2243ff095114311aa692d47beee4bbca1b3aff54bd1618a6f34b2772913"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261901_eval20264915.npz",
+      "sha256": "0721b0f4af839e2fa8a80dde991393b1a7bf22e0e64a680bb20b2c1ff82df265"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261902_eval20264911.npz",
+      "sha256": "8ab30d9c059ab697442f5b7b0f1db07ff76ecd1f6d197da208b1231e914c56c9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261902_eval20264912.npz",
+      "sha256": "aeca3dd551736d0c86a57e10c09e672b58ac1858f25a9fdbd0a86684d551b0ef"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261902_eval20264913.npz",
+      "sha256": "93d94b7a6ecbdb5cb4f9e9903b07c4dc072e6fba5484aaf6ea284846ff8fc4cf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261902_eval20264914.npz",
+      "sha256": "608f083afb147dde601268348633865d349f38105f50e29ca03b79a02896bcb2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261902_eval20264915.npz",
+      "sha256": "6248c02ae078a8fb763545219a109734fae3c036ff475d74e52b33dc7b10c32d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261903_eval20264911.npz",
+      "sha256": "9d9ff63f08fba448aaa960c95c485d0c4f089f0081c7781d35ad6c6d4b73fd6c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261903_eval20264912.npz",
+      "sha256": "2397b70731ef20a23f4e12e87a63140898e052946fc7533616669a8e847eadfa"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261903_eval20264913.npz",
+      "sha256": "791ffa800ff5746fe681819c36e6dbc70000436023256b7ae2943e4a224461fd"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261903_eval20264914.npz",
+      "sha256": "678994ea1d6366794413ef65ea51b780aa69439199d4a7323072ce13ef3554db"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\steady_train20261903_eval20264915.npz",
+      "sha256": "1a8c1b89fa1bd19db18b976b0dc893b486c65cab9652b23536393cfea4e56f22"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261901_eval20264911.npz",
+      "sha256": "5f7a54ebf0cc75269abd8e0d45b9b0f6c68722b05dbedb6453c1c94d1d7f0517"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261901_eval20264912.npz",
+      "sha256": "c3a9aee9c6fdde3e100dc70b2786fe9b0921156be9ba743f3eb25986ecdfe2c2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261901_eval20264913.npz",
+      "sha256": "ac122e7236a9b457c4ce3b41fe2b72ccb5a5df9b54ab57b2bc7a79aeb02bb8fd"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261901_eval20264914.npz",
+      "sha256": "480d9357b55ecc98e0cf54f406be07a073698031a1a9debe1fdc9ac52fc8980d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261901_eval20264915.npz",
+      "sha256": "665f22079068f05de92fff98941fba8befd7612babff8c9fb535865a10e4e40e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261902_eval20264911.npz",
+      "sha256": "0d8e50af7a021d4d1a8ac704b549f4f2a16299c3e1cb23975cb9d778ac6d2a3c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261902_eval20264912.npz",
+      "sha256": "41ad7d8abd5186372bc60cd0b08e4135d3c886047bd5165c6742dd2f169ea519"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261902_eval20264913.npz",
+      "sha256": "f1babc34f69cf7725b73a38eae9ad00313bcfe323f832d41ef46632931aa643e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261902_eval20264914.npz",
+      "sha256": "d76566c29d9fe0ac5aaf5685914892ca6e7ea3390dd3e6896411c30c96e1c27c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261902_eval20264915.npz",
+      "sha256": "a1c768ea7cbf8689570080e0c0849ad7f403cae9cdc15bad1f9c47899489e32c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261903_eval20264911.npz",
+      "sha256": "bc8504172459ec3de748aa6db98f72dd8149b9dae87a0df839b72ef377bae2df"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261903_eval20264912.npz",
+      "sha256": "216d2bf26dfc5b61d37c1a9045a315655475853ab6eea44b75eda05bc8501a0e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261903_eval20264913.npz",
+      "sha256": "69db7a973c5e081330f961a0c1eafdb124d6e38b9f747f204b0b7c04751efce4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261903_eval20264914.npz",
+      "sha256": "c5a2db41dde870e40408c21a258e0bdf439b1a7e983ed2f0d9ddcae306e27585"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264901\\push_train20261903_eval20264915.npz",
+      "sha256": "6e031b06637c02aa2b19260850495a1d440cb4d1146971f68b6fa49809492c61"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261901_eval20264911.npz",
+      "sha256": "8f2d9175fa0621c6e56a9624006f32c6a60dbd676c3d0962b7a20b7366746d42"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261901_eval20264912.npz",
+      "sha256": "1a3fe6a30597f2d4afff01febb70bb77079299367647dbf93b11568d017ae008"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261901_eval20264913.npz",
+      "sha256": "1f8e26901e05a6be77d2b30445a572e7368f94dd123487169865bde225f40c88"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261901_eval20264914.npz",
+      "sha256": "88e5725783d76d3cbe49f62a9ab75edddde13316b1bca1b90989ce7cb00e8dff"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261901_eval20264915.npz",
+      "sha256": "c38a39170117809ef983504041710f42f7bcc965efd18021542a9670aec14913"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261902_eval20264911.npz",
+      "sha256": "78cc27308b3d5af921c221248847e3a883d74dad11f166b119fdd9b27f75312b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261902_eval20264912.npz",
+      "sha256": "2b13be3da700d322966ea19587b1704e1f7798f1712aac6dda3a17686f7b2a04"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261902_eval20264913.npz",
+      "sha256": "68645c218c091466bdb7627c41d9854bd96a5e2c8d2cede1e37eaccb6694be1f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261902_eval20264914.npz",
+      "sha256": "d91590149fcc1b27bea4d252108847afccb886523f011f4de82e2f442837ad28"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261902_eval20264915.npz",
+      "sha256": "2870c1d0893502318b0c734b1252c91705993f194f55fb5da7525eb02bf7bad3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261903_eval20264911.npz",
+      "sha256": "03b71ebb7b6cc1b2fb9deb68667355e6dc5d169ceb28554fe50cac523f4a01e7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261903_eval20264912.npz",
+      "sha256": "6d4299655450e61e17e2c3852f380499676408e2cdfc9fe17cf0c9fe9b2fb09b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261903_eval20264913.npz",
+      "sha256": "4dbe1af85462ee7dacf36457df2401dc354218d6355f5114457eb8314a4b5bbf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261903_eval20264914.npz",
+      "sha256": "9217a67e5b718c616ea331a72d7a57899ceff7091e2e1b8c0381d3a27cc1b222"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\steady_train20261903_eval20264915.npz",
+      "sha256": "ab7389862380467e49eeff75398d9f8eade640c62e42a1b091e172f23677ee38"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261901_eval20264911.npz",
+      "sha256": "943d9c0c28d0dd2b7d785e1a082782234253a3d166d49143370d528ee8ef812f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261901_eval20264912.npz",
+      "sha256": "19298f9e41772801a05317600d2eff200461feff1fb420b9aa9fad193422827b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261901_eval20264913.npz",
+      "sha256": "0a075b552b2f1bf0648f3e5691478224c6a5e65864fba79c07f66eaff33ab2ae"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261901_eval20264914.npz",
+      "sha256": "8fb6d5a97e010e5d6825fb0f89cf0ea54956085afbaae97661f336e015278b55"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261901_eval20264915.npz",
+      "sha256": "f1e79e148254aceadcf8bf65dab25eb2824d7d59d068c630e84f69bc7436f766"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261902_eval20264911.npz",
+      "sha256": "655c704791b0bda0454494b2844ca4f7cb790e0d85356735ae2598ab794f664a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261902_eval20264912.npz",
+      "sha256": "ddc2f43ea4218449cb31aa9da5b22b9ae4ef30b796da9a1e8f6e58df16a58d96"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261902_eval20264913.npz",
+      "sha256": "83c7c66beb58a6f6d781ff6c2c1625b39e1a50508b04d2ff2be0be86b5b3a82a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261902_eval20264914.npz",
+      "sha256": "4d061f535343fb4fc525d3f70b8127645308aefdbad1c467d4a1d7b76b29a604"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261902_eval20264915.npz",
+      "sha256": "51cdf75b9ef58dc9c27d17096d0e98fb1f67b2e9d5b539e36ba734f9c3713d73"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261903_eval20264911.npz",
+      "sha256": "bc0d2ad641d521abc0b2ae3d38e4b12c5fc45b40c5f88c45f504885ed4857c37"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261903_eval20264912.npz",
+      "sha256": "b019a334242b0977a0534698d19fa5298f2b995490de118b763a2ad8082808bb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261903_eval20264913.npz",
+      "sha256": "348ac067f6255088829599542211b845ededd227f14aee9967ae33aea1d44d86"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261903_eval20264914.npz",
+      "sha256": "fcd60184ba5bab2f532b86d5bb9d8feb0108302c7905967c6bd8869bff58e16a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264902\\push_train20261903_eval20264915.npz",
+      "sha256": "483f7c73d8abf2f48de8db48cee3c982d21606ec484e990ac14178a103437739"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261901_eval20264911.npz",
+      "sha256": "bb345d0da89876c807e4b64e36c930206b5167a7875df47afce3323b8811623d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261901_eval20264912.npz",
+      "sha256": "0af63ef75167d67d698c54d9c1cb10ab887a33529a9b2fae684c548d42db010f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261901_eval20264913.npz",
+      "sha256": "0c8f272d1783b79b8e31faa4bfe7616dbc766b1642e0b208e1fed1f16820a68e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261901_eval20264914.npz",
+      "sha256": "e607c528751d8bbd51ec03f9bb8938cd80dedfa1ed053d71edbb136c8b0d0f7e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261901_eval20264915.npz",
+      "sha256": "3f7316adbea62c433fc5cc5edd4ff5e1361b130d423bb7d6098923bf5c513245"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261902_eval20264911.npz",
+      "sha256": "2ac1752c6633f0ccb77170d005d046df7a504e847cfd233ca5cde69b4e2fc6b0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261902_eval20264912.npz",
+      "sha256": "2e52abee2fe23a936e820e52075809d968ff1a1edff6176f54ad76c3fc209503"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261902_eval20264913.npz",
+      "sha256": "fb8a33705cd1a5241069d8f83858e3d19dc4516b1d19da3594df7b31af884df9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261902_eval20264914.npz",
+      "sha256": "9bbb413d61c85bc2dd2f2478e80d93ffc024ffc48d262ef4a00fc3f6fd5bef6b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261902_eval20264915.npz",
+      "sha256": "cd2f1d03fe3ee1828e95a5fa37f779c692f218ffe39a830ee4b16e455ac1716c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261903_eval20264911.npz",
+      "sha256": "80966206ac947355e895b34d40d167a4aedfca82587fa0bad85bc927a71dbb76"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261903_eval20264912.npz",
+      "sha256": "e54b3d71f64547c4b19a7e5f66d7811efa53ebaaaca2cccb7107aebee4a547cb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261903_eval20264913.npz",
+      "sha256": "8cb3bb408eb228f0388c418f07a84e1823a5278387286c3fee77c61b1e2689ba"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261903_eval20264914.npz",
+      "sha256": "fc901d96401faf6c1c04d2afdfdc74178886e05267e1b0abd323aa021cb44e01"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\steady_train20261903_eval20264915.npz",
+      "sha256": "8dc53aeac380650fe35c90c97e9f3a8fd84256642861abd4ce8b65c936036f1e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261901_eval20264911.npz",
+      "sha256": "ca3b450837cae1f99fdd810a4fc5e9bab1d595ac84c40b84a19359ddd253f460"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261901_eval20264912.npz",
+      "sha256": "044aec408ddf18690b6279a565f24f13011c20fd7afc33b68bcd5fb4d411d4f5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261901_eval20264913.npz",
+      "sha256": "c5955164d01f10d5d87d098177007a733cb7211774afd8e9a75a1eaaae7453f7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261901_eval20264914.npz",
+      "sha256": "3be86a799518ca6c5b094d0dcd9eef3006f719bc0dad4435700f5ed3b7c80733"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261901_eval20264915.npz",
+      "sha256": "4a4f58dd27c35e307844b7e7b6fbade59cccf7e1292d1964f8c2a21c5062eb64"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261902_eval20264911.npz",
+      "sha256": "e8c19a828cbd8ac0a3165c6dea164c1008146c262cbfd1620b88caa9a07991eb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261902_eval20264912.npz",
+      "sha256": "566ace232bec661b749fcecd635c02bb8c07d6fffcf907ad07ede85e94c4dfa5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261902_eval20264913.npz",
+      "sha256": "3a9ed306eb16668c5c61c24b502a1947f0bb0c6b4190bfd09d683cd4f828b11f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261902_eval20264914.npz",
+      "sha256": "52d40d0859cc6b4bc4b880a3c67898a910216de5d3fecf830d68c5f12b79a1f2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261902_eval20264915.npz",
+      "sha256": "e9e39da755c58c534b743f008a9b39bc5027e1566ff7791a5483aa205d97f788"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261903_eval20264911.npz",
+      "sha256": "0d3115f7423e46a4ceb50159201cf921393331a9889e40decc1e8dda33eca920"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261903_eval20264912.npz",
+      "sha256": "5bf2c859e6429fe5a5204badd71aab937a24c673bb328400af00671c11c57c74"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261903_eval20264913.npz",
+      "sha256": "0848797767355c9fc061669abdebd3d0564cf9fb8083e6e5f6d9f8c6612d3d02"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261903_eval20264914.npz",
+      "sha256": "11efe7e6a574b94ef12689a288873d330b41fde422caa79b0ba654b5720af058"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_live_terrain20264903\\push_train20261903_eval20264915.npz",
+      "sha256": "d8a7a389bd9852ab74710f5616ac67751fa6c06412c152035229b0ad41eba55f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261901_eval20264911.npz",
+      "sha256": "d8fcc0fd090d83b4f0ad1d2321de80843cb7df7f5333bbdf0b1dcbd2faf35f35"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261901_eval20264912.npz",
+      "sha256": "ef2f14977fc4e50b62ccc99eed0e476d6f667f67cf91aab3be4dfc7965cb797c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261901_eval20264913.npz",
+      "sha256": "482f0b97bb53c4fcfb731764ad4ea4a643b95665b25aa3e51368d8dc73268d05"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261901_eval20264914.npz",
+      "sha256": "0eddb85cc3508c287b650ac287cd231743b6a4521ad68ea3d0b239cd9ef1a6c0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261901_eval20264915.npz",
+      "sha256": "11e869369895cc6d186eec3e063260425606a1c66f0fa3398a765404fbb5a2df"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261902_eval20264911.npz",
+      "sha256": "aec6b164e601c8161836f2605fb89fb2cdf40af3b87fa4bf4744195b3bd96646"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261902_eval20264912.npz",
+      "sha256": "4dc343cb46197681f25fb03b48815854e63ef59d1a93b298e73f54a837566926"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261902_eval20264913.npz",
+      "sha256": "393717bd61f0378a69a0dad1e94ceec7545d2ab2af439f46091355ca5573d0c5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261902_eval20264914.npz",
+      "sha256": "dfdc20fcacdbbedbb24f1c1339f89a5e4b6d16a2d7ecb74a7e3f094899b7c8ca"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261902_eval20264915.npz",
+      "sha256": "e9c9f068ae8bd20e2e8f3e5411cf463bdc4d70f1fc59ed24a17bd90ce94262e5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261903_eval20264911.npz",
+      "sha256": "4101bee6450bb08dbfe25d945952c62afdbdb26dfb82a3d16f14f337629fa14c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261903_eval20264912.npz",
+      "sha256": "8902153660973600c795b6a07b2ba25eba272be126980ddea2305e3877678d1f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261903_eval20264913.npz",
+      "sha256": "2c0870d547634462f5fe0b2c85943d055a16b4d606cf56b34f931a0c48b230b3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261903_eval20264914.npz",
+      "sha256": "1f84159d18f2f3fe145e1b307c10dfb7644bff539a6c407977af325551b47216"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\steady_train20261903_eval20264915.npz",
+      "sha256": "9d871d8f202ca1b2c5fae22828bfcdea6d6d732b19ed07d24e70669dd387ff4c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261901_eval20264911.npz",
+      "sha256": "263585e2a66719f10c4e0162f36cee2acf7b708cadbfb6935b889815f32a75c4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261901_eval20264912.npz",
+      "sha256": "cb182a16ba861e47cbf3fdf660d730fdfb808587db1bdacc36d86a95ed31926e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261901_eval20264913.npz",
+      "sha256": "4125d4ccd69813e7e5029fbfd7651f77a31b8e086e9a536642c5c7c1bb304271"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261901_eval20264914.npz",
+      "sha256": "702d28560f7f76902d1ec06ffa3b2ec9fff43847c55f273e8329b9b923d4ebba"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261901_eval20264915.npz",
+      "sha256": "26517f62cf9a89b82b1088c9cacde8fdb607a8b43d51f0ce4ab58e5c279fba7c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261902_eval20264911.npz",
+      "sha256": "45be7a69f364e2d36370cd5ad30f914b1f0d81680914bc9e9da6a66202aedee5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261902_eval20264912.npz",
+      "sha256": "da0884dc2dac850d86ad2a3b50b5aa4284d51a2a362c898d21bd606966f1a000"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261902_eval20264913.npz",
+      "sha256": "07d209c4fe6ba69b32a03e7d3465b73b16a60e9ddd500af7c31c4dabd47d8bcb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261902_eval20264914.npz",
+      "sha256": "e96a182ac04fb56d3e761f247170f981597bd851c500c90f302e9081b44051ab"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261902_eval20264915.npz",
+      "sha256": "79f5801dbe49d0c155b50a059e69a34761b195d74013fcb9589028df1a21a0cc"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261903_eval20264911.npz",
+      "sha256": "fb734ab1f524c63324a7b6b5a39fe3ad8b6203fc39063e7fce31033d987696e6"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261903_eval20264912.npz",
+      "sha256": "11afb3657a51d6efa4dc0f4a6f8bb5d6fe949237ddae485779a883f15ec1f4d5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261903_eval20264913.npz",
+      "sha256": "23b8994c7caac7ec944e4f8c35d0497339db830fe9c14240ed6612cbcba256df"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261903_eval20264914.npz",
+      "sha256": "155e45c502cfe61fcab775da895d2780a87b3ec757b81b43dcdcdd61a7cce874"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264901\\push_train20261903_eval20264915.npz",
+      "sha256": "7d89ec6e640a1114e255232ddac528d332845b0646586123086b558dc9ac11e1"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261901_eval20264911.npz",
+      "sha256": "818e70f3479a62827d4af35dda57d2f3dddeafb13d8266b875a5e49bacc74bc6"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261901_eval20264912.npz",
+      "sha256": "bff680f52062629433a45445fcce7e19d474ac7f010124abdfd14f86bf3c52cb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261901_eval20264913.npz",
+      "sha256": "8e42042843a01db69cdb2fd58b476fc221f7a4189109d7730088db2b4b00a35a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261901_eval20264914.npz",
+      "sha256": "b56304fcd7c2f4e052145fd974a3b8b4533a9c3e1738f2ed5f7ca93d22f3ebee"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261901_eval20264915.npz",
+      "sha256": "e6af3598826cf737c35a3852571d287e9ac08feb67e09d99dc9b506f7885b18b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261902_eval20264911.npz",
+      "sha256": "476e6dd4c4f383900e76bf60ce5f9a2a8fdde2309e40e2cbb3d527ffe92dbc23"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261902_eval20264912.npz",
+      "sha256": "0a7b72779fa789f30bede1fa3b673ce321d143c82853d93a3d55f4a1b46c1828"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261902_eval20264913.npz",
+      "sha256": "54b968da63a1347cceac4ca86558b951184c260617d4481b5129ff6706d63970"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261902_eval20264914.npz",
+      "sha256": "91ec46b22a3eca621652db9fb315d9c53b224c5b97b3b7b62f7af9dde4239ac7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261902_eval20264915.npz",
+      "sha256": "799e2150eb72428af7bb4ebbfd22bc4fc1fb632ea3def610996a485168873845"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261903_eval20264911.npz",
+      "sha256": "8f409da3dfd0655f6960c5ec1e2e7da12e837a2ffa15c364f51c20a28616a2a2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261903_eval20264912.npz",
+      "sha256": "8fbe082979e759a18000903548e15edf24dbdaa5b8228f05e89fe43c55552400"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261903_eval20264913.npz",
+      "sha256": "50d22d9d48a784a49911e98a3d5a055db2518ea0a771c449926d4e7ad21c8816"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261903_eval20264914.npz",
+      "sha256": "06f2b86c4b2456a222de51d448d763accf5e3a30ba9b1cd45573a3ddc2d83c5e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\steady_train20261903_eval20264915.npz",
+      "sha256": "36be2f079e8264dbf236a213d2b497bd6f73e6143e24a4db17e9bb873bf1f897"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261901_eval20264911.npz",
+      "sha256": "b9f5d2602bbb61d1a6b47cdea59b17695328e0bd06b5fce9beb1b4b5b6bb1663"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261901_eval20264912.npz",
+      "sha256": "78f29fa5c5204a0c0c74925f188b2d0990baca821c9ea576b4833e3103c78131"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261901_eval20264913.npz",
+      "sha256": "1e870339f09a9f34da42ec1d7b526009480c4f73a366aca61dbe1573efbc58c0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261901_eval20264914.npz",
+      "sha256": "627b9f80105b417b0ffbabb268a1d8851c98db24f41886affc51a43d7a26611c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261901_eval20264915.npz",
+      "sha256": "4e6f1d25d28ea11b16e49f7adfb79c55431251f29c67f65fb041f9f839ffedaf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261902_eval20264911.npz",
+      "sha256": "c5a71ef853d49fa8ca6184303950c275ab7b1e22c131e0fe9af4cc071d1da0e0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261902_eval20264912.npz",
+      "sha256": "d4db57a6b89ffb5c9fcbe090f05109e3fb64df70ce7695f14620b9ef417e636c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261902_eval20264913.npz",
+      "sha256": "f8cc648ee0b637931bdaf7fcff2bb1a5c7470e9e58aa0046523a68e949205afc"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261902_eval20264914.npz",
+      "sha256": "314005f8a1f1f67649e7293e70a3b9bff91f078baec14a0098f620467a23cbb8"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261902_eval20264915.npz",
+      "sha256": "bc1e1b0b1a655051b5b4e40b24d0968571ef07e7fabcba2e0ff4bc8eea0a34a7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261903_eval20264911.npz",
+      "sha256": "37d408248f1926e6959f6b41d02e2fc0015fb4d925281c592fd3735a3efdbcfe"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261903_eval20264912.npz",
+      "sha256": "efe5bbd754cd8e47286fb747d58f08d501edac254f85060eb299cc53301652b5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261903_eval20264913.npz",
+      "sha256": "bb12c427bf3e258643a7a94068fce23b8436ea59e952ab4b16e950ecec7d3bab"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261903_eval20264914.npz",
+      "sha256": "692531500d8e758a80d60a7518f69a6bedc9b9fa11fe3cc78223d243c7a6192b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264902\\push_train20261903_eval20264915.npz",
+      "sha256": "01bc05832a138f2836a91ace0013d0132869f8176bb6c7dd2005b566cc3c0945"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261901_eval20264911.npz",
+      "sha256": "225c323abc091972204c58ae2723c0ecd294dc6e7b2730ffc51b9dee792f3e22"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261901_eval20264912.npz",
+      "sha256": "5a3eea510e04592903e0dc41da28db6c7f92d9f3d2d184a740a757832d44c985"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261901_eval20264913.npz",
+      "sha256": "7366b954cb2dc4213d73fa56fa47e8112b3452c423407c1320022f925d94c574"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261901_eval20264914.npz",
+      "sha256": "5938602b033e1b09a99446d109795413ca1ab60000a630c986ab66e768b6b003"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261901_eval20264915.npz",
+      "sha256": "6045035d8849cf5e028892e7c32dfda448390b7067ee775c8ce9185cf1e48acf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261902_eval20264911.npz",
+      "sha256": "fbc73bf156ac41c2b95b552a6b309d2dc01c0397887c5b6c898ae58ee3477777"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261902_eval20264912.npz",
+      "sha256": "491d3437482539c98b2e56dd180800337fd13f947d7638e4286cf980b0586e2f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261902_eval20264913.npz",
+      "sha256": "2068faea7aff30d8049469a42e8a672ec836e8e0fcff8e294d7b0c22f430431a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261902_eval20264914.npz",
+      "sha256": "d5d15954f86e08f38088c2beb6f4c170d6ce68e255e4380cfcbbb871d57f0ee8"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261902_eval20264915.npz",
+      "sha256": "81d8dd3267ea9daf983154af3563b892d9ec39c93b0dc746c2262b98e098fef9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261903_eval20264911.npz",
+      "sha256": "034ede5782b17e411a974503280d10c6e8835ed2261885dc066465a218a77ef3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261903_eval20264912.npz",
+      "sha256": "271a1ff574f7ef1843458bd6c1b52b1e578a8445ee12be1680f26ff2890f93e2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261903_eval20264913.npz",
+      "sha256": "0fd6aa53b89b86a7218877caf046ce61c5a83f86cf2a83ec89c5bcc9581ba9f9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261903_eval20264914.npz",
+      "sha256": "08ebff40e9765e380720bc1a34838cd1069094ddf4e97bd2689933013763862a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\steady_train20261903_eval20264915.npz",
+      "sha256": "63689c9436627f33c618b82b94ae7b3edf519b39727f1c41ed82fe3de307fc04"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261901_eval20264911.npz",
+      "sha256": "9cfb3e4e88008d962a93ce32f17fbe4e729bb484f2e5fe79b1b142bd7c2bc97b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261901_eval20264912.npz",
+      "sha256": "e06425d3683bbc629f543e3d43731c0274e2337dbe96a1f8c7a3d988bbfc5969"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261901_eval20264913.npz",
+      "sha256": "07b1ef0e0eb4dcebdfcf6684e6c24c4bdf52a8a7878e9db5210decce5edc5cc8"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261901_eval20264914.npz",
+      "sha256": "0050ac77490f55733da48e6c11227985e15d7cdb396b1524a22a39414fc8b9d0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261901_eval20264915.npz",
+      "sha256": "912a94959405b8371c4b2daf3bc161c69fa33244f44512c41dd9f0d60f238b75"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261902_eval20264911.npz",
+      "sha256": "05d9e39ff38bfadba2868634b13105b48d32757a7772330d9ac24ed49d03ecfa"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261902_eval20264912.npz",
+      "sha256": "a0ffefd22be1c8d13a96f94b41c4ada055e5d7835223ae7089ca974775359723"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261902_eval20264913.npz",
+      "sha256": "615daac3032f6ad3ed1b8ed766b6b683cca6234fa7a3bc87559de12496617125"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261902_eval20264914.npz",
+      "sha256": "d7838afe23a75be59bb0b437ccad714e4b76f1be59da2e84518bcdf62421d886"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261902_eval20264915.npz",
+      "sha256": "fbeabb83fff411702c8dfd2449a1a02a8341c9ec7934223449c8a77c8af2e980"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261903_eval20264911.npz",
+      "sha256": "cc55f0b2fe9e8356b6edc70ceb42995cee78d6aef559c809a1b0edd29722b7cd"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261903_eval20264912.npz",
+      "sha256": "b444c524c2ac591ce66cb8f525a7b44b2522736c5b75b1c04dee1d03d24f3705"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261903_eval20264913.npz",
+      "sha256": "253df5254e73d9767a034af4a911ca0f65dd283db5b4903c1058122e06fb5a36"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261903_eval20264914.npz",
+      "sha256": "7875f6427ec610da52932a24d55d5db7af3e35bb6a0aeb158d2dee59c470146b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RE_frozen_terrain20264903\\push_train20261903_eval20264915.npz",
+      "sha256": "94053e8129782aae970e325844db7d1794001e4597c4e77bef96cbb6d3ca6337"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261901_eval20264911.npz",
+      "sha256": "6f5770567f6729468c666981be2d2bf029a599a9fc1612bddffae2bace0a51c8"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261901_eval20264912.npz",
+      "sha256": "c2fecd904573178987f64e959dc741fe85dfb15bcbf134276f8182366edc3fd6"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261901_eval20264913.npz",
+      "sha256": "710a18d6b272ec363633581239070adab07ed0f2a2b93d405be185936de47c09"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261901_eval20264914.npz",
+      "sha256": "9b0cc23d5f7f6545134fb20a8f767c10b7a32305d45d92d5415a4f9385331656"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261901_eval20264915.npz",
+      "sha256": "bd19ff2e696617dcbd922306d50ac1fa201f288bd10a503328480ecbdc21cb18"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261902_eval20264911.npz",
+      "sha256": "d9becee84fcd3a5b195c92f2cecffd79346b31d15d7b604f58c4ad153915c5a9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261902_eval20264912.npz",
+      "sha256": "373d4a9058ac37991b2dc831c3ed433a934b81533b126bafbf9aa6d0f8a02809"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261902_eval20264913.npz",
+      "sha256": "2b900a5a3720bef415cf5c8ef46cf25d079901c9cc820945b0099ed3d0c572e4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261902_eval20264914.npz",
+      "sha256": "060b1fe10de591b5eb999d4cd3221c06400cea3a37382b2a4bc49f1d722f809b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261902_eval20264915.npz",
+      "sha256": "6a773223894a56a4179bc1ad642e86dcb69b73c22e1b11121abe56fdc2c8d234"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261903_eval20264911.npz",
+      "sha256": "f532fee5b2838dab8b9d61aba4d0f35f7cb6705fe29e122a4fd704a2e76127cc"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261903_eval20264912.npz",
+      "sha256": "da5c16dfb1be7f3062b78a1c3755802227ad83dbcce0104e4ba571355f7208e2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261903_eval20264913.npz",
+      "sha256": "7826cbac4480f09ecc218e056c4731eb3c42ff2c4a657f28e4231b81c2deed2c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261903_eval20264914.npz",
+      "sha256": "20db31be9a28ea7130a173f9d73daf1d603cabc44efa8940bcc409b28334a473"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\steady_train20261903_eval20264915.npz",
+      "sha256": "a74db92f77d69e7203e924fde05605aee5f52e38e9d5a32b7cdbee8730851abb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261901_eval20264911.npz",
+      "sha256": "d38ef5224f55a02745c176d6ab6feba99b3abbe95e6f9691d227a3180ddc0102"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261901_eval20264912.npz",
+      "sha256": "1f1792926e419a0cdcb1267f0296df32c34ae920e212d7d01d3dc4432507e726"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261901_eval20264913.npz",
+      "sha256": "4434c32f88caa8dfa5eabd28cffe50a0919e18faad0e86b27478b24ec601904d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261901_eval20264914.npz",
+      "sha256": "5ff5448dd8c0bf4840597ae900cbd5ca9f8627a2aa751f92d4895930baf5b73b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261901_eval20264915.npz",
+      "sha256": "25f6a91e697205c59b8a4e9feea9f593778261d2d3ad77c1aecb6276d8122297"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261902_eval20264911.npz",
+      "sha256": "b84c73f5242403160fac7a9739fee89d2e16f54e757ed81c4e925537f80b363e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261902_eval20264912.npz",
+      "sha256": "9445d177d78307f45a5dd8d09bca84b05a3dbe3b53827ad560832f224dd721f4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261902_eval20264913.npz",
+      "sha256": "e6aca9e2159922428f04573794ecf821227f9869058cfc247c4264e9c4db2ab7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261902_eval20264914.npz",
+      "sha256": "0d1f0ba2abfbb003e0370da9101435cbbf4ee4364b31d711b01fa33c77b9c929"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261902_eval20264915.npz",
+      "sha256": "f2705cea336a176e4c972d637ffefa86d611caa5284dca1df3ac12bdc06c5f61"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261903_eval20264911.npz",
+      "sha256": "49b02b7be72b65c80fddb8a917dcf9e7d8638f9a8a3951657260f198f4b869bc"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261903_eval20264912.npz",
+      "sha256": "9b4910e2a74c2496e2d3d6c1ed2b0b12dd3365ea2d42f0a22b5f5828a439f07e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261903_eval20264913.npz",
+      "sha256": "f3d8f0160d05e143aa94411835d31caf2729c299c89cd914297876266aff1582"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261903_eval20264914.npz",
+      "sha256": "ec36f74833f27b45e6101e86eddabef94bc097f8eddaf07781f023da63cfca03"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264901\\push_train20261903_eval20264915.npz",
+      "sha256": "09ad5efd76b5aecb98e13f5ed981ce10e7abe39a92a138636e43138c0fadad16"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261901_eval20264911.npz",
+      "sha256": "0d7b631f7ddea9b031b21df64e9ca58e081caf7ba96493ebf51767453fcbb599"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261901_eval20264912.npz",
+      "sha256": "8a167e17cf17ed2131c3ad7b0369cd0e08da5044ab49ed75a1da5b6595f8d08d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261901_eval20264913.npz",
+      "sha256": "57444a0f46ced0367c47a24d481032e2d0bb436465f5b87243789d9bc7c5af7c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261901_eval20264914.npz",
+      "sha256": "1192c16e318e6f9e7a64adc69da70a4aa4188e68b9b14847fcc7e3df9b4fe5f8"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261901_eval20264915.npz",
+      "sha256": "e13c8c6f81f91b6ccb52a44b7e02be89645c7cf921dea7f13245a27dd57d2fcb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261902_eval20264911.npz",
+      "sha256": "3328289c6ba65079fc4edf808f8833c4bccb10cad9e7d77af7d1e534ea455ff7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261902_eval20264912.npz",
+      "sha256": "de99af595217c6018e7911ab81e7a395dfcae5b3eaad59c8e65acd510a5b4545"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261902_eval20264913.npz",
+      "sha256": "df32262feab277c3e919190f28db66d2c875225f692bc3b003b1427d04785941"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261902_eval20264914.npz",
+      "sha256": "ce2445a5d390918dcb8a06c546896990d3477f9bd7dc353353cc49d078b4b27f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261902_eval20264915.npz",
+      "sha256": "c7245763c32e9c6c4c002aad8b68d79b0ab434fa7b08b8c3d62fab0eccfd698a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261903_eval20264911.npz",
+      "sha256": "7aa32616d316ade4029aca2a3a70e7c1c2760909277d6d74e4fbf48c069312f7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261903_eval20264912.npz",
+      "sha256": "6fe462729e8673d7338f34da20f934ee4be58c290188533b2aa21124851e0525"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261903_eval20264913.npz",
+      "sha256": "8f69978917e341b8924ca6aa4bf6ce79b1c25879f37a626542113deb8aeb0a53"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261903_eval20264914.npz",
+      "sha256": "948c39574481e581ea627f31f32ba77bea595bd71fbbb29b650ea31428825189"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\steady_train20261903_eval20264915.npz",
+      "sha256": "deddd4cdce5cedbbd1d1582edb295ef0ecd61286ba875dc87bc87a40349c206b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261901_eval20264911.npz",
+      "sha256": "9d197a174a9bb74657d09c1e6199e1c33423442d210a949a266df59b6b715917"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261901_eval20264912.npz",
+      "sha256": "3b3582d77441192738db316343d229f1f45eac53f8eb034e506aab2204c3af2c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261901_eval20264913.npz",
+      "sha256": "b1bc2a660fd431a003aad5f0328aeae4c337d174556af487583a4f916d84be9d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261901_eval20264914.npz",
+      "sha256": "4402d6225aea325820d3ea1b82412feccea0c59bb2e37b1bd4bae0fc1637a081"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261901_eval20264915.npz",
+      "sha256": "57cd3d22266849b7130b07ed45559bdad9188bef3a6c9bee7cdc1f00397089bc"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261902_eval20264911.npz",
+      "sha256": "399a51cdb1a69d8d426f26fd5319e39097ed520955eadc0e3b3f14769f1ec2e9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261902_eval20264912.npz",
+      "sha256": "8abd061947f638f613544acbdf4ec3aa613f818254bee77f7e673faee00b94a0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261902_eval20264913.npz",
+      "sha256": "be78f0086aafb2294f63a23bbc3d9fab448893f094c9c5baadff5391e1840f2c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261902_eval20264914.npz",
+      "sha256": "bbce093efe2482d8a7560237406078edc36f67af86bcdc5e96d281f76cb0dd83"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261902_eval20264915.npz",
+      "sha256": "abb70a21c340cc690a9ab8ec92ee566767fdaa1f651cd9bfbc46a68a83a380a1"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261903_eval20264911.npz",
+      "sha256": "76b57f92e0dfde285324d3c23284bd350790359bf10de31c5564d7e10d98a7b7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261903_eval20264912.npz",
+      "sha256": "9c1cca3375674a9c0f9f75d577cf691047ae275b963e0ac242d6fc685dd06fae"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261903_eval20264913.npz",
+      "sha256": "608d13754f5ba898dd972b0951c0876051a9486cf22262b940e90c21639ca8d3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261903_eval20264914.npz",
+      "sha256": "6ce357f17a22b531a9a506d7608e7340c8435e4c279bafce055ab6cb9302c3a2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264902\\push_train20261903_eval20264915.npz",
+      "sha256": "cc732281affbfd96a8c11b514d584f4943357bd06504d8fcd4d2175b17d9ef69"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261901_eval20264911.npz",
+      "sha256": "b0beb9080639b1ff9845ae4f8f163cb6a65c1e3c919edd03a7788c44a8b9886c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261901_eval20264912.npz",
+      "sha256": "24f04db5dd5c0815ad108325bb58b407ebd50c7fdc53a734ea40ac0b136f0170"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261901_eval20264913.npz",
+      "sha256": "6fda497f600fb9592216ba3c3c2cbb1b5f43818414317993988cc4c28f82591a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261901_eval20264914.npz",
+      "sha256": "a2fd753e6e522237ad22f3cfc98fcbe829c70725b69dd8f3a13540140825d7a3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261901_eval20264915.npz",
+      "sha256": "ac912739d967a63b0d0d3c4cef37945c1829e69078b8e2dd4e742ec4b241f08a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261902_eval20264911.npz",
+      "sha256": "d233184984a873d47cb285a0e31284b221d6876a9925b1a664ec92fc7224e203"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261902_eval20264912.npz",
+      "sha256": "05d552aad1ff79f354dfad26d02aa98cea4948e932bef72d70a3b3bdeccf5cee"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261902_eval20264913.npz",
+      "sha256": "414d057301f6de494420d9c9127ae6843da6bbdb2c495408963a284869e07e30"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261902_eval20264914.npz",
+      "sha256": "e37643605abbf93f2512ec850d10d5d6f1ce0cd7c437d859beca393952ce1856"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261902_eval20264915.npz",
+      "sha256": "d089ad5e50f6c7c2f97ebec54e1ce97de23aa4a29a26fa12fddad4888e1e62fe"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261903_eval20264911.npz",
+      "sha256": "020f919775bb16223448112ec86b50db3b3af9cee0a0e1acddd2d0d3a7cbed6f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261903_eval20264912.npz",
+      "sha256": "ad60bcf350cee1bf644255c8c2d0693bb85974fb729549ec4f0478d257402aa6"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261903_eval20264913.npz",
+      "sha256": "28d7f0b84c40bb290e323447989801f9d8488ea9fa045b5f75ef1336688eb188"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261903_eval20264914.npz",
+      "sha256": "4990cbcbc9d2a225ea226b1ca26d0fc96a12e5f43be7ad50afddc231d0c64242"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\steady_train20261903_eval20264915.npz",
+      "sha256": "69b719a161f9b878bd2661eba239033538fc578c09a72c71640fc3161144e5d8"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261901_eval20264911.npz",
+      "sha256": "33adcc2c2b5ed523e545aed13d6f22091f47adbec80ef8c510ea8f979c181839"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261901_eval20264912.npz",
+      "sha256": "de595d418a29515810591a2692b33cd6899124c3e7159dff75ae49d7bb0d2df0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261901_eval20264913.npz",
+      "sha256": "69e4994401796fdb40f5dcce9120b3c2e8bc00618641bcefa0d29d6025349210"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261901_eval20264914.npz",
+      "sha256": "15f2a12c174cd063f3866e9e6a74c73b29c30548566059834e8c1dd9bd22e6d2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261901_eval20264915.npz",
+      "sha256": "1c809d88019fd753e4d083d4d6833d95191d87b31a98af68568c93d909833b66"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261902_eval20264911.npz",
+      "sha256": "a1ee8caead1bfe57c18393fced0814909c036e2ee8856c4c938b077003a31f45"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261902_eval20264912.npz",
+      "sha256": "44e8d1b33e592b67df507ee0c52a55f5b6d7cdd2f9b2d24f7780453446d616de"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261902_eval20264913.npz",
+      "sha256": "fea55c474b9e3763724c8768e9a7d54b2404b17f04553c20d17f817e5e0830a4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261902_eval20264914.npz",
+      "sha256": "e36d5f650cd3f8d5e9bd09e653dbdff9d453939796ca3fc6957493d9281758dc"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261902_eval20264915.npz",
+      "sha256": "328e8d42c96aa3054b94e296c25d427d778483875e4107615d63ed9e23b6be8e"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261903_eval20264911.npz",
+      "sha256": "8020ea7b8a1eb74dc01114ae6c8eaccc28369a2ac989f24b0de545e962ec3a9c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261903_eval20264912.npz",
+      "sha256": "73f6cb208eb57f263064737134f0192428353d495faa9240f6fe2f091cf589b7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261903_eval20264913.npz",
+      "sha256": "db7295a685523f61e413b0a71deacec969837a04111f57795065d0cde2f09e9c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261903_eval20264914.npz",
+      "sha256": "94e12e50309f83f12a038c5f56da67b22705bfe063d7f439fa1750509022757c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\RC_clock_terrain20264903\\push_train20261903_eval20264915.npz",
+      "sha256": "300f6f511a73f4d3d56eb1a6188e2c1e8fc58be5f677800af7dabe398c869be4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261901_eval20264911.npz",
+      "sha256": "5b0ce5ea7e99aa6c018d8ccc84af773715ae199481d8f08dc35f52d1e94d0daf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261901_eval20264912.npz",
+      "sha256": "a26224ec857223ad4859c67d2ed4d8c887ad8761335e8ae18dd7c75b73bcc836"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261901_eval20264913.npz",
+      "sha256": "fe05bdf736b17b6cdbb1d932290920a49745687145f03449a01e24ba9a38580d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261901_eval20264914.npz",
+      "sha256": "0bdc096205aeda0433c8d7122ed58e2ef9d2317d82d1b975900963d206662985"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261901_eval20264915.npz",
+      "sha256": "22b94d3f2cf7984f5becd1640f83d5c10a5531f2f51e89ad094401edf639a325"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261902_eval20264911.npz",
+      "sha256": "3ae79c956da95a43d9ce8e7e739a2576d7a1083299e7e762097676d211a09fe4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261902_eval20264912.npz",
+      "sha256": "f6f50b71bed6cd3ed2707bb16395f2ffbf49df20e4551a94cf10c18cfa93be49"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261902_eval20264913.npz",
+      "sha256": "bd0888de8eec9142f271a646ecb1dd8d9dc773a69501701d072b625763014f4a"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261902_eval20264914.npz",
+      "sha256": "f977199bb8f3717dc98ed344ed76a554e4b70b062ee2a506aa931771b2270bce"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261902_eval20264915.npz",
+      "sha256": "e97e585f1be07dd80a1e945985bb10e342b8d93b6e8abfbf594b7920d3a43538"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261903_eval20264911.npz",
+      "sha256": "cb0acf01205378f188c2480c048ab390c45da1ba92e37b1f797752311c23daeb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261903_eval20264912.npz",
+      "sha256": "e1ce78ee4ff55374f01328dc0586daff1ef6ef15c5aec2d0d7b5f18c36f735b9"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261903_eval20264913.npz",
+      "sha256": "0102ec06f03b06c14c02dd9327ff6633756d21d3afbfd12c07e7477fde74b888"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261903_eval20264914.npz",
+      "sha256": "c14d4449e150c1c812bf497bc86ac967f711b6c556c7574a135a5530839cc117"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\steady_train20261903_eval20264915.npz",
+      "sha256": "278ac3fc7b630b863273a37238aea3c90816daeecba53c1e7cfc142d6e9e7a63"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261901_eval20264911.npz",
+      "sha256": "1ad42a2631784f3fb900abbac8523a0f1f1f9615a7dd7379506d9ceea71b23bd"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261901_eval20264912.npz",
+      "sha256": "f52779464752cbd3a2657c0eaabe13a8dfff813e58db3abaf7fae7049cfde8c5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261901_eval20264913.npz",
+      "sha256": "c3930b823dfae81dade26c5beb337580eaadae42620ed42d5898b8b4fdc9cc45"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261901_eval20264914.npz",
+      "sha256": "107b2d3a043f4537e413695fc080423e612a5e8b30f63bbd2f87dfbd24387ee3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261901_eval20264915.npz",
+      "sha256": "49c4946e3a56841d76d48bf38e6e5cee32e3445a7b5f5695cc1df30c5e710a6d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261902_eval20264911.npz",
+      "sha256": "c947b062dac801886f6647265ba04ffc6a31378652fda4457a62b1de2006a599"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261902_eval20264912.npz",
+      "sha256": "77d81d0a1fc8f1f084473c3cb702869ffb25eef2ae7aa8fb5338b3ccaf3c9a83"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261902_eval20264913.npz",
+      "sha256": "dbb3ad3e88114811c7935c9106efaf8a0ff1f48ab4836fb664f24c0d30e6b37c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261902_eval20264914.npz",
+      "sha256": "543b291456b5bcf139041e5900a93b20d71d1829ec2e7fcdf8bf98bc2e252f1b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261902_eval20264915.npz",
+      "sha256": "2581076c388870c74d2fed3bb03dd231fbd50dcb336b954668fac9a1c44de859"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261903_eval20264911.npz",
+      "sha256": "309ce729e28c408aa316248750af9cbc67c3ec8943aaabf122ac33fb67908804"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261903_eval20264912.npz",
+      "sha256": "6d750d64aad9e4025c2e34b7a9df478a6a9d9ff5c0a3d4e3537760da2353c2b4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261903_eval20264913.npz",
+      "sha256": "96c1e4a461e819219ad7870bc0653bbf19992096a1205cbacd90b9cfa653e086"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261903_eval20264914.npz",
+      "sha256": "4b7ff49b6fff8ac66f4b1c8e424ee19dec3067cda8df8d9bb3611f330046959f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264901\\push_train20261903_eval20264915.npz",
+      "sha256": "8a0ec1e092d9170ebc6087dda28bf2168ecbe5609417d0424b7fe3854bdbf311"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261901_eval20264911.npz",
+      "sha256": "e8fb6e783a367cbe4445d7eda01852c7bb8ddca289053dd1d235ec4fc3a7c880"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261901_eval20264912.npz",
+      "sha256": "ad8af0385d0d4cc3dcb89f5b7722a8e39f99312a53690178af3cab7ea73cb87b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261901_eval20264913.npz",
+      "sha256": "48626e826bde0073d3d1b1ae65ab86d25789e995f4a22c0ff88a64f468945ee5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261901_eval20264914.npz",
+      "sha256": "73fe2b5487d90155e6428f26a24689d6b1d4ce4ed0a08461a2d84214538d0c61"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261901_eval20264915.npz",
+      "sha256": "a7ae2c9649ed4affec73cbc6750d27714d7449771aa467d9cff35e8adb87bfee"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261902_eval20264911.npz",
+      "sha256": "d4e29a37afd9eae217ccf2cfdf06b34d1dbe74d406dcd18b677fe77dd9b6c1cf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261902_eval20264912.npz",
+      "sha256": "0bb7b77a5c13b19405a32b941ff4934986aa1d7fd5f35d9bb0610b3cbb3622a2"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261902_eval20264913.npz",
+      "sha256": "22ec60ea4f14797db39ab7bbf662e468879adb3a5a14af6596e4af7770616916"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261902_eval20264914.npz",
+      "sha256": "93da13cfb841ca66819b60daf0bfe8f95ca26a89254ea15232f03c2e21bae34f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261902_eval20264915.npz",
+      "sha256": "b9d3160f6dce5d817c07a64bbdc32bbbed8bcaa21be97098657c206284242788"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261903_eval20264911.npz",
+      "sha256": "333cd990c1dd51909b77780c360a4079e428c257d87e7a7b31a5663abe529e64"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261903_eval20264912.npz",
+      "sha256": "b8a44098726525590ef3f78a8ea9aba217f4536a2eb5d3126f1362fcda9bbb55"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261903_eval20264913.npz",
+      "sha256": "949eacbaf29cc54888e350df0d5f917c2dc3aaa27b12c0b4f46dfed8546afee7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261903_eval20264914.npz",
+      "sha256": "d34a3d7050cd324fa1849a6253ee9671b4b9f6a86bea25415733c64cb2c120e7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\steady_train20261903_eval20264915.npz",
+      "sha256": "34d5fd8e72138ac05dce122d00fb3e0d167340f46b8db1ebed3533c18366bea0"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261901_eval20264911.npz",
+      "sha256": "f47cc718997b355b901630b7118955ebd698a129353ebdb5f2152a5499a911ca"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261901_eval20264912.npz",
+      "sha256": "26b3dd184eeb2751d14719d8788b8b0886b584aa874fb03eec8b63808a345a46"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261901_eval20264913.npz",
+      "sha256": "4d914020a618265ef06af0b9237693190751e2221ecfafc1f726ca04725044ec"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261901_eval20264914.npz",
+      "sha256": "29410c9595a633ea4c656184de2a9a72637daf3e0ff11218554a682562d65540"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261901_eval20264915.npz",
+      "sha256": "c0dbe03a54a454ce9d440e7daa73093ba317091c20e601c007def1e55f0a5f18"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261902_eval20264911.npz",
+      "sha256": "d3ddd933089862f33301f35c28649829944c22c94ca7c06fb47c15c56752f33b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261902_eval20264912.npz",
+      "sha256": "f016731ca881f0c596a07b16e6a2c08727b8ebf9812960b416b0d181c32749aa"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261902_eval20264913.npz",
+      "sha256": "a7646873dffd27d96a7ce772532a52773ab48690ae3e22573100944b184a2df4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261902_eval20264914.npz",
+      "sha256": "6e89a717cc6b492134ac06440e8b4288909c10d12e17143eb8b403dca85a1a95"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261902_eval20264915.npz",
+      "sha256": "28fd8eeb8847bb6349803b0af21eb9f6312cee443ebe551099c1871ea66187ec"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261903_eval20264911.npz",
+      "sha256": "42e0bed6dbb40c0dd1b74f3c181e557c6793723829d1a51b947074e28e37fe08"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261903_eval20264912.npz",
+      "sha256": "cb64ca8c2da0210703bdba39cf6316045931bd0f1cb29812affb76d92404b51f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261903_eval20264913.npz",
+      "sha256": "4ebc98a07638eb6bfcfa73c48616c57e05fdb96431828e8241da72f5d2152e73"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261903_eval20264914.npz",
+      "sha256": "99ceb283bcee10c1d227e18524cacaed6b439f1346a550ab8f613b4c2303772b"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264902\\push_train20261903_eval20264915.npz",
+      "sha256": "8f5236adb0dd6fe4c0702f7e758fd23c1c427227977d98de21316a8cd70db088"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261901_eval20264911.npz",
+      "sha256": "171e01399355a675b7d0b90badd6fd4756bdcd311fc84a8e7ec0f22e4fee9ea5"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261901_eval20264912.npz",
+      "sha256": "99cfe5c46cdc62099d2a6f87baedb2abc95004a379d66d43711157a03f409a67"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261901_eval20264913.npz",
+      "sha256": "db64af3aa616d69d259d5a9f08e19dde9dc985a428267e6dd7a7f9a42c7d3809"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261901_eval20264914.npz",
+      "sha256": "e3ad0c7e21de68d3a6767ec8b33a796f59beaa7998a6a9f1f70b29bf85206178"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261901_eval20264915.npz",
+      "sha256": "c20fb3738b13a93fdc1d4979132eeb68a944d457f5a6a76f1421eab8233a3f06"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261902_eval20264911.npz",
+      "sha256": "90866102241254683c6478917e277a16adac577903338682b2e068e50d9664eb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261902_eval20264912.npz",
+      "sha256": "33a35f9a51238b08ea5f17c680a93a2235c19818151972385329e279cecf91bf"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261902_eval20264913.npz",
+      "sha256": "d43808cbc370abc67cc104295f38a96f76378793af5d055a6e7df519dc4b9684"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261902_eval20264914.npz",
+      "sha256": "e241fa5050cd9f2baddda54b084a7606af087e7a42d183920a57c8d6b93a6677"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261902_eval20264915.npz",
+      "sha256": "b951239539db649a5a5efa33241d35b66032f88880857f3b95b493796237a04f"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261903_eval20264911.npz",
+      "sha256": "0d19028fab2ed56faaaa3926c4b0f494a373a63b829822e4002019109660763d"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261903_eval20264912.npz",
+      "sha256": "52fd644f4d43da6c82523cf9a9ee52d4e5bcaace44d85b205f2c6273c4e16832"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261903_eval20264913.npz",
+      "sha256": "cc6d21a8727244d06a1930e12347389cfc9f629ab510f6e0affac4f490695ae7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261903_eval20264914.npz",
+      "sha256": "4798ee62c99ed82c2b4ccce2e1c36d903863ca7276c99437f08455738e41a344"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\steady_train20261903_eval20264915.npz",
+      "sha256": "257fb20b730ad582b4aac4d105748a6cdab64163d005601e6ed0a34dc6a111fb"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261901_eval20264911.npz",
+      "sha256": "d8209d63c943f004586ef4f9f310e98a7c9b14e2690f864e8f65a0103b9873b4"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261901_eval20264912.npz",
+      "sha256": "8aad6a9acabf79ed8f6382d52fcb3a365f1408a25ea19629eee307de9709d409"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261901_eval20264913.npz",
+      "sha256": "b166de3528cab4a6e099d4798fe58353451a568ea9bdc15cafc4b05f645a24c3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261901_eval20264914.npz",
+      "sha256": "901b7a640356a862826d731b0769f85dbb715b4634bcf5db26e35e686e4af8ed"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261901_eval20264915.npz",
+      "sha256": "782729db80aed90985b73a9d29ead5990f97be51511b932441981c00e906fab7"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261902_eval20264911.npz",
+      "sha256": "008bdb2a272748a27099e98c372c46c9d34b2bc4c3e2d0c7b407f10d42702dca"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261902_eval20264912.npz",
+      "sha256": "ee345eb8091864e0ab02bb37a7a19db794436d83dc1c2bd5ba24d74f1ec1724c"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261902_eval20264913.npz",
+      "sha256": "787c9b33d9b9579c256ed4cc53126e8e5392907d76e9e33d10147ac6c91b08c3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261902_eval20264914.npz",
+      "sha256": "11859d04caaaff9ce89ce5c052891882d599a7a52219b331bce1ab334016ba01"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261902_eval20264915.npz",
+      "sha256": "c9c180ad7b35ef465e640f7ef96d1eb132aa6cc0afa5ec81c5d4e0af12981ee6"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261903_eval20264911.npz",
+      "sha256": "54ffa8e12665db796289db2b0bdba96b715cba19a17c433e0205de0dcc696a07"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261903_eval20264912.npz",
+      "sha256": "b3f9257e0bde3b1696e4c2a28b0507e9fcbf7ae7d3e8b962a894e1c725bf77da"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261903_eval20264913.npz",
+      "sha256": "f9bbc9c47c05a5ef85ee9aa3e07c145bb3416438c855f5db337c0f7acb36f4ed"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261903_eval20264914.npz",
+      "sha256": "5f0ef2b02e97ea0a9ed614ac786fd589d4e88db4b9a668c92d77a5f39b8274b3"
+    },
+    {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\rollouts\\FC_clock_terrain20264903\\push_train20261903_eval20264915.npz",
+      "sha256": "a1fafc5180486e291277ea0a8363d941cdf1aa76bb41046b7b90a8d914e9e118"
+    }
+  ],
+  "candidate_comparator_pass": {
+    "RC_clock": false,
+    "RE_frozen": true
+  },
+  "family": {
+    "RE_live_minus_RC_clock:completed": {
+      "per_seed": [
+        0.06666666666666665,
+        0.1333333333333333,
+        -0.09999999999999998
+      ],
+      "mean": 0.033333333333333326,
+      "ci95": [
+        -0.26522286316765326,
+        0.3318895298343199
+      ],
+      "p_exact": 0.75,
+      "n": 3,
+      "p_holm": 1.0
+    },
+    "RE_live_minus_RC_clock:fell": {
+      "per_seed": [
+        0.09999999999999998,
+        -0.16666666666666669,
+        0.0
+      ],
+      "mean": -0.022222222222222237,
+      "ci95": [
+        -0.35687299009162493,
+        0.3124285456471804
+      ],
+      "p_exact": 1.0,
+      "n": 3,
+      "p_holm": 1.0
+    },
+    "RE_live_minus_RE_frozen:completed": {
+      "per_seed": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "mean": 0.3333333333333333,
+      "ci95": [
+        -0.04612497002634264,
+        0.7127916366930093
+      ],
+      "p_exact": 0.25,
+      "n": 3,
+      "p_holm": 1.0
+    },
+    "RE_live_minus_RE_frozen:fell": {
+      "per_seed": [
+        -0.4666666666666667,
+        -0.6000000000000001,
+        -0.6
+      ],
+      "mean": -0.5555555555555557,
+      "ci95": [
+        -0.746784565766643,
+        -0.36432654534446846
+      ],
+      "p_exact": 0.25,
+      "n": 3,
+      "p_holm": 1.0
+    }
+  },
+  "independent_arithmetic": "same operator; separate CPU raw/contact/phase/seed/statistics implementation; no production scorer or analysis imports; not a second reviewer or new seed",
+  "scope": "fixed S checkpoints on three fresh rough maps and five fresh eval seeds; matched live-vs-frozen feedback ablation"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "at": "2026-11-05T19:10:37.196004+00:00",
+  "audited_raw": 3240,
+  "formal_eval_transitions": 2605221,
+  "simulator_world_steps": 3229750,
+  "train_transitions": 27721728,
+  "PPO_updates": 18048,
+  "Adam_steps": 360960,
+  "eval_PPO_updates": 0,
+  "scope": "same operator independent raw recomputation, not a separate human scientific review",
+  "analysis_sha256": "71a9e01b5b1a42d6f556380acd91a9058c79fe23436c0fdab0b421f102308156"
+}

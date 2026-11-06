@@ -18,3 +18,8 @@ runs/
 outputs/
 wandb/
 MUJOCO_LOG.TXT
+# Large experiment artifacts
+*.tar
+*.npz
+*.pt
+*.onnx

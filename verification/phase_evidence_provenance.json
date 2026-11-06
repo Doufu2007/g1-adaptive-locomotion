@@ -1,0 +1,1008 @@
+{
+  "schema": "public-evidence-provenance-v1",
+  "original_hashes": "Hashes inside copied reports refer to the sealed original files, not the anonymized public copies.",
+  "scope": "Formatting and path-only transformations preserve all numeric values and scientific statuses. Raw arrays, models, full training logs and credentials are excluded.",
+  "files": [
+    {
+      "source": "phasor/research_package/results/g1_phase_lr_factorial_20261027/analysis.json",
+      "path": "results/g1_phase_lr_factorial_20261027/analysis.json",
+      "original_sha256": "bceaf4fe9bf8342f103fea6c467672d798d77f281b4a6de0db949eaaf3837cb0",
+      "public_sha256": "47bc685fd92d37a4338ef6bb77d72db263ff094693261c27c9f37c5912bf66ae",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_phase_lr_factorial_20261027/mechanism_interpretation.md",
+      "path": "results/g1_phase_lr_factorial_20261027/mechanism_interpretation.md",
+      "original_sha256": "586670bfd86e8ec88ab0042a2f0545e3572abf00bd65c779fe2a5e92d1b9e6ea",
+      "public_sha256": "586670bfd86e8ec88ab0042a2f0545e3572abf00bd65c779fe2a5e92d1b9e6ea",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_phase_lr_factorial_20261027/mechanism_supplement.json",
+      "path": "results/g1_phase_lr_factorial_20261027/mechanism_supplement.json",
+      "original_sha256": "8f100f5305080a95419e1b82776ac2c463984818c2b88aecff3ee0f0efe1ed8a",
+      "public_sha256": "b6c539d2978965cb927e500a0f7180cf3dfeb433049f2663b44f7fdd19d97fc9",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_phase_lr_factorial_20261027/operator_handoff.md",
+      "path": "results/g1_phase_lr_factorial_20261027/operator_handoff.md",
+      "original_sha256": "c7bfc71356ec5746fc3f8c34092ff1714cd4797dd75b0bee3271e3d23fe59e23",
+      "public_sha256": "86547c1f11f2a97d31586f9fc6ef0e653431ed9efb2f20794d295c9d61edfe09",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_phase_lr_factorial_20261027/progress.md",
+      "path": "results/g1_phase_lr_factorial_20261027/progress.md",
+      "original_sha256": "e5ca3c9bfaf7402fe4b54e5dfec762157121179113f78ef6d3fd81788628f5bf",
+      "public_sha256": "e5ca3c9bfaf7402fe4b54e5dfec762157121179113f78ef6d3fd81788628f5bf",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_phase_lr_factorial_20261027/prospective_protocol.json",
+      "path": "results/g1_phase_lr_factorial_20261027/prospective_protocol.json",
+      "original_sha256": "da093cabb6e98c6ee76ec4bd0edffa03248204b251933b80d638874109c73d72",
+      "public_sha256": "77ab2abad03cdf49e2195df31a68184f90993b38d25ca143f3ac4600e742d89f",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/analysis.json",
+      "path": "results/g1_rough_transfer_20261028/analysis.json",
+      "original_sha256": "57975081073354b63960f923e9d9d8f9940916bd483594ee0034ce77f7fab873",
+      "public_sha256": "93abd34f6fa4b51ac01bb04ad266bb1d4b98de76452c04ed0eecd4b43710c61a",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/claim_evidence_status_20261028_after_R.json",
+      "path": "results/g1_rough_transfer_20261028/claim_evidence_status_20261028_after_R.json",
+      "original_sha256": "0cd6501ff4fe9a09d043c6b6e4c59d52170adac0d1b94287b285e55a95caf7b0",
+      "public_sha256": "d5b84679f950f84656dabf7492de91c920685bb30a8a8d026ea65958da84aa71",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/claim_evidence_status_20261028_after_R.md",
+      "path": "results/g1_rough_transfer_20261028/claim_evidence_status_20261028_after_R.md",
+      "original_sha256": "f28d701c4ea521944c0c37da517fe83bf6c392b35a704b09affaa96cf72ac9bf",
+      "public_sha256": "f28d701c4ea521944c0c37da517fe83bf6c392b35a704b09affaa96cf72ac9bf",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/completion.json",
+      "path": "results/g1_rough_transfer_20261028/completion.json",
+      "original_sha256": "68390da2660bcc3d7f09b96b91f564ac3807359ac1c9c46582706a75c63d2651",
+      "public_sha256": "68390da2660bcc3d7f09b96b91f564ac3807359ac1c9c46582706a75c63d2651",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/evidence_strength.json",
+      "path": "results/g1_rough_transfer_20261028/evidence_strength.json",
+      "original_sha256": "3b3f65fdc86f1773cc4b506289ab3a20c3f2a445046b567f08411e45c54a2e97",
+      "public_sha256": "3b3f65fdc86f1773cc4b506289ab3a20c3f2a445046b567f08411e45c54a2e97",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/experiment_matrix.md",
+      "path": "results/g1_rough_transfer_20261028/experiment_matrix.md",
+      "original_sha256": "fcb58bd2d4b49f190e3c0f14e6b257b6d61956fd7795dcc3d8af40c52292d574",
+      "public_sha256": "fcb58bd2d4b49f190e3c0f14e6b257b6d61956fd7795dcc3d8af40c52292d574",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/implementation_progress.md",
+      "path": "results/g1_rough_transfer_20261028/implementation_progress.md",
+      "original_sha256": "44e6ef3f2cfc9bccbb718b99dfeed89c8fa7e5b095274c62d50492fd95662235",
+      "public_sha256": "44e6ef3f2cfc9bccbb718b99dfeed89c8fa7e5b095274c62d50492fd95662235",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/implementation_review.md",
+      "path": "results/g1_rough_transfer_20261028/implementation_review.md",
+      "original_sha256": "a4fa8b3516ffab7c76940e1e068de936c6160bf738f8a30949e89f1030bd2ac7",
+      "public_sha256": "a4fa8b3516ffab7c76940e1e068de936c6160bf738f8a30949e89f1030bd2ac7",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/independent_audit.json",
+      "path": "results/g1_rough_transfer_20261028/independent_audit.json",
+      "original_sha256": "b95fd0b25f80abb0189e83ec72b57baaa425f39bae39ca10908b326e5ab8cadc",
+      "public_sha256": "ac4b27555325b2d2d7deb0406fe1795f4c5ff6d36f6b0635bfd196eb9f2cd9f3",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/independent_audit.py",
+      "path": "results/g1_rough_transfer_20261028/independent_audit.py",
+      "original_sha256": "999d272725a6a69a79253edb0b2bcd97d5abd2d9eb2b2b509ebafa46f014d6de",
+      "public_sha256": "999d272725a6a69a79253edb0b2bcd97d5abd2d9eb2b2b509ebafa46f014d6de",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/operator_handoff.md",
+      "path": "results/g1_rough_transfer_20261028/operator_handoff.md",
+      "original_sha256": "744794d9004f96506d7b912f106fe61e5b16bd33bcb04f20d43e9b1bfb6e7bd0",
+      "public_sha256": "744794d9004f96506d7b912f106fe61e5b16bd33bcb04f20d43e9b1bfb6e7bd0",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/preregistration.md",
+      "path": "results/g1_rough_transfer_20261028/preregistration.md",
+      "original_sha256": "569c9b33ea4961ce449bb4792f80de1eaa99d58dd493995909ff4b8951218bce",
+      "public_sha256": "569c9b33ea4961ce449bb4792f80de1eaa99d58dd493995909ff4b8951218bce",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/PROJECT_PLAN.md",
+      "path": "results/g1_rough_transfer_20261028/PROJECT_PLAN.md",
+      "original_sha256": "c199d8a65971d85a8043606c5f0f25ebb9d4e656b206d25d38d3766ac2c93159",
+      "public_sha256": "c199d8a65971d85a8043606c5f0f25ebb9d4e656b206d25d38d3766ac2c93159",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/prospective_protocol.json",
+      "path": "results/g1_rough_transfer_20261028/prospective_protocol.json",
+      "original_sha256": "bc28c4f96040e2368f82189f4f7147426ed93f6861b5b2ebba4a045fcf890873",
+      "public_sha256": "bb50bf35fda801c8f7b8ad6b9c2a63a0f9c29ff11ead5ac981187945b697ae56",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/results.md",
+      "path": "results/g1_rough_transfer_20261028/results.md",
+      "original_sha256": "0005089d7e8623bf26e5b5f4ededfa1de251a5c4f941808b82c4713a2342d42e",
+      "public_sha256": "0005089d7e8623bf26e5b5f4ededfa1de251a5c4f941808b82c4713a2342d42e",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/training_domain_audit.json",
+      "path": "results/g1_rough_transfer_20261028/training_domain_audit.json",
+      "original_sha256": "075084b9948def99a81af6b5b7336377e2ee00451c91f7a5abe6f764c22508f5",
+      "public_sha256": "87696d735fd3cf53529d36bffd50ca7a88bc0e14b650896d96203221f9441afa",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_transfer_20261028/training_domain_audit.md",
+      "path": "results/g1_rough_transfer_20261028/training_domain_audit.md",
+      "original_sha256": "1f127852db1ff0d5170fa450aafaf00c80435a1c3bc865cb93a01fa386f9c68a",
+      "public_sha256": "1f127852db1ff0d5170fa450aafaf00c80435a1c3bc865cb93a01fa386f9c68a",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/analysis.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/analysis.json",
+      "original_sha256": "901ef23fdeb65dc44dfa2ba5c5fdb1806e4a4845c9c731184363d3d8cffec429",
+      "public_sha256": "c35396dec7b55b6d655352608dc19529d295965eaf17ba424b271fc46e84a149",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/claim_evidence_status_after_S.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/claim_evidence_status_after_S.json",
+      "original_sha256": "a476e04ca99ba2a2fefa09cd0babe2932faae59f059b7208ec53038241186c52",
+      "public_sha256": "a476e04ca99ba2a2fefa09cd0babe2932faae59f059b7208ec53038241186c52",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/claim_evidence_status_after_S.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/claim_evidence_status_after_S.md",
+      "original_sha256": "bbb8227a30dbe362d7f99a1f29810673acce278a01623050c4ccaad540e31b24",
+      "public_sha256": "bbb8227a30dbe362d7f99a1f29810673acce278a01623050c4ccaad540e31b24",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/experiment_matrix.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/experiment_matrix.md",
+      "original_sha256": "f611ba1b0d7e50b56d7aa7fa0bf83653966838e00e9595c6c1db753f86b90fb5",
+      "public_sha256": "f611ba1b0d7e50b56d7aa7fa0bf83653966838e00e9595c6c1db753f86b90fb5",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/implementation_progress.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/implementation_progress.md",
+      "original_sha256": "8157f167311a3083677061df0a4aad70f2203da022158e5313e597669694e1c3",
+      "public_sha256": "8157f167311a3083677061df0a4aad70f2203da022158e5313e597669694e1c3",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/implementation_review.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/implementation_review.json",
+      "original_sha256": "610cee53e0f87079437a41ba38e07a37ef0c6eed429d47427593978f9f95e28b",
+      "public_sha256": "da7241aded4dfe500bcbf7076bd76d292c62e3800cc44721fa6be51cfa507008",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/implementation_review.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/implementation_review.md",
+      "original_sha256": "698b7df6b23edb19127a84e1c57563e14f03b205340cae580ab8e366815f61d8",
+      "public_sha256": "698b7df6b23edb19127a84e1c57563e14f03b205340cae580ab8e366815f61d8",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/independent_audit.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/independent_audit.json",
+      "original_sha256": "e93710daa0cfb55d208b3b608f620bf669bf4ca4b3c1c4d714a0187e2fcaaa99",
+      "public_sha256": "f9a75b1402c86bae40436068d3ce9f5bf2c3d67ec8c7d88a03fffb365883e6ff",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/independent_audit.py",
+      "path": "results/g1_rough_domain_adaptation_20261028/independent_audit.py",
+      "original_sha256": "c57b42ab9037a040eb8d07b989a9d948a2f4521771c6d61d66375d44b13b9dd9",
+      "public_sha256": "c57b42ab9037a040eb8d07b989a9d948a2f4521771c6d61d66375d44b13b9dd9",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/independent_audit_plan.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/independent_audit_plan.json",
+      "original_sha256": "7d0564a1c7b6c326d58104e722750c00a3d0a1138fe9035955ea44a406d6f1f4",
+      "public_sha256": "ec7dbe19fbbb7df61f30b6c3a4568f445061ae04201a2d22764e05d4ff6dda4b",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/operator_handoff.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/operator_handoff.md",
+      "original_sha256": "51e0b78cf7f301333c10aa0100b6741d5ac5a18e82da53b620b81375a289490c",
+      "public_sha256": "51e0b78cf7f301333c10aa0100b6741d5ac5a18e82da53b620b81375a289490c",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/plan_package.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/plan_package.json",
+      "original_sha256": "35097561148d69158fcb2dd1bed4166bf199bd716bfc6b82ed4b13d6763e02f7",
+      "public_sha256": "22653a7c685be73201c8515cea357ca9040f4bf9410932a681f4cb443f0449bf",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/plan_spec.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/plan_spec.json",
+      "original_sha256": "d3f920a45cd27b2da5ed4ab77e86df992571d4b07e01eb31c9aa137f7a47780b",
+      "public_sha256": "d3f920a45cd27b2da5ed4ab77e86df992571d4b07e01eb31c9aa137f7a47780b",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/preregistration.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/preregistration.md",
+      "original_sha256": "acf9169e633f8a4529ca50b92f67b7c6ff06867c1dfeb03f9e478d51344186f7",
+      "public_sha256": "acf9169e633f8a4529ca50b92f67b7c6ff06867c1dfeb03f9e478d51344186f7",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/PROJECT_PLAN.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/PROJECT_PLAN.md",
+      "original_sha256": "2a4b20394491d91dda4bcef81b733e91c1d2cc832d5a86196cc5dba7541ae49f",
+      "public_sha256": "2a4b20394491d91dda4bcef81b733e91c1d2cc832d5a86196cc5dba7541ae49f",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/prospective_protocol.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/prospective_protocol.json",
+      "original_sha256": "0a1ad3b7d6b8023db05a567d108d737e17236c386b08d07ec0136ea1413eadc2",
+      "public_sha256": "9e9c605f57263919a29873b5e37b36ded27221aabb506982d2b448a79aabb681",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/reproducibility-checklist.md",
+      "path": "results/g1_rough_domain_adaptation_20261028/reproducibility-checklist.md",
+      "original_sha256": "c5025b301cc01baf69b51b91bdcd6e40ad895e4ec2c977fe4a6fcb14f23e9a7e",
+      "public_sha256": "c5025b301cc01baf69b51b91bdcd6e40ad895e4ec2c977fe4a6fcb14f23e9a7e",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/research_package_report.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/research_package_report.json",
+      "original_sha256": "19112df1c67f8f5bc68576580a35aee6fe38ca0dfe3698836f50be679d7198d6",
+      "public_sha256": "2f1d03d65a67834568dbb0b1cd5de529aa582fa1ea99ade8baeceae49ed7251e",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/runtime_confirmation.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/runtime_confirmation.json",
+      "original_sha256": "8a3f3a959359d03c57e8b617c44f7908ceec8dc1aaef869468cb4533235ecb0b",
+      "public_sha256": "7c3997d6fa5bf2914cda9a32165deac51aad3bbaeee075e570014f0b7dd2fb30",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/technical_amendment_01.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/technical_amendment_01.json",
+      "original_sha256": "7a83daa71d764b5dd1c51475a3423c14628faba73e5a3b25262955f42b6bb065",
+      "public_sha256": "7a83daa71d764b5dd1c51475a3423c14628faba73e5a3b25262955f42b6bb065",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_domain_adaptation_20261028/technical_cost_ledger.json",
+      "path": "results/g1_rough_domain_adaptation_20261028/technical_cost_ledger.json",
+      "original_sha256": "9e1b235228a0850e77f2e87a850fdfcf3de01db3909add18a4b29c5597582fea",
+      "public_sha256": "82322a1b84c11bdc5f44670030ae48c79ad893cd80341a74e3fffba548d9abaa",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/analysis.json",
+      "path": "results/g1_rough_confirmation_20261028/analysis.json",
+      "original_sha256": "f0aab615c354612a8d59823a6d497ee7e6dd2ccb585bf0b6340819293044e6d9",
+      "public_sha256": "ea2c54629f865062c736c25cacc245b48ad27ce8f8cfde987e0e32878b9be523",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/builder_check.md",
+      "path": "results/g1_rough_confirmation_20261028/builder_check.md",
+      "original_sha256": "f66b392d1ab461ca1738038aae05e56075197ac55351243d219bec8643d2bf73",
+      "public_sha256": "2e9afd0ee2b2349ed0a4a14639e05f7c569c2735631c8e971bbd9e4a00fa337d",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/claim_evidence_status_after_confirmation.json",
+      "path": "results/g1_rough_confirmation_20261028/claim_evidence_status_after_confirmation.json",
+      "original_sha256": "f49cb56f6c50c31c1b090018fc9490f9f54ce1dd32542b65100dbc1d2f1be2a0",
+      "public_sha256": "e922f5b8ac18a8918d6b773911e9ca787f5d118d7b8096887e29050a5e0e1e3c",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/claim_evidence_status_after_confirmation.md",
+      "path": "results/g1_rough_confirmation_20261028/claim_evidence_status_after_confirmation.md",
+      "original_sha256": "dd3f92b9d331471af99d8d856289bb2f532fb5e2a5ccab7604a55642f8b85c35",
+      "public_sha256": "ced64c6de19563b327b90f4e85cbb595840587eae5167579c8c0cdc4f77c7a2a",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/confirmation_design_draft.json",
+      "path": "results/g1_rough_confirmation_20261028/confirmation_design_draft.json",
+      "original_sha256": "cf2c237fe2ab5722daf8bad6066d499db76c97fcd7d0f13fc243117fd65ed666",
+      "public_sha256": "cf2c237fe2ab5722daf8bad6066d499db76c97fcd7d0f13fc243117fd65ed666",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/confirmation_design_draft.md",
+      "path": "results/g1_rough_confirmation_20261028/confirmation_design_draft.md",
+      "original_sha256": "299796d930bc358f7ff5cdb242f6ffbe21e68c73efe00760f07e39b635040d75",
+      "public_sha256": "299796d930bc358f7ff5cdb242f6ffbe21e68c73efe00760f07e39b635040d75",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/cpu_preflight.json",
+      "path": "results/g1_rough_confirmation_20261028/cpu_preflight.json",
+      "original_sha256": "5ace0f10ffc9cd30630bc41f77d8c3b791f4fb12bbe1396bc7fae9b0ddec5cb4",
+      "public_sha256": "105dc2ddaf9f16e72f076bc9656c6bc7b6bfe7d852b2bd0bdc690afe9386db57",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/implementation_review.md",
+      "path": "results/g1_rough_confirmation_20261028/implementation_review.md",
+      "original_sha256": "e115dd8eabe55898926ff590239a13b80e8ca5e37e038b4053035bce620dbe0f",
+      "public_sha256": "d3f314c8c19036e428b37a59844915664d6747433cd724358c5a83c43ab1ca4f",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/independent_audit.json",
+      "path": "results/g1_rough_confirmation_20261028/independent_audit.json",
+      "original_sha256": "384d6b382f04ecdbe17258bcb5f338a3f211de251e397de913b46d58ba18c66d",
+      "public_sha256": "2292cf9ef7a98b2c2db6e45b4ecbeb610bf4faef0e6023475b69fd782e17fb40",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/independent_audit.py",
+      "path": "results/g1_rough_confirmation_20261028/independent_audit.py",
+      "original_sha256": "36555fc5315e0fe156688b0c51c5eeb7f3a2a8603411da8b923dd00428bd2f91",
+      "public_sha256": "bfe891b95320618d699af9b74cf0f644bfbe64dd47541a446a976b978874d409",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/operator_handoff.md",
+      "path": "results/g1_rough_confirmation_20261028/operator_handoff.md",
+      "original_sha256": "e009600f1dc6d913f70d621c993189fa36fc56cb62b689f427f852b6d6098f7a",
+      "public_sha256": "81cbfa1260ee069df854fd27138811828c0ea73245fbfe60800e5a24947d1b65",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/prospective_protocol.json",
+      "path": "results/g1_rough_confirmation_20261028/prospective_protocol.json",
+      "original_sha256": "e1016107609f01acc78bafd2cf2735ccd5f4455e9193108cdcad6979c0c584c9",
+      "public_sha256": "7e1603771f6092cf90a109963bf42d5ac9b4bea6d602edccbc035ebaf8f151c6",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/smoke_audit.json",
+      "path": "results/g1_rough_confirmation_20261028/smoke_audit.json",
+      "original_sha256": "901979b4b01bd60802e80b5589c4ae4dd1f0c0695b08b9da5f202dbbd5891ca0",
+      "public_sha256": "c29c7ba169dfe8132e43437ed111acf86f2d565425197fb569b92a0cb2af2ae4",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/smoke_independent_audit_01.json",
+      "path": "results/g1_rough_confirmation_20261028/smoke_independent_audit_01.json",
+      "original_sha256": "4ce1bc0d2b946e992b7ce560115db67d35bec3cdb61235f020b88ed209987840",
+      "public_sha256": "eeffe068272cd2ce9e772aafe26b7063f340df54a3a5a23acbeee235cea7c6a7",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_rough_confirmation_20261028/smoke_independent_audit_01.py",
+      "path": "results/g1_rough_confirmation_20261028/smoke_independent_audit_01.py",
+      "original_sha256": "6f5c93fc9089ffa673f19882c68afd8f3fb6e2141e27324538379334b8b29930",
+      "public_sha256": "69609d0e84d754371fd36efadf9bd46515145a902793e95f433d99d8a44561ba",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis.json",
+      "original_sha256": "eca1b9c078211be9da1f3678d573b796a6c252f61ea23cae55c9e9a1e61fb8c8",
+      "public_sha256": "1c18c16974fdc62a47c581d21a87fdc87bfbe198ecafbb6621b7c3375b8761d6",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis_M_cpu.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis_M_cpu.json",
+      "original_sha256": "695a198a9728cddde9f871ad29a29b2a1743a8100ecb25fb92cd64e478399c53",
+      "public_sha256": "b80ab64a3164b245be9e03e21ceab73fa78f1f09b1f5ec8bcb7ea18afc3fd002",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis_M_sweep_20261030.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis_M_sweep_20261030.json",
+      "original_sha256": "8b8955953980484a2210bd4fac46624f19b22693b00891e7515c3c1e72fb4028",
+      "public_sha256": "b2dbd2b330d5a5c380e34d18d5a9e81cfd2d8c50fc8b010d2885f82c0a990ced",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis_M_sweep_20261030_ci_narrow_SUPERSEDED.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis_M_sweep_20261030_ci_narrow_SUPERSEDED.json",
+      "original_sha256": "06e80e3ae640de636d2ac3dd339d95df52c337ef7d31ec84e9bd44e18679a504",
+      "public_sha256": "b947f3e4ea0617b1e78c43e8c566e664d6c9466bf5ed296e306b48e21c5ce654",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis_M_sweep_paired_20261030.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis_M_sweep_paired_20261030.json",
+      "original_sha256": "f7fee3d26b1c194408ecaba22c16fcceeb1a08600c41c8f14d1af3e0b6e2f430",
+      "public_sha256": "9d6fb2f954c27129500707b24c239e3fa6b86a95d8234ba4852028280d204430",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis_M_sweep_paired_20261030_ci_narrow_SUPERSEDED.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis_M_sweep_paired_20261030_ci_narrow_SUPERSEDED.json",
+      "original_sha256": "c3772f4822196895514ee186a8d2adec1b704d6c5b5d95d885687209fa9a5855",
+      "public_sha256": "83a59cc9232b4db7f1712b8841ec9cdac554de8963a25dabf78a1df78b68f621",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/analysis_round1_20261028_backup.json",
+      "path": "results/g1_period_sweep_cpu_20261028/analysis_round1_20261028_backup.json",
+      "original_sha256": "5d445423d15d8848b3c85af52c16e01eb6f01d180182cd8c27577902aa1c0acb",
+      "public_sha256": "e2f717c5ec00d88c077bb9b6bc4b062c5189879e9621983ec2fa52cd06995a09",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/CI_CORRECTION_NOTE_20261031.md",
+      "path": "results/g1_period_sweep_cpu_20261028/CI_CORRECTION_NOTE_20261031.md",
+      "original_sha256": "1530368bdd2dd9c191512e7e61c1ca24815b013ce7bb4fd0f3857a1c897f996a",
+      "public_sha256": "1530368bdd2dd9c191512e7e61c1ca24815b013ce7bb4fd0f3857a1c897f996a",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/FINAL_REPORT_20261029.md",
+      "path": "results/g1_period_sweep_cpu_20261028/FINAL_REPORT_20261029.md",
+      "original_sha256": "ea88fcd80b5e3408c4e600d541e2f2da8ef7330dd424ad8d0d9cd6b72347494c",
+      "public_sha256": "ea88fcd80b5e3408c4e600d541e2f2da8ef7330dd424ad8d0d9cd6b72347494c",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/finalize_20261029.py",
+      "path": "results/g1_period_sweep_cpu_20261028/finalize_20261029.py",
+      "original_sha256": "17df4c416b7da1e1f209f071a692da74bc0f587dce778c674d756f705b11a5a5",
+      "public_sha256": "f29e49e7018386c0bed9b6f1c8f60aa16690fe48a24ff23e71c86730908caa91",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/map_identity_probe_20261029.json",
+      "path": "results/g1_period_sweep_cpu_20261028/map_identity_probe_20261029.json",
+      "original_sha256": "31344756dd31ba2ec8afb4a449704e1f310a909873be359a32d8de53c8950315",
+      "public_sha256": "7890bb3d5ce3cf9e8e38b235a52ebb814ed73c5f5ce20fa307e48fdd12c1562b",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/REPORT.md",
+      "path": "results/g1_period_sweep_cpu_20261028/REPORT.md",
+      "original_sha256": "65de9f85efa973a49bddb871c51d1407835442ff7dc7e711b32e4d01ef7b3a29",
+      "public_sha256": "e24d65f8174481a4fe7da7d53d25214aac3585b0103b14b20e5e684b95613f56",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_period_sweep_cpu_20261028/sweep_status_20261029.json",
+      "path": "results/g1_period_sweep_cpu_20261028/sweep_status_20261029.json",
+      "original_sha256": "8397220d21a6a500c92246ac21a47d1001a5041a3ad8968ee09fdcd678b2fe05",
+      "public_sha256": "beb2524a4ed398d96f261a4b627243ca082be7e0f00105c084704e1cb8dcbaa3",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_comparison_summary_20261028/all_scored_episodes.csv",
+      "path": "results/g1_comparison_summary_20261028/all_scored_episodes.csv",
+      "original_sha256": "e9aa061700c714c8b843002be680fd9cec0e771cd095c147cf979df259a8d66d",
+      "public_sha256": "ab5ce23ad4c497289a8c09421e93eeccdcdf4abf02b3aa4ee8c7bba0f2b08f3b",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_comparison_summary_20261028/build_summary.py",
+      "path": "results/g1_comparison_summary_20261028/build_summary.py",
+      "original_sha256": "cba4640253c6f5afdb2c31a0658cc8ede6b32c3a05f712ce75eccd32261ff941",
+      "public_sha256": "cba4640253c6f5afdb2c31a0658cc8ede6b32c3a05f712ce75eccd32261ff941",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_comparison_summary_20261028/rough_and_flat_method_summary.csv",
+      "path": "results/g1_comparison_summary_20261028/rough_and_flat_method_summary.csv",
+      "original_sha256": "060f9be71703b125cf9ec0a054c42fc10a9f3670e759b95aa480e4882b9f8e9f",
+      "public_sha256": "913ee73e3824fcaff9ddefa767c4ee839d1fd8e6c4e7eaeff2ff79610a970e31",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/research_package/results/g1_comparison_summary_20261028/summary_provenance.json",
+      "path": "results/g1_comparison_summary_20261028/summary_provenance.json",
+      "original_sha256": "c873af76816c70adf059f200f7f8e9cb606d8afd60d23f083fe3ea8f33d08114",
+      "public_sha256": "c3e349e70ef699c03fb0145bb249361c416edb1588ae79ec90a98482e4a09f55",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/research_package/results/g1_comparison_summary_20261028/最新全部对比结果.md",
+      "path": "results/g1_comparison_summary_20261028/最新全部对比结果.md",
+      "original_sha256": "455ac14d04acb793aae00066e08d8b4fc4aa499e0950112534225ef52f28df04",
+      "public_sha256": "a79bde28ffeed8493a241b731f82add2f773de96619276f76b21af10a50b69bf",
+      "transformation": "path strings anonymized; line endings normalized to LF; absolute Markdown links mapped to published relative targets or local-archive annotations"
+    },
+    {
+      "source": "phasor/results/g1_source_anchor_20261027/analysis.json",
+      "path": "results/g1_source_anchor_20261027/analysis.json",
+      "original_sha256": "bb647176dd7b5227264324f66a98841b00f6f8d5648789486a608bcb1729bbf7",
+      "public_sha256": "0e672a777e4151f983916c6a6f39499a28fe3510c77c564f09bbf391ac9f4597",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/results/g1_phase_policy_cross_20261027/analysis.json",
+      "path": "results/g1_phase_policy_cross_20261027/analysis.json",
+      "original_sha256": "d58909cbe64cee298557a597e3ae7e43a98dc966ac40756745a7287e7942bf23",
+      "public_sha256": "6bcdceb6c44eaf221eb427b8e22e55e35f7506ed4e8aeb327fa0a5e2ad8db445",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/results/g1_contact_phase_reference_20261027/analysis.json",
+      "path": "results/g1_contact_phase_reference_20261027/analysis.json",
+      "original_sha256": "30cf7d9975b8a7a107da0d1e009ff1ba295c061b132931e39aa8b935515380d3",
+      "public_sha256": "b7ac8f5b466b8db5b35f40d5fe11dc49286dd9d88b587d055844ad7bd89ec587",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/results/g1_stateful_phase_20261025/results.md",
+      "path": "results/g1_stateful_phase_20261025/results.md",
+      "original_sha256": "3d1af261d2370957775c08d93170252a6e3b5bf253baaac54cd3de2bcf50e764",
+      "public_sha256": "3d1af261d2370957775c08d93170252a6e3b5bf253baaac54cd3de2bcf50e764",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/results/g1_phase_controller_adaptation_20261024/claim_evidence_table_20261025.md",
+      "path": "results/g1_phase_controller_adaptation_20261024/claim_evidence_table_20261025.md",
+      "original_sha256": "46da58af7bb2afe84eb536898ee81eb9f5b834309e5e9069b2a3c3f743bbe1c7",
+      "public_sha256": "cf89bc726569ca51d92e610bbac42b4ae9fa78e98acc21318edecf4f770ad00f",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/results/g1_external_methods_trials_20261022/run_v2/external_methods_results_20261022.md",
+      "path": "results/g1_external_methods_trials_20261022/run_v2/external_methods_results_20261022.md",
+      "original_sha256": "77f364421c1b4e9c56c69cae89f071917a274a89f23c1b54f1fb45a9f42911e7",
+      "public_sha256": "6300a5bf453bb1580cf340daa557b48f75cf195ca0788edfdb2a01bd7c842f17",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/results/g1_rough_transfer_20261028/supplementary_analysis.json",
+      "path": "results/g1_rough_transfer_20261028/supplementary_analysis.json",
+      "original_sha256": "40b80acab245db8b4c2fd1f7e501573378bc428e1541bd7d38832e5d9a092017",
+      "public_sha256": "ea57120b24647d0fafcc93eb7dab3bc7ba3dbf4d1d70d6a4de022c0d438960a4",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/results/g1_rough_transfer_20261028/independent_audit_plan.json",
+      "path": "results/g1_rough_transfer_20261028/independent_audit_plan.json",
+      "original_sha256": "5416d4db71524aa730db90b88f4ebe16a1b847e5a22c970967df4211e69509c3",
+      "public_sha256": "fe8cd6e9f1fc159cb4f193b37112fb94e00ff17daecda9445552d8fd70ab237c",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/results/g1_rough_transfer_20261028/technical_cost_ledger.json",
+      "path": "results/g1_rough_transfer_20261028/technical_cost_ledger.json",
+      "original_sha256": "c1bd891286d81fa169807d185b5f06c86f86a007cb1bf72eb5d1231edfdb87b9",
+      "public_sha256": "c1bd891286d81fa169807d185b5f06c86f86a007cb1bf72eb5d1231edfdb87b9",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/control/analysis.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/analysis.json",
+      "original_sha256": "71a9e01b5b1a42d6f556380acd91a9058c79fe23436c0fdab0b421f102308156",
+      "public_sha256": "71a9e01b5b1a42d6f556380acd91a9058c79fe23436c0fdab0b421f102308156",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/control/protocol.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/protocol.json",
+      "original_sha256": "a8a3b6b6f8b015c7199fe0d0e2b759819b0031fc4d36cadb01d698de532dd459",
+      "public_sha256": "68ada736a65e86c7f3ab903b6d35e3ac48211388235adb92ceb6175b7be1a698",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/control/gpu_complete.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/gpu_complete.json",
+      "original_sha256": "f51b352dedbe08c63224df77fddefd7432f23eede9b2d01e3bc248dd2934192f",
+      "public_sha256": "f66eee1a22d2ef7c497595290bef03bbcfa803c6879c75205fec8f4ca7691a36",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/control/independent_audit.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/independent_audit.json",
+      "original_sha256": "65aca2e6dd8ef021ff9bb942d713b40cb1534b523c1e3b8bd2177762184ece58",
+      "public_sha256": "65aca2e6dd8ef021ff9bb942d713b40cb1534b523c1e3b8bd2177762184ece58",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/delivery_validation.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/delivery_validation.json",
+      "original_sha256": "8e6d8bc43fdb0a6a746d5597d311b5dd1d5b0ecde6325a8a17e448a1aea91a67",
+      "public_sha256": "39b63878c1b853fd0f9aa2c7a25d466e84555b7d80a03dad019d7ea8d9e2b225",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/output_metadata/clock_selection.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/clock_selection.json",
+      "original_sha256": "98dba1e1ac8b30cabbef36722274ee71771929ac04a6bc0ac6c198a02f9b01b8",
+      "public_sha256": "027f756eea357858ce7295c2ed050e9b2fdf273539746f084361c1110e12ab20",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/output_metadata/map_identities.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/map_identities.json",
+      "original_sha256": "0dad5cb653a6ec805f66df9c30b994fc00033e0968f3585fb1af62be45757073",
+      "public_sha256": "0dad5cb653a6ec805f66df9c30b994fc00033e0968f3585fb1af62be45757073",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/output_metadata/phase_bank/manifest.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/phase_bank/manifest.json",
+      "original_sha256": "5cbd99cb77df8bb8601bd41bbb9fa20d50fa96e0fb918f5a8b8d1b025ca8c7d4",
+      "public_sha256": "c1bbd298d920a87889e7ba079c7b2985e7f90029f52a15f4a52a13e5cb52ff3c",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/output_metadata/test_inputs_locked.json",
+      "path": "results/g1_phase_supplement_gpu_20261106/test_inputs_locked.json",
+      "original_sha256": "8b00ae24418e7a68d2ae97702908ee775c73617e2b6c24bb041fd8f30406d731",
+      "public_sha256": "8b00ae24418e7a68d2ae97702908ee775c73617e2b6c24bb041fd8f30406d731",
+      "transformation": "path strings and path keys anonymized; JSON formatted; scientific values preserved"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/raw_archives/SHA256SUMS.txt",
+      "path": "results/g1_phase_supplement_gpu_20261106/raw_archive_SHA256SUMS.txt",
+      "original_sha256": "eea192e44599139071a60efd6019a5099cab11139597fdd9a0b2781d9d02b1d9",
+      "public_sha256": "bfa552148c64e2f4fa3b1cedb723f38ee61fe1b3f3cf14bbf66389e96b3822cf",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "path": "results/g1_phase_supplement_gpu_20261106/source/docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "original_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "public_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "path": "results/g1_phase_supplement_gpu_20261106/source/docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "original_sha256": "a0a4bd9e302f66bf22116468b8afdbc17e1d89276703716555945db8983648ef",
+      "public_sha256": "afd0c4553777ec43fd16ffe3e4aa9f3576bc3d1838af71979acd91252913a6b4",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/remote_phase_supplement_adapter_20261104_04.py",
+      "path": "results/g1_phase_supplement_gpu_20261106/source/remote_phase_supplement_adapter_20261104_04.py",
+      "original_sha256": "5482ccf37873dee6d48c2329b9882cadad311224c573a84ecf55eb694772dd4b",
+      "public_sha256": "5482ccf37873dee6d48c2329b9882cadad311224c573a84ecf55eb694772dd4b",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/scripts/g1_phase_supplement_20261031_gpu.py",
+      "path": "results/g1_phase_supplement_gpu_20261106/source/scripts/g1_phase_supplement_20261031_gpu.py",
+      "original_sha256": "f455c54040225fd670efdd20f0d53ebeb21a459e4ae3756945ec8c966b5725e7",
+      "public_sha256": "30634dac94d7a93ba3bbff4126aa5644fb13375766c75bc6e2f987a3710fa67d",
+      "transformation": "path strings anonymized; line endings normalized to LF; redundant final blank line removed"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/scripts/g1_phase_supplement_contract_20261031.py",
+      "path": "results/g1_phase_supplement_gpu_20261106/source/scripts/g1_phase_supplement_contract_20261031.py",
+      "original_sha256": "e3175d686d423cdfeed2e4d00af14499b789ef47e93b819fb02585242e90fee8",
+      "public_sha256": "e3175d686d423cdfeed2e4d00af14499b789ef47e93b819fb02585242e90fee8",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/scripts/run_gpu_eval_20261105.py",
+      "path": "results/g1_phase_supplement_gpu_20261106/source/scripts/run_gpu_eval_20261105.py",
+      "original_sha256": "7c4319005c111060f987eee6e56e3eb081b719d4bb5193ba7f6e8d206c89dab7",
+      "public_sha256": "7c4319005c111060f987eee6e56e3eb081b719d4bb5193ba7f6e8d206c89dab7",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/results/g1_phase_supplement_20261031/source_snapshot/docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "path": "docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "original_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "public_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/results/g1_phase_supplement_20261031/source_snapshot/docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "path": "docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "original_sha256": "a0a4bd9e302f66bf22116468b8afdbc17e1d89276703716555945db8983648ef",
+      "public_sha256": "afd0c4553777ec43fd16ffe3e4aa9f3576bc3d1838af71979acd91252913a6b4",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "path": "docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "original_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "public_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/deliveries/g1_phase_supplement_gpu_20261106/source/docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "path": "docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "original_sha256": "a0a4bd9e302f66bf22116468b8afdbc17e1d89276703716555945db8983648ef",
+      "public_sha256": "afd0c4553777ec43fd16ffe3e4aa9f3576bc3d1838af71979acd91252913a6b4",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/PHASE_CONTROL_PREREGISTRATION.md",
+      "path": "docs/PHASE_CONTROL_PREREGISTRATION.md",
+      "original_sha256": "1a56fdeb120c49399cb08f3190645149d2a6a6d365a8267d76584ef0af7d088c",
+      "public_sha256": "1a56fdeb120c49399cb08f3190645149d2a6a6d365a8267d76584ef0af7d088c",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-19-g1-phase-contact-study.md",
+      "path": "docs/superpowers/plans/2026-10-19-g1-phase-contact-study.md",
+      "original_sha256": "593d1d0a939470e0e19723660499cd809908c609503efcd2a5b4508c8e5a7d61",
+      "public_sha256": "d7afdc509f3983575795d3a12504d1255a599edb78285038d915fefeb7f45b13",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-20-g1-phase-gate-v4.md",
+      "path": "docs/superpowers/plans/2026-10-20-g1-phase-gate-v4.md",
+      "original_sha256": "1a6e9b8902aaa5aa8b8cf9a2bec1512b69aba8607c9dcee8335d4cb53a74dd57",
+      "public_sha256": "1a6e9b8902aaa5aa8b8cf9a2bec1512b69aba8607c9dcee8335d4cb53a74dd57",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-22-best-phase-closed-loop-pilot.md",
+      "path": "docs/superpowers/plans/2026-10-22-best-phase-closed-loop-pilot.md",
+      "original_sha256": "275e53104c8fc818056f582854c832b13a71ce4f0a4435ac99a365415ab51fb1",
+      "public_sha256": "275e53104c8fc818056f582854c832b13a71ce4f0a4435ac99a365415ab51fb1",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-22-external-phase-models.md",
+      "path": "docs/superpowers/plans/2026-10-22-external-phase-models.md",
+      "original_sha256": "9cda252fef005b049977ee5b47db89d1af1a72d15f38667c73949829831bc942",
+      "public_sha256": "9cda252fef005b049977ee5b47db89d1af1a72d15f38667c73949829831bc942",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-24-g1-phase-policy-adaptation.md",
+      "path": "docs/superpowers/plans/2026-10-24-g1-phase-policy-adaptation.md",
+      "original_sha256": "84832543bb0170157d0e31f8921baed4ab800b783eb3318fe2e48b3bd80cd0d9",
+      "public_sha256": "84832543bb0170157d0e31f8921baed4ab800b783eb3318fe2e48b3bd80cd0d9",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-25-g1-stateful-flat-ppo.md",
+      "path": "docs/superpowers/plans/2026-10-25-g1-stateful-flat-ppo.md",
+      "original_sha256": "f98da57d2be642ce3dcabf4405cbd9a8a3c8288e8d69e8aaf56ac13348ecc39c",
+      "public_sha256": "f98da57d2be642ce3dcabf4405cbd9a8a3c8288e8d69e8aaf56ac13348ecc39c",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-25-g1-stateful-phase.md",
+      "path": "docs/superpowers/plans/2026-10-25-g1-stateful-phase.md",
+      "original_sha256": "de3f302307ca829cf06f183cd25dbca5915440258d97e4e0375f67ce5a675e82",
+      "public_sha256": "de3f302307ca829cf06f183cd25dbca5915440258d97e4e0375f67ce5a675e82",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-26-g1-phase-feedback-diagnosis.md",
+      "path": "docs/superpowers/plans/2026-10-26-g1-phase-feedback-diagnosis.md",
+      "original_sha256": "45504668707bb6aa842fed050af43b512495ecf1b748736dd8a361a4cccdba8b",
+      "public_sha256": "45504668707bb6aa842fed050af43b512495ecf1b748736dd8a361a4cccdba8b",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-27-g1-contact-phase-reference.md",
+      "path": "docs/superpowers/plans/2026-10-27-g1-contact-phase-reference.md",
+      "original_sha256": "673295500162d07ed32bde3760d7fdb51c0c4e33475cbe6752f77d4279708025",
+      "public_sha256": "673295500162d07ed32bde3760d7fdb51c0c4e33475cbe6752f77d4279708025",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-27-g1-phase-lr-factorial.md",
+      "path": "docs/superpowers/plans/2026-10-27-g1-phase-lr-factorial.md",
+      "original_sha256": "0bcda810f4dcdd98cf2c645caccb1c990f52f16388b9a239ec7d6fc9fda2bc97",
+      "public_sha256": "0bcda810f4dcdd98cf2c645caccb1c990f52f16388b9a239ec7d6fc9fda2bc97",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-27-g1-phase-policy-cross.md",
+      "path": "docs/superpowers/plans/2026-10-27-g1-phase-policy-cross.md",
+      "original_sha256": "171c05c5b77142a845a89605785ed419cd42f3d6e8900afd2da3f666c892b0b9",
+      "public_sha256": "171c05c5b77142a845a89605785ed419cd42f3d6e8900afd2da3f666c892b0b9",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-27-g1-source-anchor.md",
+      "path": "docs/superpowers/plans/2026-10-27-g1-source-anchor.md",
+      "original_sha256": "e4fb9a471ff4dae0b3038174727ff7c0db6fe268d120b7fb029af7870afcad28",
+      "public_sha256": "e4fb9a471ff4dae0b3038174727ff7c0db6fe268d120b7fb029af7870afcad28",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-28-g1-rough-domain-adaptation.md",
+      "path": "docs/superpowers/plans/2026-10-28-g1-rough-domain-adaptation.md",
+      "original_sha256": "30ade136f7d1694f8e5f0d5c955d866ad9a8de4f713f4cc64b1ede0824958f69",
+      "public_sha256": "30ade136f7d1694f8e5f0d5c955d866ad9a8de4f713f4cc64b1ede0824958f69",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-28-g1-rough-transfer.md",
+      "path": "docs/superpowers/plans/2026-10-28-g1-rough-transfer.md",
+      "original_sha256": "4b4bce802854fb7c2b63a511ebfda56d9770f681384b3d2ad31ca3ec0e43b7c7",
+      "public_sha256": "4b4bce802854fb7c2b63a511ebfda56d9770f681384b3d2ad31ca3ec0e43b7c7",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "path": "docs/superpowers/plans/2026-10-31-rough-phase-supplement.md",
+      "original_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "public_sha256": "80796795b67c38115f63c3bdfe60e5a5e99ab5af9a25bfeb204c7e2ef509a366",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phase-encoder-v2-1-preregistration.md",
+      "path": "docs/superpowers/plans/g1-phase-encoder-v2-1-preregistration.md",
+      "original_sha256": "03322853f93ee27b71b9a4e83a3a07962a357631f1fd3ee75cc7b87f132068de",
+      "public_sha256": "03322853f93ee27b71b9a4e83a3a07962a357631f1fd3ee75cc7b87f132068de",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phase-encoder-v2-1b-amendment.md",
+      "path": "docs/superpowers/plans/g1-phase-encoder-v2-1b-amendment.md",
+      "original_sha256": "eedb57cbc5240b963c72ee08cde824746b4301047464418ec8982ad7553ac761",
+      "public_sha256": "eedb57cbc5240b963c72ee08cde824746b4301047464418ec8982ad7553ac761",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phase-encoder-v2-1d-preregistration.md",
+      "path": "docs/superpowers/plans/g1-phase-encoder-v2-1d-preregistration.md",
+      "original_sha256": "f8a7ec6cc09ca38daeebf6cd5f17062ce393301fbaa26f6cf8a951ff735c4cec",
+      "public_sha256": "f8a7ec6cc09ca38daeebf6cd5f17062ce393301fbaa26f6cf8a951ff735c4cec",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phase-encoder-v2-1e-preregistration.md",
+      "path": "docs/superpowers/plans/g1-phase-encoder-v2-1e-preregistration.md",
+      "original_sha256": "3944a04fc3a9c311b9c78a34337692d7382aebb7c6d761b67d27018c1418c41f",
+      "public_sha256": "3944a04fc3a9c311b9c78a34337692d7382aebb7c6d761b67d27018c1418c41f",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phase-upper-bound-preregistration.md",
+      "path": "docs/superpowers/plans/g1-phase-upper-bound-preregistration.md",
+      "original_sha256": "3c5371c6307cf944f37082b2cee89f1b75514ae1d7e5ae916dd674664e2a4b85",
+      "public_sha256": "3c5371c6307cf944f37082b2cee89f1b75514ae1d7e5ae916dd674664e2a4b85",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phase-within-subject-transfer-preregistration.md",
+      "path": "docs/superpowers/plans/g1-phase-within-subject-transfer-preregistration.md",
+      "original_sha256": "fe8e35cceb4baafae7c6d8a3dcbc9d37e6f1e06808804540de812e6a4b44162d",
+      "public_sha256": "fe8e35cceb4baafae7c6d8a3dcbc9d37e6f1e06808804540de812e6a4b44162d",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/plans/g1-phasor-rewire-onearm-preregistration.md",
+      "path": "docs/superpowers/plans/g1-phasor-rewire-onearm-preregistration.md",
+      "original_sha256": "6541dd0df01539f45d3a4286e2389aefc8b72640016e1270e16d72ac777581b3",
+      "public_sha256": "6541dd0df01539f45d3a4286e2389aefc8b72640016e1270e16d72ac777581b3",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-16-contact-supervised-g1-phase-encoder.md",
+      "path": "docs/superpowers/specs/2026-10-16-contact-supervised-g1-phase-encoder.md",
+      "original_sha256": "bed4320721f8049d564dbb920d31dc3cc0a78b6bb2c05fbc1110e6a5cc26a988",
+      "public_sha256": "bed4320721f8049d564dbb920d31dc3cc0a78b6bb2c05fbc1110e6a5cc26a988",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-19-g1-phase-contact-study.md",
+      "path": "docs/superpowers/specs/2026-10-19-g1-phase-contact-study.md",
+      "original_sha256": "a8d71b8cb4319aeb395a084fa3dcf91d9089b64527d25d243c43369b6fb121a0",
+      "public_sha256": "a8d71b8cb4319aeb395a084fa3dcf91d9089b64527d25d243c43369b6fb121a0",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-20-g1-phase-gate-v4.md",
+      "path": "docs/superpowers/specs/2026-10-20-g1-phase-gate-v4.md",
+      "original_sha256": "2d9229f4a93a86476484d208e4f4089dc47497bddea08cc3e372334138c5e90a",
+      "public_sha256": "2d9229f4a93a86476484d208e4f4089dc47497bddea08cc3e372334138c5e90a",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-24-g1-phase-policy-adaptation-design.md",
+      "path": "docs/superpowers/specs/2026-10-24-g1-phase-policy-adaptation-design.md",
+      "original_sha256": "ed68c020910d96788bec3626b2c82e650ef241ecbec6590f126a5a67d742e8f8",
+      "public_sha256": "ed68c020910d96788bec3626b2c82e650ef241ecbec6590f126a5a67d742e8f8",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-25-g1-stateful-flat-ppo-design.md",
+      "path": "docs/superpowers/specs/2026-10-25-g1-stateful-flat-ppo-design.md",
+      "original_sha256": "1a8f534b50d30393c83ffd50f63e5cac150a4c01e37694b04a4b1a1867db6716",
+      "public_sha256": "1a8f534b50d30393c83ffd50f63e5cac150a4c01e37694b04a4b1a1867db6716",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-25-g1-stateful-phase-design.md",
+      "path": "docs/superpowers/specs/2026-10-25-g1-stateful-phase-design.md",
+      "original_sha256": "c30e41d991df85ad1d7c475104d0872c05ff14252a25c5d283db7e442791b28a",
+      "public_sha256": "c30e41d991df85ad1d7c475104d0872c05ff14252a25c5d283db7e442791b28a",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-27-g1-contact-phase-reference-design.md",
+      "path": "docs/superpowers/specs/2026-10-27-g1-contact-phase-reference-design.md",
+      "original_sha256": "13f84b1e81d9fd7cbb2287ada1cb24d8d94bc94254d46dbcab9e6d95796aac03",
+      "public_sha256": "13f84b1e81d9fd7cbb2287ada1cb24d8d94bc94254d46dbcab9e6d95796aac03",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-27-g1-phase-lr-factorial-design.md",
+      "path": "docs/superpowers/specs/2026-10-27-g1-phase-lr-factorial-design.md",
+      "original_sha256": "16f7a8386cd60c29670e417c78b287584ed15235cdc21b0770411b5ee289639d",
+      "public_sha256": "16f7a8386cd60c29670e417c78b287584ed15235cdc21b0770411b5ee289639d",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-27-g1-phase-policy-cross-design.md",
+      "path": "docs/superpowers/specs/2026-10-27-g1-phase-policy-cross-design.md",
+      "original_sha256": "f8942d4c2c4aa5d55dc42704695760744a98999c24e7c39e775efc7df9e6110f",
+      "public_sha256": "f8942d4c2c4aa5d55dc42704695760744a98999c24e7c39e775efc7df9e6110f",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-27-g1-source-anchor-design.md",
+      "path": "docs/superpowers/specs/2026-10-27-g1-source-anchor-design.md",
+      "original_sha256": "49e17c8c42bcddc5541305ed5abb5cd005274cb5aa65aea8e43ed591d967b520",
+      "public_sha256": "49e17c8c42bcddc5541305ed5abb5cd005274cb5aa65aea8e43ed591d967b520",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-28-g1-rough-domain-adaptation-design.md",
+      "path": "docs/superpowers/specs/2026-10-28-g1-rough-domain-adaptation-design.md",
+      "original_sha256": "d1ce13a7abb0649e2d25f8dcd1e87dbed1dcb929db1d60b4243502316299e9fa",
+      "public_sha256": "d1ce13a7abb0649e2d25f8dcd1e87dbed1dcb929db1d60b4243502316299e9fa",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-28-g1-rough-transfer-design.md",
+      "path": "docs/superpowers/specs/2026-10-28-g1-rough-transfer-design.md",
+      "original_sha256": "c199d8a65971d85a8043606c5f0f25ebb9d4e656b206d25d38d3766ac2c93159",
+      "public_sha256": "c199d8a65971d85a8043606c5f0f25ebb9d4e656b206d25d38d3766ac2c93159",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "path": "docs/superpowers/specs/2026-10-31-rough-phase-supplement-design.md",
+      "original_sha256": "a0a4bd9e302f66bf22116468b8afdbc17e1d89276703716555945db8983648ef",
+      "public_sha256": "afd0c4553777ec43fd16ffe3e4aa9f3576bc3d1838af71979acd91252913a6b4",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    },
+    {
+      "source": "phasor/docs/PHASE_CONTROL_PREREGISTRATION.md",
+      "path": "docs/PHASE_CONTROL_PREREGISTRATION.md",
+      "original_sha256": "1a56fdeb120c49399cb08f3190645149d2a6a6d365a8267d76584ef0af7d088c",
+      "public_sha256": "1a56fdeb120c49399cb08f3190645149d2a6a6d365a8267d76584ef0af7d088c",
+      "transformation": "path strings anonymized; line endings normalized to LF"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "at": "2026-10-28T04:16:12.217669+00:00",
+  "protocol_sha256": "e1016107609f01acc78bafd2cf2735ccd5f4455e9193108cdcad6979c0c584c9",
+  "actual_eval_transitions": 40,
+  "PPO_updates": 0,
+  "Adam_steps": 0,
+  "paired_before_sampling": true,
+  "scope": "four fresh children, one world ten steps; engineering only, no efficacy selection"
+}

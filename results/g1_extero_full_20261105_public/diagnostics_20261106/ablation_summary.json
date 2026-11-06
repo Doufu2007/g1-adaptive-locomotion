@@ -1,0 +1,134 @@
+[
+  {
+    "arm": "matched",
+    "seed": 20261111,
+    "intervention": "training_mean_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.34398074280322594,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.7904618382453918,
+    "abs_vx_last2s": 0.1505792737007141,
+    "action_rms_last2s": 0.4548290967941284
+  },
+  {
+    "arm": "matched",
+    "seed": 20261111,
+    "intervention": "spatial_permutation_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.7500271868043694,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.7893657684326172,
+    "abs_vx_last2s": 0.34946057200431824,
+    "action_rms_last2s": 0.8143687844276428
+  },
+  {
+    "arm": "matched",
+    "seed": 20261112,
+    "intervention": "training_mean_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.41844920430855675,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.804888129234314,
+    "abs_vx_last2s": 0.2631532847881317,
+    "action_rms_last2s": 0.5597729086875916
+  },
+  {
+    "arm": "matched",
+    "seed": 20261112,
+    "intervention": "spatial_permutation_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.35006148776768325,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.7892346978187561,
+    "abs_vx_last2s": 0.5037405490875244,
+    "action_rms_last2s": 0.68301922082901
+  },
+  {
+    "arm": "matched",
+    "seed": 20261113,
+    "intervention": "training_mean_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.3991189106200686,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.7963377833366394,
+    "abs_vx_last2s": 0.4009784758090973,
+    "action_rms_last2s": 0.584924042224884
+  },
+  {
+    "arm": "matched",
+    "seed": 20261113,
+    "intervention": "spatial_permutation_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 1.0382077785300323,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.786989688873291,
+    "abs_vx_last2s": 0.5122899413108826,
+    "action_rms_last2s": 0.9556485414505005
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261111,
+    "intervention": "training_mean_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.3457416736263765,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.7936587333679199,
+    "abs_vx_last2s": 0.1795702427625656,
+    "action_rms_last2s": 0.46460509300231934
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261111,
+    "intervention": "spatial_permutation_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.4905518322571489,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.7985173463821411,
+    "abs_vx_last2s": 0.12610097229480743,
+    "action_rms_last2s": 0.6340386867523193
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261112,
+    "intervention": "training_mean_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.5175148970255817,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.16331881284713745,
+    "abs_vx_last2s": 0.0077547915279865265,
+    "action_rms_last2s": 2.912940263748169
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261112,
+    "intervention": "spatial_permutation_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.6099536508735207,
+    "completion": 0.8333333333333334,
+    "root_height_last2s_mean": 0.24548594653606415,
+    "abs_vx_last2s": 0.0868019089102745,
+    "action_rms_last2s": 3.6097068786621094
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261113,
+    "intervention": "training_mean_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.5520583920800223,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.15279965102672577,
+    "abs_vx_last2s": 0.01835549809038639,
+    "action_rms_last2s": 3.8748090267181396
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261113,
+    "intervention": "spatial_permutation_scan",
+    "scope": "POST_RESULTS one episode seed; input intervention may be out of training distribution; no retraining",
+    "clean_rmse": 0.6459217289189662,
+    "completion": 1.0,
+    "root_height_last2s_mean": 0.15689785778522491,
+    "abs_vx_last2s": 0.01022479310631752,
+    "action_rms_last2s": 3.782304286956787
+  }
+]

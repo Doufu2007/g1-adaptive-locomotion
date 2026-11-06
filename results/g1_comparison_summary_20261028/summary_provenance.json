@@ -1,0 +1,2397 @@
+{
+  "generated_at": "2026-10-28T10:43:04.437510+00:00",
+  "operation": "read-only aggregation of existing sealed analyses; no sampling or statistical refit",
+  "sources": {
+    "确认": {
+      "path": "<project-root>\\results\\g1_rough_confirmation_20261028\\analysis.json",
+      "sha256": "f0aab615c354612a8d59823a6d497ee7e6dd2ccb585bf0b6340819293044e6d9",
+      "analysis_at": "2026-10-28T05:02:50.694318+00:00",
+      "scored_episode_count": 360,
+      "audit_status": "PASS",
+      "audit_path": "<project-root>\\results\\g1_rough_confirmation_20261028\\independent_audit.json",
+      "audit_sha256": "384d6b382f04ecdbe17258bcb5f338a3f211de251e397de913b46d58ba18c66d"
+    },
+    "S": {
+      "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\analysis.json",
+      "sha256": "901ef23fdeb65dc44dfa2ba5c5fdb1806e4a4845c9c731184363d3d8cffec429",
+      "analysis_at": "2026-10-28T02:19:28.301995+00:00",
+      "scored_episode_count": 480,
+      "audit_status": "PASS",
+      "audit_path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\independent_audit.json",
+      "audit_sha256": "e93710daa0cfb55d208b3b608f620bf669bf4ca4b3c1c4d714a0187e2fcaaa99"
+    },
+    "R": {
+      "path": "<project-root>\\results\\g1_rough_transfer_20261028\\analysis.json",
+      "sha256": "57975081073354b63960f923e9d9d8f9940916bd483594ee0034ce77f7fab873",
+      "analysis_at": "2026-10-27T20:21:36.538429+00:00",
+      "scored_episode_count": 480,
+      "audit_status": "PASS",
+      "audit_path": "<project-root>\\results\\g1_rough_transfer_20261028\\independent_audit.json",
+      "audit_sha256": "b95fd0b25f80abb0189e83ec72b57baaa425f39bae39ca10908b326e5ab8cadc"
+    },
+    "D": {
+      "path": "<project-root>\\results\\g1_source_anchor_20261027\\analysis.json",
+      "sha256": "bb647176dd7b5227264324f66a98841b00f6f8d5648789486a608bcb1729bbf7",
+      "analysis_at": "2026-10-27T18:00:25.098299+00:00",
+      "scored_episode_count": 540,
+      "audit_status": "PASS",
+      "audit_path": "<project-root>\\results\\g1_source_anchor_20261027\\independent_audit.json",
+      "audit_sha256": "4104d202124e242880aea02336f889d46192bd2bd70c1e32531bf23117042dfa"
+    },
+    "C": {
+      "path": "<project-root>\\results\\g1_phase_policy_cross_20261027\\analysis.json",
+      "sha256": "d58909cbe64cee298557a597e3ae7e43a98dc966ac40756745a7287e7942bf23",
+      "analysis_at": "2026-10-27T13:43:20.038871+00:00",
+      "scored_episode_count": 108,
+      "audit_status": "PASS",
+      "audit_path": "<project-root>\\results\\g1_phase_policy_cross_20261027\\independent_audit.json",
+      "audit_sha256": "60ce351e29429591618d2b2a6ab024f065a0b7ebfedde8df6b602c4aba3828db"
+    },
+    "B": {
+      "path": "<project-root>\\results\\g1_contact_phase_reference_20261027\\analysis.json",
+      "sha256": "30cf7d9975b8a7a107da0d1e009ff1ba295c061b132931e39aa8b935515380d3",
+      "analysis_at": "2026-10-27T11:28:51.441400+00:00",
+      "scored_episode_count": 405
+    },
+    "A": {
+      "path": "<project-root>\\results\\g1_phase_lr_factorial_20261027\\analysis.json",
+      "sha256": "bceaf4fe9bf8342f103fea6c467672d798d77f281b4a6de0db949eaaf3837cb0",
+      "analysis_at": "2026-10-27T09:12:31.112924+00:00",
+      "scored_episode_count": 540
+    }
+  },
+  "rough_and_flat_groups": [
+    {
+      "stage": "确认",
+      "domain": "粗糙",
+      "method": "FC_clock",
+      "method_label": "平地训练＋固定节奏",
+      "n": 90,
+      "completed": 10,
+      "falls": 63,
+      "mae_forward_velocity_mps": 0.4187865255490541,
+      "forward_displacement_m": 3.0278147561682593,
+      "tilt_rms_rad": 0.2150436109966702,
+      "abs_heading_change_rad": 0.5106691143501343,
+      "survival_seconds": 11.776444444444445,
+      "moving_fraction": 0.43064444444444444,
+      "completion_rate": 0.1111111111111111,
+      "fall_rate": 0.7
+    },
+    {
+      "stage": "确认",
+      "domain": "粗糙",
+      "method": "RC_clock",
+      "method_label": "粗糙训练＋固定节奏",
+      "n": 90,
+      "completed": 28,
+      "falls": 36,
+      "mae_forward_velocity_mps": 0.34592422584235977,
+      "forward_displacement_m": 4.970936440096962,
+      "tilt_rms_rad": 0.15642061506708463,
+      "abs_heading_change_rad": 0.44707051215195354,
+      "survival_seconds": 15.798222222222222,
+      "moving_fraction": 0.6164666666666667,
+      "completion_rate": 0.3111111111111111,
+      "fall_rate": 0.4
+    },
+    {
+      "stage": "确认",
+      "domain": "粗糙",
+      "method": "RE_frozen",
+      "method_label": "相同学习策略＋相位恒定在回合初值",
+      "n": 90,
+      "completed": 1,
+      "falls": 84,
+      "mae_forward_velocity_mps": 0.4970065576138871,
+      "forward_displacement_m": 1.4389866335524453,
+      "tilt_rms_rad": 0.2760042033261723,
+      "abs_heading_change_rad": 1.288080867509254,
+      "survival_seconds": 7.175777777777778,
+      "moving_fraction": 0.3123777777777778,
+      "completion_rate": 0.011111111111111112,
+      "fall_rate": 0.9333333333333333
+    },
+    {
+      "stage": "确认",
+      "domain": "粗糙",
+      "method": "RE_live",
+      "method_label": "粗糙训练＋实时学习相位",
+      "n": 90,
+      "completed": 31,
+      "falls": 34,
+      "mae_forward_velocity_mps": 0.34216957602444475,
+      "forward_displacement_m": 5.588587682114707,
+      "tilt_rms_rad": 0.15951344172159831,
+      "abs_heading_change_rad": 0.420843888023713,
+      "survival_seconds": 14.983333333333333,
+      "moving_fraction": 0.6267777777777778,
+      "completion_rate": 0.34444444444444444,
+      "fall_rate": 0.37777777777777777
+    },
+    {
+      "stage": "S",
+      "domain": "平地",
+      "method": "FC",
+      "method_label": "平地训练＋固定节奏",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.046822010307673675,
+      "forward_displacement_m": 8.40298802057902,
+      "tilt_rms_rad": 0.015837313793599605,
+      "abs_heading_change_rad": 0.5575911098470291,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9935333333333334,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "S",
+      "domain": "平地",
+      "method": "FE",
+      "method_label": "平地训练＋学习相位",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.05171160257424344,
+      "forward_displacement_m": 8.416740481058756,
+      "tilt_rms_rad": 0.01748446738347411,
+      "abs_heading_change_rad": 0.5636242217073838,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9943333333333333,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "S",
+      "domain": "平地",
+      "method": "RC",
+      "method_label": "粗糙训练＋固定节奏",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.041224991294922075,
+      "forward_displacement_m": 7.967208512624105,
+      "tilt_rms_rad": 0.0159817712691923,
+      "abs_heading_change_rad": 0.9204714057346185,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9932,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "S",
+      "domain": "平地",
+      "method": "RE",
+      "method_label": "粗糙训练＋学习相位",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.04116439406912929,
+      "forward_displacement_m": 9.520904159545898,
+      "tilt_rms_rad": 0.023292854987084867,
+      "abs_heading_change_rad": 0.44123158779305716,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9942,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "S",
+      "domain": "粗糙",
+      "method": "FC",
+      "method_label": "平地训练＋固定节奏",
+      "n": 90,
+      "completed": 9,
+      "falls": 67,
+      "mae_forward_velocity_mps": 0.43785854010775027,
+      "forward_displacement_m": 2.7931068611641723,
+      "tilt_rms_rad": 0.21118135071463054,
+      "abs_heading_change_rad": 0.6610209463785092,
+      "survival_seconds": 11.339333333333334,
+      "moving_fraction": 0.3970444444444444,
+      "completion_rate": 0.1,
+      "fall_rate": 0.7444444444444445
+    },
+    {
+      "stage": "S",
+      "domain": "粗糙",
+      "method": "FE",
+      "method_label": "平地训练＋学习相位",
+      "n": 90,
+      "completed": 19,
+      "falls": 59,
+      "mae_forward_velocity_mps": 0.41948396175681424,
+      "forward_displacement_m": 3.3012803258581296,
+      "tilt_rms_rad": 0.20670958326922523,
+      "abs_heading_change_rad": 0.4826860298971749,
+      "survival_seconds": 11.537555555555556,
+      "moving_fraction": 0.4272111111111111,
+      "completion_rate": 0.2111111111111111,
+      "fall_rate": 0.6555555555555556
+    },
+    {
+      "stage": "S",
+      "domain": "粗糙",
+      "method": "RC",
+      "method_label": "粗糙训练＋固定节奏",
+      "n": 90,
+      "completed": 22,
+      "falls": 46,
+      "mae_forward_velocity_mps": 0.36958791789501894,
+      "forward_displacement_m": 4.24372239543332,
+      "tilt_rms_rad": 0.17239528637793328,
+      "abs_heading_change_rad": 0.6063394110028942,
+      "survival_seconds": 14.384444444444444,
+      "moving_fraction": 0.5557777777777778,
+      "completion_rate": 0.24444444444444444,
+      "fall_rate": 0.5111111111111111
+    },
+    {
+      "stage": "S",
+      "domain": "粗糙",
+      "method": "RE",
+      "method_label": "粗糙训练＋学习相位",
+      "n": 90,
+      "completed": 35,
+      "falls": 33,
+      "mae_forward_velocity_mps": 0.32756359136652713,
+      "forward_displacement_m": 5.816053600609303,
+      "tilt_rms_rad": 0.15101341613464886,
+      "abs_heading_change_rad": 0.41806840835035675,
+      "survival_seconds": 15.78888888888889,
+      "moving_fraction": 0.6583222222222223,
+      "completion_rate": 0.3888888888888889,
+      "fall_rate": 0.36666666666666664
+    },
+    {
+      "stage": "R",
+      "domain": "平地",
+      "method": "AC",
+      "method_label": "原固定节奏",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.04998441777947204,
+      "forward_displacement_m": 9.086668109893798,
+      "tilt_rms_rad": 0.06919644946853319,
+      "abs_heading_change_rad": 0.49361328358451523,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9948,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "R",
+      "domain": "平地",
+      "method": "AE",
+      "method_label": "原学习相位",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.05506845086752631,
+      "forward_displacement_m": 7.369888957341512,
+      "tilt_rms_rad": 0.04354564944903056,
+      "abs_heading_change_rad": 0.9605598638455073,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9952666666666666,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "R",
+      "domain": "平地",
+      "method": "DC",
+      "method_label": "源策略约束修正＋固定节奏",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.041416826162681296,
+      "forward_displacement_m": 8.614336188634237,
+      "tilt_rms_rad": 0.018756549836446843,
+      "abs_heading_change_rad": 0.6173138961195945,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9932,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "R",
+      "domain": "平地",
+      "method": "DE",
+      "method_label": "源策略约束修正＋学习相位",
+      "n": 30,
+      "completed": 30,
+      "falls": 0,
+      "mae_forward_velocity_mps": 0.04725659515528241,
+      "forward_displacement_m": 8.870706160863241,
+      "tilt_rms_rad": 0.01870323782786727,
+      "abs_heading_change_rad": 0.48592291908959545,
+      "survival_seconds": 20.0,
+      "moving_fraction": 0.9944,
+      "completion_rate": 1.0,
+      "fall_rate": 0.0
+    },
+    {
+      "stage": "R",
+      "domain": "粗糙",
+      "method": "AC",
+      "method_label": "原固定节奏",
+      "n": 90,
+      "completed": 4,
+      "falls": 83,
+      "mae_forward_velocity_mps": 0.5032996478475348,
+      "forward_displacement_m": 0.9938169594440195,
+      "tilt_rms_rad": 0.2641976500550906,
+      "abs_heading_change_rad": 0.6913278398207492,
+      "survival_seconds": 6.2860000000000005,
+      "moving_fraction": 0.19657777777777777,
+      "completion_rate": 0.044444444444444446,
+      "fall_rate": 0.9222222222222223
+    },
+    {
+      "stage": "R",
+      "domain": "粗糙",
+      "method": "AE",
+      "method_label": "原学习相位",
+      "n": 90,
+      "completed": 1,
+      "falls": 86,
+      "mae_forward_velocity_mps": 0.5086261642408657,
+      "forward_displacement_m": 0.8495912695096599,
+      "tilt_rms_rad": 0.24710400592949655,
+      "abs_heading_change_rad": 0.8214143400804864,
+      "survival_seconds": 7.571777777777778,
+      "moving_fraction": 0.2291111111111111,
+      "completion_rate": 0.011111111111111112,
+      "fall_rate": 0.9555555555555556
+    },
+    {
+      "stage": "R",
+      "domain": "粗糙",
+      "method": "DC",
+      "method_label": "源策略约束修正＋固定节奏",
+      "n": 90,
+      "completed": 9,
+      "falls": 71,
+      "mae_forward_velocity_mps": 0.4275967955167536,
+      "forward_displacement_m": 3.3980982881453303,
+      "tilt_rms_rad": 0.23056182455685403,
+      "abs_heading_change_rad": 0.5141832322192689,
+      "survival_seconds": 10.715777777777777,
+      "moving_fraction": 0.40854444444444443,
+      "completion_rate": 0.1,
+      "fall_rate": 0.7888888888888889
+    },
+    {
+      "stage": "R",
+      "domain": "粗糙",
+      "method": "DE",
+      "method_label": "源策略约束修正＋学习相位",
+      "n": 90,
+      "completed": 13,
+      "falls": 59,
+      "mae_forward_velocity_mps": 0.4186664044386636,
+      "forward_displacement_m": 3.60074589939581,
+      "tilt_rms_rad": 0.19571328800585536,
+      "abs_heading_change_rad": 0.5214637498060862,
+      "survival_seconds": 13.177555555555555,
+      "moving_fraction": 0.4864777777777778,
+      "completion_rate": 0.14444444444444443,
+      "fall_rate": 0.6555555555555556
+    }
+  ],
+  "locked_statistics": {
+    "确认": {
+      "independent_training_seeds": 3,
+      "rough_seed_means": {
+        "RE_live": {
+          "completed": [
+            0.3,
+            0.5333333333333333,
+            0.2
+          ],
+          "fell": [
+            0.5,
+            0.23333333333333334,
+            0.4
+          ],
+          "mae_forward_velocity_mps": [
+            0.3736777607820821,
+            0.3061237616488526,
+            0.34670720564239965
+          ],
+          "forward_displacement_m": [
+            4.549354026714961,
+            7.375660549600919,
+            4.840748470028242
+          ],
+          "tilt_rms_rad": [
+            0.1905350071688493,
+            0.13186702554424604,
+            0.15613829245169958
+          ],
+          "abs_heading_change_rad": [
+            0.3864524969675889,
+            0.4047150090841266,
+            0.4713641580194235
+          ]
+        },
+        "RE_frozen": {
+          "completed": [
+            0.0,
+            0.03333333333333333,
+            0.0
+          ],
+          "fell": [
+            0.9666666666666667,
+            0.8333333333333334,
+            1.0
+          ],
+          "mae_forward_velocity_mps": [
+            0.4904097086810269,
+            0.4993243972831553,
+            0.5012855668774793
+          ],
+          "forward_displacement_m": [
+            0.6118702381849289,
+            2.0495250085989634,
+            1.6555646538734436
+          ],
+          "tilt_rms_rad": [
+            0.2862688476840655,
+            0.26930045932531355,
+            0.2724433029691378
+          ],
+          "abs_heading_change_rad": [
+            1.563486416141192,
+            1.2486842857052882,
+            1.052071900681282
+          ]
+        },
+        "RC_clock": {
+          "completed": [
+            0.23333333333333334,
+            0.4,
+            0.3
+          ],
+          "fell": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "mae_forward_velocity_mps": [
+            0.35387762641806647,
+            0.3209626236320907,
+            0.36293242747692195
+          ],
+          "forward_displacement_m": [
+            4.738280991713206,
+            5.636750457684199,
+            4.537777870893478
+          ],
+          "tilt_rms_rad": [
+            0.16315679649511974,
+            0.15187591662009556,
+            0.15422913208603858
+          ],
+          "abs_heading_change_rad": [
+            0.4691250217768053,
+            0.4497345559298992,
+            0.42235195874915615
+          ]
+        },
+        "FC_clock": {
+          "completed": [
+            0.06666666666666667,
+            0.16666666666666666,
+            0.1
+          ],
+          "fell": [
+            0.8,
+            0.6,
+            0.7
+          ],
+          "mae_forward_velocity_mps": [
+            0.43145097491333373,
+            0.4046759936068459,
+            0.42023260812698277
+          ],
+          "forward_displacement_m": [
+            2.369132535656293,
+            3.425070865948995,
+            3.2892408668994904
+          ],
+          "tilt_rms_rad": [
+            0.22281535093983015,
+            0.20711548775434493,
+            0.2151999942958355
+          ],
+          "abs_heading_change_rad": [
+            0.49156507776739694,
+            0.48682313760121665,
+            0.5536191276817893
+          ]
+        }
+      },
+      "family": {
+        "RE_live_minus_RC_clock:completed": {
+          "per_seed": [
+            0.06666666666666665,
+            0.1333333333333333,
+            -0.09999999999999998
+          ],
+          "mean": 0.033333333333333326,
+          "ci95": [
+            -0.2652228631676532,
+            0.33188952983431985
+          ],
+          "p_exact": 0.75,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RE_live_minus_RC_clock:fell": {
+          "per_seed": [
+            0.09999999999999998,
+            -0.16666666666666669,
+            0.0
+          ],
+          "mean": -0.022222222222222237,
+          "ci95": [
+            -0.35687299009162493,
+            0.3124285456471804
+          ],
+          "p_exact": 1.0,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RE_live_minus_RE_frozen:completed": {
+          "per_seed": [
+            0.3,
+            0.5,
+            0.2
+          ],
+          "mean": 0.3333333333333333,
+          "ci95": [
+            -0.04612497002634264,
+            0.7127916366930093
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RE_live_minus_RE_frozen:fell": {
+          "per_seed": [
+            -0.4666666666666667,
+            -0.6000000000000001,
+            -0.6
+          ],
+          "mean": -0.5555555555555557,
+          "ci95": [
+            -0.746784565766643,
+            -0.36432654534446846
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        }
+      },
+      "candidate": {
+        "comparators": {
+          "RC_clock": {
+            "gates": {
+              "completion_margin": false,
+              "fall_margin": false,
+              "completion_seed_direction": true,
+              "fall_seed_direction": false,
+              "mae_forward_velocity_mps": true,
+              "forward_displacement_m": true,
+              "tilt_rms_rad": true,
+              "abs_heading_change_rad": true
+            },
+            "passed": false,
+            "differences": {
+              "completed": {
+                "per_seed": [
+                  0.06666666666666665,
+                  0.1333333333333333,
+                  -0.09999999999999998
+                ],
+                "mean": 0.033333333333333326,
+                "ci95": [
+                  -0.2652228631676532,
+                  0.33188952983431985
+                ],
+                "p_exact": 0.75,
+                "n": 3
+              },
+              "fell": {
+                "per_seed": [
+                  0.09999999999999998,
+                  -0.16666666666666669,
+                  0.0
+                ],
+                "mean": -0.022222222222222237,
+                "ci95": [
+                  -0.35687299009162493,
+                  0.3124285456471804
+                ],
+                "p_exact": 1.0,
+                "n": 3
+              },
+              "mae_forward_velocity_mps": {
+                "per_seed": [
+                  0.01980013436401562,
+                  -0.014838861983238139,
+                  -0.016225221834522296
+                ],
+                "mean": -0.003754649817914938,
+                "ci95": [
+                  -0.05445792647675074,
+                  0.04694862684092087
+                ],
+                "p_exact": 1.0,
+                "n": 3
+              },
+              "forward_displacement_m": {
+                "per_seed": [
+                  -0.18892696499824524,
+                  1.7389100919167202,
+                  0.3029705991347633
+                ],
+                "mean": 0.6176512420177461,
+                "ci95": [
+                  -1.8707144261819542,
+                  3.1060169102174466
+                ],
+                "p_exact": 0.5,
+                "n": 3
+              },
+              "tilt_rms_rad": {
+                "per_seed": [
+                  0.02737821067372956,
+                  -0.020008891075849522,
+                  0.0019091603656609946
+                ],
+                "mean": 0.003092826654513677,
+                "ci95": [
+                  -0.05582027609791618,
+                  0.062005929406943536
+                ],
+                "p_exact": 0.75,
+                "n": 3
+              },
+              "abs_heading_change_rad": {
+                "per_seed": [
+                  -0.08267252480921644,
+                  -0.045019546845772584,
+                  0.04901219927026734
+                ],
+                "mean": -0.02622662412824056,
+                "ci95": [
+                  -0.19471081913527627,
+                  0.14225757087879515
+                ],
+                "p_exact": 0.75,
+                "n": 3
+              }
+            }
+          },
+          "RE_frozen": {
+            "gates": {
+              "completion_margin": true,
+              "fall_margin": true,
+              "completion_seed_direction": true,
+              "fall_seed_direction": true,
+              "mae_forward_velocity_mps": true,
+              "forward_displacement_m": true,
+              "tilt_rms_rad": true,
+              "abs_heading_change_rad": true
+            },
+            "passed": true,
+            "differences": {
+              "completed": {
+                "per_seed": [
+                  0.3,
+                  0.5,
+                  0.2
+                ],
+                "mean": 0.3333333333333333,
+                "ci95": [
+                  -0.04612497002634264,
+                  0.7127916366930093
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "fell": {
+                "per_seed": [
+                  -0.4666666666666667,
+                  -0.6000000000000001,
+                  -0.6
+                ],
+                "mean": -0.5555555555555557,
+                "ci95": [
+                  -0.746784565766643,
+                  -0.36432654534446846
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "mae_forward_velocity_mps": {
+                "per_seed": [
+                  -0.11673194789894481,
+                  -0.19320063563430273,
+                  -0.15457836123507962
+                ],
+                "mean": -0.1548369815894424,
+                "ci95": [
+                  -0.24981798665249938,
+                  -0.0598559765263854
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "forward_displacement_m": {
+                "per_seed": [
+                  3.9374837885300322,
+                  5.326135541001956,
+                  3.1851838161547983
+                ],
+                "mean": 4.149601048562261,
+                "ci95": [
+                  1.4515211442651959,
+                  6.847680952859327
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "tilt_rms_rad": {
+                "per_seed": [
+                  -0.09573384051521622,
+                  -0.1374334337810675,
+                  -0.11630501051743825
+                ],
+                "mean": -0.11649076160457399,
+                "ci95": [
+                  -0.16828606926610384,
+                  -0.06469545394304413
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "abs_heading_change_rad": {
+                "per_seed": [
+                  -1.1770339191736032,
+                  -0.8439692766211616,
+                  -0.5807077426618585
+                ],
+                "mean": -0.8672369794855411,
+                "ci95": [
+                  -1.6096046778732553,
+                  -0.1248692810978268
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              }
+            }
+          }
+        },
+        "passed": false,
+        "meaning": "fresh-map/eval confirmation with matched live-vs-frozen feedback ablation"
+      },
+      "inference": "conditional on three frozen S source lineages and the pre-registered fresh rough maps/seeds"
+    },
+    "S": {
+      "source_training_seeds": [
+        20261901,
+        20261902,
+        20261903
+      ],
+      "independent_units": 3,
+      "domain_seed_means": {
+        "rough": {
+          "FC": {
+            "completed": [
+              0.1,
+              0.06666666666666667,
+              0.13333333333333333
+            ],
+            "fell": [
+              0.7,
+              0.8,
+              0.7333333333333333
+            ],
+            "mae_forward_velocity_mps": [
+              0.44883847298352675,
+              0.4371681689998702,
+              0.4275689783398537
+            ],
+            "forward_displacement_m": [
+              2.7480421269933384,
+              2.9455097963412604,
+              2.685768660157919
+            ],
+            "tilt_rms_rad": [
+              0.2034045137465,
+              0.24664407695333163,
+              0.18349546144406
+            ],
+            "abs_heading_change_rad": [
+              0.7589980325661599,
+              0.5032354658779998,
+              0.7208293406913678
+            ]
+          },
+          "FE": {
+            "completed": [
+              0.23333333333333334,
+              0.26666666666666666,
+              0.13333333333333333
+            ],
+            "fell": [
+              0.6666666666666666,
+              0.6666666666666666,
+              0.6333333333333333
+            ],
+            "mae_forward_velocity_mps": [
+              0.41185553518992374,
+              0.4047626865445757,
+              0.4418336635359432
+            ],
+            "forward_displacement_m": [
+              3.100949847449859,
+              4.20632153985401,
+              2.5965695902705193
+            ],
+            "tilt_rms_rad": [
+              0.19557203029592832,
+              0.22841562156875928,
+              0.1961410979429881
+            ],
+            "abs_heading_change_rad": [
+              0.45761745553463695,
+              0.5015952125346909,
+              0.48884542162219685
+            ]
+          },
+          "RC": {
+            "completed": [
+              0.26666666666666666,
+              0.3,
+              0.16666666666666666
+            ],
+            "fell": [
+              0.5,
+              0.43333333333333335,
+              0.6
+            ],
+            "mae_forward_velocity_mps": [
+              0.3713578119958591,
+              0.3486419699203665,
+              0.3887639717688314
+            ],
+            "forward_displacement_m": [
+              3.880437030394872,
+              5.090519400437673,
+              3.7602107554674147
+            ],
+            "tilt_rms_rad": [
+              0.18944295371572176,
+              0.14408276801307995,
+              0.18366013740499815
+            ],
+            "abs_heading_change_rad": [
+              0.6958438416942954,
+              0.5028208590423068,
+              0.6203535322720806
+            ]
+          },
+          "RE": {
+            "completed": [
+              0.36666666666666664,
+              0.5666666666666667,
+              0.23333333333333334
+            ],
+            "fell": [
+              0.3333333333333333,
+              0.3,
+              0.4666666666666667
+            ],
+            "mae_forward_velocity_mps": [
+              0.3344232590979795,
+              0.28918032221736095,
+              0.359087192784241
+            ],
+            "forward_displacement_m": [
+              5.643935546775659,
+              7.80158410469691,
+              4.002641150355339
+            ],
+            "tilt_rms_rad": [
+              0.15369267960389454,
+              0.14150666718681654,
+              0.15784090161323547
+            ],
+            "abs_heading_change_rad": [
+              0.35654119922158617,
+              0.42277145000795524,
+              0.47489257582152883
+            ]
+          }
+        },
+        "flat": {
+          "FC": {
+            "completed": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "fell": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mae_forward_velocity_mps": [
+              0.04601528839094099,
+              0.046491240824852134,
+              0.0479595017072279
+            ],
+            "forward_displacement_m": [
+              7.401067924499512,
+              8.880273056030273,
+              8.927623081207276
+            ],
+            "tilt_rms_rad": [
+              0.014837905392050743,
+              0.017318655923008918,
+              0.015355380065739156
+            ],
+            "abs_heading_change_rad": [
+              1.0016263097524643,
+              0.40466167628765104,
+              0.2664853435009718
+            ]
+          },
+          "FE": {
+            "completed": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "fell": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mae_forward_velocity_mps": [
+              0.06222234458445456,
+              0.04381718574184924,
+              0.04909527739642654
+            ],
+            "forward_displacement_m": [
+              7.409844398498535,
+              8.808487033843994,
+              9.03189001083374
+            ],
+            "tilt_rms_rad": [
+              0.016189680714160205,
+              0.016819861158728598,
+              0.01944386027753353
+            ],
+            "abs_heading_change_rad": [
+              0.92569380402565,
+              0.44272120408713816,
+              0.3224576570093632
+            ]
+          },
+          "RC": {
+            "completed": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "fell": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mae_forward_velocity_mps": [
+              0.039277096986072145,
+              0.04028027219051146,
+              0.04411760470818262
+            ],
+            "forward_displacement_m": [
+              7.754685306549073,
+              8.521564865112305,
+              7.625375366210937
+            ],
+            "tilt_rms_rad": [
+              0.01575851012021303,
+              0.015427721198648214,
+              0.01675908248871565
+            ],
+            "abs_heading_change_rad": [
+              1.04175808429718,
+              0.6911861412227154,
+              1.02846999168396
+            ]
+          },
+          "RE": {
+            "completed": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "fell": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mae_forward_velocity_mps": [
+              0.04415359765314497,
+              0.038270827760361135,
+              0.041068756793881764
+            ],
+            "forward_displacement_m": [
+              9.384492874145508,
+              9.517174911499023,
+              9.661044692993164
+            ],
+            "tilt_rms_rad": [
+              0.024221378751099108,
+              0.018043848127126692,
+              0.027613338083028793
+            ],
+            "abs_heading_change_rad": [
+              0.5002678662538529,
+              0.45362944800872357,
+              0.36979744911659507
+            ]
+          }
+        }
+      },
+      "family": {
+        "RE_minus_RC:completed": {
+          "per_seed": [
+            0.09999999999999998,
+            0.26666666666666666,
+            0.06666666666666668
+          ],
+          "mean": 0.14444444444444446,
+          "ci95": [
+            -0.12173507260369296,
+            0.41062396149258185
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RE_minus_RC:fell": {
+          "per_seed": [
+            -0.16666666666666669,
+            -0.13333333333333336,
+            -0.1333333333333333
+          ],
+          "mean": -0.14444444444444446,
+          "ci95": [
+            -0.19225169699721628,
+            -0.09663719189167262
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RE_minus_FE:completed": {
+          "per_seed": [
+            0.1333333333333333,
+            0.3,
+            0.1
+          ],
+          "mean": 0.17777777777777778,
+          "ci95": [
+            -0.08840173927035963,
+            0.44395729482591517
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RE_minus_FE:fell": {
+          "per_seed": [
+            -0.3333333333333333,
+            -0.36666666666666664,
+            -0.16666666666666663
+          ],
+          "mean": -0.28888888888888886,
+          "ci95": [
+            -0.5550684059370263,
+            -0.022709371840751447
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RC_minus_FC:completed": {
+          "per_seed": [
+            0.16666666666666666,
+            0.23333333333333334,
+            0.033333333333333326
+          ],
+          "mean": 0.14444444444444446,
+          "ci95": [
+            -0.10852775779533955,
+            0.3974166466842285
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "RC_minus_FC:fell": {
+          "per_seed": [
+            -0.19999999999999996,
+            -0.3666666666666667,
+            -0.1333333333333333
+          ],
+          "mean": -0.2333333333333333,
+          "ci95": [
+            -0.53188952983432,
+            0.06522286316765338
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "interaction:completed": {
+          "per_seed": [
+            -0.033333333333333354,
+            0.06666666666666667,
+            0.06666666666666668
+          ],
+          "mean": 0.03333333333333333,
+          "ci95": [
+            -0.11008842432498209,
+            0.17675509099164874
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "interaction:fell": {
+          "per_seed": [
+            -0.1333333333333333,
+            0.0,
+            -0.033333333333333326
+          ],
+          "mean": -0.055555555555555546,
+          "ci95": [
+            -0.22792705597363092,
+            0.11681594486251981
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        }
+      },
+      "candidate": {
+        "comparators": {
+          "RC": {
+            "gates": {
+              "completion_margin": true,
+              "fall_margin": true,
+              "completion_seed_direction": true,
+              "fall_seed_direction": true,
+              "mae_forward_velocity_mps": true,
+              "forward_displacement_m": true,
+              "tilt_rms_rad": true,
+              "abs_heading_change_rad": true
+            },
+            "passed": true,
+            "differences": {
+              "completed": {
+                "per_seed": [
+                  0.09999999999999998,
+                  0.26666666666666666,
+                  0.06666666666666668
+                ],
+                "mean": 0.14444444444444446,
+                "ci95": [
+                  -0.12173507260369296,
+                  0.41062396149258185
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "fell": {
+                "per_seed": [
+                  -0.16666666666666669,
+                  -0.13333333333333336,
+                  -0.1333333333333333
+                ],
+                "mean": -0.14444444444444446,
+                "ci95": [
+                  -0.19225169699721628,
+                  -0.09663719189167262
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "mae_forward_velocity_mps": {
+                "per_seed": [
+                  -0.03693455289787961,
+                  -0.05946164770300555,
+                  -0.02967677898459037
+                ],
+                "mean": -0.04202432652849184,
+                "ci95": [
+                  -0.08060562822487921,
+                  -0.0034430248321044785
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "forward_displacement_m": {
+                "per_seed": [
+                  1.7634985163807873,
+                  2.711064704259237,
+                  0.24243039488792473
+                ],
+                "mean": 1.572331205175983,
+                "ci95": [
+                  -1.5213404810779343,
+                  4.6660028914299
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "tilt_rms_rad": {
+                "per_seed": [
+                  -0.03575027411182721,
+                  -0.0025761008262634166,
+                  -0.02581923579176268
+                ],
+                "mean": -0.021381870243284435,
+                "ci95": [
+                  -0.06367785138276086,
+                  0.020914110896191992
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "abs_heading_change_rad": {
+                "per_seed": [
+                  -0.3393026424727092,
+                  -0.08004940903435154,
+                  -0.14546095645055174
+                ],
+                "mean": -0.1882710026525375,
+                "ci95": [
+                  -0.5231930656421232,
+                  0.14665106033704822
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              }
+            }
+          },
+          "FC": {
+            "gates": {
+              "completion_margin": true,
+              "fall_margin": true,
+              "completion_seed_direction": true,
+              "fall_seed_direction": true,
+              "mae_forward_velocity_mps": true,
+              "forward_displacement_m": true,
+              "tilt_rms_rad": true,
+              "abs_heading_change_rad": true
+            },
+            "passed": true,
+            "differences": {
+              "completed": {
+                "per_seed": [
+                  0.2666666666666666,
+                  0.5,
+                  0.1
+                ],
+                "mean": 0.28888888888888886,
+                "ci95": [
+                  -0.2102334811109451,
+                  0.7880112588887228
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "fell": {
+                "per_seed": [
+                  -0.36666666666666664,
+                  -0.5,
+                  -0.2666666666666666
+                ],
+                "mean": -0.37777777777777777,
+                "ci95": [
+                  -0.6685779422822821,
+                  -0.08697761327327347
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "mae_forward_velocity_mps": {
+                "per_seed": [
+                  -0.11441521388554726,
+                  -0.14798784678250926,
+                  -0.06848178555561268
+                ],
+                "mean": -0.11029494874122307,
+                "ci95": [
+                  -0.20944397352465038,
+                  -0.011145923957795748
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "forward_displacement_m": {
+                "per_seed": [
+                  2.895893419782321,
+                  4.85607430835565,
+                  1.3168724901974205
+                ],
+                "mean": 3.0229467394451306,
+                "ci95": [
+                  -1.3814751597859298,
+                  7.427368638676191
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "tilt_rms_rad": {
+                "per_seed": [
+                  -0.049711834142605466,
+                  -0.10513740976651509,
+                  -0.02565455983082454
+                ],
+                "mean": -0.0601679345799817,
+                "ci95": [
+                  -0.1614214116546411,
+                  0.0410855424946777
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "abs_heading_change_rad": {
+                "per_seed": [
+                  -0.40245683334457377,
+                  -0.08046401587004459,
+                  -0.245936764869839
+                ],
+                "mean": -0.24295253802815245,
+                "ci95": [
+                  -0.64294131442962,
+                  0.15703623837331512
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              }
+            }
+          }
+        },
+        "flat_guards": {
+          "completed": true,
+          "fell": true,
+          "mae_forward_velocity_mps": true,
+          "forward_displacement_m": true,
+          "tilt_rms_rad": true,
+          "abs_heading_change_rad": true
+        },
+        "flat_differences": {
+          "completed": {
+            "per_seed": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_exact": 1.0,
+            "n": 3
+          },
+          "fell": {
+            "per_seed": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "p_exact": 1.0,
+            "n": 3
+          },
+          "mae_forward_velocity_mps": {
+            "per_seed": [
+              -0.01806874693130959,
+              -0.005546357981488108,
+              -0.008026520602544773
+            ],
+            "mean": -0.010547208505114156,
+            "ci95": [
+              -0.027019112807303014,
+              0.0059246957970747
+            ],
+            "p_exact": 0.25,
+            "n": 3
+          },
+          "forward_displacement_m": {
+            "per_seed": [
+              1.9746484756469727,
+              0.7086878776550289,
+              0.6291546821594238
+            ],
+            "mean": 1.1041636784871418,
+            "ci95": [
+              -0.771136903728006,
+              2.9794642607022896
+            ],
+            "p_exact": 0.25,
+            "n": 3
+          },
+          "tilt_rms_rad": {
+            "per_seed": [
+              0.008031698036938904,
+              0.0012239869683980942,
+              0.008169477805495262
+            ],
+            "mean": 0.005808387603610753,
+            "ci95": [
+              -0.004055638954326273,
+              0.015672414161547778
+            ],
+            "p_exact": 0.25,
+            "n": 3
+          },
+          "abs_heading_change_rad": {
+            "per_seed": [
+              -0.42542593777179716,
+              0.010908243921585403,
+              0.04733979210723188
+            ],
+            "mean": -0.12239263391432663,
+            "ci95": [
+              -0.7758847178687379,
+              0.5310994500400846
+            ],
+            "p_exact": 1.0,
+            "n": 3
+          }
+        },
+        "passed": true,
+        "meaning": "new exploratory candidate only; no independent superiority or causal feedback confirmation"
+      },
+      "training_domain_effect": {
+        "learned": {
+          "point_gates": {
+            "completion_margin": true,
+            "fall_margin": true,
+            "completion_seed_direction": true,
+            "fall_seed_direction": true
+          },
+          "point_gate_passed": true,
+          "differences": {
+            "completed": {
+              "per_seed": [
+                0.1333333333333333,
+                0.3,
+                0.1
+              ],
+              "mean": 0.17777777777777778,
+              "ci95": [
+                -0.08840173927035963,
+                0.44395729482591517
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "fell": {
+              "per_seed": [
+                -0.3333333333333333,
+                -0.36666666666666664,
+                -0.16666666666666663
+              ],
+              "mean": -0.28888888888888886,
+              "ci95": [
+                -0.5550684059370263,
+                -0.022709371840751447
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "mae_forward_velocity_mps": {
+              "per_seed": [
+                -0.07743227609194425,
+                -0.11558236432721475,
+                -0.08274647075170222
+              ],
+              "mean": -0.09192037039028707,
+              "ci95": [
+                -0.14325119381920523,
+                -0.0405895469613689
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "forward_displacement_m": {
+              "per_seed": [
+                2.5429856993258,
+                3.5952625648428995,
+                1.4060715600848201
+              ],
+              "mean": 2.5147732747511733,
+              "ci95": [
+                -0.205029990164026,
+                5.234576539666373
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "tilt_rms_rad": {
+              "per_seed": [
+                -0.04187935069203377,
+                -0.08690895438194274,
+                -0.03830019632975262
+              ],
+              "mean": -0.055696167134576376,
+              "ci95": [
+                -0.1229920561874707,
+                0.011599721918317936
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "abs_heading_change_rad": {
+              "per_seed": [
+                -0.10107625631305078,
+                -0.07882376252673562,
+                -0.013952845800668023
+              ],
+              "mean": -0.06461762154681815,
+              "ci95": [
+                -0.1770638374879801,
+                0.047828594394343824
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            }
+          },
+          "meaning": "finite-budget training-domain point effect; not a phase benefit or confirmation"
+        },
+        "clock": {
+          "point_gates": {
+            "completion_margin": true,
+            "fall_margin": true,
+            "completion_seed_direction": true,
+            "fall_seed_direction": true
+          },
+          "point_gate_passed": true,
+          "differences": {
+            "completed": {
+              "per_seed": [
+                0.16666666666666666,
+                0.23333333333333334,
+                0.033333333333333326
+              ],
+              "mean": 0.14444444444444446,
+              "ci95": [
+                -0.10852775779533955,
+                0.3974166466842285
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "fell": {
+              "per_seed": [
+                -0.19999999999999996,
+                -0.3666666666666667,
+                -0.1333333333333333
+              ],
+              "mean": -0.2333333333333333,
+              "ci95": [
+                -0.53188952983432,
+                0.06522286316765338
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "mae_forward_velocity_mps": {
+              "per_seed": [
+                -0.07748066098766765,
+                -0.08852619907950371,
+                -0.038805006571022316
+              ],
+              "mean": -0.06827062221273122,
+              "ci95": [
+                -0.13312840170543433,
+                -0.0034128427200281197
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "forward_displacement_m": {
+              "per_seed": [
+                1.1323949034015337,
+                2.1450096040964124,
+                1.0744420953094957
+              ],
+              "mean": 1.4506155342691471,
+              "ci95": [
+                -0.044985925677102356,
+                2.946216994215397
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            },
+            "tilt_rms_rad": {
+              "per_seed": [
+                -0.013961560030778253,
+                -0.10256130894025167,
+                0.00016467596093813763
+              ],
+              "mean": -0.03878606433669726,
+              "ci95": [
+                -0.1771047840125018,
+                0.09953265533910727
+              ],
+              "p_exact": 0.5,
+              "n": 3
+            },
+            "abs_heading_change_rad": {
+              "per_seed": [
+                -0.06315419087186458,
+                -0.00041460683569305434,
+                -0.10047580841928727
+              ],
+              "mean": -0.054681535375614966,
+              "ci95": [
+                -0.18029395355549935,
+                0.07093088280426943
+              ],
+              "p_exact": 0.25,
+              "n": 3
+            }
+          },
+          "meaning": "finite-budget training-domain point effect; not a phase benefit or confirmation"
+        }
+      },
+      "limitation": "three reused source-seed pipelines; conditional on fixed held-out maps; exact two-sided p minimum .25"
+    },
+    "R": {
+      "independent_training_seeds": 3,
+      "rough_seed_means": {
+        "AC": {
+          "completed": [
+            0.0,
+            0.1,
+            0.03333333333333333
+          ],
+          "fell": [
+            1.0,
+            0.8333333333333334,
+            0.9333333333333333
+          ],
+          "mae_forward_velocity_mps": [
+            0.5066727901126492,
+            0.4805442320071205,
+            0.5226819214228346
+          ],
+          "forward_displacement_m": [
+            1.0666676111519338,
+            1.247063227991263,
+            0.6677200391888618
+          ],
+          "tilt_rms_rad": [
+            0.2930891916155815,
+            0.252533886830012,
+            0.24696987171967824
+          ],
+          "abs_heading_change_rad": [
+            0.7849304172520836,
+            0.7559588464908302,
+            0.5330942557193339
+          ]
+        },
+        "AE": {
+          "completed": [
+            0.0,
+            0.03333333333333333,
+            0.0
+          ],
+          "fell": [
+            0.9666666666666667,
+            0.9666666666666667,
+            0.9333333333333333
+          ],
+          "mae_forward_velocity_mps": [
+            0.5295854566533298,
+            0.5083514907899939,
+            0.4879415452792735
+          ],
+          "forward_displacement_m": [
+            -0.3328600848714511,
+            1.2305337647596994,
+            1.6511001286407312
+          ],
+          "tilt_rms_rad": [
+            0.2382443904876709,
+            0.2315173995991548,
+            0.271550227701664
+          ],
+          "abs_heading_change_rad": [
+            0.8096756929531693,
+            0.737167549567918,
+            0.9173997777203718
+          ]
+        },
+        "DC": {
+          "completed": [
+            0.1,
+            0.16666666666666666,
+            0.03333333333333333
+          ],
+          "fell": [
+            0.7,
+            0.7666666666666667,
+            0.9
+          ],
+          "mae_forward_velocity_mps": [
+            0.41998080626816514,
+            0.4240697994446746,
+            0.4387397808374211
+          ],
+          "forward_displacement_m": [
+            3.779820886254311,
+            3.759388303756714,
+            2.6550856744249662
+          ],
+          "tilt_rms_rad": [
+            0.2350561149418354,
+            0.21986081600189208,
+            0.23676854272683462
+          ],
+          "abs_heading_change_rad": [
+            0.502752024307847,
+            0.5191709078848362,
+            0.5206267644651235
+          ]
+        },
+        "DE": {
+          "completed": [
+            0.1,
+            0.2,
+            0.13333333333333333
+          ],
+          "fell": [
+            0.7666666666666667,
+            0.5,
+            0.7
+          ],
+          "mae_forward_velocity_mps": [
+            0.4161280561039583,
+            0.39736661293565617,
+            0.4425045442763764
+          ],
+          "forward_displacement_m": [
+            3.8405628271400927,
+            4.029751801490784,
+            2.931923069556554
+          ],
+          "tilt_rms_rad": [
+            0.22194833556811014,
+            0.16713765213886897,
+            0.19805387631058693
+          ],
+          "abs_heading_change_rad": [
+            0.5067975458999475,
+            0.4827894082913796,
+            0.5748042952269315
+          ]
+        }
+      },
+      "family": {
+        "DE_minus_DC:completed": {
+          "per_seed": [
+            0.0,
+            0.033333333333333354,
+            0.1
+          ],
+          "mean": 0.04444444444444445,
+          "ci95": [
+            -0.08204165667544755,
+            0.17093054556433646
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "DE_minus_DC:fell": {
+          "per_seed": [
+            0.06666666666666676,
+            -0.2666666666666667,
+            -0.20000000000000007
+          ],
+          "mean": -0.13333333333333333,
+          "ci95": [
+            -0.5714940405152288,
+            0.30482737384856207
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "AE_minus_AC:completed": {
+          "per_seed": [
+            0.0,
+            -0.06666666666666668,
+            -0.03333333333333333
+          ],
+          "mean": -0.03333333333333333,
+          "ci95": [
+            -0.11613792372501103,
+            0.049471257058344355
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "AE_minus_AC:fell": {
+          "per_seed": [
+            -0.033333333333333326,
+            0.1333333333333333,
+            0.0
+          ],
+          "mean": 0.033333333333333326,
+          "ci95": [
+            -0.1857470202576142,
+            0.25241368692428084
+          ],
+          "p_exact": 1.0,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "DE_minus_AE:completed": {
+          "per_seed": [
+            0.1,
+            0.16666666666666669,
+            0.13333333333333333
+          ],
+          "mean": 0.13333333333333333,
+          "ci95": [
+            0.050528742941655644,
+            0.216137923725011
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "DE_minus_AE:fell": {
+          "per_seed": [
+            -0.19999999999999996,
+            -0.4666666666666667,
+            -0.2333333333333334
+          ],
+          "mean": -0.3,
+          "ci95": [
+            -0.6609368415786021,
+            0.060936841578602075
+          ],
+          "p_exact": 0.25,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "interaction:completed": {
+          "per_seed": [
+            0.0,
+            0.10000000000000003,
+            0.13333333333333333
+          ],
+          "mean": 0.07777777777777779,
+          "ci95": [
+            -0.09459372264029765,
+            0.25014927819585325
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        },
+        "interaction:fell": {
+          "per_seed": [
+            0.10000000000000009,
+            -0.4,
+            -0.19999999999999996
+          ],
+          "mean": -0.16666666666666663,
+          "ci95": [
+            -0.7918276146042443,
+            0.4584942812709111
+          ],
+          "p_exact": 0.5,
+          "n": 3,
+          "p_holm": 1.0
+        }
+      },
+      "candidate": {
+        "comparators": {
+          "DC": {
+            "gates": {
+              "completion_margin": false,
+              "fall_margin": true,
+              "completion_seed_direction": true,
+              "fall_seed_direction": true,
+              "mae_forward_velocity_mps": true,
+              "forward_displacement_m": true,
+              "tilt_rms_rad": true,
+              "abs_heading_change_rad": true
+            },
+            "passed": false,
+            "differences": {
+              "completed": {
+                "per_seed": [
+                  0.0,
+                  0.033333333333333354,
+                  0.1
+                ],
+                "mean": 0.04444444444444445,
+                "ci95": [
+                  -0.08204165667544755,
+                  0.17093054556433646
+                ],
+                "p_exact": 0.5,
+                "n": 3
+              },
+              "fell": {
+                "per_seed": [
+                  0.06666666666666676,
+                  -0.2666666666666667,
+                  -0.20000000000000007
+                ],
+                "mean": -0.13333333333333333,
+                "ci95": [
+                  -0.5714940405152288,
+                  0.30482737384856207
+                ],
+                "p_exact": 0.5,
+                "n": 3
+              },
+              "mae_forward_velocity_mps": {
+                "per_seed": [
+                  -0.0038527501642068307,
+                  -0.02670318650901843,
+                  0.003764763438955321
+                ],
+                "mean": -0.00893039107808998,
+                "ci95": [
+                  -0.048318728660032124,
+                  0.03045794650385216
+                ],
+                "p_exact": 0.5,
+                "n": 3
+              },
+              "forward_displacement_m": {
+                "per_seed": [
+                  0.06074194088578189,
+                  0.2703634977340701,
+                  0.2768373951315879
+                ],
+                "mean": 0.20264761125047995,
+                "ci95": [
+                  -0.10274367816629634,
+                  0.5080389006672562
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "tilt_rms_rad": {
+                "per_seed": [
+                  -0.013107779373725259,
+                  -0.052723163863023115,
+                  -0.038714666416247684
+                ],
+                "mean": -0.034848536550998684,
+                "ci95": [
+                  -0.08475157348472928,
+                  0.015054500382731914
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "abs_heading_change_rad": {
+                "per_seed": [
+                  0.004045521592100476,
+                  -0.0363814995934566,
+                  0.05417753076180809
+                ],
+                "mean": 0.0072805175868173215,
+                "ci95": [
+                  -0.10541513224670765,
+                  0.11997616742034228
+                ],
+                "p_exact": 0.75,
+                "n": 3
+              }
+            }
+          },
+          "AC": {
+            "gates": {
+              "completion_margin": true,
+              "fall_margin": true,
+              "completion_seed_direction": true,
+              "fall_seed_direction": true,
+              "mae_forward_velocity_mps": true,
+              "forward_displacement_m": true,
+              "tilt_rms_rad": true,
+              "abs_heading_change_rad": true
+            },
+            "passed": true,
+            "differences": {
+              "completed": {
+                "per_seed": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "mean": 0.10000000000000002,
+                "ci95": [
+                  0.09999999999999998,
+                  0.10000000000000006
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "fell": {
+                "per_seed": [
+                  -0.23333333333333328,
+                  -0.33333333333333337,
+                  -0.2333333333333334
+                ],
+                "mean": -0.26666666666666666,
+                "ci95": [
+                  -0.4100884243249821,
+                  -0.12324490900835122
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "mae_forward_velocity_mps": {
+                "per_seed": [
+                  -0.0905447340086909,
+                  -0.08317761907146431,
+                  -0.08017737714645823
+                ],
+                "mean": -0.08463324340887114,
+                "ci95": [
+                  -0.09788551945830042,
+                  -0.07138096735944187
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "forward_displacement_m": {
+                "per_seed": [
+                  2.773895215988159,
+                  2.782688573499521,
+                  2.2642030303676925
+                ],
+                "mean": 2.606928939951791,
+                "ci95": [
+                  1.8695327649399196,
+                  3.344325114963662
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "tilt_rms_rad": {
+                "per_seed": [
+                  -0.07114085604747136,
+                  -0.08539623469114302,
+                  -0.048915995409091306
+                ],
+                "mean": -0.06848436204923523,
+                "ci95": [
+                  -0.11415431911009356,
+                  -0.022814404988376905
+                ],
+                "p_exact": 0.25,
+                "n": 3
+              },
+              "abs_heading_change_rad": {
+                "per_seed": [
+                  -0.27813287135213605,
+                  -0.2731694381994506,
+                  0.04171003950759766
+                ],
+                "mean": -0.169864090014663,
+                "ci95": [
+                  -0.6250708411014465,
+                  0.2853426610721206
+                ],
+                "p_exact": 0.5,
+                "n": 3
+              }
+            }
+          }
+        },
+        "passed": false,
+        "meaning": "exploratory point-effect gate only; new training seeds/maps and causal ablation still required"
+      },
+      "inference": "conditional on 15 shared rough patches; exact seed sign-flip minimum two-sided p=.25; no confirmed superiority"
+    },
+    "D": {
+      "E_anchor_minus_clock_anchor": {
+        "mean": 0.00893863608099455,
+        "per_seed": [
+          0.0026409835650003516,
+          0.007272378928228865,
+          0.01690254574975443
+        ],
+        "n": 3,
+        "ci95": [
+          -0.009134272230030481,
+          0.027011544392019582
+        ],
+        "p": 0.16714155724077395,
+        "holm_p": 0.5014246717223219
+      },
+      "E_anchor_minus_E_base": {
+        "mean": -0.00723926202512466,
+        "per_seed": [
+          0.006154339395056017,
+          -0.015926748733263225,
+          -0.011945376737166773
+        ],
+        "n": 3,
+        "ci95": [
+          -0.03647453934789009,
+          0.02199601529764077
+        ],
+        "p": 0.39827869417599754,
+        "holm_p": 0.7965573883519951
+      },
+      "clock_anchor_minus_clock_base": {
+        "mean": -0.007818002431574858,
+        "per_seed": [
+          -0.00878507359048817,
+          -0.0029498815089085834,
+          -0.011719052195327824
+        ],
+        "n": 3,
+        "ci95": [
+          -0.01890683496375193,
+          0.0032708301006022147
+        ],
+        "p": 0.09365352277647551,
+        "holm_p": 0.37461409110590205
+      },
+      "interaction": {
+        "mean": 0.0005787404064501988,
+        "per_seed": [
+          0.014939412985544187,
+          -0.012976867224354642,
+          -0.00022632454183894868
+        ],
+        "n": 3,
+        "ci95": [
+          -0.034138430355602864,
+          0.035295911168503266
+        ],
+        "p": 0.949347261955246,
+        "holm_p": 0.949347261955246
+      }
+    },
+    "C": {
+      "E_input_clock_minus_E": {
+        "per_seed": [
+          -0.0023234791532158855,
+          0.00990727563978483,
+          0.008955762066878379
+        ],
+        "mean": 0.005513186184482441,
+        "seeds": [
+          20261901,
+          20261902,
+          20261903
+        ],
+        "scope": "descriptive, fixed nine-world cohort; source is shared"
+      },
+      "E_weights_under_clock": {
+        "per_seed": [
+          -0.013230572466738519,
+          0.052598707883929216,
+          0.04665326749471327
+        ],
+        "mean": 0.028673800970634655,
+        "seeds": [
+          20261901,
+          20261902,
+          20261903
+        ],
+        "scope": "descriptive, fixed nine-world cohort; source is shared"
+      },
+      "reference_input_clock_minus_reference": {
+        "per_seed": [
+          -0.0012079943163941277,
+          0.004331904522298528,
+          0.011902778496344886
+        ],
+        "mean": 0.0050088962340830955,
+        "seeds": [
+          20261901,
+          20261902,
+          20261903
+        ],
+        "scope": "descriptive, fixed nine-world cohort; source is shared"
+      },
+      "reference_weights_under_clock": {
+        "per_seed": [
+          -0.011294975748596088,
+          0.033051251826419804,
+          0.010805645070349179
+        ],
+        "mean": 0.010853973716057631,
+        "seeds": [
+          20261901,
+          20261902,
+          20261903
+        ],
+        "scope": "descriptive, fixed nine-world cohort; source is shared"
+      },
+      "source_E_minus_clock": {
+        "per_seed": [
+          0.015125403658176462,
+          0.008967950869196405,
+          0.007888633528491484
+        ],
+        "mean": 0.010660662685288117,
+        "seeds": [
+          20261901,
+          20261902,
+          20261903
+        ],
+        "scope": "descriptive, fixed nine-world cohort; source is shared"
+      },
+      "source_reference_minus_clock": {
+        "per_seed": [
+          0.0015187825998291386,
+          0.0015135016324929879,
+          -0.0010781300296851745
+        ],
+        "mean": 0.0006513847342123173,
+        "seeds": [
+          20261901,
+          20261902,
+          20261903
+        ],
+        "scope": "descriptive, fixed nine-world cohort; source is shared"
+      }
+    },
+    "B": {
+      "reference_minus_clock": {
+        "mean": 0.001148233949245574,
+        "per_seed": [
+          -0.013614980322460179,
+          0.026446559495618565,
+          -0.009386877325421664
+        ],
+        "n": 3,
+        "ci95": [
+          -0.053529503279978005,
+          0.05582597117846916
+        ],
+        "p": 0.9362387918505072,
+        "holm_p": 1.0
+      },
+      "reference_minus_E": {
+        "mean": -0.007211661725298774,
+        "per_seed": [
+          -0.001316550901916343,
+          0.006197313343035056,
+          -0.026515747617015036
+        ],
+        "n": 3,
+        "ci95": [
+          -0.04977678970971392,
+          0.035353466259116374
+        ],
+        "p": 0.5418202852038574,
+        "holm_p": 1.0
+      }
+    },
+    "A": {
+      "E_low_minus_clock_low": {
+        "mean": 0.00835989567454435,
+        "per_seed": [
+          -0.012298429420543835,
+          0.020249246152583507,
+          0.01712887029159338
+        ],
+        "n": 3,
+        "ci95": [
+          -0.03625157863184623,
+          0.05297136998093493
+        ],
+        "p": 0.5047102676575114,
+        "holm_p": 1.0
+      },
+      "interaction": {
+        "mean": 0.01695137771289986,
+        "per_seed": [
+          -0.011963536407868375,
+          0.016506150864629303,
+          0.046311518681938654
+        ],
+        "n": 3,
+        "ci95": [
+          -0.05543659049592143,
+          0.08933934592172116
+        ],
+        "p": 0.4197473287008424,
+        "holm_p": 1.0
+      },
+      "E_low_minus_default": {
+        "mean": -0.004686708651134237,
+        "per_seed": [
+          -0.033134301606845114,
+          0.007727023853460559,
+          0.011347151799981844
+        ],
+        "n": 3,
+        "ci95": [
+          -0.06605172304478424,
+          0.05667830574251577
+        ],
+        "p": 0.7736661211048018,
+        "holm_p": 1.0
+      },
+      "clock_low_minus_default": {
+        "mean": -0.0216380863640341,
+        "per_seed": [
+          -0.02117076519897674,
+          -0.008779127011168744,
+          -0.03496436688195681
+        ],
+        "n": 3,
+        "ci95": [
+          -0.05417749215922599,
+          0.010901319431157786
+        ],
+        "p": 0.10352964975558455,
+        "holm_p": 0.4141185990223382
+      }
+    }
+  },
+  "validation": "PASS: audit-to-analysis hashes and balanced core rough groups/seed means",
+  "episode_csv_rows": 2913,
+  "episode_rows_are_not_unique_independent_trials": true
+}

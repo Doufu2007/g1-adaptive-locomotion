@@ -1,0 +1,86 @@
+{
+  "status": "FRESH_CONFIRMATION_MAIN_GATE_FAILED_FEEDBACK_ABLATION_PASS",
+  "at": "2026-10-28T05:07:05.826341+00:00",
+  "claim": "在采用能够学习复杂运动相位的模型时，用运动学习相位替代固定CPG节奏，使节奏随近期运动状态调整，并改善粗糙地形稳定性与鲁棒性。",
+  "protocol_sha256": "e1016107609f01acc78bafd2cf2735ccd5f4455e9193108cdcad6979c0c584c9",
+  "analysis_sha256": "f0aab615c354612a8d59823a6d497ee7e6dd2ccb585bf0b6340819293044e6d9",
+  "independent_audit": {
+    "status": "PASS",
+    "path": "independent_audit.json",
+    "raw_count": 360,
+    "effective_eval_transitions": 223802,
+    "simulator_world_steps": 351330,
+    "PPO_updates": 0,
+    "Adam_steps": 0
+  },
+  "fresh_confirmation": {
+    "maps": [
+      20264901,
+      20264902,
+      20264903
+    ],
+    "eval_seeds": [
+      20264911,
+      20264912,
+      20264913,
+      20264914,
+      20264915
+    ],
+    "methods": [
+      "RE_live",
+      "RE_frozen",
+      "RC_clock",
+      "FC_clock"
+    ],
+    "source_lineages": [
+      20261901,
+      20261902,
+      20261903
+    ]
+  },
+  "gates": {
+    "RE_live_vs_RC_clock": {
+      "passed": false,
+      "completion_mean": 0.033333333333333326,
+      "completion_ci95": [
+        -0.2652228631676532,
+        0.33188952983431985
+      ],
+      "fall_mean": -0.022222222222222237,
+      "fall_ci95": [
+        -0.35687299009162493,
+        0.3124285456471804
+      ],
+      "completion_per_lineage": [
+        0.06666666666666665,
+        0.1333333333333333,
+        -0.09999999999999998
+      ],
+      "fall_per_lineage": [
+        0.09999999999999998,
+        -0.16666666666666669,
+        0.0
+      ]
+    },
+    "RE_live_vs_RE_frozen": {
+      "passed": true,
+      "completion_mean": 0.3333333333333333,
+      "completion_ci95": [
+        -0.04612497002634264,
+        0.7127916366930093
+      ],
+      "fall_mean": -0.5555555555555557,
+      "fall_ci95": [
+        -0.746784565766643,
+        -0.36432654534446846
+      ],
+      "rough_protection": true
+    }
+  },
+  "interpretation": {
+    "supported": "在这批全新粗糙地图和评测seed上，实时学习相位相对每回合冻结相位显示出更好的预设完成/跌倒与粗糙保护点效应。",
+    "not_supported": "实时学习相位相对固定节奏在全新粗糙地图上的独立优势；本次主门失败。",
+    "mechanism_limit": "消融结果支持反馈路径有作用的候选解释，但不能把它写成已完成的普遍因果定理。"
+  },
+  "decision": "STOP_CONFIRMATION_BRANCH_NO_EXTRA_BUDGET_OR_RETUNING"
+}

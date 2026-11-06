@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETED",
+  "at": 1793905837.221447,
+  "device": "cuda:0",
+  "policy_inference_device": "cpu:0",
+  "analysis": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/g1_phase_supplement_20261031/formal_recovery_01/formal_recovery_gpu_01/analysis.json",
+  "independent_audit": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/g1_phase_supplement_20261031/formal_recovery_01/formal_recovery_gpu_01/independent_audit.json"
+}

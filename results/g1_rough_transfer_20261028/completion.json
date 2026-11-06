@@ -1,0 +1,11 @@
+{
+  "status": "R_COMPLETE_AUDITED_NOT_OVERALL_COMPLETE",
+  "at": "2026-10-27T20:31:05.558Z",
+  "queue_ended_at": "2026-10-27T20:21:36.666954+00:00",
+  "protocol_sha256": "bc28c4f96040e2368f82189f4f7147426ed93f6861b5b2ebba4a045fcf890873",
+  "analysis_sha256": "57975081073354b63960f923e9d9d8f9940916bd483594ee0034ce77f7fab873",
+  "independent_audit_sha256": "b95fd0b25f80abb0189e83ec72b57baaa425f39bae39ca10908b326e5ab8cadc",
+  "supplementary_analysis_sha256": "40b80acab245db8b4c2fd1f7e501573378bc428e1541bd7d38832e5d9a092017",
+  "candidate_passed": false,
+  "new_sampling": 0
+}

@@ -1,0 +1,145 @@
+{
+  "at": "2026-10-27T20:31:05.558Z",
+  "status": "FINAL_AUDITED",
+  "success_smoke": {
+    "eval_transitions": 40,
+    "PPO_updates": 0,
+    "Adam_steps": 0
+  },
+  "formal": {
+    "planned_episodes": 480,
+    "completed_episodes": 480,
+    "maximum_effective_eval_transitions": 480000,
+    "effective_eval_transitions": 289880,
+    "simulator_world_steps": 465600,
+    "PPO_updates": 0,
+    "Adam_steps": 0,
+    "completed": [
+      {
+        "job": "AC_terrain0",
+        "episodes": 30,
+        "effective_eval_transitions": 30000,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:50:01.234719+00:00"
+      },
+      {
+        "job": "AC_terrain20264201",
+        "episodes": 30,
+        "effective_eval_transitions": 8228,
+        "simulator_world_steps": 25110,
+        "ended_at": "2026-10-27T19:27:25.747398+00:00"
+      },
+      {
+        "job": "AC_terrain20264202",
+        "episodes": 30,
+        "effective_eval_transitions": 8446,
+        "simulator_world_steps": 24825,
+        "ended_at": "2026-10-27T19:45:57.776541+00:00"
+      },
+      {
+        "job": "AC_terrain20264203",
+        "episodes": 30,
+        "effective_eval_transitions": 11613,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:37:07.727617+00:00"
+      },
+      {
+        "job": "AE_terrain0",
+        "episodes": 30,
+        "effective_eval_transitions": 30000,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:17:30.955587+00:00"
+      },
+      {
+        "job": "AE_terrain20264201",
+        "episodes": 30,
+        "effective_eval_transitions": 10768,
+        "simulator_world_steps": 29085,
+        "ended_at": "2026-10-27T19:23:16.820729+00:00"
+      },
+      {
+        "job": "AE_terrain20264202",
+        "episodes": 30,
+        "effective_eval_transitions": 12202,
+        "simulator_world_steps": 28200,
+        "ended_at": "2026-10-27T20:21:09.373148+00:00"
+      },
+      {
+        "job": "AE_terrain20264203",
+        "episodes": 30,
+        "effective_eval_transitions": 11103,
+        "simulator_world_steps": 28380,
+        "ended_at": "2026-10-27T20:05:16.444385+00:00"
+      },
+      {
+        "job": "DC_terrain0",
+        "episodes": 30,
+        "effective_eval_transitions": 30000,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:59:43.401674+00:00"
+      },
+      {
+        "job": "DC_terrain20264201",
+        "episodes": 30,
+        "effective_eval_transitions": 15105,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:41:51.226140+00:00"
+      },
+      {
+        "job": "DC_terrain20264202",
+        "episodes": 30,
+        "effective_eval_transitions": 16294,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:06:44.553982+00:00"
+      },
+      {
+        "job": "DC_terrain20264203",
+        "episodes": 30,
+        "effective_eval_transitions": 16822,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T20:10:00.199547+00:00"
+      },
+      {
+        "job": "DE_terrain0",
+        "episodes": 30,
+        "effective_eval_transitions": 30000,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:32:23.248711+00:00"
+      },
+      {
+        "job": "DE_terrain20264201",
+        "episodes": 30,
+        "effective_eval_transitions": 18864,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:12:30.074626+00:00"
+      },
+      {
+        "job": "DE_terrain20264202",
+        "episodes": 30,
+        "effective_eval_transitions": 18680,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T19:55:44.205322+00:00"
+      },
+      {
+        "job": "DE_terrain20264203",
+        "episodes": 30,
+        "effective_eval_transitions": 21755,
+        "simulator_world_steps": 30000,
+        "ended_at": "2026-10-27T20:15:41.423993+00:00"
+      }
+    ],
+    "scope": "Exact effective first-terminal transitions from all completed manifests, cross-checked against 480 raw arrays by independent_audit.json. Simulator-world steps include inactive worlds and are reported separately."
+  },
+  "technical_failures": {
+    "known_R_failed_environment_transitions": 0,
+    "PPO_updates": 0,
+    "Adam_steps": 0,
+    "scope": "No R environment sampling failure. CPU diagnostic RED/import/numeric-tolerance corrections use zero environment steps; logs retained."
+  },
+  "historical_costs": "A/B/C/D retained in their original ledgers; no merging unknown restart losses into effective budget",
+  "independent_audit": {
+    "status": "PASS",
+    "at": "2026-10-27T20:22:48.628938+00:00",
+    "sha256": "b95fd0b25f80abb0189e83ec72b57baaa425f39bae39ca10908b326e5ab8cadc"
+  }
+}

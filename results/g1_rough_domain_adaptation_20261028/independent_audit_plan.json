@@ -1,0 +1,18 @@
+{
+  "status": "PLANNED_BEFORE_S_SAMPLING",
+  "audit_source": "<project-root>/results/g1_rough_domain_adaptation_20261028/independent_audit.py",
+  "audit_sha256": "2e74010c16b4cda10c97550992191528199f0c90f703451c138c786104d113c3",
+  "scope": [
+    "all480rawSHA",
+    "full20s_zero_tail_MAE/native_fall/displacement/tilt/heading/moving/contact",
+    "480initial/commoncfg/physical/hfield/models",
+    "12x251_native_budget_20oldKL_20sourceKL",
+    "checkpoint0_D501_actor_critic_Adam_teacher_RNG_LR_exact",
+    "60checkpoint_ONNX_SHA/cumulative_Adam15040/teacher_frozen",
+    "8seed_family_exact/Holm/dual_clock_and_flat_guards",
+    "train_eval_map_array_isolation"
+  ],
+  "statistical_unit": "3 reused source lineages; not 480 independent trainings",
+  "sampling_steps": 0,
+  "independent_computation": "same operator, independently implemented CPU arithmetic; not second reviewer or fresh seeds"
+}

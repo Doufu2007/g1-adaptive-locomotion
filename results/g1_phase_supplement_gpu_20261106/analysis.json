@@ -1,0 +1,2907 @@
+{
+  "at": "2026-11-05T19:07:39.662170+00:00",
+  "status": "COMPLETE_PENDING_INDEPENDENT_RAW_AUDIT",
+  "protocol_sha256": "a8a3b6b6f8b015c7199fe0d0e2b759819b0031fc4d36cadb01d698de532dd459",
+  "selected_clock": "clock60",
+  "independent_continuation_seeds": 8,
+  "episodes": 2880,
+  "grouped": {
+    "all": {
+      "summary": {
+        "live": {
+          "completed": 0.42916666666666664,
+          "fell": 0.3263888888888889,
+          "mae_forward_velocity_mps": 0.32217426947739225,
+          "forward_displacement_m": 5.774668229102261,
+          "tilt_rms_rad": 0.1382887533089767,
+          "abs_heading_change_rad": 0.41409829768540857
+        },
+        "constant": {
+          "completed": 0.43333333333333335,
+          "fell": 0.36944444444444446,
+          "mae_forward_velocity_mps": 0.32446738911002987,
+          "forward_displacement_m": 5.940976127371606,
+          "tilt_rms_rad": 0.1494705523726427,
+          "abs_heading_change_rad": 0.4216532325561401
+        },
+        "replay": {
+          "completed": 0.38333333333333336,
+          "fell": 0.4444444444444444,
+          "mae_forward_velocity_mps": 0.3400683197792106,
+          "forward_displacement_m": 5.972283148774618,
+          "tilt_rms_rad": 0.15862446807117925,
+          "abs_heading_change_rad": 0.44599461970152743
+        },
+        "clock60": {
+          "completed": 0.3902777777777778,
+          "fell": 0.32916666666666666,
+          "mae_forward_velocity_mps": 0.3303926957411928,
+          "forward_displacement_m": 5.248248019995581,
+          "tilt_rms_rad": 0.1382724045931051,
+          "abs_heading_change_rad": 0.38036290088102703
+        }
+      },
+      "differences": {
+        "constant": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.011111111111111127,
+              0.0,
+              0.04444444444444445,
+              0.0,
+              -0.033333333333333326,
+              0.06666666666666665,
+              -0.11111111111111105,
+              0.011111111111111072
+            ],
+            "mean": -0.004166666666666666,
+            "ci95_t": [
+              -0.048836620864277584,
+              0.04050328753094425
+            ],
+            "p_exact": 0.9375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.033333333333333326,
+              0.033333333333333326,
+              0.05833333333333335,
+              -0.058333333333333404,
+              -0.00833333333333336,
+              -0.016666666666666663
+            ],
+            "map_bootstrap_ci95": [
+              -0.034722222222222245,
+              0.02777777777777778
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.9375
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.0444444444444444,
+              -0.07777777777777778,
+              -0.06666666666666665,
+              -0.10000000000000003,
+              0.07777777777777778,
+              -0.07777777777777778,
+              0.033333333333333326,
+              -0.0888888888888889
+            ],
+            "mean": -0.043055555555555555,
+            "ci95_t": [
+              -0.09663362371691708,
+              0.01052251260580598
+            ],
+            "p_exact": 0.1171875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.05833333333333335,
+              -0.07500000000000001,
+              -0.10833333333333328,
+              -0.025000000000000022,
+              0.033333333333333326,
+              -0.025000000000000022
+            ],
+            "map_bootstrap_ci95": [
+              -0.07777777777777777,
+              -0.006944444444444457
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.234375
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.0026082985538101178,
+              -0.011079548414677676,
+              -0.003439048351342233,
+              0.001914207168142279,
+              -0.0038035454647629696,
+              -0.015649096308293087,
+              0.010707837238166429,
+              0.0003959385178558539
+            ],
+            "mean": -0.0022931196326376607,
+            "ci95_t": [
+              -0.00919551553280765,
+              0.004609276267532328
+            ],
+            "p_exact": 0.4296875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.007090916690607574,
+              -0.025011364135904546,
+              -0.027033279032702973,
+              0.014818189174679086,
+              0.024435478890751317,
+              -0.008058659383256228
+            ],
+            "map_bootstrap_ci95": [
+              -0.017510416447552336,
+              0.012923265573035358
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.04741418742471293,
+              -0.17768320002489624,
+              -0.13664467930793744,
+              -0.29661762981365136,
+              -0.15370766984091855,
+              0.14002759218629812,
+              -0.2986565953327549,
+              -0.35976681659619025
+            ],
+            "mean": -0.16630789826934544,
+            "ci95_t": [
+              -0.3007667587963271,
+              -0.03184903774236378
+            ],
+            "p_exact": 0.03125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.29684425393740366,
+              0.5320613977654522,
+              0.22233051949491056,
+              -0.9570157480426129,
+              -0.24335474465042317,
+              -0.25502456024599596
+            ],
+            "map_bootstrap_ci95": [
+              -0.5314859538701259,
+              0.21110764976797794
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.030106305124031174,
+              -0.007764387958579616,
+              -0.002678305655717833,
+              -0.004888303867644717,
+              0.0036055329773161116,
+              -0.0309380792081356,
+              -0.001727946930461452,
+              -0.014956596742073697
+            ],
+            "mean": -0.011181799063665997,
+            "ci95_t": [
+              -0.022102006811623085,
+              -0.0002615913157089089
+            ],
+            "p_exact": 0.03125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.0069738736376166455,
+              -0.015212383090207976,
+              -0.041280758132537204,
+              0.00329256722082695,
+              0.005992435912291205,
+              -0.012908782654752315
+            ],
+            "map_bootstrap_ci95": [
+              -0.02471243411095606,
+              -0.00015273029502067595
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.07936918549162902,
+              -0.0014223354795757648,
+              -0.0958945690726416,
+              0.01679988031385693,
+              -0.009520181663640659,
+              0.1157140961126461,
+              -0.008337823985759885,
+              0.001590640300891566
+            ],
+            "mean": -0.007554934870731542,
+            "ci95_t": [
+              -0.061249642728733046,
+              0.04613977298726996
+            ],
+            "p_exact": 0.875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.05301099835298273,
+              -0.013440595732995664,
+              -0.0835015096931152,
+              0.08282333367453121,
+              0.04999706793372377,
+              -0.028196907053550546
+            ],
+            "map_bootstrap_ci95": [
+              -0.05149768313967363,
+              0.03979326862508644
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "replay": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.06666666666666665,
+              0.0222222222222222,
+              0.09999999999999998,
+              0.0222222222222222,
+              -0.04444444444444445,
+              0.12222222222222223,
+              -0.011111111111111072,
+              0.08888888888888885
+            ],
+            "mean": 0.04583333333333332,
+            "ci95_t": [
+              -0.002673189269433128,
+              0.09433985593609978
+            ],
+            "p_exact": 0.078125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.06666666666666671,
+              0.033333333333333326,
+              0.016666666666666663,
+              0.06666666666666665,
+              0.08333333333333331,
+              0.00833333333333336
+            ],
+            "map_bootstrap_ci95": [
+              0.023611111111111128,
+              0.06666666666666667
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.234375
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.15555555555555556,
+              -0.16666666666666669,
+              -0.16666666666666663,
+              -0.06666666666666665,
+              -0.022222222222222254,
+              -0.0888888888888889,
+              -0.13333333333333336,
+              -0.14444444444444443
+            ],
+            "mean": -0.11805555555555557,
+            "ci95_t": [
+              -0.16244869869589876,
+              -0.07366241241521237
+            ],
+            "p_exact": 0.0078125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.175,
+              -0.15000000000000002,
+              -0.07499999999999996,
+              -0.20833333333333331,
+              -0.1166666666666667,
+              0.016666666666666663
+            ],
+            "map_bootstrap_ci95": [
+              -0.1722222222222222,
+              -0.05833333333333333
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.03125
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.024350220363332287,
+              -0.003344107222994608,
+              -0.03122077383691685,
+              -0.014977274035383903,
+              -0.012627245429191802,
+              -0.015169730260765901,
+              -0.016035778104693477,
+              -0.025427273161268305
+            ],
+            "mean": -0.01789405030181839,
+            "ci95_t": [
+              -0.025201848050260427,
+              -0.010586252553376356
+            ],
+            "p_exact": 0.0078125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.03808584501531492,
+              -0.037040254214204316,
+              -0.000528253721831129,
+              -0.037455457988492646,
+              -0.0010535891957765275,
+              0.006799098324709374
+            ],
+            "map_bootstrap_ci95": [
+              -0.031546916828412146,
+              -0.0030374670262806416
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.38738248629702454,
+              -0.25890957208143384,
+              -0.17744974560207805,
+              -0.19854062388961502,
+              -0.5088412356045513,
+              0.08801774241857974,
+              -0.43149088513519995,
+              -0.48108752378159103
+            ],
+            "mean": -0.1976149196723581,
+            "ci95_t": [
+              -0.4543017425009418,
+              0.05907190315622557
+            ],
+            "p_exact": 0.1171875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.4951772306735318,
+              0.22905505274732896,
+              -0.4653860553090148,
+              -0.20931562058006747,
+              -0.5806542672216892,
+              -0.6545658583442364
+            ],
+            "map_bootstrap_ci95": [
+              -0.5241903211701556,
+              0.15414469175768258
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.037583326631122155,
+              -0.009372007846832286,
+              -0.027947193135817838,
+              -0.018177135164539004,
+              -0.005240185807148634,
+              -0.01703433485494718,
+              -0.03201661730806031,
+              -0.015314917349153079
+            ],
+            "mean": -0.020335714762202563,
+            "ci95_t": [
+              -0.0297131241343302,
+              -0.010958305390074925
+            ],
+            "p_exact": 0.0078125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.04854206331074237,
+              -0.022974289674311893,
+              -0.003735264018178003,
+              -0.0368519554535548,
+              -0.006053941572705918,
+              -0.003856774543722463
+            ],
+            "map_bootstrap_ci95": [
+              -0.034884868267302714,
+              -0.007368718061803124
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.02602802059181686,
+              -0.026224727360622146,
+              -0.11128540971767598,
+              0.05326366846478525,
+              -0.032482037800594665,
+              -0.029806366794009942,
+              -0.10295190053515635,
+              0.02034421820613974
+            ],
+            "mean": -0.03189632201611887,
+            "ci95_t": [
+              -0.07812558513845438,
+              0.014332941106216655
+            ],
+            "p_exact": 0.1484375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.15147621413567908,
+              0.05946761286388619,
+              -0.06356788287547083,
+              -0.04600210984129488,
+              -0.030984786969963707,
+              0.04118544886180936
+            ],
+            "map_bootstrap_ci95": [
+              -0.0871355310436656,
+              0.0208392696013389
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "clock60": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.0,
+              -0.03333333333333338,
+              0.12222222222222223,
+              0.055555555555555525,
+              0.0888888888888889,
+              0.0,
+              0.0888888888888889,
+              -0.011111111111111127
+            ],
+            "mean": 0.03888888888888888,
+            "ci95_t": [
+              -0.008994192286012066,
+              0.08677197006378984
+            ],
+            "p_exact": 0.125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.07500000000000001,
+              0.016666666666666663,
+              0.06666666666666665,
+              0.06666666666666665,
+              -0.00833333333333336,
+              0.016666666666666663
+            ],
+            "map_bootstrap_ci95": [
+              0.012499999999999992,
+              0.0625
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.25
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.055555555555555525,
+              0.033333333333333326,
+              -0.07777777777777778,
+              0.0222222222222222,
+              0.011111111111111127,
+              0.011111111111111127,
+              0.0111111111111111,
+              0.0222222222222222
+            ],
+            "mean": -0.0027777777777777783,
+            "ci95_t": [
+              -0.03672712451575626,
+              0.031171568960200704
+            ],
+            "p_exact": 0.921875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.08333333333333337,
+              0.016666666666666663,
+              -0.008333333333333304,
+              -0.08333333333333331,
+              0.033333333333333326,
+              0.10833333333333334
+            ],
+            "map_bootstrap_ci95": [
+              -0.05416666666666667,
+              0.05138888888888888
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.921875
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.00502658485012536,
+              0.01578070516872726,
+              -0.02982684688762477,
+              -0.0042253077870839095,
+              -0.038310249845363076,
+              0.004436771072165391,
+              -0.019432668935684128,
+              0.0108567719545839
+            ],
+            "mean": -0.008218426263800586,
+            "ci95_t": [
+              -0.02440577170736417,
+              0.007968919179762998
+            ],
+            "p_exact": 0.28125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.011425865910903776,
+              -0.00789864413147967,
+              -0.02110777681703019,
+              -0.024199098874058467,
+              0.018816659586229023,
+              -0.0034958314355602593
+            ],
+            "map_bootstrap_ci95": [
+              -0.018323043570760127,
+              0.0034760673862647786
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.12734094286958442,
+              0.661023937662442,
+              1.08893204457644,
+              1.1979159805509783,
+              0.59108229453365,
+              -0.45805919758147695,
+              1.2527181389638118,
+              -0.2495924687219988
+            ],
+            "mean": 0.5264202091066789,
+            "ci95_t": [
+              -0.025226354340192714,
+              1.0780667725535504
+            ],
+            "p_exact": 0.0703125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.6892362774349747,
+              0.7238236046551414,
+              0.8782093448253967,
+              0.3002562209808577,
+              0.12639643084257912,
+              0.4405993759011233
+            ],
+            "map_bootstrap_ci95": [
+              0.31289752154714545,
+              0.7280814799195569
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.02135551878147654,
+              0.01196469912926354,
+              -0.008230252895090301,
+              0.012223726883530628,
+              -0.0061555529634158,
+              0.0020863032589356345,
+              0.0012043453752994537,
+              0.008393039719925999
+            ],
+            "mean": 1.6348715871576658e-05,
+            "ci95_t": [
+              -0.009622544640684563,
+              0.009655242072427716
+            ],
+            "p_exact": 1.0,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.004760205342123902,
+              0.010902625539650518,
+              -0.010559539372722332,
+              -0.01062601233522098,
+              0.006398205459117873,
+              0.008743018346528228
+            ],
+            "map_bootstrap_ci95": [
+              -0.006993590714409965,
+              0.006852415597273255
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.07826069318310908,
+              0.05179634767989755,
+              -0.03065103063553709,
+              0.1286099177393648,
+              -0.054908620426307064,
+              0.07224151818654145,
+              -0.10992272686102822,
+              0.1344570755690116
+            ],
+            "mean": 0.033735396804381514,
+            "ci95_t": [
+              -0.04075863329757628,
+              0.1082294269063393
+            ],
+            "p_exact": 0.3125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.09933045442966071,
+              0.08898738492299596,
+              0.050274493746613635,
+              0.07767334096307038,
+              0.0717940951991834,
+              0.013013520424086766
+            ],
+            "map_bootstrap_ci95": [
+              -0.0225850677837736,
+              0.07589834011965495
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        }
+      },
+      "gates": {
+        "constant": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "replay": {
+          "completion": false,
+          "fall": true,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "clock60": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        }
+      }
+    },
+    "steady": {
+      "summary": {
+        "live": {
+          "completed": 0.3958333333333333,
+          "fell": 0.3333333333333333,
+          "mae_forward_velocity_mps": 0.3239375664247549,
+          "forward_displacement_m": 5.70029898712722,
+          "tilt_rms_rad": 0.13739624520142873,
+          "abs_heading_change_rad": 0.4094598431923831
+        },
+        "constant": {
+          "completed": 0.42916666666666664,
+          "fell": 0.38333333333333336,
+          "mae_forward_velocity_mps": 0.3242793560273338,
+          "forward_displacement_m": 5.89474303103052,
+          "tilt_rms_rad": 0.14821707935382922,
+          "abs_heading_change_rad": 0.41265465905226945
+        },
+        "replay": {
+          "completed": 0.35833333333333334,
+          "fell": 0.4583333333333333,
+          "mae_forward_velocity_mps": 0.3460245091391118,
+          "forward_displacement_m": 5.904434296675026,
+          "tilt_rms_rad": 0.1610646528812746,
+          "abs_heading_change_rad": 0.42284286459691955
+        },
+        "clock60": {
+          "completed": 0.37083333333333335,
+          "fell": 0.3416666666666667,
+          "mae_forward_velocity_mps": 0.33445504938395465,
+          "forward_displacement_m": 5.108834248346587,
+          "tilt_rms_rad": 0.13951012377316754,
+          "abs_heading_change_rad": 0.38620592587515823
+        }
+      },
+      "differences": {
+        "constant": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.033333333333333326,
+              -0.2,
+              0.1333333333333333,
+              0.10000000000000003,
+              -0.16666666666666669,
+              0.10000000000000003,
+              -0.2,
+              -0.06666666666666671
+            ],
+            "mean": -0.03333333333333334,
+            "ci95_t": [
+              -0.15249919454908067,
+              0.085832527882414
+            ],
+            "p_exact": 0.5625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.07500000000000001,
+              0.04999999999999999,
+              0.04999999999999999,
+              -0.024999999999999967,
+              -0.07500000000000001,
+              -0.125
+            ],
+            "map_bootstrap_ci95": [
+              -0.08333333333333333,
+              0.016666666666666663
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.09999999999999998,
+              0.06666666666666671,
+              -0.13333333333333333,
+              -0.26666666666666666,
+              0.13333333333333336,
+              -0.16666666666666669,
+              0.16666666666666666,
+              -0.10000000000000003
+            ],
+            "mean": -0.05,
+            "ci95_t": [
+              -0.17900082884585994,
+              0.07900082884585992
+            ],
+            "p_exact": 0.4140625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.14999999999999997,
+              -0.14999999999999997,
+              -0.125,
+              0.0,
+              0.04999999999999999,
+              0.07500000000000001
+            ],
+            "map_bootstrap_ci95": [
+              -0.1208333333333333,
+              0.025000000000000005
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.018862198359522464,
+              0.03344231304511086,
+              -0.031708214331539475,
+              -0.01922527735416829,
+              0.011721391754853094,
+              -0.031652125504690765,
+              0.010762140839725709,
+              0.005063256370555269
+            ],
+            "mean": -0.0003417896025788916,
+            "ci95_t": [
+              -0.020646126813043335,
+              0.01996254760788555
+            ],
+            "p_exact": 0.953125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.00887480260560114,
+              -0.03792819027221178,
+              -0.03539543448343657,
+              5.265598542592009e-05,
+              0.039568109538452134,
+              0.02277731901069563
+            ],
+            "map_bootstrap_ci95": [
+              -0.023375424451507476,
+              0.02142299098406722
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.05452980051438061,
+              -0.8361386188616349,
+              0.5597782065471009,
+              0.568060993899902,
+              -0.5521981865167618,
+              0.1671786093463501,
+              -1.020767063647508,
+              -0.4959960925082365
+            ],
+            "mean": -0.19444404390330094,
+            "ci95_t": [
+              -0.7094654426793274,
+              0.32057735487272554
+            ],
+            "p_exact": 0.4140625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.8233974711969498,
+              1.191965009085834,
+              -0.04880282720550966,
+              -0.198360796924681,
+              -0.39219230599701405,
+              -0.895875871181488
+            ],
+            "map_bootstrap_ci95": [
+              -0.6594368979490054,
+              0.41755565532172695
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.04716481243570647,
+              0.015256450325250637,
+              -0.01733150829871495,
+              -0.025745364030202222,
+              0.02315076142549516,
+              -0.018854546795288724,
+              0.004949111988147084,
+              -0.020826765398184455
+            ],
+            "mean": -0.010820834152400493,
+            "ci95_t": [
+              -0.030385100959418772,
+              0.008743432654617786
+            ],
+            "p_exact": 0.2421875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.01688844244927168,
+              -0.02664370890706777,
+              -0.03523693121969698,
+              0.0010397436097264318,
+              0.006013462133705627,
+              0.006790871918201463
+            ],
+            "map_bootstrap_ci95": [
+              -0.02470053356761733,
+              0.0014970932466288496
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.10476942020339514,
+              0.13480894381647995,
+              -0.06875667327618246,
+              0.05397719377291299,
+              -0.14875397696320175,
+              -0.010338853067663911,
+              0.05195824645811553,
+              0.0663160125838434
+            ],
+            "mean": -0.0031948158598864226,
+            "ci95_t": [
+              -0.08439869466093178,
+              0.07800906294115892
+            ],
+            "p_exact": 0.9296875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.13932287398715715,
+              -0.10861937506815639,
+              -0.14015239794350298,
+              0.18999017176142752,
+              0.13441280766479152,
+              0.044522772413279066
+            ],
+            "map_bootstrap_ci95": [
+              -0.10384119108603292,
+              0.10671445338236613
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "replay": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.06666666666666665,
+              0.0,
+              0.26666666666666666,
+              0.0,
+              -0.16666666666666669,
+              0.16666666666666669,
+              -0.10000000000000003,
+              0.06666666666666665
+            ],
+            "mean": 0.03749999999999999,
+            "ci95_t": [
+              -0.07830174792183454,
+              0.15330174792183454
+            ],
+            "p_exact": 0.53125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.0,
+              0.22499999999999998,
+              -0.09999999999999998,
+              0.225,
+              0.0,
+              -0.125
+            ],
+            "map_bootstrap_ci95": [
+              -0.07083333333333332,
+              0.15
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.033333333333333326,
+              -0.1333333333333333,
+              -0.33333333333333337,
+              -0.16666666666666669,
+              0.06666666666666665,
+              -0.3,
+              0.06666666666666665,
+              -0.16666666666666669
+            ],
+            "mean": -0.125,
+            "ci95_t": [
+              -0.2511748571482939,
+              0.0011748571482938786
+            ],
+            "p_exact": 0.0625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.14999999999999997,
+              -0.29999999999999993,
+              -0.04999999999999999,
+              -0.25,
+              -0.125,
+              0.125
+            ],
+            "map_bootstrap_ci95": [
+              -0.2291666666666666,
+              -0.012499999999999983
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.25
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.0057057314241769075,
+              0.009230749700246399,
+              -0.0655784456776945,
+              -0.013328997978274915,
+              -0.016548578710663897,
+              -0.044149756140815066,
+              -0.008092961059822879,
+              -0.03252182042365276
+            ],
+            "mean": -0.022086942714356815,
+            "ci95_t": [
+              -0.042170131587328324,
+              -0.002003753841385302
+            ],
+            "p_exact": 0.03125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.017853240916575863,
+              -0.07755297081960161,
+              0.008072934539866183,
+              -0.08314439753796632,
+              0.013266848304772982,
+              0.024689170143363526
+            ],
+            "map_bootstrap_ci95": [
+              -0.055283733981571,
+              0.010508366456717063
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.21432088464498467,
+              -0.29865726021428873,
+              0.6348691225051875,
+              -0.2317970598737391,
+              -0.7046927700440087,
+              0.8795777489741639,
+              -1.3669687268634636,
+              -0.33109264622131995
+            ],
+            "mean": -0.20413530954780668,
+            "ci95_t": [
+              -0.7958841939657334,
+              0.38761357487012005
+            ],
+            "p_exact": 0.453125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.43799877204001003,
+              0.9354357073083515,
+              -0.8425581485033042,
+              1.1222337570972734,
+              -1.0494646873325104,
+              -0.9524597138166433
+            ],
+            "map_bootstrap_ci95": [
+              -0.8786385909731811,
+              0.5035966763428096
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.03202020451426507,
+              0.006176038583119714,
+              -0.04432590330640475,
+              -0.04166886930664379,
+              -0.008767553915580123,
+              -0.030670626709858595,
+              -0.016649604092041664,
+              -0.021420538177092857
+            ],
+            "mean": -0.02366840767984589,
+            "ci95_t": [
+              -0.037928369346437674,
+              -0.009408446013254107
+            ],
+            "p_exact": 0.015625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.03369966540485622,
+              -0.045415788330137735,
+              -0.003443016298115248,
+              -0.05716931279748677,
+              -0.01458527222275735,
+              0.012302608974277984
+            ],
+            "map_bootstrap_ci95": [
+              -0.042338167813917,
+              -0.004524586411813886
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.06065309035380384,
+              -0.03714780554757424,
+              -0.13359602718239805,
+              0.05524349928201838,
+              -0.06398953150198777,
+              -0.0954206069605637,
+              0.05064780434285732,
+              0.05654540597755231
+            ],
+            "mean": -0.01338302140453649,
+            "ci95_t": [
+              -0.0792780737882301,
+              0.05251203097915711
+            ],
+            "p_exact": 0.6484375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.209354472013556,
+              -0.04863675270644496,
+              -0.04789193768309652,
+              9.825619419501219e-05,
+              0.060801341939971554,
+              0.16468543584171214
+            ],
+            "map_bootstrap_ci95": [
+              -0.10263342843549107,
+              0.07638815984592774
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "clock60": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.06666666666666665,
+              -0.13333333333333336,
+              0.3,
+              0.10000000000000003,
+              -0.13333333333333336,
+              0.10000000000000003,
+              -0.10000000000000003,
+              0.0
+            ],
+            "mean": 0.024999999999999994,
+            "ci95_t": [
+              -0.09940389412680992,
+              0.1494038941268099
+            ],
+            "p_exact": 0.703125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.07500000000000001,
+              0.0,
+              -0.024999999999999967,
+              0.125,
+              0.0,
+              -0.025000000000000022
+            ],
+            "map_bootstrap_ci95": [
+              -0.016666666666666653,
+              0.075
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.16666666666666663,
+              0.10000000000000003,
+              -0.19999999999999998,
+              0.0,
+              0.10000000000000003,
+              -0.06666666666666665,
+              0.2333333333333333,
+              -0.06666666666666665
+            ],
+            "mean": -0.008333333333333321,
+            "ci95_t": [
+              -0.13094068699304123,
+              0.1142740203263746
+            ],
+            "p_exact": 0.9375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.14999999999999997,
+              0.025000000000000022,
+              -0.025000000000000022,
+              -0.2,
+              0.125,
+              0.175
+            ],
+            "map_bootstrap_ci95": [
+              -0.11666666666666665,
+              0.09999999999999998
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.0006072103834501297,
+              0.04501118236532964,
+              -0.09014832370159037,
+              -0.017096828115594154,
+              -0.02780225524269453,
+              -0.02598051653027711,
+              0.01469049060770311,
+              0.017793597326975996
+            ],
+            "mean": -0.010517482959199694,
+            "ci95_t": [
+              -0.04446333382031494,
+              0.023428367901915555
+            ],
+            "p_exact": 0.546875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.004145529407742821,
+              -0.02335289064072077,
+              -0.01322759757175157,
+              -0.05608220814869508,
+              0.022959926214334125,
+              0.010743401799377772
+            ],
+            "map_bootstrap_ci95": [
+              -0.03162754680555374,
+              0.008338921507988234
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.049502774576345665,
+              0.13854404004911647,
+              2.509736845704416,
+              1.5092531676093746,
+              0.8432796219984686,
+              0.08462822188933661,
+              0.03337036812057104,
+              -0.3375915805498755
+            ],
+            "mean": 0.5914647387806328,
+            "ci95_t": [
+              -0.22234477530770724,
+              1.4052742528689728
+            ],
+            "p_exact": 0.1484375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.2914414912462231,
+              1.2561095159035176,
+              0.31957206726074183,
+              1.2348243806045502,
+              -0.027707172930240276,
+              0.4745481505990021
+            ],
+            "map_bootstrap_ci95": [
+              0.22495323841770473,
+              0.9662121910291411
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.04453011651833855,
+              0.029894799739122402,
+              -0.04553691695133845,
+              0.022224212189515438,
+              0.004355859508117038,
+              -0.01201507250467937,
+              0.028811945021152488,
+              -0.0001157390574614281
+            ],
+            "mean": -0.0021138785717388035,
+            "ci95_t": [
+              -0.027396499414624118,
+              0.023168742271146514
+            ],
+            "p_exact": 0.8359375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.0015318717807531468,
+              0.002781697362661359,
+              -0.008824238553643227,
+              -0.03429035414010287,
+              0.011398818157613289,
+              0.017782677523791812
+            ],
+            "map_bootstrap_ci95": [
+              -0.01647325657928984,
+              0.009935469490786402
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.13146747366250067,
+              0.16154192882339696,
+              -0.048081747614669657,
+              0.05743293285871409,
+              -0.19837058241938954,
+              -0.09928422953785315,
+              0.07673124214798538,
+              0.10459432061711393
+            ],
+            "mean": 0.023253917317224836,
+            "ci95_t": [
+              -0.08187969980760301,
+              0.12838753444205267
+            ],
+            "p_exact": 0.6171875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.1856299875965129,
+              0.033611317258198936,
+              0.030863829524225395,
+              0.14554573449919295,
+              0.013546612531208424,
+              0.10158599768703641
+            ],
+            "map_bootstrap_ci95": [
+              -0.06802433921884915,
+              0.09710560720667484
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        }
+      },
+      "gates": {
+        "constant": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "replay": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "clock60": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        }
+      }
+    },
+    "push03": {
+      "summary": {
+        "live": {
+          "completed": 0.4625,
+          "fell": 0.30416666666666664,
+          "mae_forward_velocity_mps": 0.31390651316164464,
+          "forward_displacement_m": 6.019911686470732,
+          "tilt_rms_rad": 0.13241698467172683,
+          "abs_heading_change_rad": 0.4239694968984891
+        },
+        "constant": {
+          "completed": 0.4666666666666667,
+          "fell": 0.3125,
+          "mae_forward_velocity_mps": 0.3155086661984553,
+          "forward_displacement_m": 6.130607805750333,
+          "tilt_rms_rad": 0.14608874688856305,
+          "abs_heading_change_rad": 0.39095981967974097
+        },
+        "replay": {
+          "completed": 0.4041666666666667,
+          "fell": 0.42916666666666664,
+          "mae_forward_velocity_mps": 0.33628320166132836,
+          "forward_displacement_m": 5.926613219140563,
+          "tilt_rms_rad": 0.1526754153892398,
+          "abs_heading_change_rad": 0.4539492638596369
+        },
+        "clock60": {
+          "completed": 0.4083333333333333,
+          "fell": 0.3375,
+          "mae_forward_velocity_mps": 0.32557889182785,
+          "forward_displacement_m": 5.340646705434968,
+          "tilt_rms_rad": 0.1374593910916398,
+          "abs_heading_change_rad": 0.3911800740769859
+        }
+      },
+      "differences": {
+        "constant": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.06666666666666665,
+              0.2,
+              -0.033333333333333326,
+              -0.1333333333333333,
+              0.033333333333333326,
+              0.09999999999999998,
+              -0.09999999999999998,
+              -0.033333333333333326
+            ],
+            "mean": -0.004166666666666659,
+            "ci95_t": [
+              -0.0965172058881347,
+              0.0881838725548014
+            ],
+            "p_exact": 1.0,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.125,
+              -0.07499999999999996,
+              0.125,
+              -0.025000000000000022,
+              -0.024999999999999967,
+              0.10000000000000003
+            ],
+            "map_bootstrap_ci95": [
+              -0.07499999999999997,
+              0.0666666666666667
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.06666666666666671,
+              -0.16666666666666669,
+              0.06666666666666665,
+              0.09999999999999998,
+              0.06666666666666665,
+              0.0,
+              -0.033333333333333326,
+              -0.033333333333333326
+            ],
+            "mean": -0.008333333333333345,
+            "ci95_t": [
+              -0.08092615472032932,
+              0.06425948805366263
+            ],
+            "p_exact": 0.890625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.09999999999999998,
+              0.07500000000000001,
+              -0.125,
+              0.04999999999999999,
+              0.04999999999999999,
+              -0.2
+            ],
+            "map_bootstrap_ci95": [
+              -0.10000000000000002,
+              0.07499999999999998
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 1.0
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.011705634974952417,
+              -0.03133656874640961,
+              0.003796296446786751,
+              0.006871492195420492,
+              -0.003914749860833011,
+              -0.011001944628412974,
+              0.018126887295207395,
+              0.016346997978707978
+            ],
+            "mean": -0.0016021530368106746,
+            "ci95_t": [
+              -0.015347636529227724,
+              0.012143330455606375
+            ],
+            "p_exact": 0.7890625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.019047285671536573,
+              -0.004158017417585758,
+              -0.04846908435906838,
+              0.021181992770564262,
+              0.035343461153420075,
+              -0.03255855603973068
+            ],
+            "map_bootstrap_ci95": [
+              -0.025743464552238655,
+              0.021323362683653247
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.26227432886759505,
+              0.1500517630328737,
+              -0.10603028833866102,
+              -0.5764305631319679,
+              0.09687869052092246,
+              0.2074035720899694,
+              -0.16784324844678267,
+              -0.22732455109556504
+            ],
+            "mean": -0.11069611927960077,
+            "ci95_t": [
+              -0.32710364075866083,
+              0.10571140219945932
+            ],
+            "p_exact": 0.265625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.3007334372028705,
+              -0.10926715042442137,
+              0.8357580003328628,
+              -1.1909810364246365,
+              -0.2723302528262135,
+              0.37337716086767614
+            ],
+            "map_bootstrap_ci95": [
+              -0.6015944226722542,
+              0.38459791197286347
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.035144997512300796,
+              -0.019506618132193898,
+              0.0016712365051110567,
+              0.0031522843986749594,
+              -0.007266482710838323,
+              -0.02814996043841042,
+              -0.004321152468522396,
+              -0.019808407376209897
+            ],
+            "mean": -0.013671762216836214,
+            "ci95_t": [
+              -0.025449783785011004,
+              -0.0018937406486614263
+            ],
+            "p_exact": 0.0390625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.003611070662736887,
+              0.005241596791893233,
+              -0.0711008643731475,
+              0.005832050368189803,
+              0.008791918307542806,
+              -0.034406345058232535
+            ],
+            "map_bootstrap_ci95": [
+              -0.03943921516959867,
+              0.00635010080101589
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.05912029944911551,
+              -0.033460326059770396,
+              -0.04972274294476947,
+              0.07208348138747095,
+              0.06622183333968967,
+              0.19921984596657366,
+              -0.09400986168083261,
+              0.04462488829250755
+            ],
+            "mean": 0.033009677218748104,
+            "ci95_t": [
+              -0.043397058737713726,
+              0.10941641317520993
+            ],
+            "p_exact": 0.3671875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.12589171207389688,
+              0.112352004427206,
+              -0.13754003358186845,
+              0.0761983478569257,
+              0.10178186161811703,
+              -0.08062582908178839
+            ],
+            "map_bootstrap_ci95": [
+              -0.05078259625721034,
+              0.10758738930670345
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "replay": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.09999999999999998,
+              0.033333333333333326,
+              0.033333333333333326,
+              -0.09999999999999998,
+              0.06666666666666665,
+              0.16666666666666669,
+              0.06666666666666665,
+              0.10000000000000003
+            ],
+            "mean": 0.058333333333333334,
+            "ci95_t": [
+              -0.006167081089596627,
+              0.1228337477562633
+            ],
+            "p_exact": 0.1015625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.050000000000000044,
+              -0.04999999999999999,
+              0.07500000000000001,
+              0.07500000000000001,
+              0.10000000000000003,
+              0.10000000000000003
+            ],
+            "map_bootstrap_ci95": [
+              0.01250000000000002,
+              0.09166666666666669
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.3046875
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.23333333333333334,
+              -0.10000000000000003,
+              -0.10000000000000003,
+              0.0,
+              -0.033333333333333326,
+              0.033333333333333326,
+              -0.33333333333333337,
+              -0.23333333333333334
+            ],
+            "mean": -0.125,
+            "ci95_t": [
+              -0.2331865074898572,
+              -0.016813492510142802
+            ],
+            "p_exact": 0.046875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.125,
+              -0.07500000000000001,
+              -0.09999999999999998,
+              -0.22499999999999998,
+              -0.07500000000000001,
+              -0.15000000000000002
+            ],
+            "map_bootstrap_ci95": [
+              -0.1708333333333333,
+              -0.08750000000000001
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.1875
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.044137463321394566,
+              0.0020013443430469957,
+              -0.027093902703360595,
+              -0.014057618041151965,
+              -0.0035212601829004986,
+              -0.01665510495151551,
+              -0.049511372043848756,
+              -0.026038131096344563
+            ],
+            "mean": -0.022376688499683682,
+            "ci95_t": [
+              -0.03752175859915581,
+              -0.0072316184002115536
+            ],
+            "p_exact": 0.015625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.04380221383572552,
+              -0.03665055427158137,
+              -0.003621512987189379,
+              -0.04129135561404579,
+              0.007896927598633197,
+              -0.016791421888193325
+            ],
+            "map_bootstrap_ci95": [
+              -0.037271519176552886,
+              -0.0060917425232202655
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.6959684620300921,
+              -0.6740794590363901,
+              0.6132026731967928,
+              -0.18549306538576893,
+              -0.5677232533693308,
+              0.12311676839987395,
+              0.21775982181231157,
+              0.5236357909937697
+            ],
+            "mean": 0.09329846733016878,
+            "ci95_t": [
+              -0.3466633702284743,
+              0.5332603048888118
+            ],
+            "p_exact": 0.6015625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.9626285471022129,
+              0.3880914723500606,
+              -0.0021645136876031756,
+              -0.016482981666922747,
+              -0.5711166378110644,
+              -0.20116508230567032
+            ],
+            "map_bootstrap_ci95": [
+              -0.26053515593133253,
+              0.5097215082806844
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.036202724277973164,
+              -0.006974792728821455,
+              -0.021083704878886528,
+              -0.018140790487329167,
+              0.005469375600417464,
+              0.001870088279247284,
+              -0.058155392110347745,
+              -0.028849505136410408
+            ],
+            "mean": -0.020258430717512967,
+            "ci95_t": [
+              -0.03784447161171213,
+              -0.0026723898233138067
+            ],
+            "p_exact": 0.0390625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.046022857725620286,
+              -0.01901730494573714,
+              0.006261822767555714,
+              -0.04221802707761527,
+              -0.0006424928084015624,
+              -0.01991172451525927
+            ],
+            "map_bootstrap_ci95": [
+              -0.03590179984457792,
+              -0.004615061590448018
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.09962950661394704,
+              0.04044143860819971,
+              -0.1010627152246436,
+              0.15545808332917727,
+              -0.11275008123832286,
+              0.14506963909639486,
+              -0.24316508046223625,
+              -0.0241999131838041
+            ],
+            "mean": -0.029979766961147757,
+            "ci95_t": [
+              -0.14488098047551065,
+              0.08492144655321512
+            ],
+            "p_exact": 0.5390625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.0011779017138802694,
+              0.14327856526576394,
+              -0.17085654251416865,
+              -0.01974422100813622,
+              0.020114215362664944,
+              -0.15384852058689086
+            ],
+            "map_bootstrap_ci95": [
+              -0.11132940758272918,
+              0.05270260098928847
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "clock60": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.10000000000000003,
+              0.16666666666666669,
+              0.06666666666666665,
+              0.0,
+              0.3,
+              -0.033333333333333326,
+              0.13333333333333336,
+              -0.09999999999999998
+            ],
+            "mean": 0.05416666666666667,
+            "ci95_t": [
+              -0.06306331711995032,
+              0.17139665045328367
+            ],
+            "p_exact": 0.359375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.024999999999999967,
+              0.025000000000000022,
+              0.2,
+              0.050000000000000044,
+              -0.04999999999999999,
+              0.12500000000000006
+            ],
+            "map_bootstrap_ci95": [
+              -0.008333333333333312,
+              0.12083333333333339
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.703125
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.16666666666666669,
+              -0.06666666666666671,
+              -0.06666666666666665,
+              0.033333333333333326,
+              -0.06666666666666671,
+              0.06666666666666665,
+              -0.06666666666666668,
+              0.06666666666666665
+            ],
+            "mean": -0.033333333333333354,
+            "ci95_t": [
+              -0.10159415574280391,
+              0.0349274890761372
+            ],
+            "p_exact": 0.3515625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.04999999999999999,
+              -0.07500000000000001,
+              -0.09999999999999998,
+              -0.025000000000000022,
+              0.07500000000000001,
+              -0.125
+            ],
+            "map_bootstrap_ci95": [
+              -0.08750000000000001,
+              0.025000000000000005
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.703125
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.049117578090040304,
+              -0.006047951230835014,
+              -0.019845648070201338,
+              -0.007644378546153241,
+              -0.040525677009439376,
+              0.02211082981968332,
+              -0.019690071467263648,
+              0.027381445264606785
+            ],
+            "mean": -0.011672378666205352,
+            "ci95_t": [
+              -0.03419425389923839,
+              0.010849496566827689
+            ],
+            "p_exact": 0.2734375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.01904903006986114,
+              -0.023517107258328562,
+              -0.040956923036264414,
+              -0.007660200288794661,
+              0.05203953059220112,
+              -0.03089054193618429
+            ],
+            "map_bootstrap_ci95": [
+              -0.030823103098683458,
+              0.01567512371554931
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.7048900877435997,
+              1.2397867380330956,
+              1.0827859908342363,
+              1.2091983720660204,
+              0.7176667807002861,
+              -0.6978216181198764,
+              1.4194299111763637,
+              -0.2418164141476158
+            ],
+            "mean": 0.6792649810357637,
+            "ci95_t": [
+              0.04315271274682553,
+              1.315377249324702
+            ],
+            "p_exact": 0.046875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.9533861719071863,
+              0.43228385020047355,
+              1.592844278272242,
+              -0.02954834103584325,
+              -0.3271829398348922,
+              1.4538068667054178
+            ],
+            "map_bootstrap_ci95": [
+              0.10215622164929883,
+              1.2464953853438299
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.035552584379911406,
+              0.0024876135090986795,
+              0.00037866781155268536,
+              -0.00892756991088392,
+              -0.012404728184143704,
+              0.016700612629453354,
+              -0.008467922359704977,
+              0.005446659525235487
+            ],
+            "mean": -0.005042406419912975,
+            "ci95_t": [
+              -0.01799696237451421,
+              0.00791214953468826
+            ],
+            "p_exact": 0.421875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.0057874335907399654,
+              -0.002485331427305948,
+              -0.02518734596669675,
+              -0.001829356141388419,
+              0.017664236761629593,
+              -0.012629208154976368
+            ],
+            "map_bootstrap_ci95": [
+              -0.014937039418146022,
+              0.005457785399630671
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.06153592330674035,
+              0.09358830279731062,
+              -0.09182553012992634,
+              0.11277036531039158,
+              0.005792632699035627,
+              0.3516398159163332,
+              -0.20660173985411032,
+              0.05848745913973169
+            ],
+            "mean": 0.03278942282150321,
+            "ci95_t": [
+              -0.10670427289234713,
+              0.17228311853535355
+            ],
+            "p_exact": 0.6171875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.058931092360599846,
+              0.019016627506812767,
+              0.06116697288354339,
+              0.06434701831556805,
+              0.2562394375872585,
+              -0.14510242700356346
+            ],
+            "map_bootstrap_ci95": [
+              -0.06145406369536313,
+              0.13868686102804373
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        }
+      },
+      "gates": {
+        "constant": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "replay": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "clock60": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        }
+      }
+    },
+    "push06": {
+      "summary": {
+        "live": {
+          "completed": 0.42916666666666664,
+          "fell": 0.3416666666666667,
+          "mae_forward_velocity_mps": 0.32867872884577704,
+          "forward_displacement_m": 5.60379401370883,
+          "tilt_rms_rad": 0.1450530300537745,
+          "abs_heading_change_rad": 0.4088655529653535
+        },
+        "constant": {
+          "completed": 0.4041666666666667,
+          "fell": 0.4125,
+          "mae_forward_velocity_mps": 0.3336141451043003,
+          "forward_displacement_m": 5.797577545333964,
+          "tilt_rms_rad": 0.1541058308755358,
+          "abs_heading_change_rad": 0.4613452189364099
+        },
+        "replay": {
+          "completed": 0.3875,
+          "fell": 0.44583333333333336,
+          "mae_forward_velocity_mps": 0.33789724853719155,
+          "forward_displacement_m": 6.085801930508266,
+          "tilt_rms_rad": 0.16213333594302337,
+          "abs_heading_change_rad": 0.4611917306480258
+        },
+        "clock60": {
+          "completed": 0.39166666666666666,
+          "fell": 0.30833333333333335,
+          "mae_forward_velocity_mps": 0.33114414601177367,
+          "forward_displacement_m": 5.29526310620519,
+          "tilt_rms_rad": 0.13784769891450802,
+          "abs_heading_change_rad": 0.363702702690937
+        }
+      },
+      "differences": {
+        "constant": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.0,
+              0.0,
+              0.033333333333333326,
+              0.033333333333333326,
+              0.033333333333333326,
+              0.0,
+              -0.033333333333333326,
+              0.13333333333333336
+            ],
+            "mean": 0.025,
+            "ci95_t": [
+              -0.01646796470893664,
+              0.06646796470893665
+            ],
+            "p_exact": 0.3125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.09999999999999998,
+              0.125,
+              0.0,
+              -0.125,
+              0.07500000000000001,
+              -0.025000000000000022
+            ],
+            "map_bootstrap_ci95": [
+              -0.04583333333333334,
+              0.08749999999999998
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.3125
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.033333333333333326,
+              -0.1333333333333333,
+              -0.13333333333333336,
+              -0.13333333333333336,
+              0.033333333333333326,
+              -0.06666666666666665,
+              -0.033333333333333326,
+              -0.13333333333333336
+            ],
+            "mean": -0.07083333333333333,
+            "ci95_t": [
+              -0.1330352803967383,
+              -0.008631386269928376
+            ],
+            "p_exact": 0.0625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.125,
+              -0.15000000000000002,
+              -0.07500000000000001,
+              -0.125,
+              0.0,
+              0.04999999999999999
+            ],
+            "map_bootstrap_ci95": [
+              -0.125,
+              -0.00833333333333334
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.1875
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.0006683322768604172,
+              -0.035344389542734056,
+              0.017594772830726246,
+              0.018096406663174636,
+              -0.019217278288308937,
+              -0.004293218791775355,
+              0.003234483579566183,
+              -0.020222438795695796
+            ],
+            "mean": -0.004935416258523333,
+            "ci95_t": [
+              -0.020731586229196665,
+              0.01086075371215
+            ],
+            "p_exact": 0.4453125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.006649338205314936,
+              -0.032947884717916154,
+              0.002764681744395814,
+              0.023219918768047076,
+              -0.0016051340196181485,
+              -0.014394741120733301
+            ],
+            "map_bootstrap_ci95": [
+              -0.018686760495926893,
+              0.0085633931204148
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.06550196607907655,
+              0.15303725575407334,
+              -0.8636819561322531,
+              -0.8814833202088872,
+              -0.005803513526916326,
+              0.04550059512257576,
+              0.29264052609602587,
+              -0.3559798061847692
+            ],
+            "mean": -0.1937835316251343,
+            "ci95_t": [
+              -0.5762075148931303,
+              0.18864045164286175
+            ],
+            "p_exact": 0.328125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.23359814658761024,
+              0.5134863346349441,
+              -0.11996361464261973,
+              -1.4817054107785221,
+              -0.06554167512804199,
+              -0.24257497042417508
+            ],
+            "map_bootstrap_ci95": [
+              -0.7419075525055326,
+              0.23525309423760796
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.008009105424086255,
+              -0.01904299606879553,
+              0.0076253548264503535,
+              0.007928168028593058,
+              -0.005067679782708501,
+              -0.04580973039070767,
+              -0.0058118003110090855,
+              -0.004234617451826739
+            ],
+            "mean": -0.009052800821761296,
+            "ci95_t": [
+              -0.023422634532014902,
+              0.005317032888492312
+            ],
+            "p_exact": 0.1640625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.007644249126315117,
+              -0.02423503715544939,
+              -0.017504478804767132,
+              0.0030059076845646016,
+              0.00317192729562521,
+              -0.011110874824225903
+            ],
+            "map_bootstrap_ci95": [
+              -0.01709518504018585,
+              -0.0010665756650268994
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.19245843572060767,
+              -0.10561562419543657,
+              -0.16920429099697304,
+              -0.07566103421881276,
+              0.05397159863258977,
+              0.1582612954390285,
+              0.017038143265437067,
+              -0.10616897997367636
+            ],
+            "mean": -0.05247966597105638,
+            "ci95_t": [
+              -0.152422458194636,
+              0.04746312625252326
+            ],
+            "p_exact": 0.2421875,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.14560183314568792,
+              -0.04405441655803649,
+              0.027187902446025758,
+              -0.01771851859475959,
+              -0.0862034654817374,
+              -0.04848766449214226
+            ],
+            "map_bootstrap_ci95": [
+              -0.09630587416323079,
+              -0.01180765687176033
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "replay": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.033333333333333326,
+              0.033333333333333326,
+              0.0,
+              0.16666666666666663,
+              -0.033333333333333326,
+              0.033333333333333326,
+              0.0,
+              0.09999999999999998
+            ],
+            "mean": 0.04166666666666666,
+            "ci95_t": [
+              -0.011521737645703939,
+              0.09485507097903725
+            ],
+            "p_exact": 0.15625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.14999999999999997,
+              -0.07500000000000001,
+              0.07500000000000001,
+              -0.09999999999999998,
+              0.14999999999999997,
+              0.04999999999999999
+            ],
+            "map_bootstrap_ci95": [
+              -0.03750000000000001,
+              0.11677083333333181
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.3125
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.19999999999999996,
+              -0.2666666666666666,
+              -0.06666666666666671,
+              -0.033333333333333326,
+              -0.10000000000000003,
+              0.0,
+              -0.13333333333333336,
+              -0.033333333333333326
+            ],
+            "mean": -0.10416666666666667,
+            "ci95_t": [
+              -0.18075666522802514,
+              -0.027576668105308205
+            ],
+            "p_exact": 0.015625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.25,
+              -0.07500000000000001,
+              -0.07500000000000001,
+              -0.15000000000000002,
+              -0.15000000000000002,
+              0.07500000000000001
+            ],
+            "map_bootstrap_ci95": [
+              -0.17500000000000002,
+              -0.025000000000000005
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.0625
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.023207466344425054,
+              -0.02126441571227683,
+              -0.0009899731296951209,
+              -0.01754520608672472,
+              -0.017811897394011178,
+              0.01529567031003326,
+              0.009496998789591149,
+              -0.017721867963807814
+            ],
+            "mean": -0.009218519691414538,
+            "ci95_t": [
+              -0.02175965414255889,
+              0.0033226147597298136
+            ],
+            "p_exact": 0.1328125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.05260208029364366,
+              0.0030827624485701977,
+              -0.0060361827181701355,
+              0.012069379186534002,
+              -0.02432454349073554,
+              0.012499546718957977
+            ],
+            "map_bootstrap_ci95": [
+              -0.029277903395146448,
+              0.007625710668160007
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.6804998815059662,
+              0.19600800300637822,
+              -1.7804210325082144,
+              -0.17833174640933702,
+              -0.25410768340031265,
+              -0.7386412901182968,
+              -0.14526375035444872,
+              -1.6358057161172237
+            ],
+            "mean": -0.4820079167994361,
+            "ci95_t": [
+              -1.1992110630365058,
+              0.2351952294376335
+            ],
+            "p_exact": 0.1640625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.9609019169583917,
+              -0.6363620214164261,
+              -0.5514355037361378,
+              -1.733697637170553,
+              -0.121381476521492,
+              -0.8100727789103983
+            ],
+            "map_bootstrap_ci95": [
+              -1.1139971117799479,
+              0.17642436738436418
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.044527051101128284,
+              -0.02731726939479512,
+              -0.018431971222162252,
+              0.005278254300355917,
+              -0.012422379106283188,
+              -0.0223024661342303,
+              -0.021244855721791578,
+              0.0043252912660439735
+            ],
+            "mean": -0.017080305889248852,
+            "ci95_t": [
+              -0.030797025694720172,
+              -0.003363586083777532
+            ],
+            "p_exact": 0.03125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.06590366680175064,
+              -0.004489775747060776,
+              -0.014024598523974419,
+              -0.011168526485562325,
+              -0.0029340596869587843,
+              -0.00396120809018613
+            ],
+            "map_bootstrap_ci95": [
+              -0.03733487691109378,
+              -0.004908139631152155
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.03910764551530721,
+              -0.08196781514249152,
+              -0.09919748674598639,
+              -0.05091057721683967,
+              0.07929349933852653,
+              -0.1390681325178612,
+              -0.11633842548609019,
+              0.028687161824671015
+            ],
+            "mean": -0.05232617768267233,
+            "ci95_t": [
+              -0.11453688453649102,
+              0.009884529171146357
+            ],
+            "p_exact": 0.0859375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.2462520721073616,
+              0.08376102603233976,
+              0.028044831570852413,
+              -0.11836036470994327,
+              -0.17386991821252773,
+              0.11271943133060675
+            ],
+            "map_bootstrap_ci95": [
+              -0.15790535236185313,
+              0.05047533709095084
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        },
+        "clock60": {
+          "completed": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.033333333333333326,
+              -0.13333333333333336,
+              0.0,
+              0.06666666666666665,
+              0.10000000000000003,
+              -0.06666666666666665,
+              0.23333333333333334,
+              0.06666666666666665
+            ],
+            "mean": 0.0375,
+            "ci95_t": [
+              -0.05485053922146805,
+              0.12985053922146805
+            ],
+            "p_exact": 0.4375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.175,
+              0.025000000000000022,
+              0.025000000000000022,
+              0.025000000000000022,
+              0.024999999999999967,
+              -0.04999999999999999
+            ],
+            "map_bootstrap_ci95": [
+              -0.012499999999999983,
+              0.09999999999999999
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.75
+          },
+          "fell": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.16666666666666669,
+              0.06666666666666671,
+              0.033333333333333326,
+              0.033333333333333326,
+              0.0,
+              0.033333333333333326,
+              -0.13333333333333336,
+              0.06666666666666665
+            ],
+            "mean": 0.03333333333333333,
+            "ci95_t": [
+              -0.03653384585157577,
+              0.10320051251824244
+            ],
+            "p_exact": 0.375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.15000000000000002,
+              0.1,
+              0.10000000000000003,
+              -0.025000000000000022,
+              -0.09999999999999998,
+              0.275
+            ],
+            "map_bootstrap_ci95": [
+              -0.07083333333333335,
+              0.14583333333333334
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed",
+            "p_holm": 0.75
+          },
+          "mae_forward_velocity_mps": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.03464503392311452,
+              0.00837888437168749,
+              0.020513431108917624,
+              0.012065283300495722,
+              -0.04660281728395538,
+              0.017179999927090128,
+              -0.053298425947491845,
+              -0.012604726727831084
+            ],
+            "mean": -0.002465417165996603,
+            "ci95_t": [
+              -0.02937958953682948,
+              0.024448755204836276
+            ],
+            "p_exact": 0.8359375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.011083038255107425,
+              0.02317406550461054,
+              -0.009138809843074636,
+              -0.008854888184685716,
+              -0.01854947804784801,
+              0.009659645830125796
+            ],
+            "map_bootstrap_ci95": [
+              -0.01287645510561187,
+              0.010150703776301359
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "forward_displacement_m": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              -0.2733644845585026,
+              0.6047410349051159,
+              -0.3257267028093338,
+              0.8752964019775389,
+              0.21230048090219533,
+              -0.760984196513891,
+              2.305354137594501,
+              -0.16936941146850604
+            ],
+            "mean": 0.3085309075036397,
+            "ci95_t": [
+              -0.4982347341596401,
+              1.1152965491669196
+            ],
+            "p_exact": 0.453125,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              0.8228811691515148,
+              0.48307744786143303,
+              0.722211688943208,
+              -0.3045073766261339,
+              0.734079405292869,
+              -0.6065568896010518
+            ],
+            "map_bootstrap_ci95": [
+              -0.1531481514374414,
+              0.7198683809489014
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "tilt_rms_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.016016144553820277,
+              0.003511684139569593,
+              0.02046749045451482,
+              0.023374538371960324,
+              -0.010417790214220679,
+              0.0015733696520328494,
+              -0.016730986535549164,
+              0.019848198692003882
+            ],
+            "mean": 0.007205331139266488,
+            "ci95_t": [
+              -0.005448661494947191,
+              0.019859323773480167
+            ],
+            "p_exact": 0.2265625,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.006961310654878594,
+              0.03241151068359613,
+              0.0023329664021730367,
+              0.004241673275828375,
+              -0.00986843854188918,
+              0.021075585670769198
+            ],
+            "map_bootstrap_ci95": [
+              -0.004196789170770579,
+              0.02015925444041688
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          },
+          "abs_heading_change_rad": {
+            "n_training_seeds": 8,
+            "per_seed": [
+              0.16485052919356669,
+              -0.09974118858101483,
+              0.04795418583798472,
+              0.21562645504898906,
+              0.027852088441432332,
+              -0.03563103181885552,
+              -0.19989768287696003,
+              0.24028944695018922
+            ],
+            "mean": 0.04516285027441645,
+            "ci95_t": [
+              -0.08487010827749931,
+              0.17519580882633223
+            ],
+            "p_exact": 0.4375,
+            "ci_assumption": "independent paired seed differences approximately normal",
+            "map_differences": [
+              -0.05343028333186978,
+              0.214334210003976,
+              0.058792678832072176,
+              0.023127270074450257,
+              -0.054403764520916886,
+              0.08255699058878724
+            ],
+            "map_bootstrap_ci95": [
+              -0.02212911093500063,
+              0.12182033601681963
+            ],
+            "bootstrap_scope": "maps resampled as whole groups; eight trained seeds conditioned fixed"
+          }
+        }
+      },
+      "gates": {
+        "constant": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "replay": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        },
+        "clock60": {
+          "completion": false,
+          "fall": false,
+          "guards": {
+            "mae_forward_velocity_mps": true,
+            "forward_displacement_m": true,
+            "tilt_rms_rad": true,
+            "abs_heading_change_rad": true
+          },
+          "primary_passed": false
+        }
+      }
+    }
+  },
+  "limitations": [
+    "fixed source9900 and E encoder",
+    "open-loop ablations change phase/state joint distribution",
+    "three old mechanism lineages are not new training repeats"
+  ],
+  "inference": "paired continuation seeds; sign flip assumes exchangeability/symmetry under null; not independent pretraining sources",
+  "perturbation": {
+    "summary": {
+      "clock60": {
+        "steady": {
+          "total_windows": 480,
+          "exposed_windows": 411,
+          "unexposed_windows": 69,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 411,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 403,
+          "missing_response_windows": 77,
+          "mean_phase_hz_change": -4.156549444584251e-08
+        },
+        "push03": {
+          "total_windows": 480,
+          "exposed_windows": 410,
+          "unexposed_windows": 70,
+          "recovered_windows": 2,
+          "exposed_unrecovered_windows": 408,
+          "recovery_rate_all_windows": 0.004166666666666667,
+          "recovery_rate_exposed": 0.004878048780487805,
+          "recovered_window_start_seconds": [
+            2.84,
+            1.120000000000001
+          ],
+          "complete_response_windows": 402,
+          "missing_response_windows": 78,
+          "mean_phase_hz_change": -4.132494025252688e-08
+        },
+        "push06": {
+          "total_windows": 480,
+          "exposed_windows": 417,
+          "unexposed_windows": 63,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 417,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 406,
+          "missing_response_windows": 74,
+          "mean_phase_hz_change": -4.1314370660204783e-08
+        }
+      },
+      "constant": {
+        "steady": {
+          "total_windows": 480,
+          "exposed_windows": 400,
+          "unexposed_windows": 80,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 400,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 391,
+          "missing_response_windows": 89,
+          "mean_phase_hz_change": 1.878931468327363e-08
+        },
+        "push03": {
+          "total_windows": 480,
+          "exposed_windows": 408,
+          "unexposed_windows": 72,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 408,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 400,
+          "missing_response_windows": 80,
+          "mean_phase_hz_change": 1.872554214021882e-08
+        },
+        "push06": {
+          "total_windows": 480,
+          "exposed_windows": 395,
+          "unexposed_windows": 85,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 395,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 389,
+          "missing_response_windows": 91,
+          "mean_phase_hz_change": 1.8613441894340542e-08
+        }
+      },
+      "live": {
+        "steady": {
+          "total_windows": 480,
+          "exposed_windows": 414,
+          "unexposed_windows": 66,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 414,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 410,
+          "missing_response_windows": 70,
+          "mean_phase_hz_change": 0.0018877358645043674
+        },
+        "push03": {
+          "total_windows": 480,
+          "exposed_windows": 431,
+          "unexposed_windows": 49,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 431,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 421,
+          "missing_response_windows": 59,
+          "mean_phase_hz_change": 0.032016971681603404
+        },
+        "push06": {
+          "total_windows": 480,
+          "exposed_windows": 409,
+          "unexposed_windows": 71,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 409,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 397,
+          "missing_response_windows": 83,
+          "mean_phase_hz_change": 0.05248120346731644
+        }
+      },
+      "replay": {
+        "steady": {
+          "total_windows": 480,
+          "exposed_windows": 391,
+          "unexposed_windows": 89,
+          "recovered_windows": 1,
+          "exposed_unrecovered_windows": 390,
+          "recovery_rate_all_windows": 0.0020833333333333333,
+          "recovery_rate_exposed": 0.0025575447570332483,
+          "recovered_window_start_seconds": [
+            5.4399999999999995
+          ],
+          "complete_response_windows": 375,
+          "missing_response_windows": 105,
+          "mean_phase_hz_change": -0.0044543173944164354
+        },
+        "push03": {
+          "total_windows": 480,
+          "exposed_windows": 394,
+          "unexposed_windows": 86,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 394,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 380,
+          "missing_response_windows": 100,
+          "mean_phase_hz_change": 0.004826387182509462
+        },
+        "push06": {
+          "total_windows": 480,
+          "exposed_windows": 400,
+          "unexposed_windows": 80,
+          "recovered_windows": 0,
+          "exposed_unrecovered_windows": 400,
+          "recovery_rate_all_windows": 0.0,
+          "recovery_rate_exposed": 0.0,
+          "recovered_window_start_seconds": [],
+          "complete_response_windows": 386,
+          "missing_response_windows": 94,
+          "mean_phase_hz_change": -0.002771323026098425
+        }
+      }
+    },
+    "raw_window_table_sha256": "9f012f984d178b989e77e1a055a24713ed220730d19eb7dde07a766876aef2b7",
+    "meaning": "descriptive paired windows with explicit coverage; steady is the sham reference; timing changes alone do not establish benefit"
+  }
+}

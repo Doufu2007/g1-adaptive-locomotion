@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-27T19:00:21.501Z",
+  "script": "<project-root>/results/g1_rough_transfer_20261028/independent_audit.py",
+  "sha256": "999d272725a6a69a79253edb0b2bcd97d5abd2d9eb2b2b509ebafa46f014d6de",
+  "scope": "same operator independent CPU arithmetic, no production scorer imports, not a second reviewer or fresh training seed",
+  "expected_raw_count": 480,
+  "status": "PRE_FORMAL_SAMPLING_AUDIT_SOURCE_LOCK"
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-11-05T19:14:20.277928+00:00",
+  "final_control_status": "COMPLETED",
+  "independent_raw_audit": "PASS",
+  "final_hash_bindings": "PASS",
+  "analysis_sha256": "71a9e01b5b1a42d6f556380acd91a9058c79fe23436c0fdab0b421f102308156",
+  "main_index_files": 23915,
+  "tail_index_files": 583,
+  "cross_index_path_conflicts": 0,
+  "union_files": 24498,
+  "tar_members_match_indices": true,
+  "path_escape_errors": 0,
+  "rollout_json_files_read_and_hash_verified": 528,
+  "completed_cells": {
+    "calibration": 24,
+    "validation": 48,
+    "test": 192
+  },
+  "episodes": {
+    "calibration": 120,
+    "validation": 240,
+    "test": 2880,
+    "total": 3240
+  },
+  "eval_device_cuda_0_cells": 264,
+  "eval_optimizer_updates": 0,
+  "expected_cell_and_episode_matrices_match": true,
+  "raw_episode_references_match_index_hashes": 3240,
+  "simulator_world_steps": {
+    "calibration": 120000,
+    "validation": 240000,
+    "test": 2869750,
+    "total": 3229750,
+    "budget_maximum": 3240000
+  },
+  "observed_transitions": {
+    "calibration": 99267,
+    "validation": 191039,
+    "test": 2314915,
+    "total": 2605221
+  },
+  "early_stop_test_cells": 11,
+  "per_cell_world_steps_recomputed_from_episode_lengths_match": true,
+  "sealed_inputs_verified": 292,
+  "model_path_aliases_verified": 144,
+  "errors": [],
+  "downloaded_archive_sha256_verified": {
+    "gpu_raw_main.tar": "140bfe3172283dd59b6b1c9016c98b985ee31bb630a009ff87f498ed58bba9e9",
+    "gpu_raw_tail.tar": "ecfd0f60d55ebc2e65368a807464d0b9d249b7bc62ce1f12f18c94c6c93f0e3e",
+    "gpu_inputs.tar": "bea766f5bfd39d79391a324d0b69f3769440bf91e9da85c3675fdeb81c56b5a4"
+  }
+}

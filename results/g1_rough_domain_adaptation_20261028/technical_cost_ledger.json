@@ -1,0 +1,296 @@
+{
+  "at": "2026-10-28T02:19:28.760823+00:00",
+  "status": "LIVE_LOWER_BOUND_WHILE_RUNNING",
+  "groups": {
+    "smoke_training": [
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke_training\\FC_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 3072,
+        "known_PPO_updates": 2,
+        "known_Adam_steps_lower_bound": 40
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke_training\\FE_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 3072,
+        "known_PPO_updates": 2,
+        "known_Adam_steps_lower_bound": 40
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke_training\\RC_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 3072,
+        "known_PPO_updates": 2,
+        "known_Adam_steps_lower_bound": 40
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke_training\\RE_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 3072,
+        "known_PPO_updates": 2,
+        "known_Adam_steps_lower_bound": 40
+      }
+    ],
+    "training": [
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261902\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261903\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FE_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FE_20261902\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FE_20261903\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261902\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261903\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\manifest.json",
+        "status": "COMPLETED",
+        "known_transitions": 385536,
+        "known_PPO_updates": 251,
+        "known_Adam_steps_lower_bound": 5020
+      }
+    ],
+    "smoke": [
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_FC_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_FC_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_FE_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_FE_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_RC_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_RC_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_RE_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\smoke\\smoke_RE_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 10,
+        "known_simulator_world_steps": 10
+      }
+    ],
+    "rollouts": [
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FC_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 30000,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FC_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 20220,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FC_terrain20264702\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 15061,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FC_terrain20264703\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 15746,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FE_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 30000,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FE_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 17730,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FE_terrain20264702\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 15908,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\FE_terrain20264703\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 18281,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RC_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 30000,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RC_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 22852,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RC_terrain20264702\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 22742,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RC_terrain20264703\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 19136,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RE_terrain0\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 30000,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RE_terrain20264701\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 25022,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RE_terrain20264702\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 20630,
+        "known_simulator_world_steps": 30000
+      },
+      {
+        "path": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\rollouts\\RE_terrain20264703\\manifest.json",
+        "status": "COMPLETED",
+        "known_effective_eval": 25398,
+        "known_simulator_world_steps": 30000
+      }
+    ]
+  },
+  "preserved_S_failures": [
+    {
+      "status": "PRESERVED_TECHNICAL_FAILURE",
+      "reason": "robot_physics rejected native unnamed robot geoms before first environment step",
+      "formal_training_started": false,
+      "known_train_transitions": 0,
+      "known_PPO_updates": 0,
+      "known_Adam_steps": 0,
+      "known_eval_transitions": 0,
+      "old_protocol_sha256": "8d06e16ef96741333596080ed687c1831143b2f2ba18e81ab04904251020786a",
+      "next": "diagnose exact native unnamed geom mapping; prelock minimal technical amendment, tests/review/preflight before any retry"
+    }
+  ],
+  "note": "completed valid budgets separate from smoke and failed attempts; abrupt loss may exceed last progress, preserve uncertainty",
+  "historical_D_failure_train_bounds": [
+    531456,
+    1542144
+  ],
+  "historical_D_failure_PPO_bounds": [
+    346,
+    1004
+  ],
+  "historical_C_failure_eval_bounds": [
+    6750,
+    9000
+  ]
+}

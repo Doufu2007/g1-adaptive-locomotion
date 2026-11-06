@@ -1,0 +1,618 @@
+{
+  "status": "LOCKED",
+  "at": "2026-11-05T14:34:11.490073+00:00",
+  "sources": [
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271301/steady_train20271301_eval20271111.npz",
+      "sha256": "6b0f8f34dae4c79db79e453b34fc2a7b2d38ff54b4da0c41135c55e5a0e152be",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271301/steady_train20271301_eval20271112.npz",
+      "sha256": "9eae5c01497d8a04fa30dd140eb536337caa343a7748cce7a2a313456e77481c",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271301/steady_train20271301_eval20271113.npz",
+      "sha256": "aae470c1a68bfd66e8834822e73183a5ceb4d8fdf064bbfe974b957ca447ca33",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271301/steady_train20271301_eval20271114.npz",
+      "sha256": "0080c03a9bbfd882c76677cdac4113af38ceaddc529df369fd0e18001ee281e4",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271301/steady_train20271301_eval20271115.npz",
+      "sha256": "d5829e518ad0bfac3afd4e8782559bf0a6da6a50e62079fcba9764222e8d19e9",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271302/steady_train20271302_eval20271111.npz",
+      "sha256": "5ea7d46137c3f52c270c157220be073f0bee55eed719a368f1c7c62f0f9a6fc3",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271302/steady_train20271302_eval20271112.npz",
+      "sha256": "3caac0afb02f6af0eec8161ae915fd93e0306423f9f8d9c73a2c84e44cde587b",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271302/steady_train20271302_eval20271113.npz",
+      "sha256": "3724b0a95a42a2311a5c9af81b65ba849372431098f35a8aef7478d48347eb4d",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271302/steady_train20271302_eval20271114.npz",
+      "sha256": "983396d52b7e7cee65d6ae92dca25db036f6881c0f0b49d7a9e5fa0f7f2a3546",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271302/steady_train20271302_eval20271115.npz",
+      "sha256": "4a3c646db34cf306db64cf02f7b4fe9a9bea5a0aaf14e0452f4f7c5ad067c5d1",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271303/steady_train20271303_eval20271111.npz",
+      "sha256": "eeea1b6e95714aa6bdcd502579298f16cdec22729d734f558613823914ec651e",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271303/steady_train20271303_eval20271112.npz",
+      "sha256": "feecfcb1e3842e1981fc8e3d354df79e4618a2975c4d6eff150c829fc5703a63",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271303/steady_train20271303_eval20271113.npz",
+      "sha256": "f6b8f9b50fb70c5125872ef3ca703564d9ca76b0a84ce80a4e661c9b343de459",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271303/steady_train20271303_eval20271114.npz",
+      "sha256": "8adcc2029ca19a8eabd7611b0e3db4309a7b43e035c05e0f86efff855fb29dcd",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271303/steady_train20271303_eval20271115.npz",
+      "sha256": "6938f48cb56d84d445840b9772cfbe175f4c05b5c159b8de836a4d2fa24e0e63",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271304/steady_train20271304_eval20271111.npz",
+      "sha256": "68214b119eadc82427d17cfa2dd77d65a49aa2be5a70bb0a3b1e2dfe420d033e",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271304/steady_train20271304_eval20271112.npz",
+      "sha256": "3c87fb23c409efd697b733d5027d14f80b7f8607b24927eb36ff024ea2d5ea9a",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271304/steady_train20271304_eval20271113.npz",
+      "sha256": "ec7076e51cf2842c9066d2f66ed3671aa0b3520de463da38796d4e70a2ab45ad",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271304/steady_train20271304_eval20271114.npz",
+      "sha256": "1d25fc33e0be0a79830cbc5bde27a39a052d62fd028c4b590fb4666bf49589f5",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271304/steady_train20271304_eval20271115.npz",
+      "sha256": "43aef6d8f7d8b80bb944638a135c00507a606829fabee70048e5fb854cb2fd02",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271305/steady_train20271305_eval20271111.npz",
+      "sha256": "af2def748cff898d324dcc8f401ae534ed4c6d439a2ab1db9c50afebc00cfe1a",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271305/steady_train20271305_eval20271112.npz",
+      "sha256": "53ce845df244deea3ebdb371220ebebd6642d6cb3c61042ff730ecd528223a9a",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271305/steady_train20271305_eval20271113.npz",
+      "sha256": "ccb51b286bd9e520c7bfc52a90afd96483c83cd16ce2059d5be3e256f177cc53",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271305/steady_train20271305_eval20271114.npz",
+      "sha256": "367f7dbc1ae4de4b8c5ac1ed7d3c78a8549d6211a6abec19ffdad378743bbb25",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271305/steady_train20271305_eval20271115.npz",
+      "sha256": "c1dffc88dadabcf6970848dfc7a95a89d8ae32acbeb478a1882c16197d30f039",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271306/steady_train20271306_eval20271111.npz",
+      "sha256": "8a567b38db5f259f4b8e824511628d44be1893e51452d02674dc2d788e2c05ac",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271306/steady_train20271306_eval20271112.npz",
+      "sha256": "0c428b9de53a27315fc68b1bf3a296b32d54b051106e60ff579a0219c5af03f5",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271306/steady_train20271306_eval20271113.npz",
+      "sha256": "f90c90df90fe0b259e925a914d4fc26a5bfc2cb3159ae91502c636d05b5155b8",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271306/steady_train20271306_eval20271114.npz",
+      "sha256": "27f85e98c212bc480705f6c01677bfdd33d5f029eadb11883f36365dbc952bc5",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271306/steady_train20271306_eval20271115.npz",
+      "sha256": "5af4fe895f0211e8f60e0602f4f34ec8dfe7bb536b8a8f56c03957c53f3fac92",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271307/steady_train20271307_eval20271111.npz",
+      "sha256": "965b11aae3879948cf9799ca0f37bbcc843a258765090faa77625a408f672a47",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271307/steady_train20271307_eval20271112.npz",
+      "sha256": "d299888b91e36a1193233d90451dd5b1f64a91336c79082ee12d4acf4a6f6568",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271307/steady_train20271307_eval20271113.npz",
+      "sha256": "133ee6bac224b4312019066ff09ed340d15311c4a5b2ef4233d892f7ee75f234",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271307/steady_train20271307_eval20271114.npz",
+      "sha256": "3a06a92da5b25aca2ac6109538f492d226529f2acb78f2dba9139f09bc22f2cd",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271307/steady_train20271307_eval20271115.npz",
+      "sha256": "f3dbd3142b5c47a14e2460c00341b4cb1d81c0b71e5eff54f2af7da3cfa37528",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271308/steady_train20271308_eval20271111.npz",
+      "sha256": "d70209cc327c3223b59b6d5628b7ef459abeeee34e18324fb2b36c16b9acf54d",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271308/steady_train20271308_eval20271112.npz",
+      "sha256": "eb444870de0fc000bb5a7e3a13628717ff4e386ecc59bdfc77f6ccfc4a00dc85",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271308/steady_train20271308_eval20271113.npz",
+      "sha256": "5e0f3bab12dff8ec97b57e1abe5b20143dd83ee88b39f8ec565ed9f8aa0ca9a4",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271308/steady_train20271308_eval20271114.npz",
+      "sha256": "e7526a7c3b8391c1d90ae8008783f40b0bf2da9f02b0332d0a011452644d624d",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271101_seed20271308/steady_train20271308_eval20271115.npz",
+      "sha256": "472198b681390231d096810357f8e48fd308dbc2b5d46898c35caae914ed2e43",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271301/steady_train20271301_eval20271111.npz",
+      "sha256": "3d02089b9c1386d68e2bd45e41fcf4c5fd435b9217dab7c851a824a7b4d37b21",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271301/steady_train20271301_eval20271112.npz",
+      "sha256": "a1cb648c025a197a348e77c5a5670c147a8c56997b861d4a5682a068a11309f8",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271301/steady_train20271301_eval20271113.npz",
+      "sha256": "45c69e723e7090e160008774ff88b44e76733079919925818bed70a92bf572df",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271301/steady_train20271301_eval20271114.npz",
+      "sha256": "9608df30fa2d7a9dcf8b1ee6d4bee413c9b5d025b2032f59c853f58c3049b007",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271301/steady_train20271301_eval20271115.npz",
+      "sha256": "fac49c23f5b98f04e22ed30472dc804109d0a5e517fd97cf1c9e207e54e260db",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271302/steady_train20271302_eval20271111.npz",
+      "sha256": "604da39f72e9316ab8dbd38d69f1f61e08dc2bb9c8d93c9df48fc0c59327caeb",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271302/steady_train20271302_eval20271112.npz",
+      "sha256": "84555084a675ea851a21c0963101f9af014c53db2a8505155a9ad275fde6d5d7",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271302/steady_train20271302_eval20271113.npz",
+      "sha256": "df3e635599b10dc53ff0cdaead576d4d6a34f02a6c4deba5c2efe1a1fc9a44a4",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271302/steady_train20271302_eval20271114.npz",
+      "sha256": "b950a991fcb8de7c5a1b05da84a8a787cc901e57b8cc65e30df0eb041edc27c0",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271302/steady_train20271302_eval20271115.npz",
+      "sha256": "bb04c782448b2d5747cd04a8848e7d2c56c3deae9f18b9d72dcee06dbc0056f2",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271303/steady_train20271303_eval20271111.npz",
+      "sha256": "d0a716cb30ecb498bfee9ceca421e91eaab3e9105ba31c666a45cd259153c492",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271303/steady_train20271303_eval20271112.npz",
+      "sha256": "6c630a14cc9b57ef7ced1b1607f54521cd2cc5e5b157c81253efcb8aa3c77500",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271303/steady_train20271303_eval20271113.npz",
+      "sha256": "4115ca24e3574ab50547d0ddf28c99d6bbc0897d8fd51c52156519fa6df67aeb",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271303/steady_train20271303_eval20271114.npz",
+      "sha256": "010dff9dc822908a3e2283d5b5f6b41e28390f4570454541a603ee406da0f741",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271303/steady_train20271303_eval20271115.npz",
+      "sha256": "a8e658133c910c72e5ddeeffa8d5e20e9e966955dd90e85b3dcbf73b073fc4dd",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271304/steady_train20271304_eval20271111.npz",
+      "sha256": "a918556df983cfda402ebc412ebd2070ea3d96347de43924597087294d36ab2f",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271304/steady_train20271304_eval20271112.npz",
+      "sha256": "1f48aead11a2cdf2b4ab4d3d333cae35b8d4e9738f098ac481f2f35e38d5dc55",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271304/steady_train20271304_eval20271113.npz",
+      "sha256": "889daabfaa79a1e273b67fa620cbf400cb198463a31b052db937468ca3a9f1f8",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271304/steady_train20271304_eval20271114.npz",
+      "sha256": "066d329378303e8586ffaaec05c9802dafe123d9f6c23a0a4b40013061427767",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271304/steady_train20271304_eval20271115.npz",
+      "sha256": "19591145341a1f80b3ca68e3dd9dd520c35f26d1aa8978bf7a24b75fe428ee56",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271305/steady_train20271305_eval20271111.npz",
+      "sha256": "525005bd053a9f797e413127268917e05c26378658b5733e7931973724edf761",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271305/steady_train20271305_eval20271112.npz",
+      "sha256": "63e737d27b662d6359a09dcf70e2c3ab51e3067aa14acb32d7eac55cf8ca9dac",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271305/steady_train20271305_eval20271113.npz",
+      "sha256": "8dae279c9611735b6bfeae59b60b1386be244d134fad1aaecfde8b5532b6968c",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271305/steady_train20271305_eval20271114.npz",
+      "sha256": "c54e6bd299fcf2f0f54508b5929df249776bf748ceecdeafae0fff78044a7b02",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271305/steady_train20271305_eval20271115.npz",
+      "sha256": "71c87e95fa6796cf1b819472408aae7281443d335708fb88296cc115fbdae8ad",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271306/steady_train20271306_eval20271111.npz",
+      "sha256": "20ac8d2d7ed1487965121e04e0bbb9d1b21b68fcdbac15217683dfa4973468b2",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271306/steady_train20271306_eval20271112.npz",
+      "sha256": "e2a2a8dc4c505ea4048e6b9f9c229312e66c589c2a823275abc98b3a2ffbd728",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271306/steady_train20271306_eval20271113.npz",
+      "sha256": "004d014f14b3bd656c050182b4b68bee51b291f264bbf2cc03fbeffc44357950",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271306/steady_train20271306_eval20271114.npz",
+      "sha256": "25092cbd38b89a69a16aa6008ee3a89dfbe990697b35bd03bfbb393171ce3b62",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271306/steady_train20271306_eval20271115.npz",
+      "sha256": "7210ecf0142800c6ee9b051d8da3539aa04f7e64d41ca10502e02a2fc8742484",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271307/steady_train20271307_eval20271111.npz",
+      "sha256": "46a28a4863745e620cb257be8be43ffc689936ce33e1a68b294c7185cbd07813",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271307/steady_train20271307_eval20271112.npz",
+      "sha256": "0697e3e71844e1712bab3629659e36074f4f74407f111061d0fb7e3292480992",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271307/steady_train20271307_eval20271113.npz",
+      "sha256": "4ae03104ba6a194c02094f78b2902720291efa5c39a3149c9d5867af24a5358c",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271307/steady_train20271307_eval20271114.npz",
+      "sha256": "eac2a01102477137ea0635860f300028ed28e9ed0cb3fa80ba41ca15ff6581c9",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271307/steady_train20271307_eval20271115.npz",
+      "sha256": "0c7cfd9fb6f63c6973dd325f91d95f04e7b5a156ea6f6b4cc322176fbbf11ce3",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271308/steady_train20271308_eval20271111.npz",
+      "sha256": "6a8b93fc08f363955f67ae7224307160535f73ec3a0a300d4d9acf9f96359376",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271308/steady_train20271308_eval20271112.npz",
+      "sha256": "05c0c2ba68d95a0aa928662265a7ffbaadfef3fe885680a85af8f4eed12d05f8",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271308/steady_train20271308_eval20271113.npz",
+      "sha256": "541ab4c62b8975a5de77391e54f86eb13d41bc31ab550e221a7912ad181f8f84",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271308/steady_train20271308_eval20271114.npz",
+      "sha256": "15e1403d4c1848c4d8afa0e836e11574517ec0f80c9d55d7d64acd4d03273981",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271102_seed20271308/steady_train20271308_eval20271115.npz",
+      "sha256": "c2d53432642ffb5a773a39f7c31dfa5a35e84cb91e5333627c758cb34e31de77",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271301/steady_train20271301_eval20271111.npz",
+      "sha256": "6cebf9fef99d4d46fa2adaaed52a1f1d0b605fd9116fa04f651eba25b3eae436",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271301/steady_train20271301_eval20271112.npz",
+      "sha256": "abe37091fcdb19218a6ca54a8c78005b235f2abaa9f465a7261870f314acbe7c",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271301/steady_train20271301_eval20271113.npz",
+      "sha256": "aca57cd2bd1da6b6b4cb591f7037d1fae9cd5cc6f7cee8302c0f3d6d192b1be1",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271301/steady_train20271301_eval20271114.npz",
+      "sha256": "9bf7992136a718e8be73c9cbb35353150eba0a822f8b4832bf6fe3af49c34cb0",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271301/steady_train20271301_eval20271115.npz",
+      "sha256": "802d0cdd0dc60679f0095e9af61bc652e9d2bc2f2d3c2da4b6fd2cba4eb1e181",
+      "train_seed": 20271301
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271302/steady_train20271302_eval20271111.npz",
+      "sha256": "c4074e5b9f503731d5ee770024705cc5a35ef2c9f8e35b570fdb9b1239fe6c0c",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271302/steady_train20271302_eval20271112.npz",
+      "sha256": "43819ae2a2ce5f42562558e3b585a4974d3993a54477c0fba57cac6b2a9feaa6",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271302/steady_train20271302_eval20271113.npz",
+      "sha256": "5e0f50b4f542343a9622aadaf14a1a066ed9944bef67837d73544cc6abe09c1f",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271302/steady_train20271302_eval20271114.npz",
+      "sha256": "1814ce62279f73f8b21fb9777fd41b1c0255d789a25c8cadbe273e70e68513fa",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271302/steady_train20271302_eval20271115.npz",
+      "sha256": "a7adf5a4274fc626458f7d2039110f8fe8f4d06db3b5f07bc70cac8b214f325a",
+      "train_seed": 20271302
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271303/steady_train20271303_eval20271111.npz",
+      "sha256": "65216e710a8ae5ca88970edc459df22921d1a5953ea8750ca49f20f5e838fd2c",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271303/steady_train20271303_eval20271112.npz",
+      "sha256": "616d1a904f4c5e027b6f02d8fbe2b488423f664aab6381df6b17f19577c5309d",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271303/steady_train20271303_eval20271113.npz",
+      "sha256": "3d3e3bbfd272024fd274a352f54c3c9a075179544004b49f621d042a93212966",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271303/steady_train20271303_eval20271114.npz",
+      "sha256": "9c5633ef50155abaa2dedfe04cd054066046ac4f3f09cb34894952f8e145be7f",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271303/steady_train20271303_eval20271115.npz",
+      "sha256": "63ca2509ce9e06b81fcc1dd4a72fec302790cfbd73dc69d170e38f53f55c025a",
+      "train_seed": 20271303
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271304/steady_train20271304_eval20271111.npz",
+      "sha256": "35bb7584529fc7b3e54b97cb7cd57a18bc40788a23400a61d7c8b97a13a03145",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271304/steady_train20271304_eval20271112.npz",
+      "sha256": "22150ce4e945324b9a954188a8c1ef4ed799b881eceefcff6f506aa35a6ad014",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271304/steady_train20271304_eval20271113.npz",
+      "sha256": "d529ad7212527c81e32b908c100f40eb70ea6c8c2f9ea196dcfb2902fa8988d3",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271304/steady_train20271304_eval20271114.npz",
+      "sha256": "ba2a67b866f261b3961f1d21b9771a54701771062711e267bf8f07b25ea11cda",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271304/steady_train20271304_eval20271115.npz",
+      "sha256": "f3b3e2af163781a64d673ff2d5000d005ddf8dcee7466e50de1ec5d044c62448",
+      "train_seed": 20271304
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271305/steady_train20271305_eval20271111.npz",
+      "sha256": "eb0bea6be4777d8456bf7d17862485036e384b1073d9fb8f25d4cc5345ee566a",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271305/steady_train20271305_eval20271112.npz",
+      "sha256": "3b9480361824f9eefe77566aa9db3ec0819c86fad41614a3e1993ba746e31259",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271305/steady_train20271305_eval20271113.npz",
+      "sha256": "a8022366837aaa6106ce90a7d8bc2f76f5bdc6934b63dccb839c6699b466c6bf",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271305/steady_train20271305_eval20271114.npz",
+      "sha256": "b6e347472d06c434a589d753e7a96762c0eaed7d84223d729b3a4a18822dd614",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271305/steady_train20271305_eval20271115.npz",
+      "sha256": "5b1ab0227cf8825fa6ede2879e5b30d93f8ad00f9cd6f3893809959db403068a",
+      "train_seed": 20271305
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271306/steady_train20271306_eval20271111.npz",
+      "sha256": "39a93b9476602400925104fbd521fc2054e204c1f983f06d2426b4f158219a4e",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271306/steady_train20271306_eval20271112.npz",
+      "sha256": "dae3245327a211c8de29dffdc2d78264446e5d9f16e31611180112a175269883",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271306/steady_train20271306_eval20271113.npz",
+      "sha256": "0486813c7a20aa4939a99c1e680a2b6ad0ea6a9e0a030b7f2f9e8e0efed3232a",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271306/steady_train20271306_eval20271114.npz",
+      "sha256": "429b37ea82775685d4a9bac701970b651b6e163842411c99ef214200e9d24478",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271306/steady_train20271306_eval20271115.npz",
+      "sha256": "3e4e9fdca624dcee91b10c79ef2c724edd8860ac737e1125378bab77a7dd00c7",
+      "train_seed": 20271306
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271307/steady_train20271307_eval20271111.npz",
+      "sha256": "5befdb2e719fa20d730a2f66f3d79d13462130625e37f36430aa9dbdb0ca681f",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271307/steady_train20271307_eval20271112.npz",
+      "sha256": "9ca940227dc877d25a44c50145248876d246bdb2099002d34e120d25614be792",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271307/steady_train20271307_eval20271113.npz",
+      "sha256": "3b57114a1bc35912364fc0d3ddfd4f25891ec8d490efd94e6b732294b6d0b283",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271307/steady_train20271307_eval20271114.npz",
+      "sha256": "f9ff7a55f99d155488c4db3902a0e0cb8b22bf1134039d8f9437745ae83bed1b",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271307/steady_train20271307_eval20271115.npz",
+      "sha256": "6867a86ca8eb7973f968aeb80e9293001ee3b1c63435da41673a7c42e55e7272",
+      "train_seed": 20271307
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271308/steady_train20271308_eval20271111.npz",
+      "sha256": "d1fb90183255f0d51f52a611ff79cc0e981415435c7e5280aa292ed3df4611b6",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271308/steady_train20271308_eval20271112.npz",
+      "sha256": "6d77dc961081ca5c46ea7ce058b94b57dc63339dc3622134c8f30d04be624455",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271308/steady_train20271308_eval20271113.npz",
+      "sha256": "c573491985c4182f8c3e745474983fc5ecd5eda35911aadae16fa9918b320405",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271308/steady_train20271308_eval20271114.npz",
+      "sha256": "34cff9aeb0d4fd3a73c3cf4c34c41adb218088568102c0258f62f5074166148e",
+      "train_seed": 20271308
+    },
+    {
+      "path": "<remote-project-root>/phasor_phase_supplement_20261104/phasor/remote_output/formal_recovery_gpu_01/rollouts/calibration/live_map20271103_seed20271308/steady_train20271308_eval20271115.npz",
+      "sha256": "610689f117dc85c816deec50354e21f4456abccff85c3c1f466c560f4ba5a130",
+      "train_seed": 20271308
+    }
+  ],
+  "sha256": "817d19c53a312ab12771584a6914d11e596abf1f3e3c8ed77d4e4039d559eb7c",
+  "means": {
+    "20271301": 0.2027386859662478,
+    "20271302": 0.20101222174654512,
+    "20271303": 0.19779116159648263,
+    "20271304": 0.1993597398821067,
+    "20271305": 0.2002739138146095,
+    "20271306": 0.20117204256628118,
+    "20271307": 0.2014215689099443,
+    "20271308": 0.19994051548320566
+  },
+  "rule": "all observed within-episode increments in map/start/time order; no outcome selection"
+}

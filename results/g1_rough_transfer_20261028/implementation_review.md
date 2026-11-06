@@ -1,0 +1,5 @@
+# Fresh独立实现审查
+
+独立reviewer rough_implementation_review只读检查了设计、契约、环境/队列/分析实现与真实库API，独立CPU运行11项测试PASS。
+发现并在采样前复核修复：raw保存原生terminated/timed_out供跌倒独立重算；rough smoke要求实际指定hfield足接触并从raw points重算。当前无未解决Critical/Important。
+reviewer没有创建环境或运行仿真；CUDA/接触容量/运行时配对需四项smoke。此处不能把审查当真实仿真PASS。

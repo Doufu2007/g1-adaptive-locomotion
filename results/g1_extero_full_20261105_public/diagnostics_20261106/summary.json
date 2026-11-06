@@ -1,0 +1,482 @@
+[
+  {
+    "arm": "matched",
+    "seed": 20261111,
+    "scope": "POST_RESULTS exploratory mechanism diagnosis; same original evaluation protocol, not a new confirmatory holdout",
+    "replay_rmse": 0.278211749519702,
+    "original_rmse": 0.2956712242816081,
+    "max_clean_velocity_replay_difference": 3.230532169342041,
+    "root_height_last2s_mean": 0.795714795589447,
+    "root_height_last2s_range": [
+      0.7599104046821594,
+      0.8339474201202393
+    ],
+    "root_height_last2s_per_command": [
+      0.7831101417541504,
+      0.7935253977775574,
+      0.7902008891105652,
+      0.8100833892822266,
+      0.8007583022117615,
+      0.7966108918190002
+    ],
+    "tilt_deg_last2s_mean": 2.950549840927124,
+    "abs_vx_last2s": 0.2615322768688202,
+    "action_rms_last2s": 0.47903701663017273,
+    "max_abs_action": 3.14465069770813,
+    "reward_names": [
+      "track_linear_velocity",
+      "track_angular_velocity",
+      "body_orientation_l2",
+      "pose",
+      "body_ang_vel",
+      "angular_momentum",
+      "is_terminated",
+      "joint_acc_l2",
+      "joint_pos_limits",
+      "action_rate_l2",
+      "foot_gait",
+      "foot_clearance",
+      "foot_slip",
+      "soft_landing",
+      "stand_still",
+      "self_collisions"
+    ],
+    "reward_last2s_mean_by_term": {
+      "track_linear_velocity": 0.714219331741333,
+      "track_angular_velocity": 0.7536581158638,
+      "body_orientation_l2": -0.005993264727294445,
+      "pose": 0.7225348353385925,
+      "body_ang_vel": -0.009863556362688541,
+      "angular_momentum": -0.023203546181321144,
+      "is_terminated": 0.0,
+      "joint_acc_l2": -0.012304872274398804,
+      "joint_pos_limits": 0.0,
+      "action_rate_l2": -0.021862924098968506,
+      "foot_gait": 0.414166659116745,
+      "foot_clearance": -0.00711628096178174,
+      "foot_slip": -0.004339318256825209,
+      "soft_landing": -0.011021538637578487,
+      "stand_still": 0.0,
+      "self_collisions": 0.0
+    },
+    "replay_completed": true,
+    "last_learning_rate": 1e-05,
+    "normalizer": {
+      "count": 122892288,
+      "terrain_mean_range": [
+        0.017452232539653778,
+        0.15773077309131622
+      ],
+      "terrain_std_range": [
+        0.013806215487420559,
+        0.06203290447592735
+      ]
+    },
+    "offline_terrain_mean_replacement": {
+      "n": 150,
+      "action_change_rms": 0.11329222470521927,
+      "base_action_rms": 0.48362916707992554,
+      "caution": "Off-distribution sensitivity only; does not establish usefulness or improve locomotion."
+    }
+  },
+  {
+    "arm": "matched",
+    "seed": 20261112,
+    "scope": "POST_RESULTS exploratory mechanism diagnosis; same original evaluation protocol, not a new confirmatory holdout",
+    "replay_rmse": 0.32695053879428815,
+    "original_rmse": 0.33250861883014987,
+    "max_clean_velocity_replay_difference": 3.421656608581543,
+    "root_height_last2s_mean": 0.7922507524490356,
+    "root_height_last2s_range": [
+      0.7602168917655945,
+      0.8271161913871765
+    ],
+    "root_height_last2s_per_command": [
+      0.7856022119522095,
+      0.8057273626327515,
+      0.7993414998054504,
+      0.7923331260681152,
+      0.7838344573974609,
+      0.7866654396057129
+    ],
+    "tilt_deg_last2s_mean": 3.8067777156829834,
+    "abs_vx_last2s": 0.1833001673221588,
+    "action_rms_last2s": 0.45894503593444824,
+    "max_abs_action": 3.9250757694244385,
+    "reward_names": [
+      "track_linear_velocity",
+      "track_angular_velocity",
+      "body_orientation_l2",
+      "pose",
+      "body_ang_vel",
+      "angular_momentum",
+      "is_terminated",
+      "joint_acc_l2",
+      "joint_pos_limits",
+      "action_rate_l2",
+      "foot_gait",
+      "foot_clearance",
+      "foot_slip",
+      "soft_landing",
+      "stand_still",
+      "self_collisions"
+    ],
+    "reward_last2s_mean_by_term": {
+      "track_linear_velocity": 0.6165739297866821,
+      "track_angular_velocity": 0.7367160320281982,
+      "body_orientation_l2": -0.005624230019748211,
+      "pose": 0.7116947174072266,
+      "body_ang_vel": -0.007058818358927965,
+      "angular_momentum": -0.02501017600297928,
+      "is_terminated": 0.0,
+      "joint_acc_l2": -0.015347491949796677,
+      "joint_pos_limits": 0.0,
+      "action_rate_l2": -0.02243630215525627,
+      "foot_gait": 0.38499999046325684,
+      "foot_clearance": -0.006544902920722961,
+      "foot_slip": -0.006158232223242521,
+      "soft_landing": -0.011959847994148731,
+      "stand_still": 0.0,
+      "self_collisions": 0.0
+    },
+    "replay_completed": true,
+    "last_learning_rate": 5.062500000000002e-05,
+    "normalizer": {
+      "count": 122892288,
+      "terrain_mean_range": [
+        0.016174806281924248,
+        0.15737709403038025
+      ],
+      "terrain_std_range": [
+        0.014410419389605522,
+        0.06162600964307785
+      ]
+    },
+    "offline_terrain_mean_replacement": {
+      "n": 150,
+      "action_change_rms": 0.12204726040363312,
+      "base_action_rms": 0.4764845073223114,
+      "caution": "Off-distribution sensitivity only; does not establish usefulness or improve locomotion."
+    }
+  },
+  {
+    "arm": "matched",
+    "seed": 20261113,
+    "scope": "POST_RESULTS exploratory mechanism diagnosis; same original evaluation protocol, not a new confirmatory holdout",
+    "replay_rmse": 0.2989654114063865,
+    "original_rmse": 0.29652542442379637,
+    "max_clean_velocity_replay_difference": 1.892153024673462,
+    "root_height_last2s_mean": 0.7994445562362671,
+    "root_height_last2s_range": [
+      0.7652216553688049,
+      0.825228750705719
+    ],
+    "root_height_last2s_per_command": [
+      0.7972474098205566,
+      0.7940763235092163,
+      0.7839360237121582,
+      0.8141267895698547,
+      0.80077064037323,
+      0.8065107464790344
+    ],
+    "tilt_deg_last2s_mean": 3.4698832035064697,
+    "abs_vx_last2s": 0.24430646002292633,
+    "action_rms_last2s": 0.5001868009567261,
+    "max_abs_action": 3.2487823963165283,
+    "reward_names": [
+      "track_linear_velocity",
+      "track_angular_velocity",
+      "body_orientation_l2",
+      "pose",
+      "body_ang_vel",
+      "angular_momentum",
+      "is_terminated",
+      "joint_acc_l2",
+      "joint_pos_limits",
+      "action_rate_l2",
+      "foot_gait",
+      "foot_clearance",
+      "foot_slip",
+      "soft_landing",
+      "stand_still",
+      "self_collisions"
+    ],
+    "reward_last2s_mean_by_term": {
+      "track_linear_velocity": 0.7160211801528931,
+      "track_angular_velocity": 0.7230291962623596,
+      "body_orientation_l2": -0.003860857803374529,
+      "pose": 0.7195243835449219,
+      "body_ang_vel": -0.008678093552589417,
+      "angular_momentum": -0.023712942376732826,
+      "is_terminated": 0.0,
+      "joint_acc_l2": -0.01902027055621147,
+      "joint_pos_limits": 0.0,
+      "action_rate_l2": -0.024100614711642265,
+      "foot_gait": 0.4229166805744171,
+      "foot_clearance": -0.008131859824061394,
+      "foot_slip": -0.010280613787472248,
+      "soft_landing": -0.013602936640381813,
+      "stand_still": 0.0,
+      "self_collisions": 0.0
+    },
+    "replay_completed": true,
+    "last_learning_rate": 7.593750000000002e-05,
+    "normalizer": {
+      "count": 122892288,
+      "terrain_mean_range": [
+        0.017307542264461517,
+        0.15753774344921112
+      ],
+      "terrain_std_range": [
+        0.013399052433669567,
+        0.06141050159931183
+      ]
+    },
+    "offline_terrain_mean_replacement": {
+      "n": 150,
+      "action_change_rms": 0.11258271336555481,
+      "base_action_rms": 0.4996436536312103,
+      "caution": "Off-distribution sensitivity only; does not establish usefulness or improve locomotion."
+    }
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261111,
+    "scope": "POST_RESULTS exploratory mechanism diagnosis; same original evaluation protocol, not a new confirmatory holdout",
+    "replay_rmse": 0.27394425556130036,
+    "original_rmse": 0.2684107029637749,
+    "max_clean_velocity_replay_difference": 2.5019760131835938,
+    "root_height_last2s_mean": 0.7977589964866638,
+    "root_height_last2s_range": [
+      0.7508670687675476,
+      0.8257818222045898
+    ],
+    "root_height_last2s_per_command": [
+      0.8051506876945496,
+      0.8032479882240295,
+      0.7773234844207764,
+      0.8142485022544861,
+      0.7914960384368896,
+      0.7950872182846069
+    ],
+    "tilt_deg_last2s_mean": 2.733511209487915,
+    "abs_vx_last2s": 0.33508920669555664,
+    "action_rms_last2s": 0.4481489658355713,
+    "max_abs_action": 3.5956664085388184,
+    "reward_names": [
+      "track_linear_velocity",
+      "track_angular_velocity",
+      "body_orientation_l2",
+      "pose",
+      "body_ang_vel",
+      "angular_momentum",
+      "is_terminated",
+      "joint_acc_l2",
+      "joint_pos_limits",
+      "action_rate_l2",
+      "foot_gait",
+      "foot_clearance",
+      "foot_slip",
+      "soft_landing",
+      "stand_still",
+      "self_collisions"
+    ],
+    "reward_last2s_mean_by_term": {
+      "track_linear_velocity": 0.7712103724479675,
+      "track_angular_velocity": 0.7780474424362183,
+      "body_orientation_l2": -0.004420138895511627,
+      "pose": 0.714025616645813,
+      "body_ang_vel": -0.008207015693187714,
+      "angular_momentum": -0.02274048700928688,
+      "is_terminated": 0.0,
+      "joint_acc_l2": -0.021804790943861008,
+      "joint_pos_limits": -0.0029671848751604557,
+      "action_rate_l2": -0.021495426073670387,
+      "foot_gait": 0.42791667580604553,
+      "foot_clearance": -0.01150967925786972,
+      "foot_slip": -0.010823351331055164,
+      "soft_landing": -0.017479944974184036,
+      "stand_still": 0.0,
+      "self_collisions": 0.0
+    },
+    "replay_completed": true,
+    "last_learning_rate": 1e-05,
+    "normalizer": {
+      "count": 122892288,
+      "terrain_mean_range": [
+        0.01756070740520954,
+        0.15804675221443176
+      ],
+      "terrain_std_range": [
+        0.013812156394124031,
+        0.062004897743463516
+      ]
+    },
+    "offline_terrain_mean_replacement": {
+      "n": 150,
+      "action_change_rms": 0.09659922122955322,
+      "base_action_rms": 0.46175822615623474,
+      "caution": "Off-distribution sensitivity only; does not establish usefulness or improve locomotion."
+    }
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261112,
+    "scope": "POST_RESULTS exploratory mechanism diagnosis; same original evaluation protocol, not a new confirmatory holdout",
+    "replay_rmse": 0.5633046513210541,
+    "original_rmse": 0.5624874072067575,
+    "max_clean_velocity_replay_difference": 1.0085235834121704,
+    "root_height_last2s_mean": 0.16428278386592865,
+    "root_height_last2s_range": [
+      0.14720262587070465,
+      0.1858636885881424
+    ],
+    "root_height_last2s_per_command": [
+      0.16637517511844635,
+      0.16568219661712646,
+      0.1508471518754959,
+      0.1565566062927246,
+      0.16118326783180237,
+      0.1850523054599762
+    ],
+    "tilt_deg_last2s_mean": 13.897555351257324,
+    "abs_vx_last2s": 0.013274841010570526,
+    "action_rms_last2s": 4.069205284118652,
+    "max_abs_action": 18.610593795776367,
+    "reward_names": [
+      "track_linear_velocity",
+      "track_angular_velocity",
+      "body_orientation_l2",
+      "pose",
+      "body_ang_vel",
+      "angular_momentum",
+      "is_terminated",
+      "joint_acc_l2",
+      "joint_pos_limits",
+      "action_rate_l2",
+      "foot_gait",
+      "foot_clearance",
+      "foot_slip",
+      "soft_landing",
+      "stand_still",
+      "self_collisions"
+    ],
+    "reward_last2s_mean_by_term": {
+      "track_linear_velocity": 0.5061084628105164,
+      "track_angular_velocity": 0.9181843996047974,
+      "body_orientation_l2": -0.006451958324760199,
+      "pose": 5.2396802174836665e-11,
+      "body_ang_vel": -0.0020892436150461435,
+      "angular_momentum": -0.002465086057782173,
+      "is_terminated": 0.0,
+      "joint_acc_l2": -0.0016217497177422047,
+      "joint_pos_limits": -0.04179231822490692,
+      "action_rate_l2": -0.0036241610068827868,
+      "foot_gait": 0.3558333218097687,
+      "foot_clearance": -0.005132162012159824,
+      "foot_slip": -0.0010042231297120452,
+      "soft_landing": -0.005074599292129278,
+      "stand_still": 0.0,
+      "self_collisions": 0.0
+    },
+    "replay_completed": true,
+    "last_learning_rate": 1e-05,
+    "normalizer": {
+      "count": 122892288,
+      "terrain_mean_range": [
+        0.010087250731885433,
+        0.06421048194169998
+      ],
+      "terrain_std_range": [
+        0.0166305061429739,
+        0.06261172890663147
+      ]
+    },
+    "offline_terrain_mean_replacement": {
+      "n": 150,
+      "action_change_rms": 0.3104068636894226,
+      "base_action_rms": 3.4864490032196045,
+      "caution": "Off-distribution sensitivity only; does not establish usefulness or improve locomotion."
+    }
+  },
+  {
+    "arm": "semantic",
+    "seed": 20261113,
+    "scope": "POST_RESULTS exploratory mechanism diagnosis; same original evaluation protocol, not a new confirmatory holdout",
+    "replay_rmse": 0.5510668778026676,
+    "original_rmse": 0.5529516438024574,
+    "max_clean_velocity_replay_difference": 1.5898622274398804,
+    "root_height_last2s_mean": 0.16043581068515778,
+    "root_height_last2s_range": [
+      0.14278630912303925,
+      0.17995299398899078
+    ],
+    "root_height_last2s_per_command": [
+      0.15422305464744568,
+      0.17801809310913086,
+      0.14364492893218994,
+      0.16401003301143646,
+      0.16062580049037933,
+      0.16209295392036438
+    ],
+    "tilt_deg_last2s_mean": 20.139055252075195,
+    "abs_vx_last2s": 0.015814542770385742,
+    "action_rms_last2s": 3.829996347427368,
+    "max_abs_action": 19.22496795654297,
+    "reward_names": [
+      "track_linear_velocity",
+      "track_angular_velocity",
+      "body_orientation_l2",
+      "pose",
+      "body_ang_vel",
+      "angular_momentum",
+      "is_terminated",
+      "joint_acc_l2",
+      "joint_pos_limits",
+      "action_rate_l2",
+      "foot_gait",
+      "foot_clearance",
+      "foot_slip",
+      "soft_landing",
+      "stand_still",
+      "self_collisions"
+    ],
+    "reward_last2s_mean_by_term": {
+      "track_linear_velocity": 0.5087857246398926,
+      "track_angular_velocity": 0.9115687012672424,
+      "body_orientation_l2": -0.009306755848228931,
+      "pose": 4.5211390187205325e-09,
+      "body_ang_vel": -0.0023921264801174402,
+      "angular_momentum": -0.0028282920829951763,
+      "is_terminated": 0.0,
+      "joint_acc_l2": -0.0022653480991721153,
+      "joint_pos_limits": 0.0,
+      "action_rate_l2": -0.004132155794650316,
+      "foot_gait": 0.3558333218097687,
+      "foot_clearance": -0.006096172146499157,
+      "foot_slip": -0.0008805370307527483,
+      "soft_landing": -0.005102391820400953,
+      "stand_still": 0.0,
+      "self_collisions": 0.0
+    },
+    "replay_completed": true,
+    "last_learning_rate": 2.2500000000000008e-05,
+    "normalizer": {
+      "count": 122892288,
+      "terrain_mean_range": [
+        0.010616406798362732,
+        0.06327484548091888
+      ],
+      "terrain_std_range": [
+        0.01731158047914505,
+        0.06075634807348251
+      ]
+    },
+    "offline_terrain_mean_replacement": {
+      "n": 150,
+      "action_change_rms": 0.3182353377342224,
+      "base_action_rms": 3.413201093673706,
+      "caution": "Off-distribution sensitivity only; does not establish usefulness or improve locomotion."
+    }
+  }
+]

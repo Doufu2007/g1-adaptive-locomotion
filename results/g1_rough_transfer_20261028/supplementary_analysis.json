@@ -1,0 +1,4079 @@
+{
+  "status": "PASS",
+  "at": "2026-10-27T20:29:41.379673+00:00",
+  "provenance": {
+    "analysis_sha256": "57975081073354b63960f923e9d9d8f9940916bd483594ee0034ce77f7fab873",
+    "audit_sha256": "b95fd0b25f80abb0189e83ec72b57baaa425f39bae39ca10908b326e5ab8cadc",
+    "diagnostic_script_sha256": "c4aa00daf613983a248283c8e47e25fa1af5d54dc9ed7f058e5bc4c3b17a40d1",
+    "raw_sha_checked": 480,
+    "new_environment_transitions": 0,
+    "PPO_updates": 0
+  },
+  "decision_ledger": [
+    {
+      "timing": "POST_RESULTS",
+      "kind": "SUPPLEMENTARY",
+      "action": "Describe every failure cause and pre-existing push/phase diagnostics; no exclusions, no primary changes, no new superiority test"
+    }
+  ],
+  "groups": {
+    "AC:flat": {
+      "episodes": 30,
+      "completed": 30,
+      "fell": 0,
+      "survived": 30,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04998441777947204,
+      "displacement_m_mean": 9.086668109893798
+    },
+    "AC:rough": {
+      "episodes": 90,
+      "completed": 4,
+      "fell": 83,
+      "survived": 7,
+      "incomplete_survivors": 3,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 3
+      },
+      "all_overlapping_reasons": {
+        "fell": 83,
+        "shortened_by_terminal": 83,
+        "distance_below_5m": 84,
+        "moving_fraction_below_0_8": 86
+      },
+      "survival_seconds_mean": 6.2860000000000005,
+      "mae_mps_mean": 0.5032996478475347,
+      "displacement_m_mean": 0.9938169594440195
+    },
+    "AE:flat": {
+      "episodes": 30,
+      "completed": 30,
+      "fell": 0,
+      "survived": 30,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.05506845086752631,
+      "displacement_m_mean": 7.369888957341512
+    },
+    "AE:rough": {
+      "episodes": 90,
+      "completed": 1,
+      "fell": 86,
+      "survived": 4,
+      "incomplete_survivors": 3,
+      "incomplete_survivor_overlapping_reasons": {
+        "exposure_below_0_95": 2,
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 86,
+        "shortened_by_terminal": 86,
+        "distance_below_5m": 82,
+        "moving_fraction_below_0_8": 86,
+        "exposure_below_0_95": 3
+      },
+      "survival_seconds_mean": 7.571777777777778,
+      "mae_mps_mean": 0.5086261642408657,
+      "displacement_m_mean": 0.8495912695096599
+    },
+    "DC:flat": {
+      "episodes": 30,
+      "completed": 30,
+      "fell": 0,
+      "survived": 30,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.041416826162681296,
+      "displacement_m_mean": 8.614336188634237
+    },
+    "DC:rough": {
+      "episodes": 90,
+      "completed": 9,
+      "fell": 71,
+      "survived": 19,
+      "incomplete_survivors": 10,
+      "incomplete_survivor_overlapping_reasons": {
+        "moving_fraction_below_0_8": 10,
+        "distance_below_5m": 6,
+        "exposure_below_0_95": 1
+      },
+      "all_overlapping_reasons": {
+        "moving_fraction_below_0_8": 75,
+        "fell": 71,
+        "shortened_by_terminal": 71,
+        "distance_below_5m": 58,
+        "exposure_below_0_95": 4
+      },
+      "survival_seconds_mean": 10.715777777777777,
+      "mae_mps_mean": 0.4275967955167536,
+      "displacement_m_mean": 3.3980982881453303
+    },
+    "DE:flat": {
+      "episodes": 30,
+      "completed": 30,
+      "fell": 0,
+      "survived": 30,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04725659515528242,
+      "displacement_m_mean": 8.870706160863241
+    },
+    "DE:rough": {
+      "episodes": 90,
+      "completed": 13,
+      "fell": 59,
+      "survived": 31,
+      "incomplete_survivors": 18,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 13,
+        "moving_fraction_below_0_8": 15,
+        "exposure_below_0_95": 3
+      },
+      "all_overlapping_reasons": {
+        "fell": 59,
+        "shortened_by_terminal": 59,
+        "moving_fraction_below_0_8": 72,
+        "distance_below_5m": 60,
+        "exposure_below_0_95": 5
+      },
+      "survival_seconds_mean": 13.177555555555555,
+      "mae_mps_mean": 0.41866640443866354,
+      "displacement_m_mean": 3.60074589939581
+    }
+  },
+  "all_method_map_scenario_seed_strata": [
+    {
+      "method": "AC",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.05426660526404157,
+      "displacement_m_mean": 8.655220031738281
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.043394059351831674,
+      "displacement_m_mean": 9.097063064575195
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04803951995698735,
+      "displacement_m_mean": 9.544524574279786
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.05769779660655185,
+      "displacement_m_mean": 8.592712783813477
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04737682294361294,
+      "displacement_m_mean": 9.040997886657715
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.049131702553806826,
+      "displacement_m_mean": 9.58949031829834
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 4.564,
+      "mae_mps_mean": 0.551475876326207,
+      "displacement_m_mean": -0.20028520822525026
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 4.5600000000000005,
+      "mae_mps_mean": 0.5412693456215143,
+      "displacement_m_mean": -1.1400864899158478
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 4.284000000000001,
+      "mae_mps_mean": 0.5392861946040124,
+      "displacement_m_mean": 0.21498138904571534
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 3.0759999999999996,
+      "mae_mps_mean": 0.5302155391291715,
+      "displacement_m_mean": -0.7880171060562133
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 11.768,
+      "mae_mps_mean": 0.4388002233515028,
+      "displacement_m_mean": 3.645242381095886
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 4.66,
+      "mae_mps_mean": 0.5551108720581979,
+      "displacement_m_mean": -0.570888876914978
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 4.348000000000001,
+      "mae_mps_mean": 0.5074908034951425,
+      "displacement_m_mean": 3.332517200708389
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 3.024,
+      "mae_mps_mean": 0.5079556730919285,
+      "displacement_m_mean": 0.08250572681427001
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 6.9159999999999995,
+      "mae_mps_mean": 0.4770805209632905,
+      "displacement_m_mean": 2.141817569732666
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 3.6760000000000006,
+      "mae_mps_mean": 0.5178676602038788,
+      "displacement_m_mean": 0.09354944229125976
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 9.864,
+      "mae_mps_mean": 0.4555965207692235,
+      "displacement_m_mean": 2.2175934433937075
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 5.956,
+      "mae_mps_mean": 0.5093678521879832,
+      "displacement_m_mean": 0.1477478712797165
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "moving_fraction_below_0_8": 5,
+        "distance_below_5m": 4
+      },
+      "survival_seconds_mean": 4.396,
+      "mae_mps_mean": 0.4620082162624225,
+      "displacement_m_mean": 2.136384071409702
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 10.355999999999998,
+      "mae_mps_mean": 0.4893732127849333,
+      "displacement_m_mean": 0.2776813328266144
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 7.231999999999999,
+      "mae_mps_mean": 0.5092510603750008,
+      "displacement_m_mean": 0.3841104626655579
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 4.276000000000001,
+      "mae_mps_mean": 0.47097864525907207,
+      "displacement_m_mean": 1.8258572667837143
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 10.564,
+      "mae_mps_mean": 0.4502704164236201,
+      "displacement_m_mean": 2.399442973732948
+    },
+    {
+      "method": "AC",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 9.628,
+      "mae_mps_mean": 0.5459950283485232,
+      "displacement_m_mean": 1.6885518193244935
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.03945010472787545,
+      "displacement_m_mean": 9.32418451309204
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.05839123032005737,
+      "displacement_m_mean": 6.262036609649658
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.060398821820830915,
+      "displacement_m_mean": 6.510848617553711
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.041583695310447366,
+      "displacement_m_mean": 9.343082523345947
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.06696484246433247,
+      "displacement_m_mean": 6.3276896476745605
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.06362201056161429,
+      "displacement_m_mean": 6.451491832733154
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 6.712000000000001,
+      "mae_mps_mean": 0.5406426771108687,
+      "displacement_m_mean": -0.1973874270915985
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 7.104000000000001,
+      "mae_mps_mean": 0.5357531496012118,
+      "displacement_m_mean": 0.603900408744812
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5,
+        "exposure_below_0_95": 1
+      },
+      "survival_seconds_mean": 8.168000000000001,
+      "mae_mps_mean": 0.5114896325935377,
+      "displacement_m_mean": 0.22521859407424927
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 3.6120000000000005,
+      "mae_mps_mean": 0.5438137138585895,
+      "displacement_m_mean": -0.8270459651947022
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 8.824000000000002,
+      "mae_mps_mean": 0.484178399733422,
+      "displacement_m_mean": 2.0356915831565856
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "exposure_below_0_95": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4,
+        "exposure_below_0_95": 1
+      },
+      "survival_seconds_mean": 8.652,
+      "mae_mps_mean": 0.48391142106256446,
+      "displacement_m_mean": 1.600159654021263
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 9.556000000000001,
+      "mae_mps_mean": 0.5405363055514637,
+      "displacement_m_mean": -0.6344788521528244
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 5.244,
+      "mae_mps_mean": 0.48228771962584,
+      "displacement_m_mean": 0.8346354007720947
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 8.080000000000002,
+      "mae_mps_mean": 0.5037727909130976,
+      "displacement_m_mean": 1.8580627858638763
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 10.940000000000001,
+      "mae_mps_mean": 0.4740932981332997,
+      "displacement_m_mean": 0.07205610275268555
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 9.364,
+      "mae_mps_mean": 0.4849029456102755,
+      "displacement_m_mean": 3.1105273723602296
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 5.6240000000000006,
+      "mae_mps_mean": 0.48879415822965094,
+      "displacement_m_mean": 0.8256703332066536
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 11.824,
+      "mae_mps_mean": 0.4782564240725362,
+      "displacement_m_mean": 1.1785394430160523
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 6.732000000000001,
+      "mae_mps_mean": 0.531877772275533,
+      "displacement_m_mean": 0.3402637720108032
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 3.536,
+      "mae_mps_mean": 0.5190753018922173,
+      "displacement_m_mean": 0.23287774324417115
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 5.4079999999999995,
+      "mae_mps_mean": 0.600170321193221,
+      "displacement_m_mean": -1.5888438105583191
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 5.168000000000001,
+      "mae_mps_mean": 0.5311089578936807,
+      "displacement_m_mean": 0.45818405151367186
+    },
+    {
+      "method": "AE",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "exposure_below_0_95": 1
+      },
+      "all_overlapping_reasons": {
+        "exposure_below_0_95": 1,
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 11.744,
+      "mae_mps_mean": 0.42060596698457375,
+      "displacement_m_mean": 5.164611661434174
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.0408991652057739,
+      "displacement_m_mean": 9.006417274475098
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.038245914835669095,
+      "displacement_m_mean": 9.076900482177734
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04324439931410597,
+      "displacement_m_mean": 7.747681522369385
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04138112223141361,
+      "displacement_m_mean": 9.013836860656738
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.0392734055332141,
+      "displacement_m_mean": 9.063031196594238
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.045456949855911075,
+      "displacement_m_mean": 7.778149795532227
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 10.428,
+      "mae_mps_mean": 0.4213282986275386,
+      "displacement_m_mean": 4.654548704624176
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 7.843999999999999,
+      "mae_mps_mean": 0.4527186430629227,
+      "displacement_m_mean": 2.696668767929077
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 8.928,
+      "mae_mps_mean": 0.46597842565897735,
+      "displacement_m_mean": 2.459236979484558
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 12.584,
+      "mae_mps_mean": 0.3922676057486125,
+      "displacement_m_mean": 3.579074186086655
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 9.66,
+      "mae_mps_mean": 0.4887463365643052,
+      "displacement_m_mean": 3.1462381362915037
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1,
+        "exposure_below_0_95": 1
+      },
+      "all_overlapping_reasons": {
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4,
+        "exposure_below_0_95": 1,
+        "fell": 4,
+        "shortened_by_terminal": 4
+      },
+      "survival_seconds_mean": 10.976000000000003,
+      "mae_mps_mean": 0.44188589224505703,
+      "displacement_m_mean": 2.751387467980385
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "moving_fraction_below_0_8": 4,
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "distance_below_5m": 3
+      },
+      "survival_seconds_mean": 10.708000000000002,
+      "mae_mps_mean": 0.37119385226736773,
+      "displacement_m_mean": 3.739126133918762
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 11.004,
+      "mae_mps_mean": 0.38345842888591575,
+      "displacement_m_mean": 4.126855790615082
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 4,
+        "fell": 4,
+        "shortened_by_terminal": 4
+      },
+      "survival_seconds_mean": 11.360000000000003,
+      "mae_mps_mean": 0.44594273599746526,
+      "displacement_m_mean": 2.5001619517803193
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "moving_fraction_below_0_8": 3,
+        "exposure_below_0_95": 2,
+        "distance_below_5m": 2
+      },
+      "survival_seconds_mean": 11.5,
+      "mae_mps_mean": 0.44320316583651004,
+      "displacement_m_mean": 5.064344036579132
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "distance_below_5m": 2,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 12.792,
+      "mae_mps_mean": 0.40228402449594575,
+      "displacement_m_mean": 4.406936579942704
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 7.811999999999999,
+      "mae_mps_mean": 0.41833070454128035,
+      "displacement_m_mean": 2.9456521689891817
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 2,
+      "survived": 3,
+      "incomplete_survivors": 3,
+      "incomplete_survivor_overlapping_reasons": {
+        "moving_fraction_below_0_8": 3,
+        "distance_below_5m": 1
+      },
+      "all_overlapping_reasons": {
+        "moving_fraction_below_0_8": 5,
+        "distance_below_5m": 3,
+        "fell": 2,
+        "shortened_by_terminal": 2
+      },
+      "survival_seconds_mean": 14.540000000000001,
+      "mae_mps_mean": 0.4348103595137596,
+      "displacement_m_mean": 3.5810664176940916
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 4,
+        "exposure_below_0_95": 1
+      },
+      "survival_seconds_mean": 10.808,
+      "mae_mps_mean": 0.4294632800870836,
+      "displacement_m_mean": 3.3410940766334534
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 5.308,
+      "mae_mps_mean": 0.444186565980129,
+      "displacement_m_mean": 1.756176295876503
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "moving_fraction_below_0_8": 5,
+        "distance_below_5m": 4
+      },
+      "survival_seconds_mean": 12.224,
+      "mae_mps_mean": 0.4570815556152025,
+      "displacement_m_mean": 2.060765838623047
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 2,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "distance_below_5m": 2,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 13.860000000000003,
+      "mae_mps_mean": 0.3877480835718743,
+      "displacement_m_mean": 4.838536471128464
+    },
+    {
+      "method": "DC",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 4
+      },
+      "survival_seconds_mean": 10.547999999999998,
+      "mae_mps_mean": 0.41611436060161794,
+      "displacement_m_mean": 3.5178991824388506
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04004474349841476,
+      "displacement_m_mean": 9.407453918457032
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04040159541144967,
+      "displacement_m_mean": 8.998333358764649
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 0,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.06035999065903015,
+      "displacement_m_mean": 8.149192905426025
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04106394836355466,
+      "displacement_m_mean": 9.374664688110352
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.04113797462303191,
+      "displacement_m_mean": 9.030142784118652
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 0,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 5,
+      "fell": 0,
+      "survived": 5,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {},
+      "survival_seconds_mean": 20.0,
+      "mae_mps_mean": 0.060531318376213304,
+      "displacement_m_mean": 8.264449310302734
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "moving_fraction_below_0_8": 5,
+        "distance_below_5m": 4
+      },
+      "survival_seconds_mean": 9.632000000000001,
+      "mae_mps_mean": 0.45580899681465825,
+      "displacement_m_mean": 1.4427087306976318
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 2,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 2
+      },
+      "all_overlapping_reasons": {
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 4,
+        "fell": 3,
+        "shortened_by_terminal": 3
+      },
+      "survival_seconds_mean": 15.312000000000001,
+      "mae_mps_mean": 0.38040859166312735,
+      "displacement_m_mean": 3.96632559299469
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264201,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 2,
+      "survived": 3,
+      "incomplete_survivors": 2,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 2,
+        "exposure_below_0_95": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "distance_below_5m": 4,
+        "exposure_below_0_95": 1,
+        "fell": 2,
+        "shortened_by_terminal": 2,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 14.712,
+      "mae_mps_mean": 0.4315874283744371,
+      "displacement_m_mean": 2.8295809388160706
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 10.568000000000001,
+      "mae_mps_mean": 0.44701655756871916,
+      "displacement_m_mean": 2.9646933555603026
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 4,
+        "exposure_below_0_95": 1
+      },
+      "survival_seconds_mean": 14.856,
+      "mae_mps_mean": 0.4096893141549197,
+      "displacement_m_mean": 3.408766770362854
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264201,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5,
+        "exposure_below_0_95": 1
+      },
+      "survival_seconds_mean": 10.376000000000001,
+      "mae_mps_mean": 0.45528838869635946,
+      "displacement_m_mean": 2.4338070273399355
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 2,
+      "survived": 3,
+      "incomplete_survivors": 2,
+      "incomplete_survivor_overlapping_reasons": {
+        "exposure_below_0_95": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "exposure_below_0_95": 1,
+        "fell": 2,
+        "shortened_by_terminal": 2,
+        "distance_below_5m": 2,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 13.931999999999999,
+      "mae_mps_mean": 0.40250549356402476,
+      "displacement_m_mean": 7.598470950126648
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 3,
+      "fell": 1,
+      "survived": 4,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "moving_fraction_below_0_8": 2,
+        "fell": 1,
+        "shortened_by_terminal": 1
+      },
+      "survival_seconds_mean": 19.572,
+      "mae_mps_mean": 0.26877295721016126,
+      "displacement_m_mean": 5.928381061553955
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264202,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 7.587999999999999,
+      "mae_mps_mean": 0.4889964694536523,
+      "displacement_m_mean": 1.348294872045517
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "moving_fraction_below_0_8": 5,
+        "distance_below_5m": 3
+      },
+      "survival_seconds_mean": 11.548,
+      "mae_mps_mean": 0.39586292795790357,
+      "displacement_m_mean": 4.347707760334015
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 2,
+      "survived": 3,
+      "incomplete_survivors": 2,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 2,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 2,
+        "shortened_by_terminal": 2,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 12.88,
+      "mae_mps_mean": 0.3992147449061391,
+      "displacement_m_mean": 4.4065797328948975
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264202,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 5,
+      "survived": 0,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 5,
+        "shortened_by_terminal": 5,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 9.2,
+      "mae_mps_mean": 0.5128339080085513,
+      "displacement_m_mean": 0.2722682595252991
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 2,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 0,
+      "incomplete_survivor_overlapping_reasons": {},
+      "all_overlapping_reasons": {
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "moving_fraction_below_0_8": 3,
+        "distance_below_5m": 2
+      },
+      "survival_seconds_mean": 14.12,
+      "mae_mps_mean": 0.3956454915965441,
+      "displacement_m_mean": 4.256164602935314
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 4,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 13.376000000000001,
+      "mae_mps_mean": 0.5196277857328532,
+      "displacement_m_mean": 2.020874333381653
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264203,
+      "scenario": "steady",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 3,
+      "survived": 2,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 3,
+        "shortened_by_terminal": 3,
+        "distance_below_5m": 2,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 16.548,
+      "mae_mps_mean": 0.41481743702326784,
+      "displacement_m_mean": 4.9404751598834995
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261901,
+      "episodes": 5,
+      "completed": 0,
+      "fell": 4,
+      "survived": 1,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 4,
+        "shortened_by_terminal": 4,
+        "distance_below_5m": 5,
+        "moving_fraction_below_0_8": 5
+      },
+      "survival_seconds_mean": 10.928,
+      "mae_mps_mean": 0.3999288691219001,
+      "displacement_m_mean": 2.4336315631866454
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261902,
+      "episodes": 5,
+      "completed": 1,
+      "fell": 2,
+      "survived": 3,
+      "incomplete_survivors": 2,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 2,
+        "moving_fraction_below_0_8": 2,
+        "exposure_below_0_95": 1
+      },
+      "all_overlapping_reasons": {
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 4,
+        "fell": 2,
+        "shortened_by_terminal": 2,
+        "exposure_below_0_95": 1
+      },
+      "survival_seconds_mean": 17.04,
+      "mae_mps_mean": 0.40648628394673575,
+      "displacement_m_mean": 4.447583317756653
+    },
+    {
+      "method": "DE",
+      "terrain_seed": 20264203,
+      "scenario": "push",
+      "train_seed": 20261903,
+      "episodes": 5,
+      "completed": 2,
+      "fell": 2,
+      "survived": 3,
+      "incomplete_survivors": 1,
+      "incomplete_survivor_overlapping_reasons": {
+        "distance_below_5m": 1,
+        "moving_fraction_below_0_8": 1
+      },
+      "all_overlapping_reasons": {
+        "fell": 2,
+        "shortened_by_terminal": 2,
+        "distance_below_5m": 3,
+        "moving_fraction_below_0_8": 3
+      },
+      "survival_seconds_mean": 15.008,
+      "mae_mps_mean": 0.3515036341019906,
+      "displacement_m_mean": 5.767112159729004
+    }
+  ],
+  "push_recovery": [
+    {
+      "method": "AC",
+      "domain": "flat",
+      "at_seconds": 5.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 7,
+      "status_counts": {
+        "recovered": 7,
+        "censored_at_next_push": 8
+      },
+      "recovered_fraction_of_all_assigned": 0.4666666666666667,
+      "recovered_fraction_of_exposed": 0.4666666666666667,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": 1.3657142857142859,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 5,
+          "status_counts": {
+            "recovered": 5
+          },
+          "recovered_fraction_of_all_assigned": 1.0,
+          "recovered_fraction_of_exposed": 1.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.3960000000000001
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "censored_at_next_push": 3,
+            "recovered": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.29
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "AC",
+      "domain": "flat",
+      "at_seconds": 10.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 7,
+      "status_counts": {
+        "recovered": 7,
+        "no_recovery_at_horizon": 8
+      },
+      "recovered_fraction_of_all_assigned": 0.4666666666666667,
+      "recovered_fraction_of_exposed": 0.4666666666666667,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": 1.382857142857143,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 5,
+          "status_counts": {
+            "recovered": 5
+          },
+          "recovered_fraction_of_all_assigned": 1.0,
+          "recovered_fraction_of_exposed": 1.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.48
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "no_recovery_at_horizon": 3,
+            "recovered": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.14
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "no_recovery_at_horizon": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "AC",
+      "domain": "rough",
+      "at_seconds": 5.0,
+      "assigned_episodes": 45,
+      "exposed": 24,
+      "recovered": 0,
+      "status_counts": {
+        "not_exposed": 21,
+        "terminal_without_recovery": 13,
+        "censored_at_next_push": 11
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 3,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 12,
+            "terminal_without_recovery": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 13,
+          "recovered": 0,
+          "status_counts": {
+            "terminal_without_recovery": 6,
+            "not_exposed": 2,
+            "censored_at_next_push": 7
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 8,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 7,
+            "censored_at_next_push": 4,
+            "terminal_without_recovery": 4
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "AC",
+      "domain": "rough",
+      "at_seconds": 10.0,
+      "assigned_episodes": 45,
+      "exposed": 11,
+      "recovered": 0,
+      "status_counts": {
+        "not_exposed": 34,
+        "no_recovery_at_horizon": 5,
+        "terminal_without_recovery": 6
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 0,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 15
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": null,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 7,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 8,
+            "no_recovery_at_horizon": 4,
+            "terminal_without_recovery": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 4,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 11,
+            "terminal_without_recovery": 3,
+            "no_recovery_at_horizon": 1
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "flat",
+      "at_seconds": 5.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 2,
+      "status_counts": {
+        "censored_at_next_push": 13,
+        "recovered": 2
+      },
+      "recovered_fraction_of_all_assigned": 0.13333333333333333,
+      "recovered_fraction_of_exposed": 0.13333333333333333,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": 1.7399999999999998,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "censored_at_next_push": 3,
+            "recovered": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.7399999999999998
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "flat",
+      "at_seconds": 10.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 4,
+      "status_counts": {
+        "recovered": 4,
+        "no_recovery_at_horizon": 11
+      },
+      "recovered_fraction_of_all_assigned": 0.26666666666666666,
+      "recovered_fraction_of_exposed": 0.26666666666666666,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": 0.83,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 3,
+          "status_counts": {
+            "recovered": 3,
+            "no_recovery_at_horizon": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.6,
+          "recovered_fraction_of_exposed": 0.6,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 0.7999999999999999
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "no_recovery_at_horizon": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 1,
+          "status_counts": {
+            "recovered": 1,
+            "no_recovery_at_horizon": 4
+          },
+          "recovered_fraction_of_all_assigned": 0.2,
+          "recovered_fraction_of_exposed": 0.2,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 0.92
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "rough",
+      "at_seconds": 5.0,
+      "assigned_episodes": 45,
+      "exposed": 23,
+      "recovered": 0,
+      "status_counts": {
+        "not_exposed": 22,
+        "terminal_without_recovery": 11,
+        "censored_at_next_push": 12
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 7,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 8,
+            "terminal_without_recovery": 4,
+            "censored_at_next_push": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 9,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 6,
+            "censored_at_next_push": 4,
+            "terminal_without_recovery": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 7,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 8,
+            "censored_at_next_push": 5,
+            "terminal_without_recovery": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "rough",
+      "at_seconds": 10.0,
+      "assigned_episodes": 45,
+      "exposed": 12,
+      "recovered": 0,
+      "status_counts": {
+        "not_exposed": 33,
+        "terminal_without_recovery": 9,
+        "no_recovery_at_horizon": 3
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 3,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 12,
+            "terminal_without_recovery": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 4,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 11,
+            "terminal_without_recovery": 3,
+            "no_recovery_at_horizon": 1
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 10,
+            "terminal_without_recovery": 3,
+            "no_recovery_at_horizon": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "flat",
+      "at_seconds": 5.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 7,
+      "status_counts": {
+        "recovered": 7,
+        "censored_at_next_push": 8
+      },
+      "recovered_fraction_of_all_assigned": 0.4666666666666667,
+      "recovered_fraction_of_exposed": 0.4666666666666667,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": 0.9571428571428573,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 3,
+          "status_counts": {
+            "recovered": 3,
+            "censored_at_next_push": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.6,
+          "recovered_fraction_of_exposed": 0.6,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 0.6666666666666666
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "recovered": 2,
+            "censored_at_next_push": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.61
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "censored_at_next_push": 3,
+            "recovered": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 0.74
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "flat",
+      "at_seconds": 10.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 5,
+      "status_counts": {
+        "recovered": 5,
+        "no_recovery_at_horizon": 10
+      },
+      "recovered_fraction_of_all_assigned": 0.3333333333333333,
+      "recovered_fraction_of_exposed": 0.3333333333333333,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": 2.468,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 1,
+          "status_counts": {
+            "recovered": 1,
+            "no_recovery_at_horizon": 4
+          },
+          "recovered_fraction_of_all_assigned": 0.2,
+          "recovered_fraction_of_exposed": 0.2,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 1.16
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "recovered": 2,
+            "no_recovery_at_horizon": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 0.86
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 2,
+          "status_counts": {
+            "recovered": 2,
+            "no_recovery_at_horizon": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.4,
+          "recovered_fraction_of_exposed": 0.4,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": 4.7299999999999995
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "rough",
+      "at_seconds": 5.0,
+      "assigned_episodes": 45,
+      "exposed": 33,
+      "recovered": 0,
+      "status_counts": {
+        "terminal_without_recovery": 10,
+        "censored_at_next_push": 23,
+        "not_exposed": 12
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 12,
+          "recovered": 0,
+          "status_counts": {
+            "terminal_without_recovery": 4,
+            "censored_at_next_push": 8,
+            "not_exposed": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 12,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 9,
+            "not_exposed": 3,
+            "terminal_without_recovery": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 9,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 6,
+            "terminal_without_recovery": 3,
+            "not_exposed": 6
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "rough",
+      "at_seconds": 10.0,
+      "assigned_episodes": 45,
+      "exposed": 23,
+      "recovered": 0,
+      "status_counts": {
+        "not_exposed": 22,
+        "terminal_without_recovery": 14,
+        "no_recovery_at_horizon": 9
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 8,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 7,
+            "terminal_without_recovery": 5,
+            "no_recovery_at_horizon": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 9,
+          "recovered": 0,
+          "status_counts": {
+            "terminal_without_recovery": 5,
+            "not_exposed": 6,
+            "no_recovery_at_horizon": 4
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 6,
+          "recovered": 0,
+          "status_counts": {
+            "no_recovery_at_horizon": 2,
+            "not_exposed": 9,
+            "terminal_without_recovery": 4
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "flat",
+      "at_seconds": 5.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 0,
+      "status_counts": {
+        "censored_at_next_push": 15
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "flat",
+      "at_seconds": 10.0,
+      "assigned_episodes": 15,
+      "exposed": 15,
+      "recovered": 0,
+      "status_counts": {
+        "no_recovery_at_horizon": 15
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "no_recovery_at_horizon": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "no_recovery_at_horizon": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 5,
+          "exposed": 5,
+          "recovered": 0,
+          "status_counts": {
+            "no_recovery_at_horizon": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "rough",
+      "at_seconds": 5.0,
+      "assigned_episodes": 45,
+      "exposed": 38,
+      "recovered": 0,
+      "status_counts": {
+        "terminal_without_recovery": 12,
+        "not_exposed": 7,
+        "censored_at_next_push": 26
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 12,
+          "recovered": 0,
+          "status_counts": {
+            "terminal_without_recovery": 5,
+            "not_exposed": 3,
+            "censored_at_next_push": 7
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 13,
+          "recovered": 0,
+          "status_counts": {
+            "terminal_without_recovery": 2,
+            "censored_at_next_push": 11,
+            "not_exposed": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 13,
+          "recovered": 0,
+          "status_counts": {
+            "censored_at_next_push": 8,
+            "not_exposed": 2,
+            "terminal_without_recovery": 5
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "rough",
+      "at_seconds": 10.0,
+      "assigned_episodes": 45,
+      "exposed": 26,
+      "recovered": 0,
+      "status_counts": {
+        "not_exposed": 19,
+        "terminal_without_recovery": 13,
+        "no_recovery_at_horizon": 13
+      },
+      "recovered_fraction_of_all_assigned": 0.0,
+      "recovered_fraction_of_exposed": 0.0,
+      "recovered_then_fell": 0,
+      "mean_latency_among_recovered_seconds": null,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "assigned_episodes": 15,
+          "exposed": 7,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 8,
+            "terminal_without_recovery": 5,
+            "no_recovery_at_horizon": 2
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261902,
+          "assigned_episodes": 15,
+          "exposed": 11,
+          "recovered": 0,
+          "status_counts": {
+            "not_exposed": 4,
+            "terminal_without_recovery": 3,
+            "no_recovery_at_horizon": 8
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        },
+        {
+          "train_seed": 20261903,
+          "assigned_episodes": 15,
+          "exposed": 8,
+          "recovered": 0,
+          "status_counts": {
+            "terminal_without_recovery": 5,
+            "not_exposed": 7,
+            "no_recovery_at_horizon": 3
+          },
+          "recovered_fraction_of_all_assigned": 0.0,
+          "recovered_fraction_of_exposed": 0.0,
+          "recovered_then_fell": 0,
+          "mean_latency_among_recovered_seconds": null
+        }
+      ]
+    }
+  ],
+  "phase": {
+    "AC:flat": {
+      "episodes": 30,
+      "eligible_episodes": 30,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.9545454545454545,
+          "mean_actual_contact_frequency_hz": 1.6752845921227455,
+          "mean_predicted_frequency_hz": 1.6666666674922368,
+          "within_episode_predicted_frequency_sd_hz": 6.818320383416877e-07,
+          "frequency_mismatch_rms_hz": 0.05333225935742576,
+          "touchdown_phase_concentration": 0.9873032569885254,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.5460251941685765,
+          "mean_actual_contact_frequency_hz": 2.472463798032156,
+          "mean_predicted_frequency_hz": 1.6666666344664531,
+          "within_episode_predicted_frequency_sd_hz": 1.965527813815971e-06,
+          "frequency_mismatch_rms_hz": 1.1660735325051579,
+          "touchdown_phase_concentration": 0.7134919464588165,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.8662125456243104,
+          "mean_actual_contact_frequency_hz": 1.8269646073076526,
+          "mean_predicted_frequency_hz": 1.666666770981267,
+          "within_episode_predicted_frequency_sd_hz": 9.525007552988299e-07,
+          "frequency_mismatch_rms_hz": 0.4885213470042039,
+          "touchdown_phase_concentration": 0.917080944776535,
+          "frequency_correlation": null
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.788927731446114,
+        "mean_actual_contact_frequency_hz": 1.9915709991541848,
+        "mean_predicted_frequency_hz": 1.6666666909799854,
+        "within_episode_predicted_frequency_sd_hz": 1.1999535358188296e-06,
+        "frequency_mismatch_rms_hz": 0.5693090462889292,
+        "touchdown_phase_concentration": 0.8726253827412923,
+        "frequency_correlation": null
+      }
+    },
+    "AC:rough": {
+      "episodes": 90,
+      "eligible_episodes": 88,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.1037773146393836,
+          "mean_actual_contact_frequency_hz": 3.1500172069569268,
+          "mean_predicted_frequency_hz": 1.6666665188785856,
+          "within_episode_predicted_frequency_sd_hz": 4.796802998864319e-07,
+          "frequency_mismatch_rms_hz": 1.9582999197314075,
+          "touchdown_phase_concentration": 0.34989827742864343,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 30,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.20330400294304588,
+          "mean_actual_contact_frequency_hz": 2.6710010311448085,
+          "mean_predicted_frequency_hz": 1.6666665099469546,
+          "within_episode_predicted_frequency_sd_hz": 9.118685764519548e-07,
+          "frequency_mismatch_rms_hz": 1.551690117873896,
+          "touchdown_phase_concentration": 0.443667979290088,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.19272773152083497,
+          "mean_actual_contact_frequency_hz": 2.8899338744566245,
+          "mean_predicted_frequency_hz": 1.666666584296369,
+          "within_episode_predicted_frequency_sd_hz": 8.281418233041723e-07,
+          "frequency_mismatch_rms_hz": 1.752320892491325,
+          "touchdown_phase_concentration": 0.40972359504165323,
+          "frequency_correlation": null
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.1666030163677548,
+        "mean_actual_contact_frequency_hz": 2.90365070418612,
+        "mean_predicted_frequency_hz": 1.666666537707303,
+        "within_episode_predicted_frequency_sd_hz": 7.39896899880853e-07,
+        "frequency_mismatch_rms_hz": 1.7541036433655428,
+        "touchdown_phase_concentration": 0.4010966172534616,
+        "frequency_correlation": null
+      }
+    },
+    "AE:flat": {
+      "episodes": 30,
+      "eligible_episodes": 30,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 10,
+          "one_turn_fraction": 0.9695911319073085,
+          "mean_actual_contact_frequency_hz": 1.6843935079637162,
+          "mean_predicted_frequency_hz": 1.68170686268209,
+          "within_episode_predicted_frequency_sd_hz": 0.025315979680490753,
+          "frequency_mismatch_rms_hz": 0.0391643964829015,
+          "touchdown_phase_concentration": 0.9942556262016297,
+          "frequency_correlation": 0.5908148909442689
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 10,
+          "one_turn_fraction": 0.9488258005905065,
+          "mean_actual_contact_frequency_hz": 1.7811661303599124,
+          "mean_predicted_frequency_hz": 1.74751798436747,
+          "within_episode_predicted_frequency_sd_hz": 0.047943129683668664,
+          "frequency_mismatch_rms_hz": 0.11518106503874082,
+          "touchdown_phase_concentration": 0.9813238382339478,
+          "frequency_correlation": 0.6522475930736925
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 10,
+          "one_turn_fraction": 0.557819759161619,
+          "mean_actual_contact_frequency_hz": 2.5023423605726807,
+          "mean_predicted_frequency_hz": 1.7534360321227744,
+          "within_episode_predicted_frequency_sd_hz": 0.029223481280069786,
+          "frequency_mismatch_rms_hz": 1.1997431645408159,
+          "touchdown_phase_concentration": 0.6088998198509217,
+          "frequency_correlation": -0.06836457690585819
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.8254122305531446,
+        "mean_actual_contact_frequency_hz": 1.9893006662987698,
+        "mean_predicted_frequency_hz": 1.727553626390778,
+        "within_episode_predicted_frequency_sd_hz": 0.034160863548076396,
+        "frequency_mismatch_rms_hz": 0.45136287535415276,
+        "touchdown_phase_concentration": 0.8614930947621664,
+        "frequency_correlation": 0.3915659690373677
+      }
+    },
+    "AE:rough": {
+      "episodes": 90,
+      "eligible_episodes": 85,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 28,
+          "correlation_defined_episodes": 28,
+          "one_turn_fraction": 0.167822429807106,
+          "mean_actual_contact_frequency_hz": 3.1172384935129043,
+          "mean_predicted_frequency_hz": 1.7717945718851393,
+          "within_episode_predicted_frequency_sd_hz": 0.40128484610354764,
+          "frequency_mismatch_rms_hz": 2.0003561255654536,
+          "touchdown_phase_concentration": 0.4860206884997232,
+          "frequency_correlation": 0.005204179032236618
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 29,
+          "one_turn_fraction": 0.2241720516539903,
+          "mean_actual_contact_frequency_hz": 2.690581036987273,
+          "mean_predicted_frequency_hz": 1.7658064779276665,
+          "within_episode_predicted_frequency_sd_hz": 0.35352424939470123,
+          "frequency_mismatch_rms_hz": 1.476883957005721,
+          "touchdown_phase_concentration": 0.5894253716386598,
+          "frequency_correlation": 0.10326933795651409
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 28,
+          "correlation_defined_episodes": 28,
+          "one_turn_fraction": 0.14839379454754864,
+          "mean_actual_contact_frequency_hz": 3.1250488935930956,
+          "mean_predicted_frequency_hz": 1.8157142893518416,
+          "within_episode_predicted_frequency_sd_hz": 0.46144501278310746,
+          "frequency_mismatch_rms_hz": 1.9751487644231365,
+          "touchdown_phase_concentration": 0.48599542464528767,
+          "frequency_correlation": -0.057368775311726586
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.18012942533621498,
+        "mean_actual_contact_frequency_hz": 2.977622808031091,
+        "mean_predicted_frequency_hz": 1.784438446388216,
+        "within_episode_predicted_frequency_sd_hz": 0.4054180360937855,
+        "frequency_mismatch_rms_hz": 1.8174629489981038,
+        "touchdown_phase_concentration": 0.5204804949278903,
+        "frequency_correlation": 0.017034913892341377
+      }
+    },
+    "DC:flat": {
+      "episodes": 30,
+      "eligible_episodes": 30,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.9515151515151515,
+          "mean_actual_contact_frequency_hz": 1.6726717284281247,
+          "mean_predicted_frequency_hz": 1.6666664781120328,
+          "within_episode_predicted_frequency_sd_hz": 6.897049959824232e-07,
+          "frequency_mismatch_rms_hz": 0.04050317590361095,
+          "touchdown_phase_concentration": 0.9925198912620544,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.9636363636363636,
+          "mean_actual_contact_frequency_hz": 1.674366679441763,
+          "mean_predicted_frequency_hz": 1.66666668063471,
+          "within_episode_predicted_frequency_sd_hz": 7.086527471114235e-07,
+          "frequency_mismatch_rms_hz": 0.041809542619817744,
+          "touchdown_phase_concentration": 0.98923060297966,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.9410618792971734,
+          "mean_actual_contact_frequency_hz": 1.733866320973857,
+          "mean_predicted_frequency_hz": 1.6666667054275497,
+          "within_episode_predicted_frequency_sd_hz": 8.003627386111152e-07,
+          "frequency_mismatch_rms_hz": 0.27485610326916327,
+          "touchdown_phase_concentration": 0.9678336143493652,
+          "frequency_correlation": null
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.9520711314828961,
+        "mean_actual_contact_frequency_hz": 1.6936349096145815,
+        "mean_predicted_frequency_hz": 1.6666666213914307,
+        "within_episode_predicted_frequency_sd_hz": 7.329068272349874e-07,
+        "frequency_mismatch_rms_hz": 0.11905627393086399,
+        "touchdown_phase_concentration": 0.9831947028636933,
+        "frequency_correlation": null
+      }
+    },
+    "DC:rough": {
+      "episodes": 90,
+      "eligible_episodes": 87,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.18960789636723746,
+          "mean_actual_contact_frequency_hz": 2.844410108288965,
+          "mean_predicted_frequency_hz": 1.666666457089136,
+          "within_episode_predicted_frequency_sd_hz": 1.5812775057796073e-06,
+          "frequency_mismatch_rms_hz": 1.7251166140526524,
+          "touchdown_phase_concentration": 0.40297280174904854,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.20325174156377687,
+          "mean_actual_contact_frequency_hz": 2.685137393155667,
+          "mean_predicted_frequency_hz": 1.6666666450820775,
+          "within_episode_predicted_frequency_sd_hz": 1.2415431710679357e-06,
+          "frequency_mismatch_rms_hz": 1.59084882281907,
+          "touchdown_phase_concentration": 0.47218250560349434,
+          "frequency_correlation": null
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 0,
+          "one_turn_fraction": 0.17435900858945436,
+          "mean_actual_contact_frequency_hz": 2.840455328024807,
+          "mean_predicted_frequency_hz": 1.666666467274171,
+          "within_episode_predicted_frequency_sd_hz": 1.084779326540757e-06,
+          "frequency_mismatch_rms_hz": 1.7435649205404955,
+          "touchdown_phase_concentration": 0.41050430824016704,
+          "frequency_correlation": null
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.18907288217348958,
+        "mean_actual_contact_frequency_hz": 2.7900009431564796,
+        "mean_predicted_frequency_hz": 1.6666665231484614,
+        "within_episode_predicted_frequency_sd_hz": 1.3025333344627667e-06,
+        "frequency_mismatch_rms_hz": 1.686510119137406,
+        "touchdown_phase_concentration": 0.42855320519757,
+        "frequency_correlation": null
+      }
+    },
+    "DE:flat": {
+      "episodes": 30,
+      "eligible_episodes": 30,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 10,
+          "one_turn_fraction": 0.9857142857142855,
+          "mean_actual_contact_frequency_hz": 1.4353822342371378,
+          "mean_predicted_frequency_hz": 1.4438959427655507,
+          "within_episode_predicted_frequency_sd_hz": 0.03229869907037454,
+          "frequency_mismatch_rms_hz": 0.02500897240953588,
+          "touchdown_phase_concentration": 0.9958793938159942,
+          "frequency_correlation": 0.7289643326786871
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 10,
+          "one_turn_fraction": 0.9864367816091955,
+          "mean_actual_contact_frequency_hz": 1.4918955037352517,
+          "mean_predicted_frequency_hz": 1.495502329000863,
+          "within_episode_predicted_frequency_sd_hz": 0.03167320696475065,
+          "frequency_mismatch_rms_hz": 0.022995385900492903,
+          "touchdown_phase_concentration": 0.9954175293445587,
+          "frequency_correlation": 0.7125945047122724
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 10,
+          "correlation_defined_episodes": 10,
+          "one_turn_fraction": 0.8092980295566502,
+          "mean_actual_contact_frequency_hz": 1.7036802283290036,
+          "mean_predicted_frequency_hz": 1.4253550528631718,
+          "within_episode_predicted_frequency_sd_hz": 0.06045291768082889,
+          "frequency_mismatch_rms_hz": 0.5975165236109451,
+          "touchdown_phase_concentration": 0.8546231508255004,
+          "frequency_correlation": -0.23046605948034687
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.9271496989600437,
+        "mean_actual_contact_frequency_hz": 1.5436526554337977,
+        "mean_predicted_frequency_hz": 1.4549177748765285,
+        "within_episode_predicted_frequency_sd_hz": 0.04147494123865136,
+        "frequency_mismatch_rms_hz": 0.2151736273069913,
+        "touchdown_phase_concentration": 0.9486400246620178,
+        "frequency_correlation": 0.40369759263687083
+      }
+    },
+    "DE:rough": {
+      "episodes": 90,
+      "eligible_episodes": 88,
+      "per_seed": [
+        {
+          "train_seed": 20261901,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 29,
+          "one_turn_fraction": 0.2498960371478501,
+          "mean_actual_contact_frequency_hz": 2.7664908192390243,
+          "mean_predicted_frequency_hz": 1.5590109671434917,
+          "within_episode_predicted_frequency_sd_hz": 0.4268855184638159,
+          "frequency_mismatch_rms_hz": 1.8478167025067684,
+          "touchdown_phase_concentration": 0.5781664889434288,
+          "frequency_correlation": 0.013620509815678949
+        },
+        {
+          "train_seed": 20261902,
+          "eligible_episodes": 30,
+          "correlation_defined_episodes": 30,
+          "one_turn_fraction": 0.2621808766624761,
+          "mean_actual_contact_frequency_hz": 2.669265987601259,
+          "mean_predicted_frequency_hz": 1.6442775379972485,
+          "within_episode_predicted_frequency_sd_hz": 0.3595628986551621,
+          "frequency_mismatch_rms_hz": 1.730285887968379,
+          "touchdown_phase_concentration": 0.5842732797066371,
+          "frequency_correlation": 0.019307678515116732
+        },
+        {
+          "train_seed": 20261903,
+          "eligible_episodes": 29,
+          "correlation_defined_episodes": 29,
+          "one_turn_fraction": 0.24440462747892944,
+          "mean_actual_contact_frequency_hz": 2.7979066397042094,
+          "mean_predicted_frequency_hz": 1.6172139019454874,
+          "within_episode_predicted_frequency_sd_hz": 0.35629692213415187,
+          "frequency_mismatch_rms_hz": 1.8598575143090448,
+          "touchdown_phase_concentration": 0.566398714123101,
+          "frequency_correlation": -0.10715930176324916
+        }
+      ],
+      "equal_seed_means": {
+        "one_turn_fraction": 0.2521605137630852,
+        "mean_actual_contact_frequency_hz": 2.7445544821814973,
+        "mean_predicted_frequency_hz": 1.6068341356954094,
+        "within_episode_predicted_frequency_sd_hz": 0.38091511308437664,
+        "frequency_mismatch_rms_hz": 1.8126533682613974,
+        "touchdown_phase_concentration": 0.5762794942577223,
+        "frequency_correlation": -0.02474370447748449
+      }
+    }
+  },
+  "velocity_window_context": [
+    {
+      "method": "AC",
+      "domain": "flat",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 8,
+          "observed_lateral_rms_episode_mean_mps": 0.0789260206123193,
+          "observed_within_error_fraction_episode_mean": 0.9246666666666667
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 7,
+          "observed_lateral_rms_episode_mean_mps": 0.07956001088023186,
+          "observed_within_error_fraction_episode_mean": 0.9293333333333333
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 7,
+          "observed_lateral_rms_episode_mean_mps": 0.07860269819696744,
+          "observed_within_error_fraction_episode_mean": 0.9326666666666666
+        }
+      ]
+    },
+    {
+      "method": "AC",
+      "domain": "flat",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 8,
+          "observed_lateral_rms_episode_mean_mps": 0.0789251354833444,
+          "observed_within_error_fraction_episode_mean": 0.9246666666666667
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 7,
+          "observed_lateral_rms_episode_mean_mps": 0.10931746264298757,
+          "observed_within_error_fraction_episode_mean": 0.8397333333333333
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 7,
+          "observed_lateral_rms_episode_mean_mps": 0.09005386779705683,
+          "observed_within_error_fraction_episode_mean": 0.8784
+        }
+      ]
+    },
+    {
+      "method": "AC",
+      "domain": "rough",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 45,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.7527044180366728,
+          "observed_within_error_fraction_episode_mean": 0.03369029850746268
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 21,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 1.0078359480415071,
+          "observed_within_error_fraction_episode_mean": 0.013450565687929844
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 5,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5304084241390228,
+          "observed_within_error_fraction_episode_mean": 0.016800000000000002
+        }
+      ]
+    },
+    {
+      "method": "AC",
+      "domain": "rough",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 45,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.7000002536508773,
+          "observed_within_error_fraction_episode_mean": 0.045625587391755186
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 24,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.777174711227417,
+          "observed_within_error_fraction_episode_mean": 0.038324876940552824
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 11,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.9716546047817577,
+          "observed_within_error_fraction_episode_mean": 0.034545454545454546
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "flat",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 3,
+          "observed_lateral_rms_episode_mean_mps": 0.09177435537179311,
+          "observed_within_error_fraction_episode_mean": 0.8526666666666666
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 2,
+          "observed_lateral_rms_episode_mean_mps": 0.09208075652519862,
+          "observed_within_error_fraction_episode_mean": 0.8989333333333334
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 3,
+          "observed_lateral_rms_episode_mean_mps": 0.09205002188682557,
+          "observed_within_error_fraction_episode_mean": 0.9011999999999999
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "flat",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 3,
+          "observed_lateral_rms_episode_mean_mps": 0.09175243824720383,
+          "observed_within_error_fraction_episode_mean": 0.8519999999999999
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 2,
+          "observed_lateral_rms_episode_mean_mps": 0.12592086046934128,
+          "observed_within_error_fraction_episode_mean": 0.7850666666666668
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 4,
+          "observed_lateral_rms_episode_mean_mps": 0.10049472004175186,
+          "observed_within_error_fraction_episode_mean": 0.8452000000000001
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "rough",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 44,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.6525075188414617,
+          "observed_within_error_fraction_episode_mean": 0.028676887613978286
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 22,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.632201995361935,
+          "observed_within_error_fraction_episode_mean": 0.03829580250531097
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 13,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.6703108755441812,
+          "observed_within_error_fraction_episode_mean": 0.02983827168894659
+        }
+      ]
+    },
+    {
+      "method": "AE",
+      "domain": "rough",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 44,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.6216355237093839,
+          "observed_within_error_fraction_episode_mean": 0.03827544911987154
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 23,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.6447458966918613,
+          "observed_within_error_fraction_episode_mean": 0.05205623657593231
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 12,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.6090254411101341,
+          "observed_within_error_fraction_episode_mean": 0.09283602951657466
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "flat",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 4,
+          "observed_lateral_rms_episode_mean_mps": 0.07592357272903125,
+          "observed_within_error_fraction_episode_mean": 0.9446666666666665
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 4,
+          "observed_lateral_rms_episode_mean_mps": 0.07649117807547251,
+          "observed_within_error_fraction_episode_mean": 0.9410666666666667
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 4,
+          "observed_lateral_rms_episode_mean_mps": 0.07576083367069562,
+          "observed_within_error_fraction_episode_mean": 0.9429333333333333
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "flat",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 4,
+          "observed_lateral_rms_episode_mean_mps": 0.07577543829878171,
+          "observed_within_error_fraction_episode_mean": 0.9450000000000001
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 7,
+          "observed_lateral_rms_episode_mean_mps": 0.10737357238928477,
+          "observed_within_error_fraction_episode_mean": 0.8570666666666668
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 5,
+          "observed_lateral_rms_episode_mean_mps": 0.08963598559300105,
+          "observed_within_error_fraction_episode_mean": 0.8961333333333334
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "rough",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 45,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5887519131104152,
+          "observed_within_error_fraction_episode_mean": 0.09057335466482427
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 30,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5383999864260356,
+          "observed_within_error_fraction_episode_mean": 0.08346803548661284
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 19,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.516281785933595,
+          "observed_within_error_fraction_episode_mean": 0.08848805885866709
+        }
+      ]
+    },
+    {
+      "method": "DC",
+      "domain": "rough",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 45,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5204830573664772,
+          "observed_within_error_fraction_episode_mean": 0.06741946597760552
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 33,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5661576336080377,
+          "observed_within_error_fraction_episode_mean": 0.03978983114106379
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 23,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5934522424055182,
+          "observed_within_error_fraction_episode_mean": 0.08641960657840195
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "flat",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 1,
+          "observed_lateral_rms_episode_mean_mps": 0.09884547044833501,
+          "observed_within_error_fraction_episode_mean": 0.8236666666666667
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.10036076207955678,
+          "observed_within_error_fraction_episode_mean": 0.8218666666666667
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.10086719393730163,
+          "observed_within_error_fraction_episode_mean": 0.8178666666666666
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "flat",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 1,
+          "observed_lateral_rms_episode_mean_mps": 0.09876080552736918,
+          "observed_within_error_fraction_episode_mean": 0.8246666666666668
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.14189600745836894,
+          "observed_within_error_fraction_episode_mean": 0.7133333333333334
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 15,
+          "observed_episodes": 15,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.1130195697148641,
+          "observed_within_error_fraction_episode_mean": 0.7921333333333335
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "rough",
+      "scenario": "steady",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 45,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.4984430809815725,
+          "observed_within_error_fraction_episode_mean": 0.07690909090909091
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 36,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.4689377662208345,
+          "observed_within_error_fraction_episode_mean": 0.06489298967450229
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 31,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5034919337880227,
+          "observed_within_error_fraction_episode_mean": 0.08345821648517061
+        }
+      ]
+    },
+    {
+      "method": "DE",
+      "domain": "rough",
+      "scenario": "push",
+      "windows": [
+        {
+          "start_seconds": 1.0,
+          "end_seconds": 5.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 45,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5123840404881371,
+          "observed_within_error_fraction_episode_mean": 0.07710945273631842
+        },
+        {
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 38,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5800544752886421,
+          "observed_within_error_fraction_episode_mean": 0.06639664896172895
+        },
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 20.0,
+          "assigned_episodes": 45,
+          "observed_episodes": 26,
+          "any_one_second_stable_episodes": 0,
+          "observed_lateral_rms_episode_mean_mps": 0.5371837174663177,
+          "observed_within_error_fraction_episode_mean": 0.05672736627474944
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Same-operator independent CPU arithmetic, not new seeds or second reviewer.",
+    "Failure reasons overlap; they are descriptions, not identified causal mechanisms.",
+    "Push recovery rates retain all assigned episodes; conditional exposed/latency summaries suffer survival selection.",
+    "Phase cycle summaries require >=3 complete contact cycles; coverage and each seed are reported. Contact chatter and survival can affect them.",
+    "Frequency association does not establish beneficial adaptation or causal robustness."
+  ]
+}

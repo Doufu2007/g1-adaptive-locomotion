@@ -1,0 +1,32 @@
+{
+  "schema": "light.research_plan_package_gate.v1",
+  "project": "g1-rough-domain-S",
+  "mode": "final",
+  "verdict": "WARN",
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "MATRIX_LINT_WARNING",
+      "loc": "results/g1_rough_domain_adaptation_20261028/experiment_matrix.md",
+      "message": "假设 H2 无消融实验(ABL-)，仅靠 ['EXP-02', 'ROB-01'] 验证——缺消融难归因增益来自创新点本身",
+      "fix": "若暂不修复，必须在 manifest.warning_decisions 记录处理/降 claim/用户授权。"
+    },
+    {
+      "severity": "warn",
+      "code": "PLAN_FINDINGS_WARNING",
+      "loc": "results/g1_rough_domain_adaptation_20261028/plan_findings.json:ablation_isolation",
+      "message": "消融不隔离贡献(warn,spec §4.2 不阻断;但归因不干净是顶会审稿质疑点)。",
+      "fix": "若暂不修复，必须在 manifest.warning_decisions 记录处理/降 claim/用户授权。"
+    }
+  ],
+  "artifacts": {
+    "research_plan": "<project-root>/results/g1_rough_domain_adaptation_20261028/PROJECT_PLAN.md",
+    "experiment_matrix": "<project-root>/results/g1_rough_domain_adaptation_20261028/experiment_matrix.md",
+    "target_chain_report": "<project-root>/results/g1_rough_domain_adaptation_20261028/target_chain_report.json",
+    "failure_tree_report": "<project-root>/results/g1_rough_domain_adaptation_20261028/failure_tree_report.json",
+    "plan_findings": "<project-root>/results/g1_rough_domain_adaptation_20261028/plan_findings.json",
+    "preregistration": "<project-root>/results/g1_rough_domain_adaptation_20261028/preregistration.md",
+    "reproducibility_checklist": "<project-root>/results/g1_rough_domain_adaptation_20261028/reproducibility-checklist.md"
+  },
+  "honesty": "本门只核计划包完整性、既有机器门报告、失败树/guardrail、预注册/复现字段、warning 决策与用户授权；PASS 不证明领域设计最优、因果识别成立、IRB/伦理/统计专家已批准。"
+}

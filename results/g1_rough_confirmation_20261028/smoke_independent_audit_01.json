@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "e1016107609f01acc78bafd2cf2735ccd5f4455e9193108cdcad6979c0c584c9",
+  "checked": [
+    {
+      "method": "RE_live",
+      "raw_sha256": "a87f27ef6fae1aa45a7206eb1f55618439db9f67dbc158dbdbe95d850bcb0a6e",
+      "effective_eval": 10,
+      "contact_points": 161
+    },
+    {
+      "method": "RE_frozen",
+      "raw_sha256": "7c77778a8546661aa4b538b7118f7a17ff1483fef4b6bb00c3b4b57c35676767",
+      "effective_eval": 10,
+      "contact_points": 170
+    },
+    {
+      "method": "RC_clock",
+      "raw_sha256": "a0b9f727e0aaac77b831740476afb7217e9c997fec8f2d26b3ad3935621f278e",
+      "effective_eval": 10,
+      "contact_points": 152
+    },
+    {
+      "method": "FC_clock",
+      "raw_sha256": "085e7443a8efbd5177ac10bde25dbcc344e9773091f61c6ca0fc99d473f9ba6e",
+      "effective_eval": 10,
+      "contact_points": 149
+    }
+  ],
+  "total_eval": 40,
+  "PPO_updates": 0,
+  "Adam_steps": 0,
+  "scope": "independent CPU engineering arithmetic after smoke; no efficacy selection and no formal scientific audit"
+}

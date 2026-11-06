@@ -1,0 +1,59 @@
+{
+  "completed_transitions": 122892288,
+  "fresh_actor_and_critic": true,
+  "critic_budget": {
+    "all_buffers": 901,
+    "linear_macs_per_action": 317568,
+    "linear_parameters": 318465,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 901,
+    "trainable_parameters": 318465
+  },
+  "completed_updates": 10001,
+  "actor_budget": {
+    "all_buffers": 1141,
+    "linear_macs_per_action": 220576,
+    "linear_parameters": 221501,
+    "mac_scope": "linear layers only; excludes activations, normalization, gather and concatenation",
+    "normalization_buffers": 856,
+    "trainable_parameters": 221530
+  },
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4080 SUPER",
+  "onnx_parity": {
+    "atol": 2e-05,
+    "backend": "torch CPU fp32 vs ONNX Runtime CPU fp32",
+    "max_abs_error": 1.430511474609375e-06,
+    "passed": true,
+    "rtol": 0.0002,
+    "samples": 32
+  },
+  "checkpoint_sha256": "6912d9be85af1133f82eeb95505cd2d19470f3150cc6783582aefccd117fb3c6",
+  "common_agent_sha256": "5a6f04d49b49ee5b38748794bf56738bba53ee46dcb93cba0db63e9b0b363e3a",
+  "critic_initialization_controlled": true,
+  "current_attempt_transitions": 122892288,
+  "startup_physics": {
+    "body_ipos": "d8e52c86d8bffda5ca5c85237d36b46fd943c9d2bebe8922138a02fa99fde120",
+    "body_mass": "d53e05ef29e7e2e12a2fc3cdc9318c408f4696c30a9bcdf0a32f934b68890740",
+    "geom_friction": "4bb760fda7b63ea5c7448623e122deb6c4b96ca913c037fbf1f83a71c0ef5ace"
+  },
+  "initial_actor_sha256": "cdecb3243b88f494dc0e34400226d2423e12b37b5a782531f6d721c6d3ecc31c",
+  "training_wall_seconds": 14094.214662609622,
+  "resumed": false,
+  "status": "COMPLETED",
+  "initial_critic_sha256": "47e4c609711aca52f774a2dd978ee046fb6176fdafe26e81d2bb8be55c8391f0",
+  "common_env_sha256": "251166813279dfda488754bba35999061d1210a67f2724422f3b19ab22f08c14",
+  "schema": "g1.semantic_split.run.v1",
+  "resume_requested": true,
+  "identity": {
+    "iterations": 10001,
+    "protocol_sha256": "0fb250431ade0959a7c10d86d8d61a5185e00089a2fcd0245c4247965a43f8e4",
+    "source_sha256": "7d8a1fd2d1916bfc32e8f1fb41e0bfc2b82f7739f54e73c43c5ce406a050e326",
+    "num_envs": 512,
+    "arm": "semantic",
+    "seed": 20261112,
+    "stage": "formal"
+  },
+  "policy_sha256": "591f0c273eeda01d1b3db76c6eee43c5623f12c576a175f24b0283ec520330aa",
+  "resume_limitation": null
+}

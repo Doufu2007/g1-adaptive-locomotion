@@ -35,9 +35,23 @@ def test_export_parity_uses_actor_observation_dimension():
     assert runner.parity_input_dim(SimpleNamespace(obs_dim=285)) == 285
 
 
-def test_extero_install_uses_matching_source_snapshot():
+def test_extero_install_uses_matching_source_snapshot(monkeypatch):
     from scripts import run_g1_extero_pilot as wrapper
+    from scripts import g1_semantic_split_study as study
     from scripts import run_g1_semantic_split as runner
+
+    # ``install`` wires the extero pilot into the shared semantic runner by
+    # direct assignment. Register every overwritten attribute with pytest's
+    # undo stack before invoking it, so this test cannot affect later tests.
+    for module, name in (
+        (runner, 'prepare'),
+        (runner, 'source_snapshot'),
+        (study, 'make_env_config'),
+        (study, 'runtime_layout'),
+        (study, 'actor_config'),
+        (study, 'default_protocol'),
+    ):
+        monkeypatch.setattr(module, name, getattr(module, name))
 
     wrapper.install()
     assert runner.source_snapshot is wrapper.source_snapshot

@@ -1,0 +1,7 @@
+# S阶段证据状态
+
+S的480回合和12组训练已完成，封存前独立CPU审计PASS。RE（粗糙训练+学习相位）在探索性门中同时优于RC和FC，且flat保护门全部通过；这支持一个值得做新确认的候选。
+
+这仍不是独立优越性或反馈因果确认：三条source training lineage复用20261901/02/03，回合不是独立训练，尚未做live/frozen或replay反馈消融，也没有新source training lineage。后续必须锁新评测seed/map并做匹配反馈消融；若要声称训练可复现，还要增加全新source lineages。
+
+协议SHA 0a1ad3b7d6b8023db05a567d108d737e17236c386b08d07ec0136ea1413eadc2；analysis SHA 901ef23fdeb65dc44dfa2ba5c5fdb1806e4a4845c9c731184363d3d8cffec429；independent_audit.json 为 PASS。

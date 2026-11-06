@@ -1,0 +1,375 @@
+{
+  "files": [
+    {
+      "source": "deliveries/g1_phase_supplement_gpu_20261106/source/remote_phase_supplement_adapter_20261104_04.py",
+      "path": "remote_phase_supplement_adapter_20261104_04.py",
+      "original_sha256": "5482ccf37873dee6d48c2329b9882cadad311224c573a84ecf55eb694772dd4b",
+      "public_sha256": "5482ccf37873dee6d48c2329b9882cadad311224c573a84ecf55eb694772dd4b",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/phasor_pilot_20261016/run_pilot.py",
+      "path": "results/phasor_pilot_20261016/run_pilot.py",
+      "original_sha256": "a60e417d84c63ab7ea584a9e9c6c83fac8b0134637c0b87dc3a0b07aefdbe4f0",
+      "public_sha256": "dff4a11b0876289b1fd8e80ecf37dc75757e8d9bbf6de6368a85a82050be869f",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/analyze_g1_phase_lr_factorial_20261027.py",
+      "path": "scripts/analyze_g1_phase_lr_factorial_20261027.py",
+      "original_sha256": "605ec5412a79246027a2e65eff13ea8f0e0b430eeb0ca60ba2484d5d6f73f197",
+      "public_sha256": "605ec5412a79246027a2e65eff13ea8f0e0b430eeb0ca60ba2484d5d6f73f197",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/audit_g1_training_mechanism_20261026.py",
+      "path": "scripts/audit_g1_training_mechanism_20261026.py",
+      "original_sha256": "b1d8fd29e7f8861f2fc683538e705706101434fb26a8d3d5ec3215fd669f00ce",
+      "public_sha256": "b1d8fd29e7f8861f2fc683538e705706101434fb26a8d3d5ec3215fd669f00ce",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/diagnose_g1_best_e_closed_loop_20261026.py",
+      "path": "scripts/diagnose_g1_best_e_closed_loop_20261026.py",
+      "original_sha256": "ad8fae7dd58bdc737c203011a3e9f2e132dd4ed83dbecea50380fe217579b965",
+      "public_sha256": "ad8fae7dd58bdc737c203011a3e9f2e132dd4ed83dbecea50380fe217579b965",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/diagnose_g1_best_e_training_20261026.py",
+      "path": "scripts/diagnose_g1_best_e_training_20261026.py",
+      "original_sha256": "d39cce8a570c4165bdd102602edf21f052719df6d3d7624e653053d8172168ca",
+      "public_sha256": "d39cce8a570c4165bdd102602edf21f052719df6d3d7624e653053d8172168ca",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/diagnose_g1_initial_update_20261026.py",
+      "path": "scripts/diagnose_g1_initial_update_20261026.py",
+      "original_sha256": "04b77d3fdd07a8ac41d1cdb22292edb3eeff7071399fae9610357689d783e120",
+      "public_sha256": "04b77d3fdd07a8ac41d1cdb22292edb3eeff7071399fae9610357689d783e120",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_best_phase_batched.py",
+      "path": "scripts/g1_best_phase_batched.py",
+      "original_sha256": "51d62d2a8ebb2beff121ad6da6c89511d20d8a102b8e7657e7a658e6f2a02da8",
+      "public_sha256": "51d62d2a8ebb2beff121ad6da6c89511d20d8a102b8e7657e7a658e6f2a02da8",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_closed_loop_metrics.py",
+      "path": "scripts/g1_closed_loop_metrics.py",
+      "original_sha256": "05131849cdb33a4ea879da7c6e035046e3d5d08c459a2f7f963a41c4cd93e3f3",
+      "public_sha256": "05131849cdb33a4ea879da7c6e035046e3d5d08c459a2f7f963a41c4cd93e3f3",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_contact_phase_reference.py",
+      "path": "scripts/g1_contact_phase_reference.py",
+      "original_sha256": "6363f4b7970666dc259b7bec8e2dc5ee74ead93a46b0eb6fb93f76459abe6d43",
+      "public_sha256": "6363f4b7970666dc259b7bec8e2dc5ee74ead93a46b0eb6fb93f76459abe6d43",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_contact_reference_experiment_20261027.py",
+      "path": "scripts/g1_contact_reference_experiment_20261027.py",
+      "original_sha256": "d66c7a2c38a02eac1ca8fc202b4f45ffbec80d60c93f9bc1cab397214d1c7cc6",
+      "public_sha256": "cb551b8bccb13714864087fa6192751218b77dd48cfbb0e8b50bff62b0fcc1c8",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_phase_adaptation_20261024.py",
+      "path": "scripts/g1_phase_adaptation_20261024.py",
+      "original_sha256": "f947241b379dd4187dbf2ff408415b6eeeb6a9ccd743525a8883aa34f951e6d0",
+      "public_sha256": "f947241b379dd4187dbf2ff408415b6eeeb6a9ccd743525a8883aa34f951e6d0",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_phase_feedback_probe_20261026.py",
+      "path": "scripts/g1_phase_feedback_probe_20261026.py",
+      "original_sha256": "b551158c70da711e20de27013dbca16873155e542606936403119a53047e6356",
+      "public_sha256": "b551158c70da711e20de27013dbca16873155e542606936403119a53047e6356",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_phase_lr_factorial_20261027.py",
+      "path": "scripts/g1_phase_lr_factorial_20261027.py",
+      "original_sha256": "318ae13e2921e5104b6b4bd252a3dac736768f13dce9281ea3d5a80ab7d27dfb",
+      "public_sha256": "318ae13e2921e5104b6b4bd252a3dac736768f13dce9281ea3d5a80ab7d27dfb",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_phase_policy_cross_20261027.py",
+      "path": "scripts/g1_phase_policy_cross_20261027.py",
+      "original_sha256": "bc48f251b7bb4b9745f722f18295950a5dad21c79abc4ef101a36d306a215c8e",
+      "public_sha256": "ed9f87192506abda422e47278729bec3e4e8886038299fae1a254402aad1e6a4",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_phase_supplement_20261031.py",
+      "path": "scripts/g1_phase_supplement_20261031.py",
+      "original_sha256": "e63c57d185432f6b86f7550dc17d6706aabf11a803ee8a0152e37786f3a3a2f3",
+      "public_sha256": "125d1eb75fec21c7bdd7bdde935e6e70d6aa45330e9560ae65c74b85ed22c5af",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>; E: data root -> <local-data-root>/; redundant blank line at EOF removed"
+    },
+    {
+      "source": "deliveries/g1_phase_supplement_gpu_20261106/source/scripts/g1_phase_supplement_20261031_gpu.py",
+      "path": "scripts/g1_phase_supplement_20261031_gpu.py",
+      "original_sha256": "f455c54040225fd670efdd20f0d53ebeb21a459e4ae3756945ec8c966b5725e7",
+      "public_sha256": "88f68127828f5fbc80df0b86f16088f019e489f3b80d81d46a4a72134a084982",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>; E: data root -> <local-data-root>/; redundant blank line at EOF removed"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_phase_supplement_contract_20261031.py",
+      "path": "scripts/g1_phase_supplement_contract_20261031.py",
+      "original_sha256": "e3175d686d423cdfeed2e4d00af14499b789ef47e93b819fb02585242e90fee8",
+      "public_sha256": "e3175d686d423cdfeed2e4d00af14499b789ef47e93b819fb02585242e90fee8",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_confirmation_contract_20261028.py",
+      "path": "scripts/g1_rough_confirmation_contract_20261028.py",
+      "original_sha256": "6942b92c37d4811500eff1624dc8c9710df7d3fb9f264bb940a73e0947ed70af",
+      "public_sha256": "6942b92c37d4811500eff1624dc8c9710df7d3fb9f264bb940a73e0947ed70af",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_confirmation_experiment_20261028.py",
+      "path": "scripts/g1_rough_confirmation_experiment_20261028.py",
+      "original_sha256": "d8ddc58d11b76ab56c66fc233245071d6f6baf74163e61278787fdeb22cef5aa",
+      "public_sha256": "4f7bafda985451a381a3adcd3b886c82c11fb938d9326f0145dc50eb8c83820a",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_domain_contract_20261028.py",
+      "path": "scripts/g1_rough_domain_contract_20261028.py",
+      "original_sha256": "0b8d82f8e500b9ee6b5842296230875ad6ca0708ec6dfe2942f9e96a61a937e8",
+      "public_sha256": "0b8d82f8e500b9ee6b5842296230875ad6ca0708ec6dfe2942f9e96a61a937e8",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_domain_evaluation_20261028.py",
+      "path": "scripts/g1_rough_domain_evaluation_20261028.py",
+      "original_sha256": "9f9277458605b6ddfbc914616ef82c583d485a3d53fef08253f7f95051c8bc7d",
+      "public_sha256": "9f9277458605b6ddfbc914616ef82c583d485a3d53fef08253f7f95051c8bc7d",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_domain_experiment_20261028.py",
+      "path": "scripts/g1_rough_domain_experiment_20261028.py",
+      "original_sha256": "a535baa89a1514d3359261b4a13ebc4b3fd2c5bab07995a48a5a3bca72de0e8a",
+      "public_sha256": "a535baa89a1514d3359261b4a13ebc4b3fd2c5bab07995a48a5a3bca72de0e8a",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_transfer_contract_20261028.py",
+      "path": "scripts/g1_rough_transfer_contract_20261028.py",
+      "original_sha256": "577b834682bfc7bd58a73557f557553bfcf3a8ccb94aa8c54afbe35f94105db8",
+      "public_sha256": "577b834682bfc7bd58a73557f557553bfcf3a8ccb94aa8c54afbe35f94105db8",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_rough_transfer_experiment_20261028.py",
+      "path": "scripts/g1_rough_transfer_experiment_20261028.py",
+      "original_sha256": "fa49c56837953367615d821eeddf50ff02ccf611907898ff542a079bf86b88f5",
+      "public_sha256": "af95691b479c70abf26a9b6935cb1af8cfec6f903b2160f18ee99845baee8218",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_source_anchor_experiment_20261027.py",
+      "path": "scripts/g1_source_anchor_experiment_20261027.py",
+      "original_sha256": "f3d600e612f2d754b58130567ee4a9497c092a116cde19ce0e771c97f13bb8c8",
+      "public_sha256": "70d23796addea3b1f28dd4bfcd18301263b50b5cc60a71ab30462551c1ee9426",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows Users profile -> <user-profile>"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_source_anchor_ppo_20261027.py",
+      "path": "scripts/g1_source_anchor_ppo_20261027.py",
+      "original_sha256": "a4d9dfcb39a9dcbaf15d6121e638641be50c070f139e956de6b2ca16a0252216",
+      "public_sha256": "a4d9dfcb39a9dcbaf15d6121e638641be50c070f139e956de6b2ca16a0252216",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_stateful_flat_ppo.py",
+      "path": "scripts/g1_stateful_flat_ppo.py",
+      "original_sha256": "c2ae454ce52e916cc275e2b7f205e4a7aad59df2b09069d477cce84400c7118a",
+      "public_sha256": "c2ae454ce52e916cc275e2b7f205e4a7aad59df2b09069d477cce84400c7118a",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_stateful_online.py",
+      "path": "scripts/g1_stateful_online.py",
+      "original_sha256": "73710e0a6fe6e9fc449e73a825d62f950fc411d6526a4462bfce25b3142b628d",
+      "public_sha256": "73710e0a6fe6e9fc449e73a825d62f950fc411d6526a4462bfce25b3142b628d",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/g1_stateful_phase.py",
+      "path": "scripts/g1_stateful_phase.py",
+      "original_sha256": "1e9a782d76027b6fc0942cec8b7dbc4055d187d73d306364ef2be8d31419b9b0",
+      "public_sha256": "1e9a782d76027b6fc0942cec8b7dbc4055d187d73d306364ef2be8d31419b9b0",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_best_e_ppo_20261026.py",
+      "path": "scripts/run_g1_best_e_ppo_20261026.py",
+      "original_sha256": "7b4fa95430c6f58071b93317f2206e5166a9e653e84497eb6e6a799a44cda241",
+      "public_sha256": "38b74a05b75f6e64828c03cdca7638213d6e39d5256e0d7f0f82686f0bf3f9e6",
+      "transformation": "UTF-8 without BOM; LF line endings; replaced private SSH hostname with <ssh-host>; port preserved"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_best_phase_control.py",
+      "path": "scripts/run_g1_best_phase_control.py",
+      "original_sha256": "5e1baf3208e40144dd9d0cbc119a242867817b8a2e86cf07b5e2fcaec40d94b4",
+      "public_sha256": "5e1baf3208e40144dd9d0cbc119a242867817b8a2e86cf07b5e2fcaec40d94b4",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_cause_audit_windows_20261026.py",
+      "path": "scripts/run_g1_cause_audit_windows_20261026.py",
+      "original_sha256": "3cb66b8a8ce110b5d10b82a130fd8ffd5e588d62259e75fdd3b8dab8eaa552cc",
+      "public_sha256": "3cb66b8a8ce110b5d10b82a130fd8ffd5e588d62259e75fdd3b8dab8eaa552cc",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_contact_followup_comparison.py",
+      "path": "scripts/run_g1_contact_followup_comparison.py",
+      "original_sha256": "e4b59f94b4cdf9f2b166b12d44ec54d63959dde375bb0e3cd248394d32a45d5f",
+      "public_sha256": "e4b59f94b4cdf9f2b166b12d44ec54d63959dde375bb0e3cd248394d32a45d5f",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_initial_update_recovery_20261026.py",
+      "path": "scripts/run_g1_initial_update_recovery_20261026.py",
+      "original_sha256": "47f91468aeaef1d6c675222072eefd41c082a9761140d5621421512a3ee2df3a",
+      "public_sha256": "47f91468aeaef1d6c675222072eefd41c082a9761140d5621421512a3ee2df3a",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_long_history_comparison.py",
+      "path": "scripts/run_g1_long_history_comparison.py",
+      "original_sha256": "8c0961c5ade1ff82dc885d337f4dc4d7b33480323a9776b636941407821975de",
+      "public_sha256": "8c0961c5ade1ff82dc885d337f4dc4d7b33480323a9776b636941407821975de",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_phase_adaptation_20261024.py",
+      "path": "scripts/run_g1_phase_adaptation_20261024.py",
+      "original_sha256": "32c2b659a843c36fd9078b605e83a7ba1a087b9c2f8a3fe992dce75ddc99a90f",
+      "public_sha256": "32c2b659a843c36fd9078b605e83a7ba1a087b9c2f8a3fe992dce75ddc99a90f",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_stateful_flat_ppo_20261025.py",
+      "path": "scripts/run_g1_stateful_flat_ppo_20261025.py",
+      "original_sha256": "1e2abe54758af9e918128ec4f80c2ef36c645173daad466a067db5d0b76c4159",
+      "public_sha256": "1e2abe54758af9e918128ec4f80c2ef36c645173daad466a067db5d0b76c4159",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_stateful_flat_ppo_remote_20261025.py",
+      "path": "scripts/run_g1_stateful_flat_ppo_remote_20261025.py",
+      "original_sha256": "dcd5093532b119bc410e275c1cb7523a61e2f22f3fa3d9f7c7ca5132ae7b585d",
+      "public_sha256": "dcd5093532b119bc410e275c1cb7523a61e2f22f3fa3d9f7c7ca5132ae7b585d",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_stateful_phase_20261025.py",
+      "path": "scripts/run_g1_stateful_phase_20261025.py",
+      "original_sha256": "df228bd9f63755f0c905a77ff004862472c00b83a2432a849b5121fd6c3c2e5d",
+      "public_sha256": "df228bd9f63755f0c905a77ff004862472c00b83a2432a849b5121fd6c3c2e5d",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/run_g1_stateful_remote_20261025.py",
+      "path": "scripts/run_g1_stateful_remote_20261025.py",
+      "original_sha256": "26cb0d2c00f279d8984f7607ca8a4f38b770f6183d523e2888eafbf74722f825",
+      "public_sha256": "88bfe397afee20cb11b8b72d189f19886a6adc20b77f6c853b3fb1c767eddac4",
+      "transformation": "UTF-8 without BOM; LF line endings; Windows project root -> <local-project-root>/phasor; replaced private SSH hostname with <ssh-host>; port preserved"
+    },
+    {
+      "source": "deliveries/g1_phase_supplement_gpu_20261106/source/scripts/run_gpu_eval_20261105.py",
+      "path": "scripts/run_gpu_eval_20261105.py",
+      "original_sha256": "7c4319005c111060f987eee6e56e3eb081b719d4bb5193ba7f6e8d206c89dab7",
+      "public_sha256": "7c4319005c111060f987eee6e56e3eb081b719d4bb5193ba7f6e8d206c89dab7",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/scripts/summarize_g1_best_phase_control.py",
+      "path": "scripts/summarize_g1_best_phase_control.py",
+      "original_sha256": "1a2fe5c50214bac92fc6ccf3fa120aa446f9d058edf85a22102e1b8eec179510",
+      "public_sha256": "1a2fe5c50214bac92fc6ccf3fa120aa446f9d058edf85a22102e1b8eec179510",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "tests/test_g1_phase_lr_factorial_20261027.py",
+      "path": "tests/test_g1_phase_lr_factorial_20261027.py",
+      "original_sha256": "9cff0713d8675ee2567f24fc637cf484e8acab9cb2f58b3f76d5e79574f3d39b",
+      "public_sha256": "9cff0713d8675ee2567f24fc637cf484e8acab9cb2f58b3f76d5e79574f3d39b",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "results/g1_phase_supplement_20261031/source_snapshot/tests/test_g1_phase_supplement_20261031.py",
+      "path": "tests/test_g1_phase_supplement_20261031.py",
+      "original_sha256": "338a96358f0ff5eb3adadd65d4ce9811469fd3577ddc049df7e6e458519ff057",
+      "public_sha256": "338a96358f0ff5eb3adadd65d4ce9811469fd3577ddc049df7e6e458519ff057",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "tests/test_g1_rough_transfer_20261028.py",
+      "path": "tests/test_g1_rough_transfer_20261028.py",
+      "original_sha256": "0bee2dc21e301f2766eec9738a37728c4fae5562f49047cc6372c88da4d3613c",
+      "public_sha256": "0bee2dc21e301f2766eec9738a37728c4fae5562f49047cc6372c88da4d3613c",
+      "transformation": "UTF-8 without BOM; LF line endings"
+    },
+    {
+      "source": "tests/test_g1_rough_confirmation_20261028.py",
+      "path": "verification/phase_archived_tests/archive_g1_rough_confirmation_20261028.py",
+      "original_sha256": "875b34cf89e27c1cd851bf08b4c9cb2632c269a389c22c4097f54a756c81675c",
+      "public_sha256": "875b34cf89e27c1cd851bf08b4c9cb2632c269a389c22c4097f54a756c81675c",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_rough_confirmation_20261028.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    },
+    {
+      "source": "tests/test_g1_rough_domain_20261028.py",
+      "path": "verification/phase_archived_tests/archive_g1_rough_domain_20261028.py",
+      "original_sha256": "18152108c038575ec5668baf80902391a41d013cc56aff063b18b307d4bd6450",
+      "public_sha256": "18152108c038575ec5668baf80902391a41d013cc56aff063b18b307d4bd6450",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_rough_domain_20261028.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    },
+    {
+      "source": "tests/test_g1_source_anchor_20261027.py",
+      "path": "verification/phase_archived_tests/archive_g1_source_anchor_20261027.py",
+      "original_sha256": "66d3691e23d2a0f305032b733b5276985177894203e88940f9a9f161ecfdb60a",
+      "public_sha256": "66d3691e23d2a0f305032b733b5276985177894203e88940f9a9f161ecfdb60a",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_source_anchor_20261027.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    },
+    {
+      "source": "tests/test_g1_stateful_flat_ppo.py",
+      "path": "verification/phase_archived_tests/archive_g1_stateful_flat_ppo.py",
+      "original_sha256": "c8c9fc2a60a8ce075439eaa18efa2d1fe03e51b4b7bbce644ab8e399af4420a2",
+      "public_sha256": "c8c9fc2a60a8ce075439eaa18efa2d1fe03e51b4b7bbce644ab8e399af4420a2",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_stateful_flat_ppo.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    },
+    {
+      "source": "tests/test_g1_stateful_flat_ppo_remote.py",
+      "path": "verification/phase_archived_tests/archive_g1_stateful_flat_ppo_remote.py",
+      "original_sha256": "137cce2f3a262165b8239200f638c25c4b8b84390be56e65cd8f0cc715741e87",
+      "public_sha256": "137cce2f3a262165b8239200f638c25c4b8b84390be56e65cd8f0cc715741e87",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_stateful_flat_ppo_remote.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    },
+    {
+      "source": "tests/test_g1_stateful_phase.py",
+      "path": "verification/phase_archived_tests/archive_g1_stateful_phase.py",
+      "original_sha256": "507dd9fa7d9603cfd13acd0065a4b92d6390ecc20497456e5a59cd3773766a89",
+      "public_sha256": "507dd9fa7d9603cfd13acd0065a4b92d6390ecc20497456e5a59cd3773766a89",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_stateful_phase.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    },
+    {
+      "source": "tests/test_g1_stateful_remote_20261025.py",
+      "path": "verification/phase_archived_tests/archive_g1_stateful_remote_20261025.py",
+      "original_sha256": "ebb8ea7e0014c412dd040045a850211a56fa7fcd9ce41705cd56e65d84ac29b6",
+      "public_sha256": "ebb8ea7e0014c412dd040045a850211a56fa7fcd9ce41705cd56e65d84ac29b6",
+      "transformation": "UTF-8 without BOM; LF line endings; archived without code changes from tests/test_g1_stateful_remote_20261025.py; test_ prefix renamed to archive_ to exclude default pytest collection"
+    }
+  ]
+}

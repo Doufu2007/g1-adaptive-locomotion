@@ -1,0 +1,646 @@
+{
+  "status": "PASS",
+  "at": "2026-10-28T04:10:31.508599+00:00",
+  "configs": [
+    {
+      "terrain_seed": 20264901,
+      "common_cfg_sha256": "196bdad3d0445287e0f2431a488e10db808595bbd31a58b4a2a2243ab78d2572",
+      "actor_terms": [
+        "base_ang_vel",
+        "projected_gravity",
+        "command",
+        "phase",
+        "joint_pos",
+        "joint_vel",
+        "actions"
+      ],
+      "terrain": {
+        "articulation": null,
+        "cameras": [],
+        "collisions": [],
+        "env_spacing": 2.0,
+        "init_state": {
+          "ang_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "joint_pos": {
+            ".*": 0.0
+          },
+          "joint_vel": {
+            ".*": 0.0
+          },
+          "lin_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "lights": [
+          {
+            "body": "world",
+            "castshadow": true,
+            "cutoff": 45.0,
+            "dir": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "exponent": 10.0,
+            "mode": "fixed",
+            "name": "sun",
+            "pos": [
+              0.0,
+              0.0,
+              1.5
+            ],
+            "target": null,
+            "type": "directional"
+          }
+        ],
+        "materials": [
+          {
+            "geom_names_expr": [
+              "terrain$"
+            ],
+            "name": "groundplane",
+            "reflectance": 0.2,
+            "rgba": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "texrepeat": [
+              4.0,
+              4.0
+            ],
+            "texture": "groundplane",
+            "texuniform": true
+          }
+        ],
+        "max_init_terrain_level": 5,
+        "num_envs": 1,
+        "sort_actuators": false,
+        "spec_fn": "mjlab.entity.entity.EntityCfg.<lambda>.<locals>.<lambda>",
+        "terrain_generator": {
+          "add_lights": true,
+          "border_height": 1.0,
+          "border_width": 10.0,
+          "color_scheme": "height",
+          "curriculum": false,
+          "difficulty_range": [
+            0.0,
+            1.0
+          ],
+          "num_cols": 5,
+          "num_rows": 1,
+          "seed": 20264901,
+          "size": [
+            32.0,
+            16.0
+          ],
+          "sub_terrains": {
+            "random_rough": {
+              "base_thickness_ratio": 1.0,
+              "border_width": 0.25,
+              "downsampled_scale": null,
+              "flat_patch_sampling": null,
+              "horizontal_scale": 0.1,
+              "noise_range": [
+                0.02,
+                0.1
+              ],
+              "noise_step": 0.02,
+              "proportion": 1.0,
+              "size": [
+                10.0,
+                10.0
+              ],
+              "vertical_scale": 0.005
+            }
+          }
+        },
+        "terrain_type": "generator",
+        "textures": [
+          {
+            "builtin": "checker",
+            "height": 300,
+            "mark": "edge",
+            "markrgb": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "name": "groundplane",
+            "rgb1": [
+              0.2,
+              0.3,
+              0.4
+            ],
+            "rgb2": [
+              0.1,
+              0.2,
+              0.3
+            ],
+            "type": "2d",
+            "width": 300
+          }
+        ]
+      }
+    },
+    {
+      "terrain_seed": 20264902,
+      "common_cfg_sha256": "cba0cbf2e451678b6e37089c8e2d342e38f9df1f53d07329fcd0165f8b2a9917",
+      "actor_terms": [
+        "base_ang_vel",
+        "projected_gravity",
+        "command",
+        "phase",
+        "joint_pos",
+        "joint_vel",
+        "actions"
+      ],
+      "terrain": {
+        "articulation": null,
+        "cameras": [],
+        "collisions": [],
+        "env_spacing": 2.0,
+        "init_state": {
+          "ang_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "joint_pos": {
+            ".*": 0.0
+          },
+          "joint_vel": {
+            ".*": 0.0
+          },
+          "lin_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "lights": [
+          {
+            "body": "world",
+            "castshadow": true,
+            "cutoff": 45.0,
+            "dir": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "exponent": 10.0,
+            "mode": "fixed",
+            "name": "sun",
+            "pos": [
+              0.0,
+              0.0,
+              1.5
+            ],
+            "target": null,
+            "type": "directional"
+          }
+        ],
+        "materials": [
+          {
+            "geom_names_expr": [
+              "terrain$"
+            ],
+            "name": "groundplane",
+            "reflectance": 0.2,
+            "rgba": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "texrepeat": [
+              4.0,
+              4.0
+            ],
+            "texture": "groundplane",
+            "texuniform": true
+          }
+        ],
+        "max_init_terrain_level": 5,
+        "num_envs": 1,
+        "sort_actuators": false,
+        "spec_fn": "mjlab.entity.entity.EntityCfg.<lambda>.<locals>.<lambda>",
+        "terrain_generator": {
+          "add_lights": true,
+          "border_height": 1.0,
+          "border_width": 10.0,
+          "color_scheme": "height",
+          "curriculum": false,
+          "difficulty_range": [
+            0.0,
+            1.0
+          ],
+          "num_cols": 5,
+          "num_rows": 1,
+          "seed": 20264902,
+          "size": [
+            32.0,
+            16.0
+          ],
+          "sub_terrains": {
+            "random_rough": {
+              "base_thickness_ratio": 1.0,
+              "border_width": 0.25,
+              "downsampled_scale": null,
+              "flat_patch_sampling": null,
+              "horizontal_scale": 0.1,
+              "noise_range": [
+                0.02,
+                0.1
+              ],
+              "noise_step": 0.02,
+              "proportion": 1.0,
+              "size": [
+                10.0,
+                10.0
+              ],
+              "vertical_scale": 0.005
+            }
+          }
+        },
+        "terrain_type": "generator",
+        "textures": [
+          {
+            "builtin": "checker",
+            "height": 300,
+            "mark": "edge",
+            "markrgb": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "name": "groundplane",
+            "rgb1": [
+              0.2,
+              0.3,
+              0.4
+            ],
+            "rgb2": [
+              0.1,
+              0.2,
+              0.3
+            ],
+            "type": "2d",
+            "width": 300
+          }
+        ]
+      }
+    },
+    {
+      "terrain_seed": 20264903,
+      "common_cfg_sha256": "aee36dd3f3dc97aa8e9f18f34231b52661a9d834f6499037ff85702ed208ff48",
+      "actor_terms": [
+        "base_ang_vel",
+        "projected_gravity",
+        "command",
+        "phase",
+        "joint_pos",
+        "joint_vel",
+        "actions"
+      ],
+      "terrain": {
+        "articulation": null,
+        "cameras": [],
+        "collisions": [],
+        "env_spacing": 2.0,
+        "init_state": {
+          "ang_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "joint_pos": {
+            ".*": 0.0
+          },
+          "joint_vel": {
+            ".*": 0.0
+          },
+          "lin_vel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "lights": [
+          {
+            "body": "world",
+            "castshadow": true,
+            "cutoff": 45.0,
+            "dir": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "exponent": 10.0,
+            "mode": "fixed",
+            "name": "sun",
+            "pos": [
+              0.0,
+              0.0,
+              1.5
+            ],
+            "target": null,
+            "type": "directional"
+          }
+        ],
+        "materials": [
+          {
+            "geom_names_expr": [
+              "terrain$"
+            ],
+            "name": "groundplane",
+            "reflectance": 0.2,
+            "rgba": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "texrepeat": [
+              4.0,
+              4.0
+            ],
+            "texture": "groundplane",
+            "texuniform": true
+          }
+        ],
+        "max_init_terrain_level": 5,
+        "num_envs": 1,
+        "sort_actuators": false,
+        "spec_fn": "mjlab.entity.entity.EntityCfg.<lambda>.<locals>.<lambda>",
+        "terrain_generator": {
+          "add_lights": true,
+          "border_height": 1.0,
+          "border_width": 10.0,
+          "color_scheme": "height",
+          "curriculum": false,
+          "difficulty_range": [
+            0.0,
+            1.0
+          ],
+          "num_cols": 5,
+          "num_rows": 1,
+          "seed": 20264903,
+          "size": [
+            32.0,
+            16.0
+          ],
+          "sub_terrains": {
+            "random_rough": {
+              "base_thickness_ratio": 1.0,
+              "border_width": 0.25,
+              "downsampled_scale": null,
+              "flat_patch_sampling": null,
+              "horizontal_scale": 0.1,
+              "noise_range": [
+                0.02,
+                0.1
+              ],
+              "noise_step": 0.02,
+              "proportion": 1.0,
+              "size": [
+                10.0,
+                10.0
+              ],
+              "vertical_scale": 0.005
+            }
+          }
+        },
+        "terrain_type": "generator",
+        "textures": [
+          {
+            "builtin": "checker",
+            "height": 300,
+            "mark": "edge",
+            "markrgb": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "name": "groundplane",
+            "rgb1": [
+              0.2,
+              0.3,
+              0.4
+            ],
+            "rgb2": [
+              0.1,
+              0.2,
+              0.3
+            ],
+            "type": "2d",
+            "width": 300
+          }
+        ]
+      }
+    }
+  ],
+  "policies": [
+    {
+      "method": "RE_live",
+      "base_method": "RE",
+      "train_seed": 20261901,
+      "phase": "learned",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\model_251.pt",
+      "checkpoint_sha256": "2f2a3bd1096ff3a5c04df84b55b6e49b4b91ffb0bd42d5229f294f589da6488a",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\policy_251.onnx",
+      "policy_sha256": "0d3ae174a09f9b8e25d84fbb5150db221c2eded2b63bddd20c30a168214c3e63",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\manifest.json",
+      "training_manifest_sha256": "82794b53fb65315118338a6b05d22742917297c941026db27180ef21e5a07c0c"
+    },
+    {
+      "method": "RE_live",
+      "base_method": "RE",
+      "train_seed": 20261902,
+      "phase": "learned",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\model_251.pt",
+      "checkpoint_sha256": "2ff7870f39dbc1707f431dee94da2e30c2c8f723f7ceb1a88b6fcb8a2b11d6cd",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\policy_251.onnx",
+      "policy_sha256": "7689f687e257659e61bc21c17a1612bc715c7fd92a7ea8c70fd26d579568c300",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\manifest.json",
+      "training_manifest_sha256": "64e2a2f7901fc0e1b0eb4135fa742cef09bbd42639500418adcf421b555c10e3"
+    },
+    {
+      "method": "RE_live",
+      "base_method": "RE",
+      "train_seed": 20261903,
+      "phase": "learned",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\model_251.pt",
+      "checkpoint_sha256": "9b0e7b8e2d55229e02ec6ff596be7e2a807c14930e3ecd355e3cf154c1a62a67",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\policy_251.onnx",
+      "policy_sha256": "dda326101ebdab8ca675e79699649f86006beaa5f84989edd15c0886b30ef6d9",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\manifest.json",
+      "training_manifest_sha256": "c5630c415bb642d2bd374ae852431f05eb828ce8bc128bb5fba516085c49ad89"
+    },
+    {
+      "method": "RE_frozen",
+      "base_method": "RE",
+      "train_seed": 20261901,
+      "phase": "learned",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\model_251.pt",
+      "checkpoint_sha256": "2f2a3bd1096ff3a5c04df84b55b6e49b4b91ffb0bd42d5229f294f589da6488a",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\policy_251.onnx",
+      "policy_sha256": "0d3ae174a09f9b8e25d84fbb5150db221c2eded2b63bddd20c30a168214c3e63",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261901\\manifest.json",
+      "training_manifest_sha256": "82794b53fb65315118338a6b05d22742917297c941026db27180ef21e5a07c0c"
+    },
+    {
+      "method": "RE_frozen",
+      "base_method": "RE",
+      "train_seed": 20261902,
+      "phase": "learned",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\model_251.pt",
+      "checkpoint_sha256": "2ff7870f39dbc1707f431dee94da2e30c2c8f723f7ceb1a88b6fcb8a2b11d6cd",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\policy_251.onnx",
+      "policy_sha256": "7689f687e257659e61bc21c17a1612bc715c7fd92a7ea8c70fd26d579568c300",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261902\\manifest.json",
+      "training_manifest_sha256": "64e2a2f7901fc0e1b0eb4135fa742cef09bbd42639500418adcf421b555c10e3"
+    },
+    {
+      "method": "RE_frozen",
+      "base_method": "RE",
+      "train_seed": 20261903,
+      "phase": "learned",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\model_251.pt",
+      "checkpoint_sha256": "9b0e7b8e2d55229e02ec6ff596be7e2a807c14930e3ecd355e3cf154c1a62a67",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\policy_251.onnx",
+      "policy_sha256": "dda326101ebdab8ca675e79699649f86006beaa5f84989edd15c0886b30ef6d9",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RE_20261903\\manifest.json",
+      "training_manifest_sha256": "c5630c415bb642d2bd374ae852431f05eb828ce8bc128bb5fba516085c49ad89"
+    },
+    {
+      "method": "RC_clock",
+      "base_method": "RC",
+      "train_seed": 20261901,
+      "phase": "clock",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261901\\model_251.pt",
+      "checkpoint_sha256": "212315b1edbf422bc934d52508e412d7c90a6ebaf4e3dc0a9390bd6d89fff508",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261901\\policy_251.onnx",
+      "policy_sha256": "2eb70402312057377a80141f2d624384a70bdca949149468e0a269f2c0bed0f6",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261901\\manifest.json",
+      "training_manifest_sha256": "07280515dee6c4d68ce063925f229c38b7e7498d297dd4d14a3ddbb9fe16f985"
+    },
+    {
+      "method": "RC_clock",
+      "base_method": "RC",
+      "train_seed": 20261902,
+      "phase": "clock",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261902\\model_251.pt",
+      "checkpoint_sha256": "ab8d7d6eff052ff17140680d7949046cfb85ebde6ea066b9f7db3c9c4928a71e",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261902\\policy_251.onnx",
+      "policy_sha256": "cb165c8a6062fb6cccf35383ae02bb86a22f887f0a957404cd1bf32f2b667067",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261902\\manifest.json",
+      "training_manifest_sha256": "1b00c53dd3cdee941fe3dbcca9e3b81d963b4495560289815376bd469f451e74"
+    },
+    {
+      "method": "RC_clock",
+      "base_method": "RC",
+      "train_seed": 20261903,
+      "phase": "clock",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261903\\model_251.pt",
+      "checkpoint_sha256": "53bed49ec5a587e99f98b915fb5f4880dc73e522fc391e959f7e49641c2a859f",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261903\\policy_251.onnx",
+      "policy_sha256": "feb0e8b27afc790f28ce8f7c202c2f3131fc0b8ec41d475e4882cae8a244b853",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\RC_20261903\\manifest.json",
+      "training_manifest_sha256": "50886b695004600d571a2d3fb846b270dc945223100935e33608364f4dcdbe90"
+    },
+    {
+      "method": "FC_clock",
+      "base_method": "FC",
+      "train_seed": 20261901,
+      "phase": "clock",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261901\\model_251.pt",
+      "checkpoint_sha256": "598f54534b87690d32b40a74ab09441c0cd5fa6a5f87e7c6efa29e59275c6b02",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261901\\policy_251.onnx",
+      "policy_sha256": "2edbfeafbdc2ef90fa23f15a6790490008962b933adab81eb5aa9850ec511c6a",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261901\\manifest.json",
+      "training_manifest_sha256": "ad111db843c5c78bd62af693d34c3a2f05ca234123ca5cf49511e94565731e44"
+    },
+    {
+      "method": "FC_clock",
+      "base_method": "FC",
+      "train_seed": 20261902,
+      "phase": "clock",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261902\\model_251.pt",
+      "checkpoint_sha256": "e6841750dffe7b04f4439d7e39962f85dc8debbebdd4203e2077269254d51226",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261902\\policy_251.onnx",
+      "policy_sha256": "4ac6f1f19c645280e22c321624e1129bf792dad9919bd74c2e79906e9a2ca214",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261902\\manifest.json",
+      "training_manifest_sha256": "bf1b5c061544af50a90901efbb4f68ddc53dc903ea9e7fad181dc76a457f86c6"
+    },
+    {
+      "method": "FC_clock",
+      "base_method": "FC",
+      "train_seed": 20261903,
+      "phase": "clock",
+      "completed_updates": 251,
+      "checkpoint": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261903\\model_251.pt",
+      "checkpoint_sha256": "9f6bb347d9c4c02b3f80d6df2b27958001f7370f234ab1c940311edbf142b545",
+      "policy": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261903\\policy_251.onnx",
+      "policy_sha256": "2efdaa967df732dcd11d32a52b71ebc646d9a508c870013a68218e443ea0456e",
+      "training_manifest": "<project-root>\\results\\g1_rough_domain_adaptation_20261028\\training\\FC_20261903\\manifest.json",
+      "training_manifest_sha256": "80af4e10a29366401ecd2703c169a44bdb2b00ac13f25fa4775bf91a29d81f0c"
+    }
+  ],
+  "effective_eval_transitions": 0,
+  "PPO_updates": 0,
+  "environment_created": false,
+  "experiment_sha256": "d8ddc58d11b76ab56c66fc233245071d6f6baf74163e61278787fdeb22cef5aa",
+  "contract_sha256": "6942b92c37d4811500eff1624dc8c9710df7d3fb9f264bb940a73e0947ed70af"
+}

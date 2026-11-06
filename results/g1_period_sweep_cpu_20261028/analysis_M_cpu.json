@@ -1,0 +1,183 @@
+{
+  "backend": "cpu",
+  "probe": "M",
+  "preregistration_sha": "80a00b1fd36d42e6a752bca50505a2f5d5aea1922bb3ff5853a610875df0d861",
+  "counts": {
+    "pairs": 300,
+    "learned_only": 0,
+    "fixed_only": 0,
+    "maps": 10,
+    "dropped_bit_identical_duplicates": 45
+  },
+  "primary": {
+    "n": 300,
+    "a": 156,
+    "b": 98,
+    "diff_pp": 19.333333333333332,
+    "a_only": 96,
+    "b_only": 38,
+    "p": 5.721978776596946e-07,
+    "ci95_pp": [
+      15.92446809852942,
+      22.742198568137244
+    ]
+  },
+  "fell": {
+    "n": 300,
+    "a": 103,
+    "b": 145,
+    "diff_pp": -14.000000000000002,
+    "a_only": 46,
+    "b_only": 88,
+    "p": 0.0003594591321501314,
+    "ci95_pp": [
+      -17.590894694889343,
+      -10.40910530511066
+    ]
+  },
+  "maps": {
+    "per_map": {
+      "20269101": {
+        "n": 30,
+        "completed_a": 14,
+        "completed_b": 13,
+        "delta_completed": 1,
+        "fell_a": 8,
+        "fell_b": 13
+      },
+      "20269102": {
+        "n": 30,
+        "completed_a": 15,
+        "completed_b": 9,
+        "delta_completed": 6,
+        "fell_a": 11,
+        "fell_b": 15
+      },
+      "20269103": {
+        "n": 30,
+        "completed_a": 18,
+        "completed_b": 13,
+        "delta_completed": 5,
+        "fell_a": 7,
+        "fell_b": 15
+      },
+      "20269104": {
+        "n": 30,
+        "completed_a": 19,
+        "completed_b": 8,
+        "delta_completed": 11,
+        "fell_a": 8,
+        "fell_b": 17
+      },
+      "20269105": {
+        "n": 30,
+        "completed_a": 16,
+        "completed_b": 8,
+        "delta_completed": 8,
+        "fell_a": 12,
+        "fell_b": 9
+      },
+      "20269106": {
+        "n": 30,
+        "completed_a": 17,
+        "completed_b": 11,
+        "delta_completed": 6,
+        "fell_a": 9,
+        "fell_b": 15
+      },
+      "20269107": {
+        "n": 30,
+        "completed_a": 16,
+        "completed_b": 8,
+        "delta_completed": 8,
+        "fell_a": 10,
+        "fell_b": 13
+      },
+      "20269108": {
+        "n": 30,
+        "completed_a": 14,
+        "completed_b": 8,
+        "delta_completed": 6,
+        "fell_a": 12,
+        "fell_b": 17
+      },
+      "20269109": {
+        "n": 30,
+        "completed_a": 11,
+        "completed_b": 9,
+        "delta_completed": 2,
+        "fell_a": 18,
+        "fell_b": 16
+      },
+      "20269110": {
+        "n": 30,
+        "completed_a": 16,
+        "completed_b": 11,
+        "delta_completed": 5,
+        "fell_a": 8,
+        "fell_b": 15
+      }
+    },
+    "maps": 10,
+    "positive_maps": 10,
+    "zero_maps": 0,
+    "negative_maps": 0,
+    "map_mean_diff_pp": 19.333333333333332,
+    "map_ci95_pp": [
+      12.422329045060456,
+      26.244337621606206
+    ]
+  },
+  "descriptive": {
+    "forward_displacement_m": {
+      "mean": 1.5399320133775474,
+      "ci95": [
+        1.05050701653305,
+        2.029357010222045
+      ],
+      "p": 1.9592082861712894e-09
+    },
+    "mae_forward_velocity_mps": {
+      "mean": -0.04327929610678138,
+      "ci95": [
+        -0.060881674487822585,
+        -0.025676917725740173
+      ],
+      "p": 2.0980463644867493e-06
+    },
+    "tilt_rms_rad": {
+      "mean": -0.024781115936736264,
+      "ci95": [
+        -0.038174158632889,
+        -0.011388073240583533
+      ],
+      "p": 0.0003196504913182968
+    },
+    "abs_heading_change_rad": {
+      "mean": -0.04271669394575746,
+      "ci95": [
+        -0.13502089203395187,
+        0.049587504142436956
+      ],
+      "p": 0.3631755569646285
+    },
+    "survival_seconds": {
+      "mean": 1.5972000000000002,
+      "ci95": [
+        0.658278791505911,
+        2.536121208494089
+      ],
+      "p": 0.0009192645334499172
+    },
+    "moving_fraction": {
+      "mean": 0.11636,
+      "ci95": [
+        0.07202982583465725,
+        0.16069017416534276
+      ],
+      "p": 4.3872730510137955e-07
+    }
+  },
+  "verdict": "SUPPORTS_A1",
+  "wording": "在新地图上完成率显著更高（+19.33 pp，p=5.722e-07）"
+}

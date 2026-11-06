@@ -1,0 +1,429 @@
+{
+  "status": "LOCKED_BEFORE_TRAINING",
+  "at": "2026-10-27T02:00:56.137449+00:00",
+  "identity": {
+    "sources": [
+      {
+        "path": "<project-root>\\scripts\\g1_phase_lr_factorial_20261027.py",
+        "sha256": "318ae13e2921e5104b6b4bd252a3dac736768f13dce9281ea3d5a80ab7d27dfb"
+      },
+      {
+        "path": "<project-root>\\docs\\superpowers\\specs\\2026-10-27-g1-phase-lr-factorial-design.md",
+        "sha256": "16f7a8386cd60c29670e417c78b287584ed15235cdc21b0770411b5ee289639d"
+      },
+      {
+        "path": "<project-root>\\docs\\superpowers\\plans\\2026-10-27-g1-phase-lr-factorial.md",
+        "sha256": "0bcda810f4dcdd98cf2c645caccb1c990f52f16388b9a239ec7d6fc9fda2bc97"
+      },
+      {
+        "path": "<project-root>\\logs\\rsl_rl\\g1_velocity\\2026-08-10_09-35-45_baseline_full\\model_9900.pt",
+        "sha256": "949fae33632b9a3592e6346a6155eea059ee2fd39487207a0a0cea5d35edd8b4"
+      },
+      {
+        "path": "<project-root>\\deliveries\\g1_stateful_phase_20261025\\snapshot\\results\\g1_stateful_phase_20261025\\training\\observer_sensors_mixed_seed20261026\\final.pt",
+        "sha256": "8e6b15dcf409f51948f49c18fc04b686ba502e53586476db9c78d8c35a0fc346"
+      },
+      {
+        "path": "<project-root>\\tests\\test_g1_phase_lr_factorial_20261027.py",
+        "sha256": "9cff0713d8675ee2567f24fc637cf484e8acab9cb2f58b3f76d5e79574f3d39b"
+      },
+      {
+        "path": "<project-root>\\scripts\\g1_stateful_flat_ppo.py",
+        "sha256": "c2ae454ce52e916cc275e2b7f205e4a7aad59df2b09069d477cce84400c7118a"
+      },
+      {
+        "path": "<project-root>\\scripts\\g1_stateful_online.py",
+        "sha256": "73710e0a6fe6e9fc449e73a825d62f950fc411d6526a4462bfce25b3142b628d"
+      },
+      {
+        "path": "<project-root>\\scripts\\g1_phase_feedback_probe_20261026.py",
+        "sha256": "b551158c70da711e20de27013dbca16873155e542606936403119a53047e6356"
+      },
+      {
+        "path": "<project-root>\\scripts\\run_g1_cause_audit_windows_20261026.py",
+        "sha256": "3cb66b8a8ce110b5d10b82a130fd8ffd5e588d62259e75fdd3b8dab8eaa552cc"
+      },
+      {
+        "path": "<project-root>\\scripts\\run_g1_best_e_ppo_20261026.py",
+        "sha256": "7b4fa95430c6f58071b93317f2206e5166a9e653e84497eb6e6a799a44cda241"
+      },
+      {
+        "path": "<project-root>\\scripts\\run_g1_stateful_flat_ppo_remote_20261025.py",
+        "sha256": "dcd5093532b119bc410e275c1cb7523a61e2f22f3fa3d9f7c7ca5132ae7b585d"
+      },
+      {
+        "path": "<project-root>\\scripts\\g1_best_phase_batched.py",
+        "sha256": "51d62d2a8ebb2beff121ad6da6c89511d20d8a102b8e7657e7a658e6f2a02da8"
+      },
+      {
+        "path": "<project-root>\\scripts\\g1_closed_loop_metrics.py",
+        "sha256": "05131849cdb33a4ea879da7c6e035046e3d5d08c459a2f7f963a41c4cd93e3f3"
+      },
+      {
+        "path": "<project-root>\\scripts\\diagnose_g1_initial_update_20261026.py",
+        "sha256": "04b77d3fdd07a8ac41d1cdb22292edb3eeff7071399fae9610357689d783e120"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\__init__.py",
+        "sha256": "479a0ae48d56e95521d9cfd6ccb3bbcebc2bf985355d96879ce3a50d20a142ea"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\a2\\__init__.py",
+        "sha256": "8d0a603b8053e41e712e088980408578d7e7c0d173925f4a06b404be47a3d51c"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\a2\\env_cfgs.py",
+        "sha256": "130878ca621c04f9ae245aefd9a66e290409df290f3fe6ed3248ff696526a7ab"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\a2\\rl_cfg.py",
+        "sha256": "13c6c13b9cfc8023f58887fe49fa0d6ffbc4a2f30796974aa4d79f3e17bbe39b"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\as2\\__init__.py",
+        "sha256": "1bd4ec954eed6ba7147ca52551cce153f554ea14002ddd2978bf3f2c9084d85b"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\as2\\env_cfgs.py",
+        "sha256": "4b979f27070295f3f46885f156afd0f5f2e4e27aae5852649a3a343e58b43b6f"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\as2\\rl_cfg.py",
+        "sha256": "0bf124c14e466e3f5121584aed46b3071693e25c5df80b646b50c9fbf8c7e4be"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\g1\\__init__.py",
+        "sha256": "7e2152b0d6740e61d26c7d74236d8df45b0efa2025ac25a604382a83817bc654"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\g1\\env_cfgs.py",
+        "sha256": "af58daa8f56467823073b6e2a40e6c20846b7184b5eedf1ed0c1cc7010baa41e"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\g1\\rl_cfg.py",
+        "sha256": "816d29bc673326ab75d949c542eb7cb8f0f4bbb334a575e316e699ea66f55f7c"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\g1_23dof\\__init__.py",
+        "sha256": "6acb67b0e0935367172dfb6e3d9a8d44152816f79f4aec6ba82c4c8f4c0f764d"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\g1_23dof\\env_cfgs.py",
+        "sha256": "8e35151c8a916bd1d52af765f50ba4c996538d70e542c3b874302a2a7601088c"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\g1_23dof\\rl_cfg.py",
+        "sha256": "5c8270d663f26c40e56128f360028e63ab33ea41d412658c1280e1e7a87d4703"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\go2\\__init__.py",
+        "sha256": "b9694f745b3135396301a621dd57c1d4dbd16fc7e24995cfa378a7a517467771"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\go2\\env_cfgs.py",
+        "sha256": "98defb863edccf071070074c31cb77790f83a40276e0589cf2982137c44cd293"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\go2\\rl_cfg.py",
+        "sha256": "8850b0544c50731a30d34995a887c79dca625411b3bf2f0317ab5eaf32f50bdc"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\h1_2\\__init__.py",
+        "sha256": "9e7fdfd68d136ab362a82e024815ee4fd94a4dfb51ca346d04d41f23926932a2"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\h1_2\\env_cfgs.py",
+        "sha256": "c3d64b28090d6a77f3c5d72f3d5b2fbb9b80e52759e6697a075cd20f2577ef34"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\h1_2\\rl_cfg.py",
+        "sha256": "ec77d26ecec8af153c8b38726a44f920c767b34859c736f4cd82ce3e0fb4c871"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\h2\\__init__.py",
+        "sha256": "536322fbf2fa1e7841de84368e3de6aed8aad153ac9aa7b28122c04894e1bc8a"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\h2\\env_cfgs.py",
+        "sha256": "448f2349ab51636d390efb59c9650ce4df82c47c8825db4157daf106ba8b0692"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\h2\\rl_cfg.py",
+        "sha256": "1e3e6600b58f396fa9e6b3d8f7bbe2e010c24537dd2a5b7da6a98258c0b16e47"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\r1\\__init__.py",
+        "sha256": "1661339b28fd419fe370b246d29a5095c8e15416865a89857f0c01351ea7987b"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\r1\\env_cfgs.py",
+        "sha256": "c1d761d8ed0e737f007d4d3968af481b3c00f0de050ff67285b126f488b6a4a1"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\config\\r1\\rl_cfg.py",
+        "sha256": "391035799b1778d596e4607b829ca88d45f3ac8ea8157e890cc221270c02df3b"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\mdp\\__init__.py",
+        "sha256": "231f35d88929e89ae17dbf403b6d049dd9f1f8bba21bfaf74a087bb9435e7dfe"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\mdp\\curriculums.py",
+        "sha256": "1577cd47b45d6812bee934c4edf89cfaec1b07e16e1acbc21de28049a8324f35"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\mdp\\observations.py",
+        "sha256": "fc10971f9d66359ab8aef8c8bbd89c4f6f6bd2aec10d4d8da021be27565083cc"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\mdp\\rewards.py",
+        "sha256": "7fe94933ef6090b5015d281e2ee5d409c1b400792cda799d259ebaa820507a77"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\mdp\\terminations.py",
+        "sha256": "24d0abf600372026327d32d10f133f9a7cba117de85604515d20eeb7884ba13d"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\mdp\\velocity_command.py",
+        "sha256": "f9f55d5507e318494a690cb7929d4e4ae92419cea76425fbab0873914b279482"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\__init__.py",
+        "sha256": "0a48fbfd90467e9c5aac4a7c65c6941fdd35f7578b64cdab9877c17067946bd5"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\confirmation.py",
+        "sha256": "8e8555eee26abe14bc0a018ddcc2e0d37f9d26e6ab6db377482ecddc421baafa"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\data.py",
+        "sha256": "85c4af635ba26996625e73d46f94586dafef3f98e360abac98946bf82f42f15f"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\diagnostics.py",
+        "sha256": "e06bbe03a13ce88110983bdd94f56526e32ef9705c3cc5605f049a891df8cf3c"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder.py",
+        "sha256": "fb205b5376b3beb15f2c47ca9ab3a5640a6eca78a6da928f46c15ee10d8d7750"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_tcn.py",
+        "sha256": "80e955520e3577b2cde2c0d3d59a6a0be022211ad922f97a15fe1526eb8663df"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_tcn_context.py",
+        "sha256": "bcfc3abb8d627e11797e676ac92ec170571cb3902844a43b9ebf2bfadebb2590"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_tcn_long_rate.py",
+        "sha256": "24a836e086fca500a469adf5d44789d569dcea8b8d628acf45adbc0005a3e6e6"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_tctst_runtime.py",
+        "sha256": "8dac660e641b5c4dbe6212732f561ad459c5c3ab911676dcc0214dc524b022da"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_v2.py",
+        "sha256": "382afcc658c1e6df6b743fe1c6268dfeb04df195b7393a742982c7b4009e8404"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_v2_1.py",
+        "sha256": "12d5c4754762ac1ef8cce7a4afa41f03fdefc8aa380529ffd856847fa867a559"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\encoder_v2_1b.py",
+        "sha256": "0ec18a619fcd8d830adeeeacf892c13af8b6ff77737f6b69fe7e74cc807b10a6"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\mujoco_io.py",
+        "sha256": "801e8b30645650177383f086e755386986cc838163b490875c6ad2f2cd6f27e7"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\phase_gate_v4.py",
+        "sha256": "e72b7de76338dc4d8575deeed9f6bb03cec55b13bc94848488e0c7cdab3372c3"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\phase_gate_v4_2.py",
+        "sha256": "18794a59cf8ec56aa965b40270a84b43fe752128979dcc79a7716c495c742810"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\runtime.py",
+        "sha256": "e3cbc317bcf0a69ec3dab7a38d49fa805d6a4918fd89976923cb1da6f2d3cab4"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\phasor\\train_encoder.py",
+        "sha256": "88cb9e134fbabe0a16b0c905269dc1931b1fcf3da2944045f7d84ec3ddb17882"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\rl\\__init__.py",
+        "sha256": "c0df1a85535f191511cf7ee3d45c6bf9236081e8a72903e0b52e0a017a07d6df"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\rl\\runner.py",
+        "sha256": "1a12eb152cb307b57e024814a3a3f9026458759bab6cf43a5cfcccc0b9a0e0cf"
+      },
+      {
+        "path": "<project-root>\\src\\tasks\\velocity\\velocity_env_cfg.py",
+        "sha256": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3"
+      },
+      {
+        "path": "<project-root>\\results\\phasor_pilot_20261016\\run_pilot.py",
+        "sha256": "a60e417d84c63ab7ea584a9e9c6c83fac8b0134637c0b87dc3a0b07aefdbe4f0"
+      },
+      {
+        "path": "<user-profile>/AppData\\Roaming\\Python\\Python313\\site-packages\\rsl_rl\\algorithms\\ppo.py",
+        "sha256": "a2d35e7ad7b884c80b7434e7d2ce785a6da1e18d93c96f1179fbd3a208669f8c"
+      },
+      {
+        "path": "<user-profile>/AppData\\Roaming\\Python\\Python313\\site-packages\\rsl_rl\\runners\\on_policy_runner.py",
+        "sha256": "39358a0a60219fdb360df7acddf80f6a382837aa58e2ec0ccf875df4afee4825"
+      },
+      {
+        "path": "<user-profile>/AppData\\Roaming\\Python\\Python313\\site-packages\\mjlab\\rl\\runner.py",
+        "sha256": "032798af6eab60d8e917d9ebc79f9a4292de476d98ba4ddf91f95e35d490eb03"
+      }
+    ],
+    "jobs": [
+      {
+        "arm": "clock",
+        "lr_mode": "default",
+        "seed": 20261902,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "clock",
+        "lr_mode": "low",
+        "seed": 20261902,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "learned",
+        "lr_mode": "low",
+        "seed": 20261901,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "learned",
+        "lr_mode": "default",
+        "seed": 20261903,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "clock",
+        "lr_mode": "default",
+        "seed": 20261903,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "clock",
+        "lr_mode": "low",
+        "seed": 20261901,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "learned",
+        "lr_mode": "low",
+        "seed": 20261902,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "clock",
+        "lr_mode": "low",
+        "seed": 20261903,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "clock",
+        "lr_mode": "default",
+        "seed": 20261901,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "learned",
+        "lr_mode": "default",
+        "seed": 20261902,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "learned",
+        "lr_mode": "low",
+        "seed": 20261903,
+        "updates": 501,
+        "transitions": 769536
+      },
+      {
+        "arm": "learned",
+        "lr_mode": "default",
+        "seed": 20261901,
+        "updates": 501,
+        "transitions": 769536
+      }
+    ],
+    "checkpoints": [
+      0,
+      1,
+      25,
+      100,
+      251,
+      501
+    ],
+    "source_sha256": "949fae33632b9a3592e6346a6155eea059ee2fd39487207a0a0cea5d35edd8b4",
+    "encoder_sha256": "8e6b15dcf409f51948f49c18fc04b686ba502e53586476db9c78d8c35a0fc346",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "numpy": "2.4.2",
+      "mjlab": "1.2.0",
+      "mujoco": "3.5.0",
+      "warp-lang": "1.13.0",
+      "rsl-rl-lib": "5.0.1",
+      "onnxruntime": "1.27.0"
+    },
+    "primary": "Full20s body-forward velocity MAE; zero velocity after fall",
+    "final_family": [
+      "E_low_minus_clock_low",
+      "interaction",
+      "E_low_minus_default",
+      "clock_low_minus_default"
+    ],
+    "train_transitions": 9234432,
+    "smoke_transitions": 12288,
+    "technical_frozen_replay_updates": 2,
+    "formal_episodes": 540,
+    "initial_lr": {
+      "default": 0.001,
+      "low": 1e-05
+    },
+    "adaptive_schedule": true,
+    "eval_initial_seeds": [
+      20263411,
+      20263412,
+      20263413,
+      20263414,
+      20263415,
+      20263416,
+      20263417,
+      20263418,
+      20263419,
+      20263420
+    ],
+    "confirmatory": false,
+    "statistical_unit": "3 paired training seeds, episodes nested; fixed simulation cohort",
+    "user_authorization": "2026-10-27: 按照上述说法进行核查，完成任务目标",
+    "conditional_next_steps": "Reference-phase training or independently frozen confirmation as specified in design; not auto-selected for good scores"
+  }
+}

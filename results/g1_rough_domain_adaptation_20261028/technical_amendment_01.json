@@ -1,0 +1,22 @@
+{
+  "status": "PRELOCKED_BEFORE_ANY_RETRY_SAMPLING",
+  "at": "2026-10-27T21:25:43.606Z",
+  "parent_protocol_sha256": "8d06e16ef96741333596080ed687c1831143b2f2ba18e81ab04904251020786a",
+  "trigger": "technical_failure_01: native robot contains unnamed geoms; full-state/source restoration succeeded, physical-label check blocked before learn",
+  "single_technical_change": "retain every robot geom; use compiled geom name when present, otherwise stable parent robot body name plus local geom ordinal; never omit unnamed visual/collision geoms or force false names onto physics",
+  "unchanged": [
+    "all4methods/3source seeds",
+    "D501 full model/Adam/LR/teacher/RNG",
+    "beta.1/frozen encoder/reward/critic",
+    "251budget/fixed checkpoints/maps/primary/family/candidate",
+    "smoke4x2+8x10frames"
+  ],
+  "failed_cost": {
+    "train": 0,
+    "eval": 0,
+    "PPO": 0,
+    "Adam": 0
+  },
+  "recovery": "complete fixed smoke from original sources, not intermediate state; after CPU regression/native robot gold/fresh targeted review/new preflight and revised source seal",
+  "not_automatic_retry": true
+}
