@@ -52,6 +52,10 @@ MUJOCO_GL=disable python -m pytest tests/test_g1_semantic_split.py tests/test_g1
 
 只使用最终预算 checkpoint；全部 12 个正式策略封存后才运行 holdout。评价包括速度跟踪、跌倒／完成率、两档观测噪声、两档推扰、1／2 步控制延迟和 CPU ONNX batch=1 延迟。独立统计单位是训练种子，三种子作为首轮筛选。
 
+## 关节目标更新丢失容错研究资料
+
+与本页语义分流实验独立的容错行走研究，已归档 [2026 年 11 月 5 日详报与可直接阅读的数据表](experiments/fault_study_materials_20261105/README.md)。该入口链接 G 平地正式评价及源码、G 模型 Release、R1 粗糙地形最终模型和原始日志；各批次分别解释，评价结果不跨模型套用。
+
 ## 来源与许可
 
 基于 [unitreerobotics/unitree_rl_mjlab](https://github.com/unitreerobotics/unitree_rl_mjlab) 及既有项目兼容代码。上游源码和机器人资产保留原有声明，许可见 [LICENCE](LICENCE)。本轮新增实验逻辑主要位于 `scripts/*g1_semantic_split*.py`、对应测试及 `cloud/runtime/formal_1024.py`；保留的兼容模块不全部属于本轮原创。
