@@ -1,6 +1,6 @@
 # 技术修订01 fresh定点复核
 
-Reviewer: /root/rough_domain_implementation_review。未解决Critical/Important/Minor均0；在最新preflight与修订源码SHA绑定重新封存后允许完整固定smoke，不代表GPU通过。
+Reviewer: independent implementation review。未解决Critical/Important/Minor均0；在最新preflight与修订源码SHA绑定重新封存后允许完整固定smoke，不代表GPU通过。
 
 首smoke在完整source恢复后、0控制步因原生35个未命名robot geom被名称检查拒绝。technical_failure_01保存原协议/源码/日志/失败manifest/进程资源和成本；0train/eval/PPO/Adam。technical_amendment_01已预锁不改模型/预算/seed/训练行为，仅修订物理标签与支持性检查。
 

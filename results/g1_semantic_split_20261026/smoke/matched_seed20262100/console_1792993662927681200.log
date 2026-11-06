@@ -212,7 +212,7 @@ Critic Model: MLPModel(
   )
 )
 Setting seed: 20292100
-Could not find git repository in C:\Users\郑傅韬\AppData\Roaming\Python\Python313\site-packages\rsl_rl\__init__.py. Skipping.
+Could not find git repository in <user-profile>\AppData\Roaming\Python\Python313\site-packages\rsl_rl\__init__.py. Skipping.
 Module mujoco_warp._src.derivative 97e4d82 load on device 'cpu' took 1.22 ms  (cached)
 ################################################################################
 [1m                             Learning iteration 0/2                             [0m 

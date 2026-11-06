@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "revision": "technical_amendment_01",
-  "reviewer": "/root/rough_domain_implementation_review",
+  "reviewer": "independent-implementation-review",
   "scope": "fresh independent read-only static/CPU targeted review; no GPU/environment sampling",
   "unresolved_critical_important": 0,
   "unresolved_minor": 0,
