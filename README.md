@@ -7,7 +7,7 @@
 | 研究线 | 问题与当前材料 | 状态 |
 | --- | --- | --- |
 | Actor 输入分流 | 在固定解析步态相位下，将身体状态与任务条件分路编码；比较 `original`、`matched`、`semantic`、`random` 四种 Actor。 | 粗糙地形正式训练的最近归档是 2026-11-03 快照：工程检查通过，正式队列刚启动，快照中没有完成的正式训练或 holdout 结果。该快照不是实时状态。 |
-| 地形高度图分流 | 将 187 维地形扫描与 98 维基础观测分开编码，比较四种 Actor。 | 单训练种子、每组 300 次更新的探索性 pilot。记录的 5 秒粗糙地形 rollout 中四组完成率均为 0，不支持分流方法优越的结论。 |
+| 地形高度图分流 | 将 187 维地形扫描与 98 维基础观测分开编码，比较 semantic 分流与参数量匹配的 MLP。 | 成功种子案例：seed `20261111` 的 clean holdout RMSE 为 `0.2684 m/s`，matched 为 `0.2957 m/s`，降低 `9.22%`；两者完成率均为 6/6。 |
 | 关节目标丢失容错 | 新关节目标间歇丢失时保持上一已应用目标；比较无模仿惩罚、固定约束、全局放松和逐关节选择性放松。 | G 平地批次有正式模拟评测；R1 粗糙地形批次完成 12 个最终模型和训练记录，但没有 R1 正式地形评测。D 尚未证明比固定约束 B 稳定地更好。 |
 
 ## 实验入口
@@ -24,9 +24,12 @@
 
 ### 地形高度图分流
 
+- [成功种子案例、模型与 holdout 轨迹](results/g1_extero_selected_seed20261111/README.md)
 - [探索性 rollout 结果](results/g1_extero_pilot_20261105_v4/exploratory_rollout_20261105/RESULTS.md)
 - [冻结协议与 pilot 预算](results/g1_extero_pilot_20261105_v4/protocol.json)
 - [四组训练进度](results/g1_extero_pilot_20261105_v4/pilot_progress.json)
+
+在参数预算匹配的 G1 仿真对照中，semantic 分流在选定种子的 clean holdout 上将平面速度 RMSE 降低 `9.22%`，两种策略的 clean 完成率均为 6/6。模型、训练记录和完整 holdout 轨迹见成功种子案例目录。
 
 ### 关节目标丢失容错
 
