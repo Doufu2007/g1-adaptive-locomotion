@@ -24,7 +24,7 @@
     },
     "matched": {
       "checkpoint_sha256": "dcbaa60c1361faffcfea9e9f9441028f3a2a73c9c8f651ba65eba453a617fd2e",
-      "policy_sha256": "107e4c6a1a159aeba4ac49e967e73beeeb1b962e1934d2373b61e3e12af15c8f"
+      "policy_sha256": "107e4c6a1a159aeba4aac49e967e73beeb1b962e1934d2373b61e3e12af15c8f"
     }
   }
 }

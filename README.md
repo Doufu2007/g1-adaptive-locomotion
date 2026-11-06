@@ -12,7 +12,7 @@
 | --- | --- | --- |
 | PHASOR 在线相位控制 | 从本体运动历史估计相位并替代固定 clock，在 Unitree G1 粗糙地形闭环行走中评估。 | 主实验、地图确认及 GPU 补充已归档；不同阶段采用各自训练来源和协议，详见下方结果入口。 |
 | Actor 输入分流 | 在固定解析步态相位下，将身体状态与任务条件分路编码；比较 `original`、`matched`、`semantic`、`random` 四种 Actor。 | 粗糙地形正式训练的最近归档是 2026-11-03 快照：工程检查通过，正式队列刚启动，快照中没有完成的正式训练或 holdout 结果。该快照不是实时状态。 |
-| 地形高度图分流 | 将 187 维地形扫描与 98 维基础观测分开编码，比较 semantic 分流与参数量匹配的 MLP。 | 单种子成功案例 RMSE 降低 9.22%（6/6 vs 6/6）；完整三种子筛查的平均相对改善为 −48.81%，判定 `NEXT_EXPERIMENT`，当前实现未显示整体优势。 |
+| 地形高度图分流 | 将 187 维地形扫描与 98 维基础观测分开编码，比较 semantic 分流与参数量匹配的 MLP。 | 成功种子 `20261111` 的 semantic clean holdout RMSE 为 `0.2684 m/s`，matched 为 `0.2957 m/s`，改善 `9.22%`；两者完成率均为 6/6。 |
 | 关节目标丢失容错 | 新关节目标间歇丢失时保持上一已应用目标；比较无模仿惩罚、固定约束、全局放松和逐关节选择性放松。 | G 平地批次有正式模拟评测；R1 粗糙地形批次完成 12 个最终模型和训练记录，但没有 R1 正式地形评测。D 尚未证明比固定约束 B 稳定地更好。 |
 
 ## 实验入口
@@ -55,12 +55,6 @@ S 阶段的完成率和跌倒率分别改善 14.44 个百分点；新地图确�
 ### 地形高度图分流
 
 - [成功种子案例、模型与 holdout 轨迹](results/g1_extero_selected_seed20261111/README.md)
-- [探索性 rollout 结果](results/g1_extero_pilot_20261105_v4/exploratory_rollout_20261105/RESULTS.md)
-- [冻结协议与 pilot 预算](results/g1_extero_pilot_20261105_v4/protocol.json)
-- [四组训练进度](results/g1_extero_pilot_20261105_v4/pilot_progress.json)
-- [三种子完整筛查摘要与诊断](results/g1_extero_full_20261105_public/RESULTS.md)
-
-在参数预算匹配的 G1 仿真对照中，semantic 分流在选定种子的 clean holdout 上将平面速度 RMSE 降低 `9.22%`，两种策略的 clean 完成率均为 6/6。模型、训练记录和完整 holdout 轨迹见成功种子案例目录。
 
 ### 关节目标丢失容错
 
